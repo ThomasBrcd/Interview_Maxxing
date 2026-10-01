@@ -7,6 +7,7 @@
 #include "GameFramework/PlayerController.h"
 #include "Camera/PlayerCameraManager.h"
 #include "Engine/World.h"
+#include "Components/WidgetComponent.h"
 
 // Constructeur
 AInteractableBed::AInteractableBed()
@@ -23,6 +24,12 @@ AInteractableBed::AInteractableBed()
     TriggerBox->OnComponentBeginOverlap.AddDynamic(this, &AInteractableBed::OnOverlapBegin);
     TriggerBox->OnComponentEndOverlap.AddDynamic(this, &AInteractableBed::OnOverlapEnd);
 
+    PromptWidget = CreateDefaultSubobject<UWidgetComponent>(TEXT("PromptWidget"));
+    PromptWidget->SetupAttachment(RootComponent);
+    PromptWidget->SetVisibility(false);
+    PromptWidget->SetWidgetSpace(EWidgetSpace::Screen);
+    PromptWidget->SetRelativeLocation(FVector(0.f, 0.f, 100.f));
+
     bIsPlayerNear = false;
 }
 
@@ -33,6 +40,14 @@ void AInteractableBed::OnOverlapBegin(UPrimitiveComponent* OverlappedComp, AActo
         PlayerPawn = Cast<APawn>(OtherActor);
         if (PlayerPawn) bIsPlayerNear = true;
     }
+    if (PromptWidget)
+        {
+            PromptWidget->SetVisibility(true);
+        }
+        if (BedMesh)
+        {
+            BedMesh->SetRenderCustomDepth(true);
+        }
 }
 
 void AInteractableBed::OnOverlapEnd(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex)
@@ -42,6 +57,8 @@ void AInteractableBed::OnOverlapEnd(UPrimitiveComponent* OverlappedComp, AActor*
         bIsPlayerNear = false;
         PlayerPawn = nullptr;
     }
+    if (PromptWidget) PromptWidget->SetVisibility(false);
+    if (BedMesh) BedMesh->SetRenderCustomDepth(false);
 }
 
 void AInteractableBed::GoToSleep()
@@ -54,6 +71,9 @@ void AInteractableBed::GoToSleep()
         PC->PlayerCameraManager->StartCameraFade(0.0f, 1.0f, 1.0f, FLinearColor::Black, false, true);
         PlayerPawn->DisableInput(PC);
         GetWorld()->GetTimerManager().SetTimer(SleepTimerHandle, this, &AInteractableBed::WakeUp, 3.0f, false);
+
+        if (PromptWidget) PromptWidget->SetVisibility(false);
+        if (BedMesh) BedMesh->SetRenderCustomDepth(false);
     }
 }
 

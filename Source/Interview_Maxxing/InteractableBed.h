@@ -25,6 +25,10 @@ protected:
     UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components")
     class UBoxComponent* TriggerBox;
 
+    // Le widget pour afficher la touche "E"
+    UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components")
+    class UWidgetComponent* PromptWidget;
+
     // Fonctions appelées quand le joueur entre ou sort de la zone
     UFUNCTION()
     void OnOverlapBegin(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);

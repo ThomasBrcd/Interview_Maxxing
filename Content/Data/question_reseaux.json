@@ -1,0 +1,1509 @@
+{
+  "theme": "reseaux",
+  "questions": [
+    {
+      "id": "reseaux_001",
+      "categorie": "motivation",
+      "difficulte": 1,
+      "temps_secondes": 30,
+      "question": "Pour commencer, pourquoi souhaitez-vous travailler dans notre entreprise ?",
+      "reponses": [
+        {
+          "texte": "Parce que vous recrutez et que j'ai besoin d'un salaire.",
+          "correcte": false
+        },
+        {
+          "texte": "Parce que j'ai étudié vos projets et vos clients, et qu'ils correspondent à ce que je veux apprendre.",
+          "correcte": true
+        },
+        {
+          "texte": "Honnêtement, c'est ma cinquième candidature cette semaine, je ne sais plus trop.",
+          "correcte": false
+        },
+        {
+          "texte": "Parce que mon voisin y travaille.",
+          "correcte": false
+        }
+      ],
+      "explication": "Se renseigner sur l'entreprise avant l'entretien montre de l'intérêt et de la préparation.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "reseaux_002",
+      "categorie": "motivation",
+      "difficulte": 1,
+      "temps_secondes": 30,
+      "question": "Pouvez-vous vous présenter en une minute ?",
+      "reponses": [
+        {
+          "texte": "Je lis mon CV mot à mot, ça prendra une dizaine de minutes.",
+          "correcte": false
+        },
+        {
+          "texte": "Je préfère ne pas me présenter, tout est dans mon CV.",
+          "correcte": false
+        },
+        {
+          "texte": "Je résume mon parcours, mes compétences clés en lien avec le poste, et ce qui me motive ici.",
+          "correcte": true
+        },
+        {
+          "texte": "Je commence par mon enfance, pour bien situer le contexte.",
+          "correcte": false
+        }
+      ],
+      "explication": "Une présentation courte et structurée (parcours, compétences, motivation) est attendue en début d'entretien.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "reseaux_003",
+      "categorie": "comportemental",
+      "difficulte": 1,
+      "temps_secondes": 30,
+      "question": "Quel est votre principal défaut ?",
+      "reponses": [
+        {
+          "texte": "Je suis trop perfectionniste.",
+          "correcte": false
+        },
+        {
+          "texte": "Je n'en ai pas.",
+          "correcte": false
+        },
+        {
+          "texte": "Je ne documentais pas assez mon travail. Depuis, j'ai pris l'habitude de tout noter au fur et à mesure.",
+          "correcte": true
+        },
+        {
+          "texte": "Je n'aime pas travailler en équipe.",
+          "correcte": false
+        }
+      ],
+      "explication": "Citez un vrai défaut, sans catastrophe, et montrez ce que vous faites pour l'améliorer.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "reseaux_004",
+      "categorie": "motivation",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "Où vous voyez-vous dans cinq ans ?",
+      "reponses": [
+        {
+          "texte": "À votre place, bien entendu.",
+          "correcte": false
+        },
+        {
+          "texte": "Je ne sais pas, je ne me projette jamais.",
+          "correcte": false
+        },
+        {
+          "texte": "Dans une autre entreprise, probablement.",
+          "correcte": false
+        },
+        {
+          "texte": "Ayant monté en compétences sur vos infrastructures, avec plus de responsabilités au sein de l'équipe.",
+          "correcte": true
+        }
+      ],
+      "explication": "Le recruteur cherche une projection réaliste et cohérente avec l'évolution possible dans l'entreprise.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "reseaux_005",
+      "categorie": "motivation",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "Quelles sont vos prétentions salariales ?",
+      "reponses": [
+        {
+          "texte": "Le plus possible.",
+          "correcte": false
+        },
+        {
+          "texte": "Ça m'est égal, je travaille par passion.",
+          "correcte": false
+        },
+        {
+          "texte": "Une fourchette basée sur le marché et mon niveau d'expérience, que je suis prêt à discuter.",
+          "correcte": true
+        },
+        {
+          "texte": "Je préfère que vous me disiez d'abord ce que vous proposez, et je dirai non à tout.",
+          "correcte": false
+        },
+        {
+          "texte": "Je n'ai pas fait de recherche, mais mon cousin gagne 5 000 € par mois.",
+          "correcte": false
+        },
+        {
+          "texte": "Le double de ce que vous comptiez proposer.",
+          "correcte": false
+        }
+      ],
+      "explication": "Se renseigner sur les salaires du marché et annoncer une fourchette justifiée est la meilleure approche.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "reseaux_006",
+      "categorie": "motivation",
+      "difficulte": 1,
+      "temps_secondes": 30,
+      "question": "Avez-vous des questions à nous poser ?",
+      "reponses": [
+        {
+          "texte": "Non, aucune.",
+          "correcte": false
+        },
+        {
+          "texte": "Oui : à quoi ressemble une journée type dans l'équipe, et quelles sont les prochaines évolutions du projet ?",
+          "correcte": true
+        },
+        {
+          "texte": "Est-ce qu'on peut finir à 15 h ?",
+          "correcte": false
+        },
+        {
+          "texte": "Quand est-ce que j'aurai ma première prime ?",
+          "correcte": false
+        }
+      ],
+      "explication": "Poser des questions pertinentes sur l'équipe et les projets montre de l'intérêt pour le poste.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "reseaux_007",
+      "categorie": "comportemental",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "Racontez-nous une situation où vous avez dû résoudre un problème sous pression.",
+      "reponses": [
+        {
+          "texte": "Je redémarre tout et j'espère que ça passe.",
+          "correcte": false
+        },
+        {
+          "texte": "J'ai expliqué la situation, identifié la cause, appliqué un correctif et noté ce que j'avais appris.",
+          "correcte": true
+        },
+        {
+          "texte": "J'attends que quelqu'un d'autre s'en occupe.",
+          "correcte": false
+        },
+        {
+          "texte": "La pression ne m'affecte pas : je ne résous jamais de problème.",
+          "correcte": false
+        }
+      ],
+      "explication": "Une réponse structurée (contexte, action, résultat) est attendue pour ce type de question.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "reseaux_008",
+      "categorie": "comportemental",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "Vous êtes en désaccord avec un collègue sur la solution à adopter. Que faites-vous ?",
+      "reponses": [
+        {
+          "texte": "J'impose ma solution : j'ai forcément raison.",
+          "correcte": false
+        },
+        {
+          "texte": "Je ne dis rien et je fais comme il veut.",
+          "correcte": false
+        },
+        {
+          "texte": "J'en parle à son manager dans son dos.",
+          "correcte": false
+        },
+        {
+          "texte": "J'écoute ses arguments, je présente les miens, et on teste ou on tranche avec des critères objectifs.",
+          "correcte": true
+        },
+        {
+          "texte": "Je refais son travail la nuit, sans le prévenir.",
+          "correcte": false
+        },
+        {
+          "texte": "Je change d'équipe.",
+          "correcte": false
+        }
+      ],
+      "explication": "Dans un désaccord, on cherche un terrain d'entente sur des faits plutôt que sur l'ego.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "reseaux_009",
+      "categorie": "comportemental",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "Vous réalisez qu'une de vos manipulations a coupé le réseau d'un client en pleine nuit. Que faites-vous ?",
+      "reponses": [
+        {
+          "texte": "Je préviens immédiatement mon responsable, j'annule ma modification et je documente l'incident.",
+          "correcte": true
+        },
+        {
+          "texte": "Je ne dis rien, personne ne s'en rendra compte.",
+          "correcte": false
+        },
+        {
+          "texte": "Je coupe mon téléphone et je vais me coucher.",
+          "correcte": false
+        },
+        {
+          "texte": "Je dis que c'est le stagiaire.",
+          "correcte": false
+        },
+        {
+          "texte": "J'essaie dix autres modifications au hasard jusqu'à ce que ça remarche.",
+          "correcte": false
+        },
+        {
+          "texte": "Je redémarre tous les équipements du client.",
+          "correcte": false
+        }
+      ],
+      "explication": "Face à un incident, on communique vite, on revient à un état stable (rollback) et on documente.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "reseaux_010",
+      "categorie": "comportemental",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "On vous pose une question technique dont vous ignorez la réponse. Que faites-vous ?",
+      "reponses": [
+        {
+          "texte": "J'invente une réponse avec assurance.",
+          "correcte": false
+        },
+        {
+          "texte": "Je change de sujet.",
+          "correcte": false
+        },
+        {
+          "texte": "J'admets ne pas savoir, j'explique ma réflexion et comment je chercherais la réponse.",
+          "correcte": true
+        },
+        {
+          "texte": "Je dis que la question est mal posée.",
+          "correcte": false
+        }
+      ],
+      "explication": "Reconnaître ses limites est mieux perçu qu'inventer. Un bluff découvert coûte très cher en entretien.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "reseaux_011",
+      "categorie": "comportemental",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "Un collègue vous demande le mot de passe administrateur par e-mail pour dépanner rapidement. Que faites-vous ?",
+      "reponses": [
+        {
+          "texte": "Je lui envoie, il a l'air pressé.",
+          "correcte": false
+        },
+        {
+          "texte": "Je refuse et je lui propose la procédure sécurisée (ticket, gestionnaire de mots de passe, accès nominatif).",
+          "correcte": true
+        },
+        {
+          "texte": "Je lui donne la moitié du mot de passe.",
+          "correcte": false
+        },
+        {
+          "texte": "Je le publie sur le chat de l'équipe pour que tout le monde l'ait.",
+          "correcte": false
+        }
+      ],
+      "explication": "Les mots de passe ne doivent jamais transiter en clair. On passe par les procédures de sécurité de l'entreprise.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "reseaux_012",
+      "categorie": "technique",
+      "difficulte": 1,
+      "temps_secondes": 30,
+      "question": "Que signifie l'acronyme LAN ?",
+      "reponses": [
+        {
+          "texte": "Local Area Network",
+          "correcte": true
+        },
+        {
+          "texte": "Large Access Node",
+          "correcte": false
+        },
+        {
+          "texte": "Long Analog Network",
+          "correcte": false
+        },
+        {
+          "texte": "Link Assisted Network",
+          "correcte": false
+        }
+      ],
+      "explication": "LAN = Local Area Network : un réseau local, par exemple celui d'une maison ou d'un bureau.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "reseaux_013",
+      "categorie": "technique",
+      "difficulte": 1,
+      "temps_secondes": 30,
+      "question": "Quel équipement permet d'interconnecter des réseaux différents et d'acheminer les paquets entre eux ?",
+      "reponses": [
+        {
+          "texte": "Un routeur",
+          "correcte": true
+        },
+        {
+          "texte": "Un hub",
+          "correcte": false
+        },
+        {
+          "texte": "Un câble coaxial",
+          "correcte": false
+        },
+        {
+          "texte": "Une imprimante réseau",
+          "correcte": false
+        }
+      ],
+      "explication": "Le routeur fonctionne au niveau 3 (réseau) et relie des réseaux distincts.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "reseaux_014",
+      "categorie": "technique",
+      "difficulte": 1,
+      "temps_secondes": 30,
+      "question": "Quel protocole attribue automatiquement une adresse IP aux machines d'un réseau ?",
+      "reponses": [
+        {
+          "texte": "DNS",
+          "correcte": false
+        },
+        {
+          "texte": "ARP",
+          "correcte": false
+        },
+        {
+          "texte": "DHCP",
+          "correcte": true
+        },
+        {
+          "texte": "SMTP",
+          "correcte": false
+        }
+      ],
+      "explication": "DHCP distribue automatiquement les paramètres IP (adresse, masque, passerelle, DNS).",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "reseaux_015",
+      "categorie": "technique",
+      "difficulte": 1,
+      "temps_secondes": 30,
+      "question": "Quel protocole traduit un nom de domaine (ex. exemple.fr) en adresse IP ?",
+      "reponses": [
+        {
+          "texte": "DHCP",
+          "correcte": false
+        },
+        {
+          "texte": "HTTP",
+          "correcte": false
+        },
+        {
+          "texte": "FTP",
+          "correcte": false
+        },
+        {
+          "texte": "SMTP",
+          "correcte": false
+        },
+        {
+          "texte": "DNS",
+          "correcte": true
+        },
+        {
+          "texte": "ICMP",
+          "correcte": false
+        }
+      ],
+      "explication": "DNS est l'annuaire d'Internet : il associe des noms de domaine à des adresses IP.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "reseaux_016",
+      "categorie": "technique",
+      "difficulte": 1,
+      "temps_secondes": 30,
+      "question": "Quel est le port par défaut du protocole HTTPS ?",
+      "reponses": [
+        {
+          "texte": "21",
+          "correcte": false
+        },
+        {
+          "texte": "22",
+          "correcte": false
+        },
+        {
+          "texte": "25",
+          "correcte": false
+        },
+        {
+          "texte": "80",
+          "correcte": false
+        },
+        {
+          "texte": "443",
+          "correcte": true
+        },
+        {
+          "texte": "3389",
+          "correcte": false
+        }
+      ],
+      "explication": "HTTPS utilise le port 443. HTTP utilise le port 80, SSH le 22, FTP le 21.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "reseaux_017",
+      "categorie": "technique",
+      "difficulte": 1,
+      "temps_secondes": 30,
+      "question": "Quelle commande permet de vérifier rapidement si une machine distante est joignable ?",
+      "reponses": [
+        {
+          "texte": "ping",
+          "correcte": true
+        },
+        {
+          "texte": "mkdir",
+          "correcte": false
+        },
+        {
+          "texte": "chmod",
+          "correcte": false
+        },
+        {
+          "texte": "sudo",
+          "correcte": false
+        }
+      ],
+      "explication": "ping envoie des requêtes ICMP Echo pour tester la connectivité.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "reseaux_018",
+      "categorie": "technique",
+      "difficulte": 1,
+      "temps_secondes": 30,
+      "question": "Combien de couches compte le modèle OSI ?",
+      "reponses": [
+        {
+          "texte": "4",
+          "correcte": false
+        },
+        {
+          "texte": "5",
+          "correcte": false
+        },
+        {
+          "texte": "7",
+          "correcte": true
+        },
+        {
+          "texte": "9",
+          "correcte": false
+        }
+      ],
+      "explication": "Le modèle OSI compte 7 couches, de la couche physique à la couche application.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "reseaux_019",
+      "categorie": "technique",
+      "difficulte": 1,
+      "temps_secondes": 30,
+      "question": "Sous Linux, quelle commande moderne affiche les interfaces réseau et leurs adresses IP ?",
+      "reponses": [
+        {
+          "texte": "ip addr",
+          "correcte": true
+        },
+        {
+          "texte": "ls /network",
+          "correcte": false
+        },
+        {
+          "texte": "show ip",
+          "correcte": false
+        },
+        {
+          "texte": "ping -i",
+          "correcte": false
+        }
+      ],
+      "explication": "ip addr (ou ip a) remplace l'ancienne commande ifconfig.",
+      "etiquette_liee": "Linux / Bash",
+      "reservee_bluff": false
+    },
+    {
+      "id": "reseaux_020",
+      "categorie": "technique",
+      "difficulte": 1,
+      "temps_secondes": 30,
+      "question": "Quel outil est couramment utilisé pour scanner les ports ouverts d'une machine ?",
+      "reponses": [
+        {
+          "texte": "Blender",
+          "correcte": false
+        },
+        {
+          "texte": "Photoshop",
+          "correcte": false
+        },
+        {
+          "texte": "Nmap",
+          "correcte": true
+        },
+        {
+          "texte": "Excel",
+          "correcte": false
+        },
+        {
+          "texte": "Figma",
+          "correcte": false
+        },
+        {
+          "texte": "Bloc-notes",
+          "correcte": false
+        }
+      ],
+      "explication": "Nmap est l'outil de référence pour la découverte d'hôtes et le scan de ports.",
+      "etiquette_liee": "Audit de sécurité réseau et tests d'intrusion",
+      "reservee_bluff": false
+    },
+    {
+      "id": "reseaux_021",
+      "categorie": "culture",
+      "difficulte": 1,
+      "temps_secondes": 30,
+      "question": "En informatique, à quoi renvoie avec humour la « couche 8 » du modèle OSI ?",
+      "reponses": [
+        {
+          "texte": "Au câble",
+          "correcte": false
+        },
+        {
+          "texte": "Au routeur",
+          "correcte": false
+        },
+        {
+          "texte": "À l'utilisateur",
+          "correcte": true
+        },
+        {
+          "texte": "Au serveur DNS",
+          "correcte": false
+        }
+      ],
+      "explication": "Le modèle OSI n'a que 7 couches. La « couche 8 » est une blague d'informaticiens : l'utilisateur.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "reseaux_022",
+      "categorie": "technique",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "À quelle couche du modèle OSI fonctionne principalement un routeur ?",
+      "reponses": [
+        {
+          "texte": "Couche 1 : Physique",
+          "correcte": false
+        },
+        {
+          "texte": "Couche 2 : Liaison de données",
+          "correcte": false
+        },
+        {
+          "texte": "Couche 3 : Réseau",
+          "correcte": true
+        },
+        {
+          "texte": "Couche 4 : Transport",
+          "correcte": false
+        },
+        {
+          "texte": "Couche 5 : Session",
+          "correcte": false
+        },
+        {
+          "texte": "Couche 7 : Application",
+          "correcte": false
+        }
+      ],
+      "explication": "Le routeur travaille au niveau 3 (réseau) avec les adresses IP. Un switch travaille au niveau 2.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "reseaux_023",
+      "categorie": "technique",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "Quelle est la principale différence entre TCP et UDP ?",
+      "reponses": [
+        {
+          "texte": "TCP est orienté connexion et fiable, UDP est sans connexion et sans garantie de livraison.",
+          "correcte": true
+        },
+        {
+          "texte": "TCP est plus rapide car il ne vérifie rien.",
+          "correcte": false
+        },
+        {
+          "texte": "UDP garantit l'ordre des paquets, TCP non.",
+          "correcte": false
+        },
+        {
+          "texte": "Il n'y a aucune différence, ce sont deux noms du même protocole.",
+          "correcte": false
+        }
+      ],
+      "explication": "TCP assure fiabilité et ordre (web, mail), UDP privilégie la rapidité (streaming, jeux, DNS).",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "reseaux_024",
+      "categorie": "technique",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "À quel masque de sous-réseau correspond la notation /24 ?",
+      "reponses": [
+        {
+          "texte": "255.0.0.0",
+          "correcte": false
+        },
+        {
+          "texte": "255.255.0.0",
+          "correcte": false
+        },
+        {
+          "texte": "255.255.255.0",
+          "correcte": true
+        },
+        {
+          "texte": "255.255.255.128",
+          "correcte": false
+        },
+        {
+          "texte": "255.255.255.192",
+          "correcte": false
+        },
+        {
+          "texte": "255.255.255.252",
+          "correcte": false
+        }
+      ],
+      "explication": "/24 signifie 24 bits à 1, soit 255.255.255.0.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "reseaux_025",
+      "categorie": "technique",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "Combien d'adresses d'hôtes utilisables comporte un réseau /24 ?",
+      "reponses": [
+        {
+          "texte": "256",
+          "correcte": false
+        },
+        {
+          "texte": "255",
+          "correcte": false
+        },
+        {
+          "texte": "254",
+          "correcte": true
+        },
+        {
+          "texte": "253",
+          "correcte": false
+        },
+        {
+          "texte": "128",
+          "correcte": false
+        },
+        {
+          "texte": "24",
+          "correcte": false
+        }
+      ],
+      "explication": "256 adresses au total, moins l'adresse réseau et l'adresse de broadcast : 254 hôtes.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "reseaux_026",
+      "categorie": "technique",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "À quoi sert un VLAN ?",
+      "reponses": [
+        {
+          "texte": "À accélérer la connexion Internet.",
+          "correcte": false
+        },
+        {
+          "texte": "À segmenter logiquement un réseau sur les mêmes équipements physiques.",
+          "correcte": true
+        },
+        {
+          "texte": "À remplacer le pare-feu.",
+          "correcte": false
+        },
+        {
+          "texte": "À chiffrer toutes les communications.",
+          "correcte": false
+        }
+      ],
+      "explication": "Un VLAN sépare logiquement des groupes de machines (par service, par exemple) sur le même switch.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "reseaux_027",
+      "categorie": "technique",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "Quel protocole permet d'administrer une machine à distance en ligne de commande de façon chiffrée, en remplacement de Telnet ?",
+      "reponses": [
+        {
+          "texte": "Telnet",
+          "correcte": false
+        },
+        {
+          "texte": "TFTP",
+          "correcte": false
+        },
+        {
+          "texte": "SSH",
+          "correcte": true
+        },
+        {
+          "texte": "SNMPv1",
+          "correcte": false
+        }
+      ],
+      "explication": "SSH chiffre la session, alors que Telnet transmet tout en clair, y compris les mots de passe.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "reseaux_028",
+      "categorie": "technique",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "À quoi sert le NAT ?",
+      "reponses": [
+        {
+          "texte": "À traduire des adresses IP privées en adresse(s) publique(s) pour accéder à Internet.",
+          "correcte": true
+        },
+        {
+          "texte": "À chiffrer les e-mails.",
+          "correcte": false
+        },
+        {
+          "texte": "À attribuer des noms aux machines.",
+          "correcte": false
+        },
+        {
+          "texte": "À mesurer le débit d'une connexion.",
+          "correcte": false
+        }
+      ],
+      "explication": "Le NAT permet à tout un réseau privé de partager une ou plusieurs adresses publiques.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "reseaux_029",
+      "categorie": "technique",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "Laquelle de ces adresses IPv4 est une adresse privée ?",
+      "reponses": [
+        {
+          "texte": "8.8.8.8",
+          "correcte": false
+        },
+        {
+          "texte": "172.32.0.1",
+          "correcte": false
+        },
+        {
+          "texte": "192.168.1.10",
+          "correcte": true
+        },
+        {
+          "texte": "200.100.50.25",
+          "correcte": false
+        }
+      ],
+      "explication": "Plages privées : 10.0.0.0/8, 172.16.0.0/12 (172.16 à 172.31) et 192.168.0.0/16. 172.32.0.1 est publique.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "reseaux_030",
+      "categorie": "technique",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "Quel protocole permet de retrouver l'adresse MAC correspondant à une adresse IP sur un réseau local ?",
+      "reponses": [
+        {
+          "texte": "DNS",
+          "correcte": false
+        },
+        {
+          "texte": "DHCP",
+          "correcte": false
+        },
+        {
+          "texte": "ARP",
+          "correcte": true
+        },
+        {
+          "texte": "ICMP",
+          "correcte": false
+        }
+      ],
+      "explication": "ARP (Address Resolution Protocol) associe adresse IP et adresse MAC sur le réseau local.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "reseaux_031",
+      "categorie": "technique",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "Quelle est la différence entre un hub et un switch ?",
+      "reponses": [
+        {
+          "texte": "Aucune, c'est le même équipement.",
+          "correcte": false
+        },
+        {
+          "texte": "Le hub renvoie les trames vers tous les ports, le switch les envoie seulement vers le port concerné.",
+          "correcte": true
+        },
+        {
+          "texte": "Le switch fonctionne uniquement en Wi-Fi.",
+          "correcte": false
+        },
+        {
+          "texte": "Le hub est toujours plus performant.",
+          "correcte": false
+        }
+      ],
+      "explication": "Le switch apprend les adresses MAC et évite la diffusion inutile, contrairement au hub.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "reseaux_032",
+      "categorie": "technique",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "Dans quel ordre se déroule l'établissement d'une connexion TCP (handshake) ?",
+      "reponses": [
+        {
+          "texte": "SYN, ACK, SYN-ACK",
+          "correcte": false
+        },
+        {
+          "texte": "SYN, SYN-ACK, ACK",
+          "correcte": true
+        },
+        {
+          "texte": "ACK, SYN, FIN",
+          "correcte": false
+        },
+        {
+          "texte": "HELLO, HELLO-ACK, GO",
+          "correcte": false
+        }
+      ],
+      "explication": "Le client envoie SYN, le serveur répond SYN-ACK, puis le client confirme avec ACK.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "reseaux_033",
+      "categorie": "technique",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "À quoi sert une ACL (Access Control List) ?",
+      "reponses": [
+        {
+          "texte": "À stocker des fichiers de configuration.",
+          "correcte": false
+        },
+        {
+          "texte": "À filtrer le trafic selon des règles (adresses, ports, protocoles).",
+          "correcte": true
+        },
+        {
+          "texte": "À mesurer la température des équipements.",
+          "correcte": false
+        },
+        {
+          "texte": "À sauvegarder le réseau.",
+          "correcte": false
+        }
+      ],
+      "explication": "Une ACL autorise ou refuse du trafic selon des critères définis.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "reseaux_034",
+      "categorie": "technique",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "Quelle commande Cisco IOS permet d'entrer en mode de configuration globale ?",
+      "reponses": [
+        {
+          "texte": "configure terminal",
+          "correcte": true
+        },
+        {
+          "texte": "enable",
+          "correcte": false
+        },
+        {
+          "texte": "show running-config",
+          "correcte": false
+        },
+        {
+          "texte": "ping",
+          "correcte": false
+        }
+      ],
+      "explication": "configure terminal (ou conf t) depuis le mode privilégié. enable donne accès au mode privilégié.",
+      "etiquette_liee": "Configuration de routeurs Cisco",
+      "reservee_bluff": false
+    },
+    {
+      "id": "reseaux_035",
+      "categorie": "technique",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "Quelle commande Cisco IOS affiche la configuration actuellement active sur l'équipement ?",
+      "reponses": [
+        {
+          "texte": "show running-config",
+          "correcte": true
+        },
+        {
+          "texte": "show ip route",
+          "correcte": false
+        },
+        {
+          "texte": "show interfaces",
+          "correcte": false
+        },
+        {
+          "texte": "show vlan brief",
+          "correcte": false
+        },
+        {
+          "texte": "show version",
+          "correcte": false
+        },
+        {
+          "texte": "copy running-config startup-config",
+          "correcte": false
+        }
+      ],
+      "explication": "show running-config affiche la configuration en cours d'exécution (en mémoire vive).",
+      "etiquette_liee": "Configuration de routeurs Cisco",
+      "reservee_bluff": false
+    },
+    {
+      "id": "reseaux_036",
+      "categorie": "technique",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "Quelle commande Cisco IOS enregistre la configuration courante pour qu'elle survive à un redémarrage ?",
+      "reponses": [
+        {
+          "texte": "reload",
+          "correcte": false
+        },
+        {
+          "texte": "copy running-config startup-config",
+          "correcte": true
+        },
+        {
+          "texte": "erase startup-config",
+          "correcte": false
+        },
+        {
+          "texte": "show running-config",
+          "correcte": false
+        }
+      ],
+      "explication": "copy running-config startup-config (ou write memory) sauvegarde la configuration. reload redémarre sans sauvegarder.",
+      "etiquette_liee": "Configuration de routeurs Cisco",
+      "reservee_bluff": false
+    },
+    {
+      "id": "reseaux_037",
+      "categorie": "technique",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "Dans Wireshark, quel filtre d'affichage permet de n'afficher que le trafic DNS ?",
+      "reponses": [
+        {
+          "texte": "dns",
+          "correcte": true
+        },
+        {
+          "texte": "show dns",
+          "correcte": false
+        },
+        {
+          "texte": "select * from dns",
+          "correcte": false
+        },
+        {
+          "texte": "grep dns",
+          "correcte": false
+        }
+      ],
+      "explication": "Le filtre d'affichage Wireshark est simplement le nom du protocole : dns.",
+      "etiquette_liee": "Wireshark / Analyse de trames réseau",
+      "reservee_bluff": false
+    },
+    {
+      "id": "reseaux_038",
+      "categorie": "technique",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "Quelle est la principale différence entre chiffrement symétrique et asymétrique ?",
+      "reponses": [
+        {
+          "texte": "Le symétrique utilise une même clé pour chiffrer et déchiffrer, l'asymétrique utilise une paire clé publique / clé privée.",
+          "correcte": true
+        },
+        {
+          "texte": "Le symétrique est toujours moins sécurisé que l'asymétrique.",
+          "correcte": false
+        },
+        {
+          "texte": "L'asymétrique n'utilise aucune clé.",
+          "correcte": false
+        },
+        {
+          "texte": "Il n'y en a aucune.",
+          "correcte": false
+        }
+      ],
+      "explication": "Le symétrique (AES) est rapide. L'asymétrique (RSA) facilite l'échange de clés. Les deux sont souvent combinés.",
+      "etiquette_liee": "Cryptographie",
+      "reservee_bluff": false
+    },
+    {
+      "id": "reseaux_039",
+      "categorie": "technique",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "Quelle bibliothèque Python est couramment utilisée pour fabriquer et analyser des paquets réseau ?",
+      "reponses": [
+        {
+          "texte": "Pygame",
+          "correcte": false
+        },
+        {
+          "texte": "Matplotlib",
+          "correcte": false
+        },
+        {
+          "texte": "Scapy",
+          "correcte": true
+        },
+        {
+          "texte": "Tkinter",
+          "correcte": false
+        }
+      ],
+      "explication": "Scapy permet de forger, envoyer et décoder des paquets réseau.",
+      "etiquette_liee": "Python",
+      "reservee_bluff": false
+    },
+    {
+      "id": "reseaux_040",
+      "categorie": "technique",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "Dans le cloud, qu'est-ce qu'un VPC (Virtual Private Cloud) ?",
+      "reponses": [
+        {
+          "texte": "Un réseau privé virtuel isolé, défini à l'intérieur d'un fournisseur cloud.",
+          "correcte": true
+        },
+        {
+          "texte": "Un type de processeur graphique.",
+          "correcte": false
+        },
+        {
+          "texte": "Un antivirus pour serveurs.",
+          "correcte": false
+        },
+        {
+          "texte": "Un format de sauvegarde.",
+          "correcte": false
+        }
+      ],
+      "explication": "Un VPC est un réseau virtuel isolé où l'on définit ses sous-réseaux, ses routes et ses règles de sécurité.",
+      "etiquette_liee": "AWS / Azure / GCP",
+      "reservee_bluff": false
+    },
+    {
+      "id": "reseaux_041",
+      "categorie": "technique",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "Dans la démarche ITIL, qu'est-ce qu'un « incident » ?",
+      "reponses": [
+        {
+          "texte": "Une demande d'amélioration à long terme.",
+          "correcte": false
+        },
+        {
+          "texte": "Une interruption non planifiée d'un service ou une dégradation de sa qualité.",
+          "correcte": true
+        },
+        {
+          "texte": "Une réunion de planification.",
+          "correcte": false
+        },
+        {
+          "texte": "Un changement approuvé.",
+          "correcte": false
+        }
+      ],
+      "explication": "En ITIL, l'objectif est de rétablir le service le plus vite possible.",
+      "etiquette_liee": "Normes et processus qualité (ISO, ITIL)",
+      "reservee_bluff": false
+    },
+    {
+      "id": "reseaux_042",
+      "categorie": "technique",
+      "difficulte": 3,
+      "temps_secondes": 20,
+      "question": "Lequel de ces protocoles de routage dynamique est à état de liens (link-state) ?",
+      "reponses": [
+        {
+          "texte": "RIP",
+          "correcte": false
+        },
+        {
+          "texte": "OSPF",
+          "correcte": true
+        },
+        {
+          "texte": "BGP",
+          "correcte": false
+        },
+        {
+          "texte": "STP",
+          "correcte": false
+        },
+        {
+          "texte": "LACP",
+          "correcte": false
+        },
+        {
+          "texte": "VRRP",
+          "correcte": false
+        }
+      ],
+      "explication": "OSPF est à état de liens. RIP est à vecteur de distance, BGP à vecteur de chemins. STP, LACP et VRRP ne sont pas des protocoles de routage.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "reseaux_043",
+      "categorie": "technique",
+      "difficulte": 3,
+      "temps_secondes": 20,
+      "question": "Quel protocole empêche les boucles de commutation au niveau 2 ?",
+      "reponses": [
+        {
+          "texte": "OSPF",
+          "correcte": false
+        },
+        {
+          "texte": "STP",
+          "correcte": true
+        },
+        {
+          "texte": "DHCP",
+          "correcte": false
+        },
+        {
+          "texte": "NAT",
+          "correcte": false
+        }
+      ],
+      "explication": "Spanning Tree Protocol (STP) bloque les liens redondants pour éviter les boucles.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "reseaux_044",
+      "categorie": "technique",
+      "difficulte": 3,
+      "temps_secondes": 20,
+      "question": "Que se passe-t-il quand le TTL d'un paquet IP atteint 0 ?",
+      "reponses": [
+        {
+          "texte": "Le paquet est éternellement conservé.",
+          "correcte": false
+        },
+        {
+          "texte": "Le paquet est détruit et un message ICMP « Time Exceeded » est renvoyé à l'émetteur.",
+          "correcte": true
+        },
+        {
+          "texte": "Le paquet est dupliqué.",
+          "correcte": false
+        },
+        {
+          "texte": "Le paquet est automatiquement chiffré.",
+          "correcte": false
+        }
+      ],
+      "explication": "Le TTL évite les boucles infinies. C'est aussi ce qu'utilise traceroute.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "reseaux_045",
+      "categorie": "technique",
+      "difficulte": 3,
+      "temps_secondes": 20,
+      "question": "Quel protocole assure le routage entre systèmes autonomes sur Internet ?",
+      "reponses": [
+        {
+          "texte": "OSPF",
+          "correcte": false
+        },
+        {
+          "texte": "RIP",
+          "correcte": false
+        },
+        {
+          "texte": "STP",
+          "correcte": false
+        },
+        {
+          "texte": "BGP",
+          "correcte": true
+        }
+      ],
+      "explication": "BGP relie les systèmes autonomes (opérateurs, grandes entreprises) entre eux.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "reseaux_046",
+      "categorie": "piege_bluff",
+      "difficulte": 3,
+      "temps_secondes": 20,
+      "question": "Combien d'adresses d'hôtes utilisables comporte un réseau /27 ?",
+      "reponses": [
+        {
+          "texte": "14",
+          "correcte": false
+        },
+        {
+          "texte": "30",
+          "correcte": true
+        },
+        {
+          "texte": "32",
+          "correcte": false
+        },
+        {
+          "texte": "62",
+          "correcte": false
+        },
+        {
+          "texte": "64",
+          "correcte": false
+        },
+        {
+          "texte": "254",
+          "correcte": false
+        }
+      ],
+      "explication": "/27 = 5 bits d'hôtes : 2^5 = 32 adresses, moins 2 (réseau et broadcast) = 30 hôtes.",
+      "etiquette_liee": null,
+      "reservee_bluff": true
+    },
+    {
+      "id": "reseaux_047",
+      "categorie": "piege_bluff",
+      "difficulte": 3,
+      "temps_secondes": 20,
+      "question": "En OSPF multi-aires, quel est le rôle de l'aire 0 ?",
+      "reponses": [
+        {
+          "texte": "Elle est facultative et sert uniquement aux tests.",
+          "correcte": false
+        },
+        {
+          "texte": "C'est l'aire de backbone : toutes les autres aires doivent s'y connecter.",
+          "correcte": true
+        },
+        {
+          "texte": "Elle contient uniquement les routeurs de bordure vers Internet.",
+          "correcte": false
+        },
+        {
+          "texte": "Elle désactive le routage dynamique.",
+          "correcte": false
+        },
+        {
+          "texte": "Elle est réservée aux réseaux IPv6.",
+          "correcte": false
+        },
+        {
+          "texte": "Elle sert à chiffrer les annonces de routage.",
+          "correcte": false
+        }
+      ],
+      "explication": "L'aire 0 est le backbone d'OSPF : les autres aires doivent y être reliées.",
+      "etiquette_liee": null,
+      "reservee_bluff": true
+    },
+    {
+      "id": "reseaux_048",
+      "categorie": "piege_bluff",
+      "difficulte": 3,
+      "temps_secondes": 20,
+      "question": "Deux switchs sont reliés entre eux par deux câbles et le STP est désactivé. Que risque-t-il de se produire ?",
+      "reponses": [
+        {
+          "texte": "Le débit double automatiquement.",
+          "correcte": false
+        },
+        {
+          "texte": "Une tempête de broadcast qui sature le réseau.",
+          "correcte": true
+        },
+        {
+          "texte": "Rien, les switchs gèrent ça seuls.",
+          "correcte": false
+        },
+        {
+          "texte": "Les câbles fusionnent.",
+          "correcte": false
+        }
+      ],
+      "explication": "Sans STP, les trames de broadcast tournent en boucle et saturent le réseau.",
+      "etiquette_liee": null,
+      "reservee_bluff": true
+    },
+    {
+      "id": "reseaux_049",
+      "categorie": "piege_bluff",
+      "difficulte": 3,
+      "temps_secondes": 20,
+      "question": "Combien de bits comporte une adresse IPv6 ?",
+      "reponses": [
+        {
+          "texte": "32",
+          "correcte": false
+        },
+        {
+          "texte": "64",
+          "correcte": false
+        },
+        {
+          "texte": "96",
+          "correcte": false
+        },
+        {
+          "texte": "128",
+          "correcte": true
+        }
+      ],
+      "explication": "Une adresse IPv6 compte 128 bits (IPv4 : 32 bits).",
+      "etiquette_liee": null,
+      "reservee_bluff": true
+    },
+    {
+      "id": "reseaux_050",
+      "categorie": "piege_bluff",
+      "difficulte": 3,
+      "temps_secondes": 20,
+      "question": "Pouvez-vous nous expliquer le fonctionnement du protocole « Gigabit Handshake Layer 9 » ?",
+      "reponses": [
+        {
+          "texte": "Bien sûr, c'est une évolution de TCP, je l'utilisais tous les jours.",
+          "correcte": false
+        },
+        {
+          "texte": "Je ne connais pas ce protocole, et il ne me semble pas exister. Peut-être parlez-vous d'un autre ?",
+          "correcte": true
+        },
+        {
+          "texte": "C'est un protocole de la couche 9, qui gère les utilisateurs.",
+          "correcte": false
+        },
+        {
+          "texte": "C'est le même que le VLAN, mais plus rapide.",
+          "correcte": false
+        }
+      ],
+      "explication": "Face à un terme inconnu ou inventé, mieux vaut dire honnêtement que vous ne le connaissez pas.",
+      "etiquette_liee": null,
+      "reservee_bluff": true
+    }
+  ]
+}

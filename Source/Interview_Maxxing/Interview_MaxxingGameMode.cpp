@@ -5,4 +5,5 @@
 AInterview_MaxxingGameMode::AInterview_MaxxingGameMode()
 {
 	// stub
+	InterviewManagerComp = CreateDefaultSubobject<UInterviewManager>(TEXT("InterviewManager"));
 }
