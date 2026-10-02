@@ -63,30 +63,73 @@ void UInterviewManager::TempsEcoule()
 	OnTempsEcouleEvent.Broadcast();
 }
 
-void UInterviewManager::DemarrerQuestion(bool bJoueurABluffe)
+void UInterviewManager::InitialiserEntretien(bool bJoueurABluffe)
 {
-	// On pioche la question
-	QuestionEnCours = ObtenirProchaineQuestion(bJoueurABluffe);
-
-	if (QuestionEnCours.id.IsEmpty())
+	ScoreActuel = 0;
+	QuestionsPosees = 0;
+	ScoreMaxPossible = 0;
+	TotalQuestions = bJoueurABluffe ? 15 : 10;
+	FileAttenteQuestions.Empty();
+	
+	TArray<FQuestion> QuestionsValides;
+	
+	// 1. Filtrer les questions de bluff
+	for (const FQuestion& Q : ThemeActuel.questions)
 	{
-		UE_LOG(LogTemp, Warning, TEXT("Fin du quiz ou aucune question trouvée."));
+		if (!bJoueurABluffe && Q.reservee_bluff) continue;
+		QuestionsValides.Add(Q);
+	}
+	
+	// 2. Mélanger la liste entière (Fisher-Yates)
+	for (int32 i = QuestionsValides.Num() - 1; i > 0; i--)
+	{
+		int32 j = FMath::RandRange(0, i);
+		QuestionsValides.Swap(i, j);
+	}
+	
+	// 3. Couper la liste pour ne garder que le nombre ciblé
+	if (QuestionsValides.Num() > TotalQuestions)
+	{
+		QuestionsValides.SetNum(TotalQuestions);
+	}
+	else
+	{
+		TotalQuestions = QuestionsValides.Num(); // Sécurité si le JSON est trop court
+	}
+	
+	// 4. Trier cette sélection par difficulté pour l'évolution graduelle
+	QuestionsValides.Sort([](const FQuestion& A, const FQuestion& B) {
+		return A.difficulte < B.difficulte;
+	});
+	
+	// 5. Calculer le score max et remplir la file d'attente
+	for (const FQuestion& Q : QuestionsValides)
+	{
+		FileAttenteQuestions.Add(Q);
+		ScoreMaxPossible += (Q.difficulte * 10);
+	}
+	
+	UE_LOG(LogTemp, Warning, TEXT("Entretien prêt : %d questions. Score Max : %d"), TotalQuestions, ScoreMaxPossible);
+}
+
+void UInterviewManager::DemarrerQuestion()
+{
+	UE_LOG(LogTemp, Error, TEXT("---> DemarrerQuestion a ete appele ! <---"));
+	if (FileAttenteQuestions.Num() == 0)
+	{
+		// Plus de questions, on vide la structure pour signaler la fin à l'UI
+		QuestionEnCours = FQuestion(); 
 		return;
 	}
 
-	// On s'assure qu'aucun timer n'est déjà en cours
-	GetWorld()->GetTimerManager().ClearTimer(TimerHandle_Entretien);
-
-	// On lance le timer avec le temps spécifique à cette question (ex: 30, 25 ou 20 secondes)
-	GetWorld()->GetTimerManager().SetTimer(
-		TimerHandle_Entretien, 
-		this, 
-		&UInterviewManager::TempsEcoule, 
-		QuestionEnCours.temps_secondes, 
-		false // false = ne boucle pas
-	);
+	// On prend la première question de la file et on l'enlève
+	QuestionEnCours = FileAttenteQuestions[0];
+	FileAttenteQuestions.RemoveAt(0);
 	
-	UE_LOG(LogTemp, Warning, TEXT("Nouvelle question : %s (Temps: %d s)"), *QuestionEnCours.question, QuestionEnCours.temps_secondes);
+	QuestionsPosees++;
+
+	GetWorld()->GetTimerManager().ClearTimer(TimerHandle_Entretien);
+	GetWorld()->GetTimerManager().SetTimer(TimerHandle_Entretien, this, &UInterviewManager::TempsEcoule, QuestionEnCours.temps_secondes, false);
 }
 
 bool UInterviewManager::VerifierReponse(int32 IndexReponse)

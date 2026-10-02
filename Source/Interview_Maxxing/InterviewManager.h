@@ -35,12 +35,28 @@ public:
 	UPROPERTY(BlueprintReadOnly, Category = "Interview")
 	FQuestion QuestionEnCours;
 
-	// Timer d'Unreal
-	FTimerHandle TimerHandle_Entretien;
+	UPROPERTY(BlueprintReadWrite, Category = "Interview")
+    FTimerHandle TimerHandle_Entretien;
+
+	// Compteurs
+	UPROPERTY(BlueprintReadOnly, Category = "Interview")
+	int32 QuestionsPosees = 0;
+
+	UPROPERTY(BlueprintReadOnly, Category = "Interview")
+	int32 TotalQuestions = 0;
+
+	UPROPERTY(BlueprintReadOnly, Category = "Interview")
+	int32 ScoreMaxPossible = 0;
+
+	// File d'attente pré-calculée
+	TArray<FQuestion> FileAttenteQuestions;
+
+	UFUNCTION(BlueprintCallable, Category = "Interview")
+	void InitialiserEntretien(bool bJoueurABluffe);
 
 	// Démarre une nouvelle question et lance le timer
 	UFUNCTION(BlueprintCallable, Category = "Interview")
-	void DemarrerQuestion(bool bJoueurABluffe);
+	void DemarrerQuestion();
 
 	// Vérifie la réponse choisie depuis l'interface (UI)
 	UFUNCTION(BlueprintCallable, Category = "Interview")
