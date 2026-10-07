@@ -3,6 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "InterviewManager.h"
 #include "GameFramework/GameModeBase.h"
 #include "Interview_MaxxingGameMode.generated.h"
 
@@ -16,6 +17,9 @@ class AInterview_MaxxingGameMode : public AGameModeBase
 
 public:
 	AInterview_MaxxingGameMode();
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components")
+    UInterviewManager* InterviewManagerComp;
 };
 
 

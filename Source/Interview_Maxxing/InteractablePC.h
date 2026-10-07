@@ -22,6 +22,10 @@ protected:
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components")
 	class UBoxComponent* TriggerBox;
+
+	// Le widget pour afficher la touche "E"
+    UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components")
+    class UWidgetComponent* PromptWidget;
 	
 	bool bIsPlayerNear;
 

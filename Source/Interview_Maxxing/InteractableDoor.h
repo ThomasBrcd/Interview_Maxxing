@@ -12,20 +12,27 @@ class INTERVIEW_MAXXING_API AInteractableDoor : public AActor
 public:
     AInteractableDoor();
 
+    UFUNCTION(BlueprintCallable, Category="Interaction")
+    void InteractWithDoor();
+
 protected:
-    // Le modèle visuel de la porte (le plan)
     UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components")
     class UStaticMeshComponent* DoorMesh;
 
-    // La zone de détection
     UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components")
     class UBoxComponent* TriggerBox;
 
-    // Fonction de collision
+    UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components")
+    class UWidgetComponent* PromptWidget;
+    
+    bool bIsPlayerNear;
+
     UFUNCTION()
     void OnOverlapBegin(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
 
-    // Ordre envoyé au Blueprint pour afficher le menu UI
+    UFUNCTION()
+    void OnOverlapEnd(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex);
+
     UFUNCTION(BlueprintImplementableEvent, Category = "Interaction")
     void ShowQuitDialogue();
 };

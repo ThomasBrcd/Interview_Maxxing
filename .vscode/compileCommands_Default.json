@@ -1,0 +1,210 @@
+[
+	{
+		"file": "D:\\Documents\\UEprojects\\Interview_Maxxing\\Source\\Interview_Maxxing\\InteractableBed.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\Hostx64\\x64\\cl.exe",
+			"@D:\\Documents\\UEprojects\\Interview_Maxxing\\.vscode\\compileCommands_Default\\Interview_Maxxing.0.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.8\\Engine\\Source"
+	},
+	{
+		"file": "D:\\Documents\\UEprojects\\Interview_Maxxing\\Source\\Interview_Maxxing\\InteractableDoor.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\Hostx64\\x64\\cl.exe",
+			"@D:\\Documents\\UEprojects\\Interview_Maxxing\\.vscode\\compileCommands_Default\\Interview_Maxxing.0.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.8\\Engine\\Source"
+	},
+	{
+		"file": "D:\\Documents\\UEprojects\\Interview_Maxxing\\Source\\Interview_Maxxing\\InteractablePC.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\Hostx64\\x64\\cl.exe",
+			"@D:\\Documents\\UEprojects\\Interview_Maxxing\\.vscode\\compileCommands_Default\\Interview_Maxxing.0.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.8\\Engine\\Source"
+	},
+	{
+		"file": "D:\\Documents\\UEprojects\\Interview_Maxxing\\Source\\Interview_Maxxing\\Interview_Maxxing.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\Hostx64\\x64\\cl.exe",
+			"@D:\\Documents\\UEprojects\\Interview_Maxxing\\.vscode\\compileCommands_Default\\Interview_Maxxing.0.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.8\\Engine\\Source"
+	},
+	{
+		"file": "D:\\Documents\\UEprojects\\Interview_Maxxing\\Source\\Interview_Maxxing\\Interview_MaxxingCameraManager.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\Hostx64\\x64\\cl.exe",
+			"@D:\\Documents\\UEprojects\\Interview_Maxxing\\.vscode\\compileCommands_Default\\Interview_Maxxing.0.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.8\\Engine\\Source"
+	},
+	{
+		"file": "D:\\Documents\\UEprojects\\Interview_Maxxing\\Source\\Interview_Maxxing\\Interview_MaxxingCharacter.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\Hostx64\\x64\\cl.exe",
+			"@D:\\Documents\\UEprojects\\Interview_Maxxing\\.vscode\\compileCommands_Default\\Interview_Maxxing.0.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.8\\Engine\\Source"
+	},
+	{
+		"file": "D:\\Documents\\UEprojects\\Interview_Maxxing\\Source\\Interview_Maxxing\\Interview_MaxxingGameMode.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\Hostx64\\x64\\cl.exe",
+			"@D:\\Documents\\UEprojects\\Interview_Maxxing\\.vscode\\compileCommands_Default\\Interview_Maxxing.0.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.8\\Engine\\Source"
+	},
+	{
+		"file": "D:\\Documents\\UEprojects\\Interview_Maxxing\\Source\\Interview_Maxxing\\Interview_MaxxingPlayerController.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\Hostx64\\x64\\cl.exe",
+			"@D:\\Documents\\UEprojects\\Interview_Maxxing\\.vscode\\compileCommands_Default\\Interview_Maxxing.0.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.8\\Engine\\Source"
+	},
+	{
+		"file": "D:\\Documents\\UEprojects\\Interview_Maxxing\\Source\\Interview_Maxxing\\Variant_Horror\\HorrorCharacter.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\Hostx64\\x64\\cl.exe",
+			"@D:\\Documents\\UEprojects\\Interview_Maxxing\\.vscode\\compileCommands_Default\\Interview_Maxxing.0.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.8\\Engine\\Source"
+	},
+	{
+		"file": "D:\\Documents\\UEprojects\\Interview_Maxxing\\Source\\Interview_Maxxing\\Variant_Horror\\HorrorGameMode.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\Hostx64\\x64\\cl.exe",
+			"@D:\\Documents\\UEprojects\\Interview_Maxxing\\.vscode\\compileCommands_Default\\Interview_Maxxing.0.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.8\\Engine\\Source"
+	},
+	{
+		"file": "D:\\Documents\\UEprojects\\Interview_Maxxing\\Source\\Interview_Maxxing\\Variant_Horror\\HorrorPlayerController.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\Hostx64\\x64\\cl.exe",
+			"@D:\\Documents\\UEprojects\\Interview_Maxxing\\.vscode\\compileCommands_Default\\Interview_Maxxing.0.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.8\\Engine\\Source"
+	},
+	{
+		"file": "D:\\Documents\\UEprojects\\Interview_Maxxing\\Source\\Interview_Maxxing\\Variant_Horror\\UI\\HorrorUI.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\Hostx64\\x64\\cl.exe",
+			"@D:\\Documents\\UEprojects\\Interview_Maxxing\\.vscode\\compileCommands_Default\\Interview_Maxxing.0.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.8\\Engine\\Source"
+	},
+	{
+		"file": "D:\\Documents\\UEprojects\\Interview_Maxxing\\Source\\Interview_Maxxing\\Variant_Shooter\\AI\\EnvQueryContext_Target.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\Hostx64\\x64\\cl.exe",
+			"@D:\\Documents\\UEprojects\\Interview_Maxxing\\.vscode\\compileCommands_Default\\Interview_Maxxing.0.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.8\\Engine\\Source"
+	},
+	{
+		"file": "D:\\Documents\\UEprojects\\Interview_Maxxing\\Source\\Interview_Maxxing\\Variant_Shooter\\AI\\ShooterAIController.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\Hostx64\\x64\\cl.exe",
+			"@D:\\Documents\\UEprojects\\Interview_Maxxing\\.vscode\\compileCommands_Default\\Interview_Maxxing.0.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.8\\Engine\\Source"
+	},
+	{
+		"file": "D:\\Documents\\UEprojects\\Interview_Maxxing\\Source\\Interview_Maxxing\\Variant_Shooter\\AI\\ShooterNPC.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\Hostx64\\x64\\cl.exe",
+			"@D:\\Documents\\UEprojects\\Interview_Maxxing\\.vscode\\compileCommands_Default\\Interview_Maxxing.0.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.8\\Engine\\Source"
+	},
+	{
+		"file": "D:\\Documents\\UEprojects\\Interview_Maxxing\\Source\\Interview_Maxxing\\Variant_Shooter\\AI\\ShooterNPCSpawner.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\Hostx64\\x64\\cl.exe",
+			"@D:\\Documents\\UEprojects\\Interview_Maxxing\\.vscode\\compileCommands_Default\\Interview_Maxxing.0.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.8\\Engine\\Source"
+	},
+	{
+		"file": "D:\\Documents\\UEprojects\\Interview_Maxxing\\Source\\Interview_Maxxing\\Variant_Shooter\\AI\\ShooterStateTreeUtility.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\Hostx64\\x64\\cl.exe",
+			"@D:\\Documents\\UEprojects\\Interview_Maxxing\\.vscode\\compileCommands_Default\\Interview_Maxxing.0.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.8\\Engine\\Source"
+	},
+	{
+		"file": "D:\\Documents\\UEprojects\\Interview_Maxxing\\Source\\Interview_Maxxing\\Variant_Shooter\\ShooterCharacter.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\Hostx64\\x64\\cl.exe",
+			"@D:\\Documents\\UEprojects\\Interview_Maxxing\\.vscode\\compileCommands_Default\\Interview_Maxxing.0.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.8\\Engine\\Source"
+	},
+	{
+		"file": "D:\\Documents\\UEprojects\\Interview_Maxxing\\Source\\Interview_Maxxing\\Variant_Shooter\\ShooterGameMode.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\Hostx64\\x64\\cl.exe",
+			"@D:\\Documents\\UEprojects\\Interview_Maxxing\\.vscode\\compileCommands_Default\\Interview_Maxxing.0.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.8\\Engine\\Source"
+	},
+	{
+		"file": "D:\\Documents\\UEprojects\\Interview_Maxxing\\Source\\Interview_Maxxing\\Variant_Shooter\\ShooterPlayerController.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\Hostx64\\x64\\cl.exe",
+			"@D:\\Documents\\UEprojects\\Interview_Maxxing\\.vscode\\compileCommands_Default\\Interview_Maxxing.0.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.8\\Engine\\Source"
+	},
+	{
+		"file": "D:\\Documents\\UEprojects\\Interview_Maxxing\\Source\\Interview_Maxxing\\Variant_Shooter\\UI\\ShooterBulletCounterUI.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\Hostx64\\x64\\cl.exe",
+			"@D:\\Documents\\UEprojects\\Interview_Maxxing\\.vscode\\compileCommands_Default\\Interview_Maxxing.0.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.8\\Engine\\Source"
+	},
+	{
+		"file": "D:\\Documents\\UEprojects\\Interview_Maxxing\\Source\\Interview_Maxxing\\Variant_Shooter\\UI\\ShooterUI.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\Hostx64\\x64\\cl.exe",
+			"@D:\\Documents\\UEprojects\\Interview_Maxxing\\.vscode\\compileCommands_Default\\Interview_Maxxing.0.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.8\\Engine\\Source"
+	},
+	{
+		"file": "D:\\Documents\\UEprojects\\Interview_Maxxing\\Source\\Interview_Maxxing\\Variant_Shooter\\Weapons\\ShooterPickup.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\Hostx64\\x64\\cl.exe",
+			"@D:\\Documents\\UEprojects\\Interview_Maxxing\\.vscode\\compileCommands_Default\\Interview_Maxxing.0.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.8\\Engine\\Source"
+	},
+	{
+		"file": "D:\\Documents\\UEprojects\\Interview_Maxxing\\Source\\Interview_Maxxing\\Variant_Shooter\\Weapons\\ShooterProjectile.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\Hostx64\\x64\\cl.exe",
+			"@D:\\Documents\\UEprojects\\Interview_Maxxing\\.vscode\\compileCommands_Default\\Interview_Maxxing.0.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.8\\Engine\\Source"
+	},
+	{
+		"file": "D:\\Documents\\UEprojects\\Interview_Maxxing\\Source\\Interview_Maxxing\\Variant_Shooter\\Weapons\\ShooterWeapon.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\Hostx64\\x64\\cl.exe",
+			"@D:\\Documents\\UEprojects\\Interview_Maxxing\\.vscode\\compileCommands_Default\\Interview_Maxxing.0.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.8\\Engine\\Source"
+	},
+	{
+		"file": "D:\\Documents\\UEprojects\\Interview_Maxxing\\Source\\Interview_Maxxing\\Variant_Shooter\\Weapons\\ShooterWeaponHolder.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\Hostx64\\x64\\cl.exe",
+			"@D:\\Documents\\UEprojects\\Interview_Maxxing\\.vscode\\compileCommands_Default\\Interview_Maxxing.0.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.8\\Engine\\Source"
+	}
+]
