@@ -40,14 +40,6 @@ void AInteractableBed::OnOverlapBegin(UPrimitiveComponent* OverlappedComp, AActo
         PlayerPawn = Cast<APawn>(OtherActor);
         if (PlayerPawn) bIsPlayerNear = true;
     }
-    if (PromptWidget)
-        {
-            PromptWidget->SetVisibility(true);
-        }
-        if (BedMesh)
-        {
-            BedMesh->SetRenderCustomDepth(true);
-        }
 }
 
 void AInteractableBed::OnOverlapEnd(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex)
@@ -57,8 +49,6 @@ void AInteractableBed::OnOverlapEnd(UPrimitiveComponent* OverlappedComp, AActor*
         bIsPlayerNear = false;
         PlayerPawn = nullptr;
     }
-    if (PromptWidget) PromptWidget->SetVisibility(false);
-    if (BedMesh) BedMesh->SetRenderCustomDepth(false);
 }
 
 void AInteractableBed::GoToSleep()

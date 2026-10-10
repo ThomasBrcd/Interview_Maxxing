@@ -31,8 +31,6 @@ void AInteractableDoor::OnOverlapBegin(UPrimitiveComponent* OverlappedComp, AAct
     if (OtherActor && OtherActor != this && OtherActor->IsA(APawn::StaticClass()))
     {
         bIsPlayerNear = true;
-        if (PromptWidget) PromptWidget->SetVisibility(true);
-        if (DoorMesh) DoorMesh->SetRenderCustomDepth(true);
     }
 }
 
@@ -41,8 +39,6 @@ void AInteractableDoor::OnOverlapEnd(UPrimitiveComponent* OverlappedComp, AActor
     if (OtherActor && OtherActor != this && OtherActor->IsA(APawn::StaticClass()))
     {
         bIsPlayerNear = false;
-        if (PromptWidget) PromptWidget->SetVisibility(false);
-        if (DoorMesh) DoorMesh->SetRenderCustomDepth(false);
     }
 }
 

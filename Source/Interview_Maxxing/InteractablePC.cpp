@@ -32,14 +32,6 @@ void AInteractablePC::OnOverlapBegin(UPrimitiveComponent* OverlappedComp, AActor
     if (OtherActor && OtherActor != this && OtherActor->IsA(APawn::StaticClass()))
     {
         bIsPlayerNear = true;
-        if (PromptWidget)
-        {
-            PromptWidget->SetVisibility(true);
-        }
-        if (PCMesh)
-        {
-            PCMesh->SetRenderCustomDepth(true);
-        }
     }
 }
 
@@ -49,8 +41,6 @@ void AInteractablePC::OnOverlapEnd(UPrimitiveComponent* OverlappedComp, AActor* 
     {
         bIsPlayerNear = false;
     }
-    if (PromptWidget) PromptWidget->SetVisibility(false);
-    if (PCMesh) PCMesh->SetRenderCustomDepth(false);
 }
 
 void AInteractablePC::InteractWithPC()
