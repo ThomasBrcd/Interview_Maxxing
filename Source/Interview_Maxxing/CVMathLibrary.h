@@ -20,5 +20,8 @@ public:
         const TArray<FName>& EtiquettesChoisies, 
         FName ID_Entreprise, 
         int32& ScoreTotal, 
-        bool& bEstAccepte);
+        bool& bEstAccepte,
+        TArray<FString>& BonnesEtiquettes,
+        TArray<FString>& MoyennesEtiquettes,
+        TArray<FString>& MauvaisesEtiquettes);
 };

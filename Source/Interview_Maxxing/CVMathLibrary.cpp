@@ -3,10 +3,15 @@
 
 #include "CVMathLibrary.h"
 
-void UCVMathLibrary::CalculerScoreFinal(UDataTable* DT_Etiquettes, UDataTable* DT_Mails, const TArray<FName>& EtiquettesChoisies, FName ID_Entreprise, int32& ScoreTotal, bool& bEstAccepte)
+void UCVMathLibrary::CalculerScoreFinal(UDataTable* DT_Etiquettes, UDataTable* DT_Mails, const TArray<FName>& EtiquettesChoisies, FName ID_Entreprise, int32& ScoreTotal, bool& bEstAccepte, TArray<FString>& BonnesEtiquettes, TArray<FString>& MoyennesEtiquettes, TArray<FString>& MauvaisesEtiquettes)
 {
     ScoreTotal = 0;
     bEstAccepte = false;
+    
+    BonnesEtiquettes.Empty();
+    MoyennesEtiquettes.Empty();
+    MauvaisesEtiquettes.Empty();
+
     if (!DT_Etiquettes || !DT_Mails) return;
 
     FString ContextString;
@@ -26,6 +31,22 @@ void UCVMathLibrary::CalculerScoreFinal(UDataTable* DT_Etiquettes, UDataTable* D
             TotalRig  += TagData->Stats.Rigueur;
             TotalPoly += TagData->Stats.Polyvalence;
             TotalExp  += TagData->Stats.Experience;
+
+            // On vérifie les domaines
+            if (TagData->Domaine == CompanyData->DomainePrincipal)
+            {
+                // Ajout du .ToString() pour convertir le FText en FString
+                BonnesEtiquettes.Add(TagData->Texte.ToString());
+            }
+            // Utilisation des valeurs de l'énumération (EDomaineTech::) au lieu des guillemets
+            else if (TagData->Domaine == EDomaineTech::General || TagData->Domaine == EDomaineTech::Aucun)
+            {
+                MoyennesEtiquettes.Add(TagData->Texte.ToString());
+            }
+            else
+            {
+                MauvaisesEtiquettes.Add(TagData->Texte.ToString());
+            }
         }
     }
 
