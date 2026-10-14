@@ -42,6 +42,9 @@ protected:
     // La fonction appelée après 3 secondes
     void WakeUp();
 
+    UFUNCTION(BlueprintImplementableEvent, Category = "Interaction")
+    void OnPlayerWakeUp();
+
 private:
     bool bIsPlayerNear;
     class APawn* PlayerPawn;

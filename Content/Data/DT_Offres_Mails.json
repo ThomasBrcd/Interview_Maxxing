@@ -1,0 +1,631 @@
+[
+  {
+    "Name": "mail_reseaux_netsys",
+    "NomEntreprise": "NetSys Solutions",
+    "ObjetMail": "Offre : Ingénieur(e) Réseaux & Sécurité",
+    "DescriptionCourte": "Rejoignez notre équipe d'experts pour sécuriser les infrastructures de demain.",
+    "DescriptionLongue": "NetSys Solutions est une entreprise leader dans le déploiement d'infrastructures sécurisées pour les PME. Vous serez en charge de l'audit, du déploiement de routeurs Cisco et de la réponse aux incidents de niveau 2 et 3.",
+    "CritereRecherche": "Nous recherchons un profil extrêmement rigoureux. La moindre erreur technique peut coûter cher à nos clients. L'expérience en condition réelle est un vrai plus.",
+    "DomainePrincipal": "Reseaux",
+    "MultiplicateursStats": {
+      "Technique": 2.0,
+      "Creativite": 0.5,
+      "Rigueur": 3.0,
+      "Polyvalence": 1.0,
+      "Experience": 2.0
+    },
+    "ScoreSeuilReussite": 120
+  },
+  {
+    "Name": "mail_jeu3d_polyphony",
+    "NomEntreprise": "Polygone Studio",
+    "ObjetMail": "Recherche Game Designer / Tech Artist",
+    "DescriptionCourte": "Studio indé recherche un profil hybride pour son prochain metroidvania 3D.",
+    "DescriptionLongue": "Polygone Studio est une jeune pousse en pleine croissance. Nous développons actuellement un jeu d'action-aventure sous Unreal Engine 5. L'équipe est petite, nous avons donc besoin de profils capables de toucher à tout.",
+    "CritereRecherche": "Nous valorisons avant tout la créativité et la capacité à s'adapter (polyvalence). La rigueur est moins importante chez nous que l'innovation ! Un profil autodidacte avec de la passion est le bienvenu.",
+    "DomainePrincipal": "Jeu3D",
+    "MultiplicateursStats": {
+      "Technique": 1.5,
+      "Creativite": 3.0,
+      "Rigueur": 0.5,
+      "Polyvalence": 2.5,
+      "Experience": 1.0
+    },
+    "ScoreSeuilReussite": 90
+  },
+  {
+    "Name": "mail_web_digiwork",
+    "NomEntreprise": "Agence DigiWork",
+    "ObjetMail": "Développeur Fullstack Junior (H/F)",
+    "DescriptionCourte": "Créez les plateformes web de nos clients dans une ambiance dynamique !",
+    "DescriptionLongue": "DigiWork est une agence de communication digitale qui crée des sites vitrines et des plateformes e-commerce. Nous cherchons notre nouveau développeur Fullstack pour accompagner nos chefs de projet sur des missions très variées.",
+    "CritereRecherche": "Vous devez être à l'aise aussi bien en front-end (React) qu'en back-end. Nous cherchons un bon compromis entre technique et polyvalence. Ce poste est idéal pour une première expérience ou une reconversion.",
+    "DomainePrincipal": "Web",
+    "MultiplicateursStats": {
+      "Technique": 2.0,
+      "Creativite": 1.5,
+      "Rigueur": 1.5,
+      "Polyvalence": 2.0,
+      "Experience": 0.5
+    },
+    "ScoreSeuilReussite": 70
+  },
+  {
+    "Name": "mail_reseaux_proxinet",
+    "NomEntreprise": "ProxiNet Services",
+    "ObjetMail": "Technicien(ne) Réseaux Junior : on vous forme !",
+    "DescriptionCourte": "Petite équipe sympa, grosse envie de transmettre. Débutants acceptés.",
+    "DescriptionLongue": "ProxiNet Services est une petite PME qui installe et dépanne les réseaux informatiques des commerces et cabinets de la région. Vous accompagnerez nos techniciens sur le terrain : câblage, configuration de box et de switchs, et petits dépannages.",
+    "CritereRecherche": "Pas besoin d'être un expert : on vous apprendra tout. On cherche quelqu'un de curieux, motivé, capable de s'adapter à tout type de client et de ne pas paniquer devant un câble débranché.",
+    "DomainePrincipal": "Reseaux",
+    "MultiplicateursStats": {
+      "Technique": 1.5,
+      "Creativite": 1.0,
+      "Rigueur": 1.0,
+      "Polyvalence": 2.0,
+      "Experience": 0.5
+    },
+    "ScoreSeuilReussite": 50
+  },
+  {
+    "Name": "mail_reseaux_opale",
+    "NomEntreprise": "Opale Télécoms",
+    "ObjetMail": "Ingénieur(e) Réseaux Cœur de Réseau (H/F)",
+    "DescriptionCourte": "Opérateur national recherche un(e) ingénieur(e) confirmé(e) pour exploiter son réseau 24h/24.",
+    "DescriptionLongue": "Opale Télécoms est l'un des principaux opérateurs du pays, avec plusieurs millions d'abonnés. Vous participerez à l'exploitation et à l'évolution du cœur de réseau (routage, BGP, MPLS) dans un cadre très normé : procédures, comités de changement et documentation obligatoires.",
+    "CritereRecherche": "Nous attendons un profil expérimenté, avec une solide formation et une vraie rigueur technique. Chez nous, on ne touche pas à la production sans procédure. Les profils trop créatifs risquent de souffrir du cadre.",
+    "DomainePrincipal": "Reseaux",
+    "MultiplicateursStats": {
+      "Technique": 2.5,
+      "Creativite": 0.5,
+      "Rigueur": 2.5,
+      "Polyvalence": 0.5,
+      "Experience": 3.0
+    },
+    "ScoreSeuilReussite": 150
+  },
+  {
+    "Name": "mail_reseaux_wificity",
+    "NomEntreprise": "WiFiCity",
+    "ObjetMail": "Technicien(ne) Déploiement Wi-Fi & Fibre",
+    "DescriptionCourte": "Un jour sur un toit, le lendemain dans une cave : ça vous tente ?",
+    "DescriptionLongue": "WiFiCity déploie des réseaux Wi-Fi et fibre pour les campings, hôtels et petites communes. Vous partirez en intervention avec un collègue pour installer, configurer et dépanner du matériel très varié.",
+    "CritereRecherche": "Il faut savoir tout faire : un peu de réseau, un peu de relation client, un peu de bricolage. L'autonomie compte plus que les diplômes. Et il faut accepter que ça ne se passe jamais comme prévu.",
+    "DomainePrincipal": "Reseaux",
+    "MultiplicateursStats": {
+      "Technique": 1.5,
+      "Creativite": 0.5,
+      "Rigueur": 1.5,
+      "Polyvalence": 2.5,
+      "Experience": 1.0
+    },
+    "ScoreSeuilReussite": 75
+  },
+  {
+    "Name": "mail_reseaux_overlaylabs",
+    "NomEntreprise": "Overlay Labs",
+    "ObjetMail": "Network Engineer : Startup SD-WAN",
+    "DescriptionCourte": "Nous réinventons la façon dont les entreprises relient leurs sites. Venez construire avec nous.",
+    "DescriptionLongue": "Overlay Labs est une startup de 12 personnes qui développe une solution SD-WAN nouvelle génération. Vous serez en charge des tests réseau, de la configuration de nos environnements de démonstration et de l'amélioration de nos outils internes.",
+    "CritereRecherche": "On veut des gens qui proposent, testent, cassent et recommencent. Les idées neuves valent plus qu'un CV parfait. Il faut être à l'aise techniquement, mais surtout capable de toucher à tout sans qu'on le demande.",
+    "DomainePrincipal": "Reseaux",
+    "MultiplicateursStats": {
+      "Technique": 2.0,
+      "Creativite": 2.0,
+      "Rigueur": 1.0,
+      "Polyvalence": 2.0,
+      "Experience": 0.5
+    },
+    "ScoreSeuilReussite": 90
+  },
+  {
+    "Name": "mail_reseaux_hopital_val",
+    "NomEntreprise": "Centre Hospitalier du Val",
+    "ObjetMail": "Technicien(ne) Réseaux & Télécoms : SI hospitalier",
+    "DescriptionCourte": "Ici, une panne réseau n'est pas qu'un désagrément. Rigueur et sang-froid demandés.",
+    "DescriptionLongue": "Le Centre Hospitalier du Val recherche un(e) technicien(ne) pour maintenir son réseau interne : dossiers patients, imagerie médicale, téléphonie. Astreintes une semaine sur quatre et procédures de sécurité strictes.",
+    "CritereRecherche": "La fiabilité avant tout. Nous cherchons une personne méthodique, calme sous pression, qui documente ce qu'elle fait. L'expérience est appréciée mais nous formons les profils sérieux.",
+    "DomainePrincipal": "Reseaux",
+    "MultiplicateursStats": {
+      "Technique": 2.0,
+      "Creativite": 0.5,
+      "Rigueur": 3.0,
+      "Polyvalence": 1.5,
+      "Experience": 1.0
+    },
+    "ScoreSeuilReussite": 100
+  },
+  {
+    "Name": "mail_cyber_citadelle",
+    "NomEntreprise": "Citadelle Sécurité",
+    "ObjetMail": "Consultant(e) Cybersécurité Junior (Pentest)",
+    "DescriptionCourte": "Cassez nos clients... avec leur accord, évidemment.",
+    "DescriptionLongue": "Citadelle Sécurité est un cabinet de conseil qui réalise des audits et des tests d'intrusion pour des PME et des collectivités. Vous participerez aux missions de pentest, à la rédaction des rapports et à la veille sur les nouvelles vulnérabilités.",
+    "CritereRecherche": "Un profil très technique, avec des compétitions de hacking ou des projets personnels, sera apprécié. Il faut aussi de la rigueur : un rapport d'audit bâclé, c'est un client mal protégé. L'imagination pour contourner les défenses est un plus.",
+    "DomainePrincipal": "Cyber",
+    "MultiplicateursStats": {
+      "Technique": 3.0,
+      "Creativite": 1.5,
+      "Rigueur": 2.0,
+      "Polyvalence": 1.0,
+      "Experience": 1.5
+    },
+    "ScoreSeuilReussite": 110
+  },
+  {
+    "Name": "mail_cyber_credit_phare",
+    "NomEntreprise": "Crédit du Phare",
+    "ObjetMail": "Analyste SOC N1 / N2 (H/F)",
+    "DescriptionCourte": "Surveillez, détectez, réagissez : la sécurité d'une banque se joue 24h/24.",
+    "DescriptionLongue": "Le Crédit du Phare, banque régionale de 8 000 collaborateurs, renforce son centre opérationnel de sécurité. Vous analyserez les alertes, qualifierez les incidents et appliquerez les procédures de réponse, en horaires décalés.",
+    "CritereRecherche": "Le cadre est strict : procédures, traçabilité, conformité. Nous cherchons un profil rigoureux, avec une formation solide et idéalement une première expérience en environnement structuré. Pas de place pour l'improvisation.",
+    "DomainePrincipal": "Cyber",
+    "MultiplicateursStats": {
+      "Technique": 2.0,
+      "Creativite": 0.5,
+      "Rigueur": 3.0,
+      "Polyvalence": 0.5,
+      "Experience": 2.5
+    },
+    "ScoreSeuilReussite": 140
+  },
+  {
+    "Name": "mail_cyber_nullpoint",
+    "NomEntreprise": "Nullpoint Security",
+    "ObjetMail": "Ingénieur(e) Sécurité Offensive : équipe de 4",
+    "DescriptionCourte": "Startup de red teaming cherche un(e) hacker éthique passionné(e).",
+    "DescriptionLongue": "Nullpoint Security est une jeune startup spécialisée en red teaming. L'équipe est réduite : vous ferez de la reconnaissance, du développement d'outils maison et des simulations d'attaque, parfois même de la présentation client.",
+    "CritereRecherche": "Peu importe d'où vous venez : nous cherchons des gens passionnés, qui bidouillent, participent à des CTF et savent s'adapter vite. La technique est indispensable, mais la débrouillardise et l'esprit d'initiative font la différence.",
+    "DomainePrincipal": "Cyber",
+    "MultiplicateursStats": {
+      "Technique": 2.5,
+      "Creativite": 2.0,
+      "Rigueur": 1.0,
+      "Polyvalence": 2.0,
+      "Experience": 1.0
+    },
+    "ScoreSeuilReussite": 95
+  },
+  {
+    "Name": "mail_web_boutique_nord",
+    "NomEntreprise": "Boutique du Nord",
+    "ObjetMail": "Développeur(se) Web Polyvalent(e) (Prestashop / React)",
+    "DescriptionCourte": "Une petite équipe, un gros catalogue, et vous au milieu de tout.",
+    "DescriptionLongue": "Boutique du Nord est une PME qui vend en ligne des produits de la région. Vous maintiendrez le site, ajouterez des fonctionnalités, corrigerez les bugs, gérerez un peu l'hébergement et dépannerez parfois l'imprimante du bureau.",
+    "CritereRecherche": "On cherche quelqu'un de polyvalent avant tout : front, back, un peu de base de données, et de la bonne humeur. Pas besoin d'un profil senior, mais il faut savoir se débrouiller seul(e).",
+    "DomainePrincipal": "Web",
+    "MultiplicateursStats": {
+      "Technique": 1.5,
+      "Creativite": 1.0,
+      "Rigueur": 1.5,
+      "Polyvalence": 3.0,
+      "Experience": 1.0
+    },
+    "ScoreSeuilReussite": 65
+  },
+  {
+    "Name": "mail_web_voxelier",
+    "NomEntreprise": "Studio Voxelier",
+    "ObjetMail": "Développeur(se) Front-end Créatif (WebGL)",
+    "DescriptionCourte": "Des sites web qui font dire « wow » plutôt que « ok ».",
+    "DescriptionLongue": "Studio Voxelier est une agence qui conçoit des expériences web immersives pour des marques : sites interactifs, configurateurs 3D, jeux promotionnels. Vous travaillerez avec les designers pour donner vie à leurs idées.",
+    "CritereRecherche": "Nous voulons de la créativité et un œil artistique. Un portfolio qui impressionne vaut plus qu'un long CV. La technique doit suivre, mais ce qui nous intéresse, ce sont vos projets personnels.",
+    "DomainePrincipal": "Web",
+    "MultiplicateursStats": {
+      "Technique": 2.0,
+      "Creativite": 3.0,
+      "Rigueur": 1.0,
+      "Polyvalence": 1.5,
+      "Experience": 0.5
+    },
+    "ScoreSeuilReussite": 85
+  },
+  {
+    "Name": "mail_web_assurantis",
+    "NomEntreprise": "Assurantis Group",
+    "ObjetMail": "Développeur(se) Back-end Java (H/F)",
+    "DescriptionCourte": "Rejoignez la DSI d'un grand groupe d'assurance : stabilité et méthode.",
+    "DescriptionLongue": "Assurantis Group est un groupe d'assurance de 15 000 collaborateurs. Vous maintiendrez et ferez évoluer nos applications métier en Java / Spring, dans un cadre agile à grande échelle avec revues de code, tests obligatoires et documentation.",
+    "CritereRecherche": "Nous valorisons la rigueur, l'expérience et la connaissance des bonnes pratiques de développement. Un cursus académique solide (Master ou école d'ingénieurs) est apprécié. La prise de risque n'est pas notre culture.",
+    "DomainePrincipal": "Web",
+    "MultiplicateursStats": {
+      "Technique": 2.5,
+      "Creativite": 0.5,
+      "Rigueur": 3.0,
+      "Polyvalence": 0.5,
+      "Experience": 2.5
+    },
+    "ScoreSeuilReussite": 135
+  },
+  {
+    "Name": "mail_web_kiwi_mobile",
+    "NomEntreprise": "Kiwi Mobile Labs",
+    "ObjetMail": "Développeur(se) Mobile (iOS / Android)",
+    "DescriptionCourte": "Notre appli compte 200 000 utilisateurs et personne n'a dormi depuis le lancement.",
+    "DescriptionLongue": "Kiwi Mobile Labs est une startup qui développe une application de partage de trajets à vélo. Vous participerez à toutes les étapes : conception des écrans, développement, correction de bugs et publication sur les stores.",
+    "CritereRecherche": "On cherche une personne techniquement solide mais aussi créative : l'expérience utilisateur compte beaucoup. Une application publiée ou un projet perso sera apprécié. La rigueur, on la gagnera ensemble.",
+    "DomainePrincipal": "Web",
+    "MultiplicateursStats": {
+      "Technique": 2.5,
+      "Creativite": 2.0,
+      "Rigueur": 1.0,
+      "Polyvalence": 1.5,
+      "Experience": 1.0
+    },
+    "ScoreSeuilReussite": 90
+  },
+  {
+    "Name": "mail_web_lumiux",
+    "NomEntreprise": "Agence LumiUX",
+    "ObjetMail": "Designer UX/UI Junior",
+    "DescriptionCourte": "Dessinez les interfaces que les gens utilisent vraiment.",
+    "DescriptionLongue": "LumiUX est une petite agence de design d'interface. Vous réaliserez des maquettes, des prototypes et des tests utilisateurs pour des applications web et mobiles. Des notions de code sont un plus mais ne sont pas indispensables.",
+    "CritereRecherche": "Sens esthétique, empathie et créativité avant tout. Il faut aussi savoir travailler en équipe avec les développeurs et s'adapter à des projets très différents. La technique pure est secondaire.",
+    "DomainePrincipal": "Web",
+    "MultiplicateursStats": {
+      "Technique": 0.5,
+      "Creativite": 3.0,
+      "Rigueur": 1.5,
+      "Polyvalence": 2.0,
+      "Experience": 0.5
+    },
+    "ScoreSeuilReussite": 70
+  },
+  {
+    "Name": "mail_jeu3d_titan",
+    "NomEntreprise": "Titan Interactive Entertainment",
+    "ObjetMail": "Gameplay Programmer C++ (Unreal Engine 5)",
+    "DescriptionCourte": "Un studio AAA, des centaines de collègues, un jeu attendu par des millions de joueurs.",
+    "DescriptionLongue": "Titan Interactive Entertainment développe des jeux AAA depuis vingt ans. Vous intégrerez l'équipe gameplay sur notre prochain jeu en monde ouvert : mécaniques de combat, intelligence artificielle, outils pour les designers.",
+    "CritereRecherche": "Nous exigeons un excellent niveau technique en C++ et une expérience réelle en production de jeux. Le travail en grande équipe demande de la rigueur : normes de code, revues, builds quotidiens. Un simple projet perso ne suffira pas.",
+    "DomainePrincipal": "Jeu3D",
+    "MultiplicateursStats": {
+      "Technique": 3.0,
+      "Creativite": 1.0,
+      "Rigueur": 2.0,
+      "Polyvalence": 0.5,
+      "Experience": 3.0
+    },
+    "ScoreSeuilReussite": 150
+  },
+  {
+    "Name": "mail_jeu3d_petit_pixel",
+    "NomEntreprise": "Petit Pixel Games",
+    "ObjetMail": "Level Designer / Artiste 3D (CDI après stage)",
+    "DescriptionCourte": "Deux fondateurs, un canapé, un jeu de plateforme. Et un poste pour vous.",
+    "DescriptionLongue": "Petit Pixel Games est un micro-studio de trois personnes qui crée des jeux de plateforme en 3D low poly. Nous cherchons quelqu'un pour concevoir des niveaux, modéliser des décors, et parfois nous faire le café.",
+    "CritereRecherche": "Chez nous, tout le monde touche à tout. On valorise l'imagination et la polyvalence plutôt que les diplômes. Montrez-nous vos créations, vos game jams et vos prototypes. La rigueur viendra avec la deadline.",
+    "DomainePrincipal": "Jeu3D",
+    "MultiplicateursStats": {
+      "Technique": 1.0,
+      "Creativite": 3.0,
+      "Rigueur": 0.5,
+      "Polyvalence": 3.0,
+      "Experience": 0.5
+    },
+    "ScoreSeuilReussite": 70
+  },
+  {
+    "Name": "mail_jeu3d_shader_forge",
+    "NomEntreprise": "Shader Forge",
+    "ObjetMail": "Technical Artist (Shaders & Pipeline)",
+    "DescriptionCourte": "Faire le pont entre les artistes et les programmeurs, et rendre le tout magnifique.",
+    "DescriptionLongue": "Shader Forge est un studio spécialisé dans la direction artistique stylisée. Vous écrirez des shaders, créerez des outils pour les artistes et optimiserez le rendu sur plusieurs plateformes, dont des consoles rétro.",
+    "CritereRecherche": "Il faut être à l'aise avec le code (shaders, moteur) tout en ayant un vrai sens artistique. Nous cherchons un profil hybride, capable de comprendre aussi bien un programmeur qu'un graphiste. Les projets personnels comptent beaucoup.",
+    "DomainePrincipal": "Jeu3D",
+    "MultiplicateursStats": {
+      "Technique": 3.0,
+      "Creativite": 2.5,
+      "Rigueur": 1.5,
+      "Polyvalence": 0.5,
+      "Experience": 1.0
+    },
+    "ScoreSeuilReussite": 105
+  },
+  {
+    "Name": "mail_jeu3d_eduplay",
+    "NomEntreprise": "EduPlay Studio",
+    "ObjetMail": "Développeur(se) Serious Games",
+    "DescriptionCourte": "Apprendre en jouant : créez des jeux qui servent à quelque chose.",
+    "DescriptionLongue": "EduPlay Studio conçoit des jeux sérieux pour la formation en entreprise et dans les écoles. Vous développerez des simulations sous Unreal Engine, en lien avec des experts métier et des pédagogues.",
+    "CritereRecherche": "Nous cherchons un équilibre : de la technique pour construire des jeux solides, de la créativité pour les rendre agréables, et de la polyvalence pour dialoguer avec des profils très différents. Un goût pour la pédagogie est un vrai plus.",
+    "DomainePrincipal": "Jeu3D",
+    "MultiplicateursStats": {
+      "Technique": 2.0,
+      "Creativite": 2.0,
+      "Rigueur": 1.5,
+      "Polyvalence": 2.0,
+      "Experience": 1.0
+    },
+    "ScoreSeuilReussite": 85
+  },
+  {
+    "Name": "mail_jeu3d_holoscape",
+    "NomEntreprise": "Holoscape VR",
+    "ObjetMail": "Développeur(se) VR / Rendu Temps Réel",
+    "DescriptionCourte": "Réalité virtuelle : attention, nos démos peuvent donner mal au cœur.",
+    "DescriptionLongue": "Holoscape VR est une startup qui crée des expériences immersives pour l'industrie et la culture. Vous travaillerez sur l'optimisation du rendu en temps réel, l'interaction en réalité virtuelle et le prototypage rapide.",
+    "CritereRecherche": "Un très bon niveau technique en rendu 3D est indispensable : performances, shaders, optimisation. Nous aimons aussi les profils qui testent des idées folles. L'expérience en conditions réelles est un plus.",
+    "DomainePrincipal": "Jeu3D",
+    "MultiplicateursStats": {
+      "Technique": 3.0,
+      "Creativite": 2.0,
+      "Rigueur": 1.0,
+      "Polyvalence": 1.0,
+      "Experience": 1.5
+    },
+    "ScoreSeuilReussite": 110
+  },
+  {
+    "Name": "mail_ia_radiolia",
+    "NomEntreprise": "Radiolia",
+    "ObjetMail": "Ingénieur(e) Machine Learning : Imagerie Médicale",
+    "DescriptionCourte": "Aidez les médecins à détecter plus tôt, avec des modèles fiables.",
+    "DescriptionLongue": "Radiolia développe des modèles d'intelligence artificielle pour l'analyse d'images médicales. Vous concevrez, entraînerez et évaluerez des modèles, dans un cadre réglementaire strict où chaque résultat doit être documenté et reproductible.",
+    "CritereRecherche": "Un profil très technique, avec une formation solide en mathématiques ou en IA, est attendu. La rigueur est essentielle : une erreur de modèle peut avoir des conséquences graves. Une expérience en recherche ou en projet réel est un atout.",
+    "DomainePrincipal": "IA",
+    "MultiplicateursStats": {
+      "Technique": 3.0,
+      "Creativite": 1.0,
+      "Rigueur": 2.5,
+      "Polyvalence": 0.5,
+      "Experience": 2.0
+    },
+    "ScoreSeuilReussite": 125
+  },
+  {
+    "Name": "mail_ia_causette",
+    "NomEntreprise": "Causette AI",
+    "ObjetMail": "Data Scientist / Prompt Engineer",
+    "DescriptionCourte": "Nos chatbots parlent presque aussi bien que vous. Aidez-les à faire mieux.",
+    "DescriptionLongue": "Causette AI est une startup qui crée des assistants conversationnels pour le service client. Vous testerez des modèles, écrirez des consignes, analyserez les conversations et proposerez des améliorations.",
+    "CritereRecherche": "Nous cherchons des esprits curieux et créatifs, prêts à expérimenter. La technique est importante, mais l'imagination l'est tout autant. Il faut savoir s'adapter vite : ici, les outils changent chaque semaine.",
+    "DomainePrincipal": "IA",
+    "MultiplicateursStats": {
+      "Technique": 2.0,
+      "Creativite": 2.5,
+      "Rigueur": 1.0,
+      "Polyvalence": 2.0,
+      "Experience": 0.5
+    },
+    "ScoreSeuilReussite": 85
+  },
+  {
+    "Name": "mail_ia_datavelo",
+    "NomEntreprise": "Datavélo Analytics",
+    "ObjetMail": "Data Analyst (SQL / Python)",
+    "DescriptionCourte": "Transformer des tableaux Excel en décisions : voilà votre mission.",
+    "DescriptionLongue": "Datavélo Analytics est une PME qui aide les commerces et les collectivités à mieux exploiter leurs données. Vous construirez des tableaux de bord, nettoierez des bases de données et présenterez vos analyses aux clients.",
+    "CritereRecherche": "On attend de la rigueur dans le traitement des données et une bonne maîtrise de SQL et de Python. Il faut aussi savoir expliquer simplement des résultats à des non-spécialistes. Un profil junior motivé est le bienvenu.",
+    "DomainePrincipal": "IA",
+    "MultiplicateursStats": {
+      "Technique": 2.0,
+      "Creativite": 1.0,
+      "Rigueur": 2.0,
+      "Polyvalence": 2.0,
+      "Experience": 1.0
+    },
+    "ScoreSeuilReussite": 80
+  },
+  {
+    "Name": "mail_cloud_cumulonet",
+    "NomEntreprise": "Cumulonet Hosting",
+    "ObjetMail": "Ingénieur(e) DevOps / SRE",
+    "DescriptionCourte": "Gardez nos serveurs en vie, automatiquement, de préférence.",
+    "DescriptionLongue": "Cumulonet Hosting est un hébergeur cloud qui gère plusieurs milliers de serveurs pour ses clients. Vous automatiserez les déploiements, surveillerez la plateforme et participerez aux astreintes en cas d'incident.",
+    "CritereRecherche": "Nous cherchons un profil technique, rigoureux, à l'aise avec Linux, les conteneurs et l'automatisation. Une expérience sur de vrais incidents de production est très appréciée. La polyvalence est un plus, mais la fiabilité passe avant tout.",
+    "DomainePrincipal": "Cloud",
+    "MultiplicateursStats": {
+      "Technique": 3.0,
+      "Creativite": 1.0,
+      "Rigueur": 2.5,
+      "Polyvalence": 1.5,
+      "Experience": 2.0
+    },
+    "ScoreSeuilReussite": 120
+  },
+  {
+    "Name": "mail_cloud_granite",
+    "NomEntreprise": "Granite Data Centers",
+    "ObjetMail": "Technicien(ne) Datacenter (avec astreintes)",
+    "DescriptionCourte": "Des serveurs, du froid, du bruit, et une responsabilité énorme.",
+    "DescriptionLongue": "Granite Data Centers exploite plusieurs centres de données pour des clients bancaires et publics. Vous installerez les équipements, surveillerez l'énergie et la climatisation, et interviendrez en cas d'alerte.",
+    "CritereRecherche": "La rigueur est notre mot d'ordre : câblage propre, procédures respectées, aucune improvisation. Nous attendons des connaissances techniques solides et un peu d'expérience en environnement exigeant.",
+    "DomainePrincipal": "Cloud",
+    "MultiplicateursStats": {
+      "Technique": 2.0,
+      "Creativite": 0.5,
+      "Rigueur": 3.0,
+      "Polyvalence": 1.0,
+      "Experience": 1.5
+    },
+    "ScoreSeuilReussite": 100
+  },
+  {
+    "Name": "mail_cloud_nuagix",
+    "NomEntreprise": "Nuagix",
+    "ObjetMail": "DevOps Junior (Docker / CI-CD)",
+    "DescriptionCourte": "Startup cloud : vous serez notre première recrue infra !",
+    "DescriptionLongue": "Nuagix développe une plateforme de déploiement simplifié pour les développeurs. Vous mettrez en place nos pipelines, vous occuperez des conteneurs et aiderez toute l'équipe à livrer plus vite et plus souvent.",
+    "CritereRecherche": "Pas besoin d'être senior : nous cherchons de la curiosité, de l'autonomie et l'envie d'apprendre vite. Une bonne base technique (Linux, Docker, Git) suffit, le reste, vous l'apprendrez sur le tas. On aime les gens qui touchent à tout.",
+    "DomainePrincipal": "Cloud",
+    "MultiplicateursStats": {
+      "Technique": 2.0,
+      "Creativite": 1.5,
+      "Rigueur": 1.5,
+      "Polyvalence": 2.5,
+      "Experience": 0.5
+    },
+    "ScoreSeuilReussite": 80
+  },
+  {
+    "Name": "mail_embarque_aero_sentinelle",
+    "NomEntreprise": "Aéro-Sentinelle",
+    "ObjetMail": "Ingénieur(e) Logiciel Embarqué (C / Temps Réel)",
+    "DescriptionCourte": "Le logiciel que vous écrivez tournera dans un avion. Pas de « ça marche sur ma machine ».",
+    "DescriptionLongue": "Aéro-Sentinelle est un équipementier aéronautique de 5 000 salariés. Vous développerez des logiciels embarqués critiques, en suivant des normes de certification strictes : spécifications, revues, tests exhaustifs, traçabilité complète.",
+    "CritereRecherche": "Nous exigeons une excellente maîtrise technique (C, temps réel) et une rigueur absolue. L'expérience en systèmes critiques est très fortement valorisée. L'improvisation n'a pas sa place dans notre métier.",
+    "DomainePrincipal": "Embarque",
+    "MultiplicateursStats": {
+      "Technique": 3.0,
+      "Creativite": 0.5,
+      "Rigueur": 3.0,
+      "Polyvalence": 0.5,
+      "Experience": 2.5
+    },
+    "ScoreSeuilReussite": 145
+  },
+  {
+    "Name": "mail_embarque_agribip",
+    "NomEntreprise": "AgriBip",
+    "ObjetMail": "Développeur(se) IoT : capteurs agricoles",
+    "DescriptionCourte": "Des vaches connectées, des champs intelligents. Oui, on est sérieux.",
+    "DescriptionLongue": "AgriBip est une startup qui conçoit des capteurs connectés pour les agriculteurs : humidité, température, localisation du bétail. Vous programmerez les cartes, la transmission des données et l'application de suivi.",
+    "CritereRecherche": "On cherche des bricoleurs passionnés, capables de passer du fer à souder au code. Il faut de la technique, de la créativité, et surtout de la débrouillardise : nos prototypes tombent souvent dans la boue.",
+    "DomainePrincipal": "Embarque",
+    "MultiplicateursStats": {
+      "Technique": 2.5,
+      "Creativite": 2.0,
+      "Rigueur": 1.0,
+      "Polyvalence": 2.5,
+      "Experience": 0.5
+    },
+    "ScoreSeuilReussite": 90
+  },
+  {
+    "Name": "mail_embarque_maison_lumen",
+    "NomEntreprise": "Maison Lumen",
+    "ObjetMail": "Technicien(ne) Électronique / Embarqué Junior",
+    "DescriptionCourte": "Domotique : faire parler les maisons, et éviter qu'elles ne se disputent.",
+    "DescriptionLongue": "Maison Lumen est une PME qui conçoit des systèmes domotiques : volets, éclairage, chauffage. Vous programmerez des microcontrôleurs, testerez les cartes et assurerez le support technique auprès des installateurs.",
+    "CritereRecherche": "Nous cherchons un profil technique, curieux et polyvalent : un peu d'électronique, un peu de code, un peu de relation client. Un débutant motivé avec de bons projets personnels nous intéresse.",
+    "DomainePrincipal": "Embarque",
+    "MultiplicateursStats": {
+      "Technique": 2.0,
+      "Creativite": 1.0,
+      "Rigueur": 1.5,
+      "Polyvalence": 2.0,
+      "Experience": 0.5
+    },
+    "ScoreSeuilReussite": 75
+  },
+  {
+    "Name": "mail_general_infosphere",
+    "NomEntreprise": "Infosphère Conseil",
+    "ObjetMail": "Développeur(se) Junior : mission longue durée",
+    "DescriptionCourte": "Une ESN, des clients variés, et un fauteuil qui ne reste jamais chaud longtemps.",
+    "DescriptionLongue": "Infosphère Conseil est une société de services numériques qui place ses consultants chez ses clients. Vous serez affecté(e) à un projet de développement pour une durée de plusieurs mois, avec formation interne et suivi par un référent.",
+    "CritereRecherche": "Nous cherchons un profil sérieux, capable de s'adapter à des environnements et des technologies variés. Rigueur et capacité d'apprentissage sont essentielles. Une première expérience (stage, alternance) sera un bon point.",
+    "DomainePrincipal": "General",
+    "MultiplicateursStats": {
+      "Technique": 2.0,
+      "Creativite": 0.5,
+      "Rigueur": 2.0,
+      "Polyvalence": 2.0,
+      "Experience": 1.0
+    },
+    "ScoreSeuilReussite": 75
+  },
+  {
+    "Name": "mail_general_allo_depannage",
+    "NomEntreprise": "Allo Dépannage Informatique",
+    "ObjetMail": "Technicien(ne) Support Informatique N1",
+    "DescriptionCourte": "« Avez-vous essayé de l'éteindre et de le rallumer ? » : votre quotidien.",
+    "DescriptionLongue": "Allo Dépannage Informatique assiste par téléphone et sur site les particuliers et les petites entreprises. Vous diagnostiquerez les pannes, réinstallerez des systèmes et expliquerez, patiemment, comment brancher l'écran.",
+    "CritereRecherche": "La patience et le sens du service passent avant tout. Nous cherchons quelqu'un d'organisé, de poli, capable de toucher à tout : PC, imprimantes, box, mots de passe oubliés. Les diplômes importent peu.",
+    "DomainePrincipal": "General",
+    "MultiplicateursStats": {
+      "Technique": 1.0,
+      "Creativite": 0.5,
+      "Rigueur": 1.5,
+      "Polyvalence": 2.5,
+      "Experience": 1.0
+    },
+    "ScoreSeuilReussite": 55
+  },
+  {
+    "Name": "mail_general_delacour",
+    "NomEntreprise": "Menuiseries Delacour",
+    "ObjetMail": "Responsable Informatique (seul(e) aux commandes)",
+    "DescriptionCourte": "Vous serez notre informaticien. Notre seul. Nous vous aimons déjà.",
+    "DescriptionLongue": "Menuiseries Delacour est une entreprise familiale de 40 personnes, avec un atelier, des bureaux et une imprimante capricieuse. Vous gérerez tout le parc informatique, le réseau, le site web et la formation des collègues.",
+    "CritereRecherche": "Il faut savoir tout faire, ou au moins savoir chercher. Nous avons besoin d'une personne autonome, polyvalente et pédagogue. Pas besoin d'être spécialiste : on veut quelqu'un qui ne se laisse pas décourager.",
+    "DomainePrincipal": "General",
+    "MultiplicateursStats": {
+      "Technique": 1.5,
+      "Creativite": 1.0,
+      "Rigueur": 1.5,
+      "Polyvalence": 3.0,
+      "Experience": 1.5
+    },
+    "ScoreSeuilReussite": 80
+  },
+  {
+    "Name": "mail_general_convergence",
+    "NomEntreprise": "Convergence Digital",
+    "ObjetMail": "Chef(fe) de Projet Technique Junior",
+    "DescriptionCourte": "Coordonner développeurs, designers et clients sans perdre ni son calme ni son planning.",
+    "DescriptionLongue": "Convergence Digital est une agence qui réalise des applications sur mesure. Vous assisterez nos chefs de projet : suivi des plannings, rédaction des spécifications, animation des réunions et lien avec les clients.",
+    "CritereRecherche": "L'organisation et la rigueur sont vos meilleurs atouts. Nous valorisons aussi la polyvalence et la facilité à communiquer. Une première expérience de gestion de projet, même scolaire, est appréciée.",
+    "DomainePrincipal": "General",
+    "MultiplicateursStats": {
+      "Technique": 1.0,
+      "Creativite": 1.0,
+      "Rigueur": 2.5,
+      "Polyvalence": 2.5,
+      "Experience": 1.5
+    },
+    "ScoreSeuilReussite": 90
+  },
+  {
+    "Name": "mail_general_qualiticiel",
+    "NomEntreprise": "Qualiticiel",
+    "ObjetMail": "Ingénieur(e) QA / Testeur(se)",
+    "DescriptionCourte": "Votre mission : trouver les bugs avant nos clients.",
+    "DescriptionLongue": "Qualiticiel édite un logiciel de gestion utilisé par des centaines d'entreprises. Vous rédigerez des plans de test, automatiserez des vérifications et reproduirez les bugs signalés avec une patience infinie.",
+    "CritereRecherche": "Il faut un œil de lynx, de la méthode et une grande rigueur. Un esprit curieux, capable de tester les cas les plus absurdes, est un atout. La technique est utile pour automatiser, mais la précision passe avant tout.",
+    "DomainePrincipal": "General",
+    "MultiplicateursStats": {
+      "Technique": 1.5,
+      "Creativite": 0.5,
+      "Rigueur": 3.0,
+      "Polyvalence": 1.0,
+      "Experience": 1.0
+    },
+    "ScoreSeuilReussite": 80
+  },
+  {
+    "Name": "mail_general_omnicorp",
+    "NomEntreprise": "Omnicorp Global Dynamics Group",
+    "ObjetMail": "Développeur(se) Junior : 10 ans d'expérience minimum",
+    "DescriptionCourte": "Poste junior, salaire junior, exigences de directeur technique.",
+    "DescriptionLongue": "Omnicorp Global Dynamics Group est un groupe international de 60 000 salariés. Nous cherchons un(e) développeur(se) junior pour rejoindre une équipe de 200 personnes. Vous maîtriserez toutes les technologies, dont certaines sorties l'an dernier, avec dix ans d'expérience.",
+    "CritereRecherche": "Nous exigeons beaucoup d'expérience, de la rigueur, un diplôme prestigieux et une connaissance parfaite de tout. Oui, nous savons que le titre dit « junior ». Non, cela ne change rien à nos exigences.",
+    "DomainePrincipal": "General",
+    "MultiplicateursStats": {
+      "Technique": 2.0,
+      "Creativite": 0.5,
+      "Rigueur": 2.0,
+      "Polyvalence": 1.0,
+      "Experience": 3.0
+    },
+    "ScoreSeuilReussite": 160
+  },
+  {
+    "Name": "mail_general_licornix",
+    "NomEntreprise": "Licornix",
+    "ObjetMail": "Ninja Rockstar Fullstack Growth Hacker",
+    "DescriptionCourte": "On n'est pas une entreprise, on est une famille (avec baby-foot).",
+    "DescriptionLongue": "Licornix est une startup en hypercroissance, valorisée à plusieurs milliards sur le papier. Nous cherchons un(e) développeur(se) capable de coder, de vendre, de parler aux investisseurs et d'animer notre chaîne sur les réseaux, idéalement avant le déjeuner.",
+    "CritereRecherche": "Nous voulons des personnes passionnées, créatives, adaptables et prêtes à tout donner. Les horaires sont flexibles, c'est-à-dire illimités. La rigueur ? C'est un concept que nous avons remplacé par l'agilité.",
+    "DomainePrincipal": "General",
+    "MultiplicateursStats": {
+      "Technique": 1.5,
+      "Creativite": 3.0,
+      "Rigueur": 0.5,
+      "Polyvalence": 3.0,
+      "Experience": 0.5
+    },
+    "ScoreSeuilReussite": 85
+  }
+]
