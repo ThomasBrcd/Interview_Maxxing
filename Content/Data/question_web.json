@@ -1,52 +1,1509 @@
-[
-{"Name": "web_001", "Theme": "web", "Categorie": "motivation", "Difficulte": 1, "TempsSecondes": 30, "Question": "Pour commencer, pourquoi souhaitez-vous rejoindre notre agence web ?", "Reponses": [{"Texte": "Parce que j'ai vu qu'il y avait un baby-foot dans vos bureaux.", "bCorrecte": false}, {"Texte": "Parce que je ne trouve rien d'autre.", "bCorrecte": false}, {"Texte": "Parce que je sais déjà tout et que vous avez besoin d'aide.", "bCorrecte": false}, {"Texte": "Parce que j'ai regardé vos réalisations et que vos projets clients correspondent aux technologies que je veux approfondir.", "bCorrecte": true}], "Explication": "Citer des réalisations précises de l'entreprise montre que vous vous êtes renseigné.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "web_002", "Theme": "web", "Categorie": "motivation", "Difficulte": 1, "TempsSecondes": 30, "Question": "Pouvez-vous vous présenter en une minute ?", "Reponses": [{"Texte": "Je lis mon CV à voix haute, loisirs compris.", "bCorrecte": false}, {"Texte": "Je présente mon parcours, mes projets en ligne et la technologie qui m'a le plus plu.", "bCorrecte": true}, {"Texte": "Je dis que tout est sur mon GitHub et je m'arrête là.", "bCorrecte": false}, {"Texte": "Je décris le site de ma grand-mère pendant dix minutes.", "bCorrecte": false}], "Explication": "Une présentation courte, appuyée par des projets visibles, est idéale.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "web_003", "Theme": "web", "Categorie": "comportemental", "Difficulte": 1, "TempsSecondes": 30, "Question": "Quel est votre principal défaut ?", "Reponses": [{"Texte": "Je suis perfectionniste.", "bCorrecte": false}, {"Texte": "Je passe trop de temps sur des détails visuels. Je me fixe maintenant un temps limite par tâche.", "bCorrecte": true}, {"Texte": "Je n'ai aucun défaut.", "bCorrecte": false}, {"Texte": "Je ne teste jamais mon code sur mobile.", "bCorrecte": false}], "Explication": "Citez un vrai défaut, sans gravité, et expliquez comment vous le gérez.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "web_004", "Theme": "web", "Categorie": "motivation", "Difficulte": 2, "TempsSecondes": 25, "Question": "Où vous voyez-vous dans cinq ans ?", "Reponses": [{"Texte": "À votre place, bien entendu.", "bCorrecte": false}, {"Texte": "Avoir pris la responsabilité de projets web complets et accompagné de nouveaux développeurs.", "bCorrecte": true}, {"Texte": "Je ne sais pas.", "bCorrecte": false}, {"Texte": "Dans un autre métier, probablement.", "bCorrecte": false}], "Explication": "Une projection réaliste, liée à l'évolution possible dans l'entreprise, est attendue.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "web_005", "Theme": "web", "Categorie": "motivation", "Difficulte": 2, "TempsSecondes": 25, "Question": "Quelles sont vos prétentions salariales ?", "Reponses": [{"Texte": "Le salaire d'un directeur technique.", "bCorrecte": false}, {"Texte": "Peu importe, je travaille par passion.", "bCorrecte": false}, {"Texte": "Je préfère que vous donniez un chiffre, et je dirai non.", "bCorrecte": false}, {"Texte": "Autant que mon cousin qui fait du dropshipping.", "bCorrecte": false}, {"Texte": "Une fourchette basée sur le marché et mon niveau d'expérience, que je suis prêt à discuter.", "bCorrecte": true}, {"Texte": "Je n'ai rien préparé, mais plus que ma dernière paie.", "bCorrecte": false}], "Explication": "Se renseigner sur le marché et annoncer une fourchette justifiée est la meilleure approche.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "web_006", "Theme": "web", "Categorie": "motivation", "Difficulte": 1, "TempsSecondes": 30, "Question": "Avez-vous des questions à nous poser ?", "Reponses": [{"Texte": "Oui : comment est organisée l'équipe, quelles technologies utilisez-vous et comment se passent les revues de code ?", "bCorrecte": true}, {"Texte": "Non, aucune.", "bCorrecte": false}, {"Texte": "Est-ce que je peux travailler en pyjama toute la semaine ?", "bCorrecte": false}, {"Texte": "Combien de jours de congé avant même de commencer ?", "bCorrecte": false}], "Explication": "Poser des questions sur l'équipe et les pratiques montre de l'intérêt.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "web_007", "Theme": "web", "Categorie": "comportemental", "Difficulte": 2, "TempsSecondes": 25, "Question": "Un client demande une modification majeure la veille de la livraison. Que faites-vous ?", "Reponses": [{"Texte": "J'accepte tout et je travaille toute la nuit sans prévenir.", "bCorrecte": false}, {"Texte": "Je refuse catégoriquement sans discuter.", "bCorrecte": false}, {"Texte": "J'explique ce qui est faisable à temps, je propose une version simplifiée et je planifie le reste après.", "bCorrecte": true}, {"Texte": "Je dis que c'est impossible, point final.", "bCorrecte": false}], "Explication": "La gestion des attentes passe par le dialogue et par une proposition réaliste.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "web_008", "Theme": "web", "Categorie": "comportemental", "Difficulte": 2, "TempsSecondes": 25, "Question": "Un designer propose une maquette très difficile à rendre responsive. Que faites-vous ?", "Reponses": [{"Texte": "J'intègre à ma façon sans le prévenir.", "bCorrecte": false}, {"Texte": "Je refuse de travailler avec lui.", "bCorrecte": false}, {"Texte": "Je lui dis de coder lui-même.", "bCorrecte": false}, {"Texte": "Je modifie la maquette en cachette.", "bCorrecte": false}, {"Texte": "Je lui montre le problème et on cherche un compromis qui respecte l'intention du design.", "bCorrecte": true}, {"Texte": "J'ignore le problème et je livre.", "bCorrecte": false}], "Explication": "Designers et développeurs gagnent à discuter tôt des contraintes techniques.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "web_009", "Theme": "web", "Categorie": "comportemental", "Difficulte": 2, "TempsSecondes": 25, "Question": "Après une mise en ligne, le site de votre client affiche une erreur 500. Que faites-vous ?", "Reponses": [{"Texte": "Je corrige directement en production, sans tester.", "bCorrecte": false}, {"Texte": "Je préviens l'équipe, je restaure la version précédente, puis j'analyse les logs pour corriger.", "bCorrecte": true}, {"Texte": "Je ne dis rien en attendant que le client s'en aperçoive.", "bCorrecte": false}, {"Texte": "Je dis que c'est la faute de l'hébergeur.", "bCorrecte": false}, {"Texte": "Je supprime la base de données pour repartir de zéro.", "bCorrecte": false}, {"Texte": "Je mets une page « maintenance » et je pars en week-end.", "bCorrecte": false}], "Explication": "En cas d'incident : prévenir, restaurer un état stable, puis comprendre la cause.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "web_010", "Theme": "web", "Categorie": "comportemental", "Difficulte": 2, "TempsSecondes": 25, "Question": "On vous demande d'utiliser une technologie web que vous n'avez jamais pratiquée. Que faites-vous ?", "Reponses": [{"Texte": "Je dis que je suis expert, j'apprendrai la nuit avant.", "bCorrecte": false}, {"Texte": "J'admets ne pas la connaître, j'explique ce qui s'en rapproche et comment je me formerais.", "bCorrecte": true}, {"Texte": "Je refuse de l'utiliser, je préfère ce que je connais.", "bCorrecte": false}, {"Texte": "Je change de sujet.", "bCorrecte": false}], "Explication": "Être honnête sur son niveau tout en montrant sa capacité d'apprentissage est apprécié.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "web_011", "Theme": "web", "Categorie": "comportemental", "Difficulte": 2, "TempsSecondes": 25, "Question": "Un client veut collecter des données personnelles sans en informer les visiteurs. Que faites-vous ?", "Reponses": [{"Texte": "J'explique les obligations légales (RGPD) et je propose un consentement clair et un traitement conforme.", "bCorrecte": true}, {"Texte": "Je le fais, c'est le client qui décide.", "bCorrecte": false}, {"Texte": "Je cache le formulaire pour que personne ne le remarque.", "bCorrecte": false}, {"Texte": "Je refuse le projet sans explication.", "bCorrecte": false}], "Explication": "Le RGPD impose information et consentement ; le développeur a un devoir de conseil.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "web_012", "Theme": "web", "Categorie": "technique", "Difficulte": 1, "TempsSecondes": 30, "Question": "Que signifie HTML ?", "Reponses": [{"Texte": "HyperText Markup Language", "bCorrecte": true}, {"Texte": "High Tech Modern Language", "bCorrecte": false}, {"Texte": "Hyper Transfer Markup Link", "bCorrecte": false}, {"Texte": "Home Tool Making Language", "bCorrecte": false}], "Explication": "HTML décrit la structure d'une page web.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "web_013", "Theme": "web", "Categorie": "technique", "Difficulte": 1, "TempsSecondes": 30, "Question": "Quel langage décrit le style d'une page web (couleurs, mise en page) ?", "Reponses": [{"Texte": "CSS", "bCorrecte": true}, {"Texte": "SQL", "bCorrecte": false}, {"Texte": "PHP", "bCorrecte": false}, {"Texte": "Bash", "bCorrecte": false}], "Explication": "CSS (Cascading Style Sheets) gère l'apparence des pages.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "web_014", "Theme": "web", "Categorie": "technique", "Difficulte": 1, "TempsSecondes": 30, "Question": "Quelle balise HTML sert à créer un lien hypertexte ?", "Reponses": [{"Texte": "<p>", "bCorrecte": false}, {"Texte": "<img>", "bCorrecte": false}, {"Texte": "<div>", "bCorrecte": false}, {"Texte": "<link>", "bCorrecte": false}, {"Texte": "<a>", "bCorrecte": true}, {"Texte": "<href>", "bCorrecte": false}], "Explication": "La balise <a> avec son attribut href crée un lien.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "web_015", "Theme": "web", "Categorie": "technique", "Difficulte": 1, "TempsSecondes": 30, "Question": "Quel langage s'exécute principalement dans le navigateur pour rendre une page interactive ?", "Reponses": [{"Texte": "JavaScript", "bCorrecte": true}, {"Texte": "SQL", "bCorrecte": false}, {"Texte": "Bash", "bCorrecte": false}, {"Texte": "COBOL", "bCorrecte": false}], "Explication": "JavaScript est le langage de programmation natif du navigateur.", "EtiquetteRequise": "comp_js_react", "bReserveeBluff": false},
-{"Name": "web_016", "Theme": "web", "Categorie": "technique", "Difficulte": 1, "TempsSecondes": 30, "Question": "Que signifie le code HTTP 404 ?", "Reponses": [{"Texte": "Erreur interne du serveur", "bCorrecte": false}, {"Texte": "Page ou ressource introuvable", "bCorrecte": true}, {"Texte": "Accès refusé", "bCorrecte": false}, {"Texte": "Requête réussie", "bCorrecte": false}], "Explication": "404 signale qu'aucune ressource ne correspond à l'adresse demandée.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "web_017", "Theme": "web", "Categorie": "technique", "Difficulte": 1, "TempsSecondes": 30, "Question": "Quel est le port par défaut du protocole HTTP ?", "Reponses": [{"Texte": "21", "bCorrecte": false}, {"Texte": "22", "bCorrecte": false}, {"Texte": "25", "bCorrecte": false}, {"Texte": "80", "bCorrecte": true}, {"Texte": "443", "bCorrecte": false}, {"Texte": "3306", "bCorrecte": false}], "Explication": "HTTP utilise le port 80, HTTPS le port 443.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "web_018", "Theme": "web", "Categorie": "technique", "Difficulte": 1, "TempsSecondes": 30, "Question": "Quelle commande Git enregistre les modifications dans l'historique local ?", "Reponses": [{"Texte": "git push", "bCorrecte": false}, {"Texte": "git clone", "bCorrecte": false}, {"Texte": "git status", "bCorrecte": false}, {"Texte": "git commit", "bCorrecte": true}], "Explication": "git commit crée un instantané des modifications ; git push l'envoie au dépôt distant.", "EtiquetteRequise": "comp_git", "bReserveeBluff": false},
-{"Name": "web_019", "Theme": "web", "Categorie": "technique", "Difficulte": 1, "TempsSecondes": 30, "Question": "Que signifie « responsive » pour un site web ?", "Reponses": [{"Texte": "Qu'il répond très vite aux e-mails", "bCorrecte": false}, {"Texte": "Qu'il est écrit en JavaScript", "bCorrecte": false}, {"Texte": "Qu'il fonctionne sans Internet", "bCorrecte": false}, {"Texte": "Qu'il s'adapte à la taille de l'écran (mobile, tablette, ordinateur)", "bCorrecte": true}], "Explication": "Le responsive design adapte la mise en page à l'appareil.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "web_020", "Theme": "web", "Categorie": "technique", "Difficulte": 1, "TempsSecondes": 30, "Question": "Que fait la requête SQL SELECT ?", "Reponses": [{"Texte": "Lire des données d'une table", "bCorrecte": true}, {"Texte": "Supprimer une table", "bCorrecte": false}, {"Texte": "Créer un utilisateur", "bCorrecte": false}, {"Texte": "Chiffrer une base", "bCorrecte": false}], "Explication": "SELECT interroge la base pour récupérer des lignes.", "EtiquetteRequise": "comp_sql", "bReserveeBluff": false},
-{"Name": "web_021", "Theme": "web", "Categorie": "culture", "Difficulte": 1, "TempsSecondes": 30, "Question": "Que signifie l'expression « RTFM », souvent répondue aux débutants ?", "Reponses": [{"Texte": "« Return To Front Menu »", "bCorrecte": false}, {"Texte": "« Ready To Fix Memory »", "bCorrecte": false}, {"Texte": "« Run The Final Module »", "bCorrecte": false}, {"Texte": "« Read The Fine Manual » : va lire la documentation", "bCorrecte": true}], "Explication": "Une manière (peu aimable) de rappeler que la documentation répond souvent à la question.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "web_022", "Theme": "web", "Categorie": "technique", "Difficulte": 2, "TempsSecondes": 25, "Question": "Quelle différence y a-t-il entre GET et POST en HTTP ?", "Reponses": [{"Texte": "GET est réservé aux images, POST au texte", "bCorrecte": false}, {"Texte": "POST ne fonctionne qu'avec HTTPS", "bCorrecte": false}, {"Texte": "Il n'y a aucune différence", "bCorrecte": false}, {"Texte": "GET demande des données (paramètres dans l'URL), POST envoie des données dans le corps de la requête", "bCorrecte": true}], "Explication": "GET sert à lire, POST à envoyer ou créer des données.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "web_023", "Theme": "web", "Categorie": "technique", "Difficulte": 2, "TempsSecondes": 25, "Question": "À quoi sert une API REST ?", "Reponses": [{"Texte": "À dessiner des interfaces", "bCorrecte": false}, {"Texte": "À héberger des fichiers statiques uniquement", "bCorrecte": false}, {"Texte": "À permettre à des applications d'échanger des données via HTTP selon des conventions (ressources, verbes)", "bCorrecte": true}, {"Texte": "À compiler du code C", "bCorrecte": false}], "Explication": "Une API REST expose des ressources manipulables via des requêtes HTTP.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "web_024", "Theme": "web", "Categorie": "technique", "Difficulte": 2, "TempsSecondes": 25, "Question": "Qu'est-ce que le DOM ?", "Reponses": [{"Texte": "La représentation en arbre de la page HTML, manipulable par JavaScript", "bCorrecte": true}, {"Texte": "Un serveur de noms de domaine", "bCorrecte": false}, {"Texte": "Une base de données", "bCorrecte": false}, {"Texte": "Un format d'image", "bCorrecte": false}], "Explication": "Le Document Object Model permet à JavaScript de lire et modifier la page.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "web_025", "Theme": "web", "Categorie": "technique", "Difficulte": 2, "TempsSecondes": 25, "Question": "Que signifie CORS ?", "Reponses": [{"Texte": "Central Online Routing System", "bCorrecte": false}, {"Texte": "Cookie Origin Reset Service", "bCorrecte": false}, {"Texte": "Cache Optimized Rendering Script", "bCorrecte": false}, {"Texte": "Common Object Request Standard", "bCorrecte": false}, {"Texte": "Cross-Origin Resource Sharing : un mécanisme qui contrôle les requêtes entre origines différentes", "bCorrecte": true}, {"Texte": "Client-Oriented Response Signal", "bCorrecte": false}], "Explication": "Le navigateur bloque par défaut les requêtes vers d'autres origines, sauf si le serveur les autorise.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "web_026", "Theme": "web", "Categorie": "technique", "Difficulte": 2, "TempsSecondes": 25, "Question": "À quoi sert React ?", "Reponses": [{"Texte": "À héberger des bases de données", "bCorrecte": false}, {"Texte": "À construire des interfaces à base de composants", "bCorrecte": true}, {"Texte": "À compresser des images", "bCorrecte": false}, {"Texte": "À envoyer des e-mails", "bCorrecte": false}], "Explication": "React est une bibliothèque JavaScript pour créer des interfaces réactives.", "EtiquetteRequise": "comp_js_react", "bReserveeBluff": false},
-{"Name": "web_027", "Theme": "web", "Categorie": "technique", "Difficulte": 2, "TempsSecondes": 25, "Question": "Qu'est-ce qu'une injection SQL ?", "Reponses": [{"Texte": "Un type d'index de base de données", "bCorrecte": false}, {"Texte": "Une méthode de sauvegarde", "bCorrecte": false}, {"Texte": "Une attaque qui insère du code SQL malveillant via une entrée utilisateur non protégée", "bCorrecte": true}, {"Texte": "Une commande de mise à jour", "bCorrecte": false}], "Explication": "On s'en protège avec des requêtes préparées et en validant les entrées.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "web_028", "Theme": "web", "Categorie": "technique", "Difficulte": 2, "TempsSecondes": 25, "Question": "Qu'est-ce que le XSS ?", "Reponses": [{"Texte": "Un format de feuille de style", "bCorrecte": false}, {"Texte": "Une faille permettant d'injecter du script malveillant dans une page vue par d'autres utilisateurs", "bCorrecte": true}, {"Texte": "Un protocole de chiffrement", "bCorrecte": false}, {"Texte": "Un type de cache", "bCorrecte": false}], "Explication": "Cross-Site Scripting : on l'évite en échappant les données affichées.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "web_029", "Theme": "web", "Categorie": "technique", "Difficulte": 2, "TempsSecondes": 25, "Question": "Quelle propriété CSS permet de créer une mise en page flexible en ligne ou en colonne ?", "Reponses": [{"Texte": "display: block-flow", "bCorrecte": false}, {"Texte": "position: flexible", "bCorrecte": false}, {"Texte": "display: flex", "bCorrecte": true}, {"Texte": "float: auto", "bCorrecte": false}], "Explication": "Flexbox simplifie l'alignement et la distribution des éléments.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "web_030", "Theme": "web", "Categorie": "technique", "Difficulte": 2, "TempsSecondes": 25, "Question": "Qu'est-ce qu'un cookie ?", "Reponses": [{"Texte": "Un petit fichier de données stocké par le navigateur pour un site", "bCorrecte": true}, {"Texte": "Un virus informatique", "bCorrecte": false}, {"Texte": "Une image de petite taille", "bCorrecte": false}, {"Texte": "Un type de serveur", "bCorrecte": false}], "Explication": "Les cookies servent à la session, aux préférences ou au suivi.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "web_031", "Theme": "web", "Categorie": "technique", "Difficulte": 2, "TempsSecondes": 25, "Question": "Quel code HTTP indique que la requête a réussi ?", "Reponses": [{"Texte": "200", "bCorrecte": true}, {"Texte": "301", "bCorrecte": false}, {"Texte": "403", "bCorrecte": false}, {"Texte": "404", "bCorrecte": false}, {"Texte": "500", "bCorrecte": false}, {"Texte": "502", "bCorrecte": false}], "Explication": "200 OK signale le succès ; 301 une redirection, 4xx des erreurs client, 5xx des erreurs serveur.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "web_032", "Theme": "web", "Categorie": "technique", "Difficulte": 2, "TempsSecondes": 25, "Question": "Quelle différence y a-t-il entre « == » et « === » en JavaScript ?", "Reponses": [{"Texte": "Aucune, ce sont des synonymes", "bCorrecte": false}, {"Texte": "== est réservé aux nombres", "bCorrecte": false}, {"Texte": "=== ne fonctionne qu'avec les chaînes", "bCorrecte": false}, {"Texte": "=== compare valeur et type sans conversion, == convertit les types avant de comparer", "bCorrecte": true}], "Explication": "Préférer === évite des comparaisons surprenantes.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "web_033", "Theme": "web", "Categorie": "technique", "Difficulte": 2, "TempsSecondes": 25, "Question": "Quel avantage principal apporte TypeScript par rapport à JavaScript ?", "Reponses": [{"Texte": "Il s'exécute plus vite dans le navigateur", "bCorrecte": false}, {"Texte": "Un typage statique qui détecte des erreurs avant l'exécution", "bCorrecte": true}, {"Texte": "Il remplace HTML", "bCorrecte": false}, {"Texte": "Il supprime le besoin de tests", "bCorrecte": false}], "Explication": "TypeScript est compilé en JavaScript après vérification des types.", "EtiquetteRequise": "comp_ts_angular", "bReserveeBluff": false},
-{"Name": "web_034", "Theme": "web", "Categorie": "technique", "Difficulte": 2, "TempsSecondes": 25, "Question": "Que fait l'annotation @RestController dans Spring Boot ?", "Reponses": [{"Texte": "Elle indique qu'une classe expose des endpoints HTTP qui renvoient des données (JSON)", "bCorrecte": true}, {"Texte": "Elle crée une base de données", "bCorrecte": false}, {"Texte": "Elle compile le projet", "bCorrecte": false}, {"Texte": "Elle génère l'interface graphique", "bCorrecte": false}], "Explication": "@RestController combine le contrôleur Spring et la sérialisation des réponses.", "EtiquetteRequise": "comp_java_spring", "bReserveeBluff": false},
-{"Name": "web_035", "Theme": "web", "Categorie": "technique", "Difficulte": 2, "TempsSecondes": 25, "Question": "En conception d'interface, que représente une maquette filaire (wireframe) ?", "Reponses": [{"Texte": "Une version finale en HTML", "bCorrecte": false}, {"Texte": "Un schéma simplifié de la structure d'une page, sans le détail graphique", "bCorrecte": true}, {"Texte": "Un test de performance", "bCorrecte": false}, {"Texte": "Un format d'image", "bCorrecte": false}], "Explication": "Le wireframe fixe la structure avant de travailler le style (Figma, par exemple).", "EtiquetteRequise": "comp_photoshop_figma", "bReserveeBluff": false},
-{"Name": "web_036", "Theme": "web", "Categorie": "technique", "Difficulte": 2, "TempsSecondes": 25, "Question": "Dans une boutique en ligne, quel élément est indispensable pour sécuriser le paiement ?", "Reponses": [{"Texte": "Le logo de la boutique", "bCorrecte": false}, {"Texte": "La transmission des données bancaires en HTTPS via un prestataire de paiement", "bCorrecte": true}, {"Texte": "La couleur du bouton d'achat", "bCorrecte": false}, {"Texte": "Le nom du fichier CSS", "bCorrecte": false}], "Explication": "Les données de carte ne doivent jamais transiter ni être stockées en clair.", "EtiquetteRequise": "exp_ecommerce", "bReserveeBluff": false},
-{"Name": "web_037", "Theme": "web", "Categorie": "technique", "Difficulte": 2, "TempsSecondes": 25, "Question": "Dans un projet open source, à quoi sert une pull request ?", "Reponses": [{"Texte": "À télécharger le projet", "bCorrecte": false}, {"Texte": "À proposer des modifications au dépôt pour relecture avant fusion", "bCorrecte": true}, {"Texte": "À supprimer une branche", "bCorrecte": false}, {"Texte": "À bloquer les contributeurs", "bCorrecte": false}], "Explication": "La pull request ouvre la discussion et la relecture avant l'intégration.", "EtiquetteRequise": "exp_framework_oss", "bReserveeBluff": false},
-{"Name": "web_038", "Theme": "web", "Categorie": "technique", "Difficulte": 2, "TempsSecondes": 25, "Question": "Pour un portfolio en ligne, qu'est-ce qui renforce le plus sa crédibilité auprès d'un recruteur ?", "Reponses": [{"Texte": "Une animation d'intro de 30 secondes", "bCorrecte": false}, {"Texte": "Des projets concrets avec description, technologies utilisées et liens vers le code", "bCorrecte": true}, {"Texte": "Une longue biographie sans exemples", "bCorrecte": false}, {"Texte": "Un compteur de visiteurs", "bCorrecte": false}], "Explication": "Un recruteur veut voir ce que vous avez réellement construit.", "EtiquetteRequise": "con_portfolio_site", "bReserveeBluff": false},
-{"Name": "web_039", "Theme": "web", "Categorie": "technique", "Difficulte": 2, "TempsSecondes": 25, "Question": "Quel en-tête HTTP permet de contrôler la mise en cache d'une ressource ?", "Reponses": [{"Texte": "Content-Length", "bCorrecte": false}, {"Texte": "Accept-Language", "bCorrecte": false}, {"Texte": "User-Agent", "bCorrecte": false}, {"Texte": "Set-Cookie", "bCorrecte": false}, {"Texte": "Cache-Control", "bCorrecte": true}, {"Texte": "Host", "bCorrecte": false}], "Explication": "Cache-Control indique combien de temps et comment une ressource peut être mise en cache.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "web_040", "Theme": "web", "Categorie": "technique", "Difficulte": 2, "TempsSecondes": 25, "Question": "Quelle commande installe les dépendances d'un projet Node.js ?", "Reponses": [{"Texte": "npm install", "bCorrecte": true}, {"Texte": "node build", "bCorrecte": false}, {"Texte": "npm run delete", "bCorrecte": false}, {"Texte": "git install", "bCorrecte": false}, {"Texte": "pip install", "bCorrecte": false}, {"Texte": "apt reload", "bCorrecte": false}], "Explication": "npm install lit package.json et télécharge les paquets nécessaires.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "web_041", "Theme": "web", "Categorie": "technique", "Difficulte": 2, "TempsSecondes": 25, "Question": "Qu'est-ce que le lazy loading des images ?", "Reponses": [{"Texte": "Réduire leur qualité de moitié", "bCorrecte": false}, {"Texte": "Charger les images seulement quand elles vont être visibles, pour accélérer la page", "bCorrecte": true}, {"Texte": "Les charger toutes à la fin", "bCorrecte": false}, {"Texte": "Les remplacer par du texte", "bCorrecte": false}], "Explication": "Cela réduit le poids initial de la page.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "web_042", "Theme": "web", "Categorie": "technique", "Difficulte": 3, "TempsSecondes": 20, "Question": "Quelle différence y a-t-il entre rendu côté serveur (SSR) et côté client (CSR) ?", "Reponses": [{"Texte": "Le SSR s'exécute uniquement sur mobile", "bCorrecte": false}, {"Texte": "Le SSR génère le HTML sur le serveur avant l'envoi, le CSR le construit dans le navigateur avec JavaScript", "bCorrecte": true}, {"Texte": "Le CSR n'utilise jamais JavaScript", "bCorrecte": false}, {"Texte": "Il n'y a aucune différence", "bCorrecte": false}, {"Texte": "Le SSR exige une base de données NoSQL", "bCorrecte": false}, {"Texte": "Le CSR est réservé aux sites statiques", "bCorrecte": false}], "Explication": "Le SSR améliore souvent le premier affichage et le référencement ; le CSR rend l'application plus dynamique.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "web_043", "Theme": "web", "Categorie": "technique", "Difficulte": 3, "TempsSecondes": 20, "Question": "Qu'est-ce que le « critical rendering path » ?", "Reponses": [{"Texte": "Le chemin le plus court vers le serveur", "bCorrecte": false}, {"Texte": "L'ordre des routes d'une API", "bCorrecte": false}, {"Texte": "La séquence d'étapes qui transforme HTML, CSS et JavaScript en pixels dans le navigateur", "bCorrecte": true}, {"Texte": "Le parcours d'un utilisateur dans un tunnel d'achat", "bCorrecte": false}, {"Texte": "L'itinéraire des paquets vers un CDN", "bCorrecte": false}, {"Texte": "La file des erreurs critiques de journalisation", "bCorrecte": false}], "Explication": "Optimiser ce chemin (CSS bloquant, scripts) accélère l'affichage.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "web_044", "Theme": "web", "Categorie": "technique", "Difficulte": 3, "TempsSecondes": 20, "Question": "Qu'est-ce que le problème « N+1 » avec un ORM ?", "Reponses": [{"Texte": "Une requête pour la liste, puis une requête supplémentaire par élément, ce qui multiplie les appels à la base", "bCorrecte": true}, {"Texte": "Un bug d'indexation à partir de 1", "bCorrecte": false}, {"Texte": "Un défaut de CSS sur N éléments", "bCorrecte": false}, {"Texte": "Un conflit de versions entre N paquets", "bCorrecte": false}], "Explication": "On le corrige avec des jointures ou du chargement anticipé (eager loading).", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "web_045", "Theme": "web", "Categorie": "technique", "Difficulte": 3, "TempsSecondes": 20, "Question": "Quel mécanisme empêche par défaut un site de lire les données d'un autre domaine ?", "Reponses": [{"Texte": "La politique de même origine (same-origin policy)", "bCorrecte": true}, {"Texte": "Le DOM virtuel", "bCorrecte": false}, {"Texte": "Le service worker", "bCorrecte": false}, {"Texte": "Le lazy loading", "bCorrecte": false}], "Explication": "La same-origin policy est une base de la sécurité des navigateurs.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "web_046", "Theme": "web", "Categorie": "piege_bluff", "Difficulte": 3, "TempsSecondes": 20, "Question": "Quelle différence y a-t-il entre « let » et « var » en JavaScript ?", "Reponses": [{"Texte": "let est réservé aux constantes", "bCorrecte": false}, {"Texte": "var a une portée de bloc, let une portée de fonction", "bCorrecte": false}, {"Texte": "let a une portée de bloc, var une portée de fonction", "bCorrecte": true}, {"Texte": "Il n'y a aucune différence", "bCorrecte": false}], "Explication": "let (et const) ont une portée de bloc, ce qui évite plusieurs pièges de var.", "EtiquetteRequise": "", "bReserveeBluff": true},
-{"Name": "web_047", "Theme": "web", "Categorie": "piege_bluff", "Difficulte": 3, "TempsSecondes": 20, "Question": "Quel code HTTP signifie « Too Many Requests » ?", "Reponses": [{"Texte": "400", "bCorrecte": false}, {"Texte": "401", "bCorrecte": false}, {"Texte": "403", "bCorrecte": false}, {"Texte": "408", "bCorrecte": false}, {"Texte": "429", "bCorrecte": true}, {"Texte": "503", "bCorrecte": false}], "Explication": "429 indique que le client a dépassé la limite de requêtes autorisées.", "EtiquetteRequise": "", "bReserveeBluff": true},
-{"Name": "web_048", "Theme": "web", "Categorie": "piege_bluff", "Difficulte": 3, "TempsSecondes": 20, "Question": "Pouvez-vous nous expliquer le protocole « HTTP/7 Quantum Streaming » ?", "Reponses": [{"Texte": "Bien sûr, je l'ai déployé chez mon dernier client", "bCorrecte": false}, {"Texte": "C'est la version 7 de HTTP, sortie l'année dernière", "bCorrecte": false}, {"Texte": "C'est le nom interne de WebSocket", "bCorrecte": false}, {"Texte": "Je ne connais pas ce protocole et je ne crois pas qu'il existe. Parlez-vous de HTTP/3 ou d'autre chose ?", "bCorrecte": true}], "Explication": "Face à un terme inventé, mieux vaut dire honnêtement qu'on ne le connaît pas.", "EtiquetteRequise": "", "bReserveeBluff": true},
-{"Name": "web_049", "Theme": "web", "Categorie": "piege_bluff", "Difficulte": 3, "TempsSecondes": 20, "Question": "Que renvoie typeof null en JavaScript ?", "Reponses": [{"Texte": "\"null\"", "bCorrecte": false}, {"Texte": "\"object\"", "bCorrecte": true}, {"Texte": "\"undefined\"", "bCorrecte": false}, {"Texte": "\"number\"", "bCorrecte": false}, {"Texte": "\"string\"", "bCorrecte": false}, {"Texte": "\"boolean\"", "bCorrecte": false}], "Explication": "C'est un bug historique du langage, conservé pour compatibilité.", "EtiquetteRequise": "", "bReserveeBluff": true},
-{"Name": "web_050", "Theme": "web", "Categorie": "piege_bluff", "Difficulte": 3, "TempsSecondes": 20, "Question": "Quelle largeur occupe un élément avec width: 100px, padding: 10px et border: 5px en box-sizing: content-box (hors marges) ?", "Reponses": [{"Texte": "130px", "bCorrecte": true}, {"Texte": "100px", "bCorrecte": false}, {"Texte": "110px", "bCorrecte": false}, {"Texte": "115px", "bCorrecte": false}], "Explication": "100 + 2 × 10 (padding) + 2 × 5 (bordure) = 130 px.", "EtiquetteRequise": "", "bReserveeBluff": true}
-]
+{
+  "theme": "web",
+  "questions": [
+    {
+      "id": "web_001",
+      "categorie": "motivation",
+      "difficulte": 1,
+      "temps_secondes": 30,
+      "question": "Pour commencer, pourquoi souhaitez-vous rejoindre notre agence web ?",
+      "reponses": [
+        {
+          "texte": "Parce que j'ai vu qu'il y avait un baby-foot dans vos bureaux.",
+          "correcte": false
+        },
+        {
+          "texte": "Parce que je ne trouve rien d'autre.",
+          "correcte": false
+        },
+        {
+          "texte": "Parce que je sais déjà tout et que vous avez besoin d'aide.",
+          "correcte": false
+        },
+        {
+          "texte": "Parce que j'ai regardé vos réalisations et que vos projets clients correspondent aux technologies que je veux approfondir.",
+          "correcte": true
+        }
+      ],
+      "explication": "Citer des réalisations précises de l'entreprise montre que vous vous êtes renseigné.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "web_002",
+      "categorie": "motivation",
+      "difficulte": 1,
+      "temps_secondes": 30,
+      "question": "Pouvez-vous vous présenter en une minute ?",
+      "reponses": [
+        {
+          "texte": "Je lis mon CV à voix haute, loisirs compris.",
+          "correcte": false
+        },
+        {
+          "texte": "Je présente mon parcours, mes projets en ligne et la technologie qui m'a le plus plu.",
+          "correcte": true
+        },
+        {
+          "texte": "Je dis que tout est sur mon GitHub et je m'arrête là.",
+          "correcte": false
+        },
+        {
+          "texte": "Je décris le site de ma grand-mère pendant dix minutes.",
+          "correcte": false
+        }
+      ],
+      "explication": "Une présentation courte, appuyée par des projets visibles, est idéale.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "web_003",
+      "categorie": "comportemental",
+      "difficulte": 1,
+      "temps_secondes": 30,
+      "question": "Quel est votre principal défaut ?",
+      "reponses": [
+        {
+          "texte": "Je suis perfectionniste.",
+          "correcte": false
+        },
+        {
+          "texte": "Je passe trop de temps sur des détails visuels. Je me fixe maintenant un temps limite par tâche.",
+          "correcte": true
+        },
+        {
+          "texte": "Je n'ai aucun défaut.",
+          "correcte": false
+        },
+        {
+          "texte": "Je ne teste jamais mon code sur mobile.",
+          "correcte": false
+        }
+      ],
+      "explication": "Citez un vrai défaut, sans gravité, et expliquez comment vous le gérez.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "web_004",
+      "categorie": "motivation",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "Où vous voyez-vous dans cinq ans ?",
+      "reponses": [
+        {
+          "texte": "À votre place, bien entendu.",
+          "correcte": false
+        },
+        {
+          "texte": "Avoir pris la responsabilité de projets web complets et accompagné de nouveaux développeurs.",
+          "correcte": true
+        },
+        {
+          "texte": "Je ne sais pas.",
+          "correcte": false
+        },
+        {
+          "texte": "Dans un autre métier, probablement.",
+          "correcte": false
+        }
+      ],
+      "explication": "Une projection réaliste, liée à l'évolution possible dans l'entreprise, est attendue.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "web_005",
+      "categorie": "motivation",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "Quelles sont vos prétentions salariales ?",
+      "reponses": [
+        {
+          "texte": "Le salaire d'un directeur technique.",
+          "correcte": false
+        },
+        {
+          "texte": "Peu importe, je travaille par passion.",
+          "correcte": false
+        },
+        {
+          "texte": "Je préfère que vous donniez un chiffre, et je dirai non.",
+          "correcte": false
+        },
+        {
+          "texte": "Autant que mon cousin qui fait du dropshipping.",
+          "correcte": false
+        },
+        {
+          "texte": "Une fourchette basée sur le marché et mon niveau d'expérience, que je suis prêt à discuter.",
+          "correcte": true
+        },
+        {
+          "texte": "Je n'ai rien préparé, mais plus que ma dernière paie.",
+          "correcte": false
+        }
+      ],
+      "explication": "Se renseigner sur le marché et annoncer une fourchette justifiée est la meilleure approche.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "web_006",
+      "categorie": "motivation",
+      "difficulte": 1,
+      "temps_secondes": 30,
+      "question": "Avez-vous des questions à nous poser ?",
+      "reponses": [
+        {
+          "texte": "Oui : comment est organisée l'équipe, quelles technologies utilisez-vous et comment se passent les revues de code ?",
+          "correcte": true
+        },
+        {
+          "texte": "Non, aucune.",
+          "correcte": false
+        },
+        {
+          "texte": "Est-ce que je peux travailler en pyjama toute la semaine ?",
+          "correcte": false
+        },
+        {
+          "texte": "Combien de jours de congé avant même de commencer ?",
+          "correcte": false
+        }
+      ],
+      "explication": "Poser des questions sur l'équipe et les pratiques montre de l'intérêt.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "web_007",
+      "categorie": "comportemental",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "Un client demande une modification majeure la veille de la livraison. Que faites-vous ?",
+      "reponses": [
+        {
+          "texte": "J'accepte tout et je travaille toute la nuit sans prévenir.",
+          "correcte": false
+        },
+        {
+          "texte": "Je refuse catégoriquement sans discuter.",
+          "correcte": false
+        },
+        {
+          "texte": "J'explique ce qui est faisable à temps, je propose une version simplifiée et je planifie le reste après.",
+          "correcte": true
+        },
+        {
+          "texte": "Je dis que c'est impossible, point final.",
+          "correcte": false
+        }
+      ],
+      "explication": "La gestion des attentes passe par le dialogue et par une proposition réaliste.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "web_008",
+      "categorie": "comportemental",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "Un designer propose une maquette très difficile à rendre responsive. Que faites-vous ?",
+      "reponses": [
+        {
+          "texte": "J'intègre à ma façon sans le prévenir.",
+          "correcte": false
+        },
+        {
+          "texte": "Je refuse de travailler avec lui.",
+          "correcte": false
+        },
+        {
+          "texte": "Je lui dis de coder lui-même.",
+          "correcte": false
+        },
+        {
+          "texte": "Je modifie la maquette en cachette.",
+          "correcte": false
+        },
+        {
+          "texte": "Je lui montre le problème et on cherche un compromis qui respecte l'intention du design.",
+          "correcte": true
+        },
+        {
+          "texte": "J'ignore le problème et je livre.",
+          "correcte": false
+        }
+      ],
+      "explication": "Designers et développeurs gagnent à discuter tôt des contraintes techniques.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "web_009",
+      "categorie": "comportemental",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "Après une mise en ligne, le site de votre client affiche une erreur 500. Que faites-vous ?",
+      "reponses": [
+        {
+          "texte": "Je corrige directement en production, sans tester.",
+          "correcte": false
+        },
+        {
+          "texte": "Je préviens l'équipe, je restaure la version précédente, puis j'analyse les logs pour corriger.",
+          "correcte": true
+        },
+        {
+          "texte": "Je ne dis rien en attendant que le client s'en aperçoive.",
+          "correcte": false
+        },
+        {
+          "texte": "Je dis que c'est la faute de l'hébergeur.",
+          "correcte": false
+        },
+        {
+          "texte": "Je supprime la base de données pour repartir de zéro.",
+          "correcte": false
+        },
+        {
+          "texte": "Je mets une page « maintenance » et je pars en week-end.",
+          "correcte": false
+        }
+      ],
+      "explication": "En cas d'incident : prévenir, restaurer un état stable, puis comprendre la cause.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "web_010",
+      "categorie": "comportemental",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "On vous demande d'utiliser une technologie web que vous n'avez jamais pratiquée. Que faites-vous ?",
+      "reponses": [
+        {
+          "texte": "Je dis que je suis expert, j'apprendrai la nuit avant.",
+          "correcte": false
+        },
+        {
+          "texte": "J'admets ne pas la connaître, j'explique ce qui s'en rapproche et comment je me formerais.",
+          "correcte": true
+        },
+        {
+          "texte": "Je refuse de l'utiliser, je préfère ce que je connais.",
+          "correcte": false
+        },
+        {
+          "texte": "Je change de sujet.",
+          "correcte": false
+        }
+      ],
+      "explication": "Être honnête sur son niveau tout en montrant sa capacité d'apprentissage est apprécié.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "web_011",
+      "categorie": "comportemental",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "Un client veut collecter des données personnelles sans en informer les visiteurs. Que faites-vous ?",
+      "reponses": [
+        {
+          "texte": "J'explique les obligations légales (RGPD) et je propose un consentement clair et un traitement conforme.",
+          "correcte": true
+        },
+        {
+          "texte": "Je le fais, c'est le client qui décide.",
+          "correcte": false
+        },
+        {
+          "texte": "Je cache le formulaire pour que personne ne le remarque.",
+          "correcte": false
+        },
+        {
+          "texte": "Je refuse le projet sans explication.",
+          "correcte": false
+        }
+      ],
+      "explication": "Le RGPD impose information et consentement ; le développeur a un devoir de conseil.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "web_012",
+      "categorie": "technique",
+      "difficulte": 1,
+      "temps_secondes": 30,
+      "question": "Que signifie HTML ?",
+      "reponses": [
+        {
+          "texte": "HyperText Markup Language",
+          "correcte": true
+        },
+        {
+          "texte": "High Tech Modern Language",
+          "correcte": false
+        },
+        {
+          "texte": "Hyper Transfer Markup Link",
+          "correcte": false
+        },
+        {
+          "texte": "Home Tool Making Language",
+          "correcte": false
+        }
+      ],
+      "explication": "HTML décrit la structure d'une page web.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "web_013",
+      "categorie": "technique",
+      "difficulte": 1,
+      "temps_secondes": 30,
+      "question": "Quel langage décrit le style d'une page web (couleurs, mise en page) ?",
+      "reponses": [
+        {
+          "texte": "CSS",
+          "correcte": true
+        },
+        {
+          "texte": "SQL",
+          "correcte": false
+        },
+        {
+          "texte": "PHP",
+          "correcte": false
+        },
+        {
+          "texte": "Bash",
+          "correcte": false
+        }
+      ],
+      "explication": "CSS (Cascading Style Sheets) gère l'apparence des pages.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "web_014",
+      "categorie": "technique",
+      "difficulte": 1,
+      "temps_secondes": 30,
+      "question": "Quelle balise HTML sert à créer un lien hypertexte ?",
+      "reponses": [
+        {
+          "texte": "<p>",
+          "correcte": false
+        },
+        {
+          "texte": "<img>",
+          "correcte": false
+        },
+        {
+          "texte": "<div>",
+          "correcte": false
+        },
+        {
+          "texte": "<link>",
+          "correcte": false
+        },
+        {
+          "texte": "<a>",
+          "correcte": true
+        },
+        {
+          "texte": "<href>",
+          "correcte": false
+        }
+      ],
+      "explication": "La balise <a> avec son attribut href crée un lien.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "web_015",
+      "categorie": "technique",
+      "difficulte": 1,
+      "temps_secondes": 30,
+      "question": "Quel langage s'exécute principalement dans le navigateur pour rendre une page interactive ?",
+      "reponses": [
+        {
+          "texte": "JavaScript",
+          "correcte": true
+        },
+        {
+          "texte": "SQL",
+          "correcte": false
+        },
+        {
+          "texte": "Bash",
+          "correcte": false
+        },
+        {
+          "texte": "COBOL",
+          "correcte": false
+        }
+      ],
+      "explication": "JavaScript est le langage de programmation natif du navigateur.",
+      "etiquette_liee": "comp_js_react",
+      "reservee_bluff": false
+    },
+    {
+      "id": "web_016",
+      "categorie": "technique",
+      "difficulte": 1,
+      "temps_secondes": 30,
+      "question": "Que signifie le code HTTP 404 ?",
+      "reponses": [
+        {
+          "texte": "Erreur interne du serveur",
+          "correcte": false
+        },
+        {
+          "texte": "Page ou ressource introuvable",
+          "correcte": true
+        },
+        {
+          "texte": "Accès refusé",
+          "correcte": false
+        },
+        {
+          "texte": "Requête réussie",
+          "correcte": false
+        }
+      ],
+      "explication": "404 signale qu'aucune ressource ne correspond à l'adresse demandée.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "web_017",
+      "categorie": "technique",
+      "difficulte": 1,
+      "temps_secondes": 30,
+      "question": "Quel est le port par défaut du protocole HTTP ?",
+      "reponses": [
+        {
+          "texte": "21",
+          "correcte": false
+        },
+        {
+          "texte": "22",
+          "correcte": false
+        },
+        {
+          "texte": "25",
+          "correcte": false
+        },
+        {
+          "texte": "80",
+          "correcte": true
+        },
+        {
+          "texte": "443",
+          "correcte": false
+        },
+        {
+          "texte": "3306",
+          "correcte": false
+        }
+      ],
+      "explication": "HTTP utilise le port 80, HTTPS le port 443.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "web_018",
+      "categorie": "technique",
+      "difficulte": 1,
+      "temps_secondes": 30,
+      "question": "Quelle commande Git enregistre les modifications dans l'historique local ?",
+      "reponses": [
+        {
+          "texte": "git push",
+          "correcte": false
+        },
+        {
+          "texte": "git clone",
+          "correcte": false
+        },
+        {
+          "texte": "git status",
+          "correcte": false
+        },
+        {
+          "texte": "git commit",
+          "correcte": true
+        }
+      ],
+      "explication": "git commit crée un instantané des modifications ; git push l'envoie au dépôt distant.",
+      "etiquette_liee": "comp_git",
+      "reservee_bluff": false
+    },
+    {
+      "id": "web_019",
+      "categorie": "technique",
+      "difficulte": 1,
+      "temps_secondes": 30,
+      "question": "Que signifie « responsive » pour un site web ?",
+      "reponses": [
+        {
+          "texte": "Qu'il répond très vite aux e-mails",
+          "correcte": false
+        },
+        {
+          "texte": "Qu'il est écrit en JavaScript",
+          "correcte": false
+        },
+        {
+          "texte": "Qu'il fonctionne sans Internet",
+          "correcte": false
+        },
+        {
+          "texte": "Qu'il s'adapte à la taille de l'écran (mobile, tablette, ordinateur)",
+          "correcte": true
+        }
+      ],
+      "explication": "Le responsive design adapte la mise en page à l'appareil.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "web_020",
+      "categorie": "technique",
+      "difficulte": 1,
+      "temps_secondes": 30,
+      "question": "Que fait la requête SQL SELECT ?",
+      "reponses": [
+        {
+          "texte": "Lire des données d'une table",
+          "correcte": true
+        },
+        {
+          "texte": "Supprimer une table",
+          "correcte": false
+        },
+        {
+          "texte": "Créer un utilisateur",
+          "correcte": false
+        },
+        {
+          "texte": "Chiffrer une base",
+          "correcte": false
+        }
+      ],
+      "explication": "SELECT interroge la base pour récupérer des lignes.",
+      "etiquette_liee": "comp_sql",
+      "reservee_bluff": false
+    },
+    {
+      "id": "web_021",
+      "categorie": "culture",
+      "difficulte": 1,
+      "temps_secondes": 30,
+      "question": "Que signifie l'expression « RTFM », souvent répondue aux débutants ?",
+      "reponses": [
+        {
+          "texte": "« Return To Front Menu »",
+          "correcte": false
+        },
+        {
+          "texte": "« Ready To Fix Memory »",
+          "correcte": false
+        },
+        {
+          "texte": "« Run The Final Module »",
+          "correcte": false
+        },
+        {
+          "texte": "« Read The Fine Manual » : va lire la documentation",
+          "correcte": true
+        }
+      ],
+      "explication": "Une manière (peu aimable) de rappeler que la documentation répond souvent à la question.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "web_022",
+      "categorie": "technique",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "Quelle différence y a-t-il entre GET et POST en HTTP ?",
+      "reponses": [
+        {
+          "texte": "GET est réservé aux images, POST au texte",
+          "correcte": false
+        },
+        {
+          "texte": "POST ne fonctionne qu'avec HTTPS",
+          "correcte": false
+        },
+        {
+          "texte": "Il n'y a aucune différence",
+          "correcte": false
+        },
+        {
+          "texte": "GET demande des données (paramètres dans l'URL), POST envoie des données dans le corps de la requête",
+          "correcte": true
+        }
+      ],
+      "explication": "GET sert à lire, POST à envoyer ou créer des données.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "web_023",
+      "categorie": "technique",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "À quoi sert une API REST ?",
+      "reponses": [
+        {
+          "texte": "À dessiner des interfaces",
+          "correcte": false
+        },
+        {
+          "texte": "À héberger des fichiers statiques uniquement",
+          "correcte": false
+        },
+        {
+          "texte": "À permettre à des applications d'échanger des données via HTTP selon des conventions (ressources, verbes)",
+          "correcte": true
+        },
+        {
+          "texte": "À compiler du code C",
+          "correcte": false
+        }
+      ],
+      "explication": "Une API REST expose des ressources manipulables via des requêtes HTTP.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "web_024",
+      "categorie": "technique",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "Qu'est-ce que le DOM ?",
+      "reponses": [
+        {
+          "texte": "La représentation en arbre de la page HTML, manipulable par JavaScript",
+          "correcte": true
+        },
+        {
+          "texte": "Un serveur de noms de domaine",
+          "correcte": false
+        },
+        {
+          "texte": "Une base de données",
+          "correcte": false
+        },
+        {
+          "texte": "Un format d'image",
+          "correcte": false
+        }
+      ],
+      "explication": "Le Document Object Model permet à JavaScript de lire et modifier la page.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "web_025",
+      "categorie": "technique",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "Que signifie CORS ?",
+      "reponses": [
+        {
+          "texte": "Central Online Routing System",
+          "correcte": false
+        },
+        {
+          "texte": "Cookie Origin Reset Service",
+          "correcte": false
+        },
+        {
+          "texte": "Cache Optimized Rendering Script",
+          "correcte": false
+        },
+        {
+          "texte": "Common Object Request Standard",
+          "correcte": false
+        },
+        {
+          "texte": "Cross-Origin Resource Sharing : un mécanisme qui contrôle les requêtes entre origines différentes",
+          "correcte": true
+        },
+        {
+          "texte": "Client-Oriented Response Signal",
+          "correcte": false
+        }
+      ],
+      "explication": "Le navigateur bloque par défaut les requêtes vers d'autres origines, sauf si le serveur les autorise.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "web_026",
+      "categorie": "technique",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "À quoi sert React ?",
+      "reponses": [
+        {
+          "texte": "À héberger des bases de données",
+          "correcte": false
+        },
+        {
+          "texte": "À construire des interfaces à base de composants",
+          "correcte": true
+        },
+        {
+          "texte": "À compresser des images",
+          "correcte": false
+        },
+        {
+          "texte": "À envoyer des e-mails",
+          "correcte": false
+        }
+      ],
+      "explication": "React est une bibliothèque JavaScript pour créer des interfaces réactives.",
+      "etiquette_liee": "comp_js_react",
+      "reservee_bluff": false
+    },
+    {
+      "id": "web_027",
+      "categorie": "technique",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "Qu'est-ce qu'une injection SQL ?",
+      "reponses": [
+        {
+          "texte": "Un type d'index de base de données",
+          "correcte": false
+        },
+        {
+          "texte": "Une méthode de sauvegarde",
+          "correcte": false
+        },
+        {
+          "texte": "Une attaque qui insère du code SQL malveillant via une entrée utilisateur non protégée",
+          "correcte": true
+        },
+        {
+          "texte": "Une commande de mise à jour",
+          "correcte": false
+        }
+      ],
+      "explication": "On s'en protège avec des requêtes préparées et en validant les entrées.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "web_028",
+      "categorie": "technique",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "Qu'est-ce que le XSS ?",
+      "reponses": [
+        {
+          "texte": "Un format de feuille de style",
+          "correcte": false
+        },
+        {
+          "texte": "Une faille permettant d'injecter du script malveillant dans une page vue par d'autres utilisateurs",
+          "correcte": true
+        },
+        {
+          "texte": "Un protocole de chiffrement",
+          "correcte": false
+        },
+        {
+          "texte": "Un type de cache",
+          "correcte": false
+        }
+      ],
+      "explication": "Cross-Site Scripting : on l'évite en échappant les données affichées.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "web_029",
+      "categorie": "technique",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "Quelle propriété CSS permet de créer une mise en page flexible en ligne ou en colonne ?",
+      "reponses": [
+        {
+          "texte": "display: block-flow",
+          "correcte": false
+        },
+        {
+          "texte": "position: flexible",
+          "correcte": false
+        },
+        {
+          "texte": "display: flex",
+          "correcte": true
+        },
+        {
+          "texte": "float: auto",
+          "correcte": false
+        }
+      ],
+      "explication": "Flexbox simplifie l'alignement et la distribution des éléments.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "web_030",
+      "categorie": "technique",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "Qu'est-ce qu'un cookie ?",
+      "reponses": [
+        {
+          "texte": "Un petit fichier de données stocké par le navigateur pour un site",
+          "correcte": true
+        },
+        {
+          "texte": "Un virus informatique",
+          "correcte": false
+        },
+        {
+          "texte": "Une image de petite taille",
+          "correcte": false
+        },
+        {
+          "texte": "Un type de serveur",
+          "correcte": false
+        }
+      ],
+      "explication": "Les cookies servent à la session, aux préférences ou au suivi.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "web_031",
+      "categorie": "technique",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "Quel code HTTP indique que la requête a réussi ?",
+      "reponses": [
+        {
+          "texte": "200",
+          "correcte": true
+        },
+        {
+          "texte": "301",
+          "correcte": false
+        },
+        {
+          "texte": "403",
+          "correcte": false
+        },
+        {
+          "texte": "404",
+          "correcte": false
+        },
+        {
+          "texte": "500",
+          "correcte": false
+        },
+        {
+          "texte": "502",
+          "correcte": false
+        }
+      ],
+      "explication": "200 OK signale le succès ; 301 une redirection, 4xx des erreurs client, 5xx des erreurs serveur.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "web_032",
+      "categorie": "technique",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "Quelle différence y a-t-il entre « == » et « === » en JavaScript ?",
+      "reponses": [
+        {
+          "texte": "Aucune, ce sont des synonymes",
+          "correcte": false
+        },
+        {
+          "texte": "== est réservé aux nombres",
+          "correcte": false
+        },
+        {
+          "texte": "=== ne fonctionne qu'avec les chaînes",
+          "correcte": false
+        },
+        {
+          "texte": "=== compare valeur et type sans conversion, == convertit les types avant de comparer",
+          "correcte": true
+        }
+      ],
+      "explication": "Préférer === évite des comparaisons surprenantes.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "web_033",
+      "categorie": "technique",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "Quel avantage principal apporte TypeScript par rapport à JavaScript ?",
+      "reponses": [
+        {
+          "texte": "Il s'exécute plus vite dans le navigateur",
+          "correcte": false
+        },
+        {
+          "texte": "Un typage statique qui détecte des erreurs avant l'exécution",
+          "correcte": true
+        },
+        {
+          "texte": "Il remplace HTML",
+          "correcte": false
+        },
+        {
+          "texte": "Il supprime le besoin de tests",
+          "correcte": false
+        }
+      ],
+      "explication": "TypeScript est compilé en JavaScript après vérification des types.",
+      "etiquette_liee": "comp_ts_angular",
+      "reservee_bluff": false
+    },
+    {
+      "id": "web_034",
+      "categorie": "technique",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "Que fait l'annotation @RestController dans Spring Boot ?",
+      "reponses": [
+        {
+          "texte": "Elle indique qu'une classe expose des endpoints HTTP qui renvoient des données (JSON)",
+          "correcte": true
+        },
+        {
+          "texte": "Elle crée une base de données",
+          "correcte": false
+        },
+        {
+          "texte": "Elle compile le projet",
+          "correcte": false
+        },
+        {
+          "texte": "Elle génère l'interface graphique",
+          "correcte": false
+        }
+      ],
+      "explication": "@RestController combine le contrôleur Spring et la sérialisation des réponses.",
+      "etiquette_liee": "comp_java_spring",
+      "reservee_bluff": false
+    },
+    {
+      "id": "web_035",
+      "categorie": "technique",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "En conception d'interface, que représente une maquette filaire (wireframe) ?",
+      "reponses": [
+        {
+          "texte": "Une version finale en HTML",
+          "correcte": false
+        },
+        {
+          "texte": "Un schéma simplifié de la structure d'une page, sans le détail graphique",
+          "correcte": true
+        },
+        {
+          "texte": "Un test de performance",
+          "correcte": false
+        },
+        {
+          "texte": "Un format d'image",
+          "correcte": false
+        }
+      ],
+      "explication": "Le wireframe fixe la structure avant de travailler le style (Figma, par exemple).",
+      "etiquette_liee": "comp_photoshop_figma",
+      "reservee_bluff": false
+    },
+    {
+      "id": "web_036",
+      "categorie": "technique",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "Dans une boutique en ligne, quel élément est indispensable pour sécuriser le paiement ?",
+      "reponses": [
+        {
+          "texte": "Le logo de la boutique",
+          "correcte": false
+        },
+        {
+          "texte": "La transmission des données bancaires en HTTPS via un prestataire de paiement",
+          "correcte": true
+        },
+        {
+          "texte": "La couleur du bouton d'achat",
+          "correcte": false
+        },
+        {
+          "texte": "Le nom du fichier CSS",
+          "correcte": false
+        }
+      ],
+      "explication": "Les données de carte ne doivent jamais transiter ni être stockées en clair.",
+      "etiquette_liee": "exp_ecommerce",
+      "reservee_bluff": false
+    },
+    {
+      "id": "web_037",
+      "categorie": "technique",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "Dans un projet open source, à quoi sert une pull request ?",
+      "reponses": [
+        {
+          "texte": "À télécharger le projet",
+          "correcte": false
+        },
+        {
+          "texte": "À proposer des modifications au dépôt pour relecture avant fusion",
+          "correcte": true
+        },
+        {
+          "texte": "À supprimer une branche",
+          "correcte": false
+        },
+        {
+          "texte": "À bloquer les contributeurs",
+          "correcte": false
+        }
+      ],
+      "explication": "La pull request ouvre la discussion et la relecture avant l'intégration.",
+      "etiquette_liee": "exp_framework_oss",
+      "reservee_bluff": false
+    },
+    {
+      "id": "web_038",
+      "categorie": "technique",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "Pour un portfolio en ligne, qu'est-ce qui renforce le plus sa crédibilité auprès d'un recruteur ?",
+      "reponses": [
+        {
+          "texte": "Une animation d'intro de 30 secondes",
+          "correcte": false
+        },
+        {
+          "texte": "Des projets concrets avec description, technologies utilisées et liens vers le code",
+          "correcte": true
+        },
+        {
+          "texte": "Une longue biographie sans exemples",
+          "correcte": false
+        },
+        {
+          "texte": "Un compteur de visiteurs",
+          "correcte": false
+        }
+      ],
+      "explication": "Un recruteur veut voir ce que vous avez réellement construit.",
+      "etiquette_liee": "con_portfolio_site",
+      "reservee_bluff": false
+    },
+    {
+      "id": "web_039",
+      "categorie": "technique",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "Quel en-tête HTTP permet de contrôler la mise en cache d'une ressource ?",
+      "reponses": [
+        {
+          "texte": "Content-Length",
+          "correcte": false
+        },
+        {
+          "texte": "Accept-Language",
+          "correcte": false
+        },
+        {
+          "texte": "User-Agent",
+          "correcte": false
+        },
+        {
+          "texte": "Set-Cookie",
+          "correcte": false
+        },
+        {
+          "texte": "Cache-Control",
+          "correcte": true
+        },
+        {
+          "texte": "Host",
+          "correcte": false
+        }
+      ],
+      "explication": "Cache-Control indique combien de temps et comment une ressource peut être mise en cache.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "web_040",
+      "categorie": "technique",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "Quelle commande installe les dépendances d'un projet Node.js ?",
+      "reponses": [
+        {
+          "texte": "npm install",
+          "correcte": true
+        },
+        {
+          "texte": "node build",
+          "correcte": false
+        },
+        {
+          "texte": "npm run delete",
+          "correcte": false
+        },
+        {
+          "texte": "git install",
+          "correcte": false
+        },
+        {
+          "texte": "pip install",
+          "correcte": false
+        },
+        {
+          "texte": "apt reload",
+          "correcte": false
+        }
+      ],
+      "explication": "npm install lit package.json et télécharge les paquets nécessaires.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "web_041",
+      "categorie": "technique",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "Qu'est-ce que le lazy loading des images ?",
+      "reponses": [
+        {
+          "texte": "Réduire leur qualité de moitié",
+          "correcte": false
+        },
+        {
+          "texte": "Charger les images seulement quand elles vont être visibles, pour accélérer la page",
+          "correcte": true
+        },
+        {
+          "texte": "Les charger toutes à la fin",
+          "correcte": false
+        },
+        {
+          "texte": "Les remplacer par du texte",
+          "correcte": false
+        }
+      ],
+      "explication": "Cela réduit le poids initial de la page.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "web_042",
+      "categorie": "technique",
+      "difficulte": 3,
+      "temps_secondes": 20,
+      "question": "Quelle différence y a-t-il entre rendu côté serveur (SSR) et côté client (CSR) ?",
+      "reponses": [
+        {
+          "texte": "Le SSR s'exécute uniquement sur mobile",
+          "correcte": false
+        },
+        {
+          "texte": "Le SSR génère le HTML sur le serveur avant l'envoi, le CSR le construit dans le navigateur avec JavaScript",
+          "correcte": true
+        },
+        {
+          "texte": "Le CSR n'utilise jamais JavaScript",
+          "correcte": false
+        },
+        {
+          "texte": "Il n'y a aucune différence",
+          "correcte": false
+        },
+        {
+          "texte": "Le SSR exige une base de données NoSQL",
+          "correcte": false
+        },
+        {
+          "texte": "Le CSR est réservé aux sites statiques",
+          "correcte": false
+        }
+      ],
+      "explication": "Le SSR améliore souvent le premier affichage et le référencement ; le CSR rend l'application plus dynamique.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "web_043",
+      "categorie": "technique",
+      "difficulte": 3,
+      "temps_secondes": 20,
+      "question": "Qu'est-ce que le « critical rendering path » ?",
+      "reponses": [
+        {
+          "texte": "Le chemin le plus court vers le serveur",
+          "correcte": false
+        },
+        {
+          "texte": "L'ordre des routes d'une API",
+          "correcte": false
+        },
+        {
+          "texte": "La séquence d'étapes qui transforme HTML, CSS et JavaScript en pixels dans le navigateur",
+          "correcte": true
+        },
+        {
+          "texte": "Le parcours d'un utilisateur dans un tunnel d'achat",
+          "correcte": false
+        },
+        {
+          "texte": "L'itinéraire des paquets vers un CDN",
+          "correcte": false
+        },
+        {
+          "texte": "La file des erreurs critiques de journalisation",
+          "correcte": false
+        }
+      ],
+      "explication": "Optimiser ce chemin (CSS bloquant, scripts) accélère l'affichage.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "web_044",
+      "categorie": "technique",
+      "difficulte": 3,
+      "temps_secondes": 20,
+      "question": "Qu'est-ce que le problème « N+1 » avec un ORM ?",
+      "reponses": [
+        {
+          "texte": "Une requête pour la liste, puis une requête supplémentaire par élément, ce qui multiplie les appels à la base",
+          "correcte": true
+        },
+        {
+          "texte": "Un bug d'indexation à partir de 1",
+          "correcte": false
+        },
+        {
+          "texte": "Un défaut de CSS sur N éléments",
+          "correcte": false
+        },
+        {
+          "texte": "Un conflit de versions entre N paquets",
+          "correcte": false
+        }
+      ],
+      "explication": "On le corrige avec des jointures ou du chargement anticipé (eager loading).",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "web_045",
+      "categorie": "technique",
+      "difficulte": 3,
+      "temps_secondes": 20,
+      "question": "Quel mécanisme empêche par défaut un site de lire les données d'un autre domaine ?",
+      "reponses": [
+        {
+          "texte": "La politique de même origine (same-origin policy)",
+          "correcte": true
+        },
+        {
+          "texte": "Le DOM virtuel",
+          "correcte": false
+        },
+        {
+          "texte": "Le service worker",
+          "correcte": false
+        },
+        {
+          "texte": "Le lazy loading",
+          "correcte": false
+        }
+      ],
+      "explication": "La same-origin policy est une base de la sécurité des navigateurs.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "web_046",
+      "categorie": "piege_bluff",
+      "difficulte": 3,
+      "temps_secondes": 20,
+      "question": "Quelle différence y a-t-il entre « let » et « var » en JavaScript ?",
+      "reponses": [
+        {
+          "texte": "let est réservé aux constantes",
+          "correcte": false
+        },
+        {
+          "texte": "var a une portée de bloc, let une portée de fonction",
+          "correcte": false
+        },
+        {
+          "texte": "let a une portée de bloc, var une portée de fonction",
+          "correcte": true
+        },
+        {
+          "texte": "Il n'y a aucune différence",
+          "correcte": false
+        }
+      ],
+      "explication": "let (et const) ont une portée de bloc, ce qui évite plusieurs pièges de var.",
+      "etiquette_liee": null,
+      "reservee_bluff": true
+    },
+    {
+      "id": "web_047",
+      "categorie": "piege_bluff",
+      "difficulte": 3,
+      "temps_secondes": 20,
+      "question": "Quel code HTTP signifie « Too Many Requests » ?",
+      "reponses": [
+        {
+          "texte": "400",
+          "correcte": false
+        },
+        {
+          "texte": "401",
+          "correcte": false
+        },
+        {
+          "texte": "403",
+          "correcte": false
+        },
+        {
+          "texte": "408",
+          "correcte": false
+        },
+        {
+          "texte": "429",
+          "correcte": true
+        },
+        {
+          "texte": "503",
+          "correcte": false
+        }
+      ],
+      "explication": "429 indique que le client a dépassé la limite de requêtes autorisées.",
+      "etiquette_liee": null,
+      "reservee_bluff": true
+    },
+    {
+      "id": "web_048",
+      "categorie": "piege_bluff",
+      "difficulte": 3,
+      "temps_secondes": 20,
+      "question": "Pouvez-vous nous expliquer le protocole « HTTP/7 Quantum Streaming » ?",
+      "reponses": [
+        {
+          "texte": "Bien sûr, je l'ai déployé chez mon dernier client",
+          "correcte": false
+        },
+        {
+          "texte": "C'est la version 7 de HTTP, sortie l'année dernière",
+          "correcte": false
+        },
+        {
+          "texte": "C'est le nom interne de WebSocket",
+          "correcte": false
+        },
+        {
+          "texte": "Je ne connais pas ce protocole et je ne crois pas qu'il existe. Parlez-vous de HTTP/3 ou d'autre chose ?",
+          "correcte": true
+        }
+      ],
+      "explication": "Face à un terme inventé, mieux vaut dire honnêtement qu'on ne le connaît pas.",
+      "etiquette_liee": null,
+      "reservee_bluff": true
+    },
+    {
+      "id": "web_049",
+      "categorie": "piege_bluff",
+      "difficulte": 3,
+      "temps_secondes": 20,
+      "question": "Que renvoie typeof null en JavaScript ?",
+      "reponses": [
+        {
+          "texte": "\"null\"",
+          "correcte": false
+        },
+        {
+          "texte": "\"object\"",
+          "correcte": true
+        },
+        {
+          "texte": "\"undefined\"",
+          "correcte": false
+        },
+        {
+          "texte": "\"number\"",
+          "correcte": false
+        },
+        {
+          "texte": "\"string\"",
+          "correcte": false
+        },
+        {
+          "texte": "\"boolean\"",
+          "correcte": false
+        }
+      ],
+      "explication": "C'est un bug historique du langage, conservé pour compatibilité.",
+      "etiquette_liee": null,
+      "reservee_bluff": true
+    },
+    {
+      "id": "web_050",
+      "categorie": "piege_bluff",
+      "difficulte": 3,
+      "temps_secondes": 20,
+      "question": "Quelle largeur occupe un élément avec width: 100px, padding: 10px et border: 5px en box-sizing: content-box (hors marges) ?",
+      "reponses": [
+        {
+          "texte": "130px",
+          "correcte": true
+        },
+        {
+          "texte": "100px",
+          "correcte": false
+        },
+        {
+          "texte": "110px",
+          "correcte": false
+        },
+        {
+          "texte": "115px",
+          "correcte": false
+        }
+      ],
+      "explication": "100 + 2 × 10 (padding) + 2 × 5 (bordure) = 130 px.",
+      "etiquette_liee": null,
+      "reservee_bluff": true
+    }
+  ]
+}
