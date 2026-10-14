@@ -40,14 +40,6 @@ void AInteractableBed::OnOverlapBegin(UPrimitiveComponent* OverlappedComp, AActo
         PlayerPawn = Cast<APawn>(OtherActor);
         if (PlayerPawn) bIsPlayerNear = true;
     }
-    if (PromptWidget)
-        {
-            PromptWidget->SetVisibility(true);
-        }
-        if (BedMesh)
-        {
-            BedMesh->SetRenderCustomDepth(true);
-        }
 }
 
 void AInteractableBed::OnOverlapEnd(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex)
@@ -57,8 +49,6 @@ void AInteractableBed::OnOverlapEnd(UPrimitiveComponent* OverlappedComp, AActor*
         bIsPlayerNear = false;
         PlayerPawn = nullptr;
     }
-    if (PromptWidget) PromptWidget->SetVisibility(false);
-    if (BedMesh) BedMesh->SetRenderCustomDepth(false);
 }
 
 void AInteractableBed::GoToSleep()
@@ -70,7 +60,7 @@ void AInteractableBed::GoToSleep()
     {
         PC->PlayerCameraManager->StartCameraFade(0.0f, 1.0f, 1.0f, FLinearColor::Black, false, true);
         PlayerPawn->DisableInput(PC);
-        GetWorld()->GetTimerManager().SetTimer(SleepTimerHandle, this, &AInteractableBed::WakeUp, 3.0f, false);
+        GetWorld()->GetTimerManager().SetTimer(SleepTimerHandle, this, &AInteractableBed::WakeUp, 2.0f, false);
 
         if (PromptWidget) PromptWidget->SetVisibility(false);
         if (BedMesh) BedMesh->SetRenderCustomDepth(false);
@@ -87,5 +77,7 @@ void AInteractableBed::WakeUp()
 
         FVector WakeUpLocation = GetActorLocation() + FVector(150.f, 0.f, 50.f);
         PlayerPawn->SetActorLocation(WakeUpLocation);
+        
+        OnPlayerWakeUp();
     }
 }
