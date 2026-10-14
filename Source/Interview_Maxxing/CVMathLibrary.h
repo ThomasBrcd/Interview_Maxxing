@@ -21,7 +21,7 @@ public:
         FName ID_Entreprise, 
         int32& ScoreTotal, 
         bool& bEstAccepte,
-        TArray<FString>& BonnesEtiquettes,
-        TArray<FString>& MoyennesEtiquettes,
-        TArray<FString>& MauvaisesEtiquettes);
+        TArray<FName>& BonnesEtiquettes,
+        TArray<FName>& MoyennesEtiquettes,
+        TArray<FName>& MauvaisesEtiquettes);
 };
