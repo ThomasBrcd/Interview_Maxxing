@@ -1,52 +1,1509 @@
-[
-{"Name": "cloud_001", "Theme": "cloud", "Categorie": "motivation", "Difficulte": 1, "TempsSecondes": 30, "Question": "Pour commencer, pourquoi souhaitez-vous rejoindre notre équipe cloud et infrastructure ?", "Reponses": [{"Texte": "Parce que le cloud, c'est l'ordinateur de quelqu'un d'autre et que ça m'amuse.", "bCorrecte": false}, {"Texte": "Parce que les certifications cloud rapportent beaucoup.", "bCorrecte": false}, {"Texte": "Parce que je ne veux plus jamais toucher à un serveur physique.", "bCorrecte": false}, {"Texte": "Parce que j'ai étudié votre plateforme et vos clients, et que automatiser et fiabiliser des infrastructures correspond à ce que je veux approfondir.", "bCorrecte": true}], "Explication": "Montrer un intérêt précis pour la plateforme et les enjeux de fiabilité de l'entreprise est apprécié.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "cloud_002", "Theme": "cloud", "Categorie": "motivation", "Difficulte": 1, "TempsSecondes": 30, "Question": "Pouvez-vous vous présenter en une minute ?", "Reponses": [{"Texte": "Je résume mon parcours, mes projets d'infrastructure ou d'automatisation et les outils que je maîtrise.", "bCorrecte": true}, {"Texte": "Je liste tous les services cloud dont je connais le nom.", "bCorrecte": false}, {"Texte": "Je dis que j'ai déjà tout déployé dans le cloud, sans détails.", "bCorrecte": false}, {"Texte": "Je montre ma facture cloud personnelle.", "bCorrecte": false}], "Explication": "Une présentation structurée avec des exemples concrets est attendue.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "cloud_003", "Theme": "cloud", "Categorie": "comportemental", "Difficulte": 1, "TempsSecondes": 30, "Question": "Quel est votre principal défaut ?", "Reponses": [{"Texte": "Je suis perfectionniste.", "bCorrecte": false}, {"Texte": "Je n'ai aucun défaut.", "bCorrecte": false}, {"Texte": "J'automatise parfois trop vite sans documenter. Je prends maintenant le temps de décrire chaque pipeline.", "bCorrecte": true}, {"Texte": "Je modifie la production directement, c'est plus rapide.", "bCorrecte": false}], "Explication": "Citez un vrai défaut et la pratique que vous avez mise en place pour le corriger.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "cloud_004", "Theme": "cloud", "Categorie": "motivation", "Difficulte": 2, "TempsSecondes": 25, "Question": "Où vous voyez-vous dans cinq ans ?", "Reponses": [{"Texte": "Pdg d'un fournisseur cloud concurrent.", "bCorrecte": false}, {"Texte": "Je ne sais pas.", "bCorrecte": false}, {"Texte": "Remplacé par un script d'automatisation.", "bCorrecte": false}, {"Texte": "Avoir conçu et fiabilisé des plateformes plus complexes, et aidé les développeurs à livrer plus sereinement.", "bCorrecte": true}], "Explication": "Une projection réaliste, orientée fiabilité et collaboration, est attendue.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "cloud_005", "Theme": "cloud", "Categorie": "motivation", "Difficulte": 2, "TempsSecondes": 25, "Question": "Quelles sont vos prétentions salariales ?", "Reponses": [{"Texte": "Le salaire d'un architecte cloud principal.", "bCorrecte": false}, {"Texte": "Peu importe, je suis payé en crédits gratuits.", "bCorrecte": false}, {"Texte": "Je préfère que vous donniez un chiffre, et je dirai non.", "bCorrecte": false}, {"Texte": "Une fourchette basée sur le marché et mon niveau d'expérience, que je suis prêt à discuter.", "bCorrecte": true}, {"Texte": "Autant que la facture mensuelle du cloud de l'entreprise.", "bCorrecte": false}, {"Texte": "Je n'ai rien préparé, mais plus que ma dernière paie.", "bCorrecte": false}], "Explication": "Se renseigner sur le marché et annoncer une fourchette justifiée est la meilleure approche.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "cloud_006", "Theme": "cloud", "Categorie": "motivation", "Difficulte": 1, "TempsSecondes": 30, "Question": "Avez-vous des questions à nous poser ?", "Reponses": [{"Texte": "Non, aucune.", "bCorrecte": false}, {"Texte": "Oui : comment gérez-vous les déploiements et les astreintes, et quelles sont vos priorités en matière de fiabilité ?", "bCorrecte": true}, {"Texte": "Est-ce que je peux avoir un accès administrateur dès le premier jour ?", "bCorrecte": false}, {"Texte": "Est-ce qu'on peut déployer le vendredi soir ?", "bCorrecte": false}], "Explication": "Poser des questions sur les déploiements et les astreintes montre de la maturité.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "cloud_007", "Theme": "cloud", "Categorie": "comportemental", "Difficulte": 2, "TempsSecondes": 25, "Question": "Un déploiement doit partir ce soir mais les tests échouent. Que faites-vous ?", "Reponses": [{"Texte": "Je préviens l'équipe, j'analyse l'échec et je ne déploie que si c'est corrigé ou si le risque est explicitement accepté.", "bCorrecte": true}, {"Texte": "Je désactive les tests et je déploie.", "bCorrecte": false}, {"Texte": "Je déploie en cachette.", "bCorrecte": false}, {"Texte": "Je supprime les tests qui échouent.", "bCorrecte": false}], "Explication": "Contourner les tests masque les problèmes et les reporte en production.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "cloud_008", "Theme": "cloud", "Categorie": "comportemental", "Difficulte": 2, "TempsSecondes": 25, "Question": "Un développeur demande un accès administrateur sur la production. Que faites-vous ?", "Reponses": [{"Texte": "J'écoute son besoin et je propose un accès limité et temporaire, tracé et validé.", "bCorrecte": true}, {"Texte": "Je lui donne tous les droits, ça ira plus vite.", "bCorrecte": false}, {"Texte": "Je refuse sans discuter.", "bCorrecte": false}, {"Texte": "Je partage mon compte administrateur.", "bCorrecte": false}, {"Texte": "Je désactive les journaux pour simplifier.", "bCorrecte": false}, {"Texte": "Je lui dis d'utiliser son compte cloud personnel.", "bCorrecte": false}], "Explication": "Le principe du moindre privilège concilie sécurité et efficacité.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "cloud_009", "Theme": "cloud", "Categorie": "comportemental", "Difficulte": 2, "TempsSecondes": 25, "Question": "Votre facture cloud explose à cause d'une ressource oubliée. Que faites-vous ?", "Reponses": [{"Texte": "J'identifie et j'arrête la ressource, j'alerte mon responsable et j'ajoute des budgets et des alertes de coûts.", "bCorrecte": true}, {"Texte": "Je supprime toutes les ressources du compte.", "bCorrecte": false}, {"Texte": "Je cache la facture.", "bCorrecte": false}, {"Texte": "Je change de fournisseur sans prévenir.", "bCorrecte": false}, {"Texte": "Je dis que c'est la faute du fournisseur.", "bCorrecte": false}, {"Texte": "J'attends le mois prochain.", "bCorrecte": false}], "Explication": "La maîtrise des coûts (FinOps) passe par la visibilité, des budgets et des alertes.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "cloud_010", "Theme": "cloud", "Categorie": "comportemental", "Difficulte": 2, "TempsSecondes": 25, "Question": "On vous interroge sur un service cloud que vous n'avez jamais utilisé. Que faites-vous ?", "Reponses": [{"Texte": "Je dis que je l'utilise tous les jours.", "bCorrecte": false}, {"Texte": "Je dis que c'est inutile.", "bCorrecte": false}, {"Texte": "Je change de sujet.", "bCorrecte": false}, {"Texte": "J'admets ne pas le connaître, je le rapproche de ce que je connais et j'explique comment je l'apprendrais.", "bCorrecte": true}], "Explication": "Les services évoluent vite : montrer sa capacité d'apprentissage compte autant que le savoir.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "cloud_011", "Theme": "cloud", "Categorie": "comportemental", "Difficulte": 2, "TempsSecondes": 25, "Question": "Vous trouvez une clé d'accès cloud dans un dépôt de code public. Que faites-vous ?", "Reponses": [{"Texte": "Je supprime le fichier et je continue.", "bCorrecte": false}, {"Texte": "Je révoque et régénère la clé immédiatement, j'alerte l'équipe et je vérifie les accès suspects.", "bCorrecte": true}, {"Texte": "Je ne dis rien.", "bCorrecte": false}, {"Texte": "Je laisse la clé : elle servira peut-être encore.", "bCorrecte": false}], "Explication": "Une clé exposée doit être considérée comme compromise : la supprimer du dépôt ne suffit pas.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "cloud_012", "Theme": "cloud", "Categorie": "technique", "Difficulte": 1, "TempsSecondes": 30, "Question": "Que signifie IaaS ?", "Reponses": [{"Texte": "Internet as a Software", "bCorrecte": false}, {"Texte": "Integrated Application and Storage", "bCorrecte": false}, {"Texte": "Infrastructure as a Service", "bCorrecte": true}, {"Texte": "Interface as a Service", "bCorrecte": false}], "Explication": "L'IaaS fournit des ressources de calcul, de stockage et de réseau à la demande.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "cloud_013", "Theme": "cloud", "Categorie": "technique", "Difficulte": 1, "TempsSecondes": 30, "Question": "Quel est l'avantage principal du cloud ?", "Reponses": [{"Texte": "La possibilité d'adapter rapidement les ressources à la demande", "bCorrecte": true}, {"Texte": "Il supprime tout risque de panne", "bCorrecte": false}, {"Texte": "Il est toujours gratuit", "bCorrecte": false}, {"Texte": "Il n'a besoin d'aucune connexion", "bCorrecte": false}], "Explication": "L'élasticité permet d'augmenter ou de réduire les ressources selon les besoins.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "cloud_014", "Theme": "cloud", "Categorie": "technique", "Difficulte": 1, "TempsSecondes": 30, "Question": "Qu'est-ce qu'un conteneur Docker ?", "Reponses": [{"Texte": "Une machine virtuelle complète avec son propre noyau", "bCorrecte": false}, {"Texte": "Un environnement isolé et léger qui regroupe une application et ses dépendances", "bCorrecte": true}, {"Texte": "Un fichier de sauvegarde", "bCorrecte": false}, {"Texte": "Un type de base de données", "bCorrecte": false}], "Explication": "Les conteneurs partagent le noyau de l'hôte, ce qui les rend légers.", "EtiquetteRequise": "comp_docker_k8s", "bReserveeBluff": false},
-{"Name": "cloud_015", "Theme": "cloud", "Categorie": "technique", "Difficulte": 1, "TempsSecondes": 30, "Question": "Quelle commande Git envoie vos commits vers le dépôt distant ?", "Reponses": [{"Texte": "git pull", "bCorrecte": false}, {"Texte": "git clone", "bCorrecte": false}, {"Texte": "git stash", "bCorrecte": false}, {"Texte": "git init", "bCorrecte": false}, {"Texte": "git diff", "bCorrecte": false}, {"Texte": "git push", "bCorrecte": true}], "Explication": "git push publie les commits locaux sur le dépôt distant.", "EtiquetteRequise": "comp_git", "bReserveeBluff": false},
-{"Name": "cloud_016", "Theme": "cloud", "Categorie": "technique", "Difficulte": 1, "TempsSecondes": 30, "Question": "Que fait la commande Linux « ls » ?", "Reponses": [{"Texte": "Elle supprime un fichier", "bCorrecte": false}, {"Texte": "Elle redémarre le système", "bCorrecte": false}, {"Texte": "Elle liste le contenu d'un répertoire", "bCorrecte": true}, {"Texte": "Elle affiche l'adresse IP", "bCorrecte": false}], "Explication": "ls est l'une des commandes de base du shell.", "EtiquetteRequise": "comp_linux_bash", "bReserveeBluff": false},
-{"Name": "cloud_017", "Theme": "cloud", "Categorie": "technique", "Difficulte": 1, "TempsSecondes": 30, "Question": "Qu'est-ce qu'une machine virtuelle ?", "Reponses": [{"Texte": "Un ordinateur sans écran", "bCorrecte": false}, {"Texte": "Un logiciel de bureautique", "bCorrecte": false}, {"Texte": "Un câble réseau virtuel", "bCorrecte": false}, {"Texte": "Un ordinateur simulé par logiciel qui s'exécute sur une machine physique", "bCorrecte": true}], "Explication": "Un hyperviseur permet d'exécuter plusieurs machines virtuelles sur un même serveur.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "cloud_018", "Theme": "cloud", "Categorie": "technique", "Difficulte": 1, "TempsSecondes": 30, "Question": "Lequel de ces fournisseurs propose des services cloud publics ?", "Reponses": [{"Texte": "Adobe Photoshop", "bCorrecte": false}, {"Texte": "Blender Foundation", "bCorrecte": false}, {"Texte": "Mozilla Thunderbird", "bCorrecte": false}, {"Texte": "Amazon Web Services (AWS)", "bCorrecte": true}, {"Texte": "VLC Media Player", "bCorrecte": false}, {"Texte": "Audacity", "bCorrecte": false}], "Explication": "AWS, Microsoft Azure et Google Cloud sont les principaux fournisseurs de cloud public.", "EtiquetteRequise": "comp_cloud_aws", "bReserveeBluff": false},
-{"Name": "cloud_019", "Theme": "cloud", "Categorie": "technique", "Difficulte": 1, "TempsSecondes": 30, "Question": "Que signifie CI/CD ?", "Reponses": [{"Texte": "Contrôle Interne et Documentation", "bCorrecte": false}, {"Texte": "Cloud Infrastructure et Données", "bCorrecte": false}, {"Texte": "Code Inspecté et Distribué", "bCorrecte": false}, {"Texte": "Intégration continue et livraison (ou déploiement) continue", "bCorrecte": true}], "Explication": "Le CI/CD automatise les tests et le déploiement pour livrer plus vite et plus sûrement.", "EtiquetteRequise": "exp_pipeline_cicd", "bReserveeBluff": false},
-{"Name": "cloud_020", "Theme": "cloud", "Categorie": "technique", "Difficulte": 1, "TempsSecondes": 30, "Question": "Que fait la commande « chmod » sous Linux ?", "Reponses": [{"Texte": "Elle modifie les permissions d'un fichier", "bCorrecte": true}, {"Texte": "Elle change l'heure du système", "bCorrecte": false}, {"Texte": "Elle compresse un dossier", "bCorrecte": false}, {"Texte": "Elle affiche les connexions réseau", "bCorrecte": false}], "Explication": "chmod définit les droits de lecture, d'écriture et d'exécution.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "cloud_021", "Theme": "cloud", "Categorie": "culture", "Difficulte": 1, "TempsSecondes": 30, "Question": "Que signifie la blague « Le cloud, c'est juste l'ordinateur de quelqu'un d'autre » ?", "Reponses": [{"Texte": "Le cloud n'existe pas vraiment", "bCorrecte": false}, {"Texte": "Le cloud fonctionne sans électricité", "bCorrecte": false}, {"Texte": "Le cloud est gratuit pour tout le monde", "bCorrecte": false}, {"Texte": "Les données du cloud sont hébergées sur des serveurs physiques gérés par un fournisseur", "bCorrecte": true}], "Explication": "Derrière le cloud, il y a bien des serveurs, des datacenters et de l'électricité.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "cloud_022", "Theme": "cloud", "Categorie": "technique", "Difficulte": 2, "TempsSecondes": 25, "Question": "Quelle différence y a-t-il entre IaaS, PaaS et SaaS ?", "Reponses": [{"Texte": "Ce sont trois noms du même service", "bCorrecte": false}, {"Texte": "Le SaaS est réservé aux serveurs, l'IaaS aux logiciels", "bCorrecte": false}, {"Texte": "L'IaaS fournit l'infrastructure, le PaaS une plateforme pour déployer ses applications, le SaaS une application prête à l'emploi", "bCorrecte": true}, {"Texte": "Le PaaS ne concerne que le stockage", "bCorrecte": false}], "Explication": "Plus on monte vers le SaaS, moins on gère de couches techniques soi-même.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "cloud_023", "Theme": "cloud", "Categorie": "technique", "Difficulte": 2, "TempsSecondes": 25, "Question": "À quoi sert Kubernetes ?", "Reponses": [{"Texte": "À compiler du code C", "bCorrecte": false}, {"Texte": "À orchestrer des conteneurs : déploiement, mise à l'échelle et supervision", "bCorrecte": true}, {"Texte": "À sauvegarder des bases de données uniquement", "bCorrecte": false}, {"Texte": "À créer des images de machines virtuelles", "bCorrecte": false}], "Explication": "Kubernetes gère automatiquement le cycle de vie des conteneurs sur un cluster.", "EtiquetteRequise": "comp_docker_k8s", "bReserveeBluff": false},
-{"Name": "cloud_024", "Theme": "cloud", "Categorie": "technique", "Difficulte": 2, "TempsSecondes": 25, "Question": "Qu'est-ce qu'un Dockerfile ?", "Reponses": [{"Texte": "Un journal des erreurs de Docker", "bCorrecte": false}, {"Texte": "Un fichier décrivant comment construire une image Docker", "bCorrecte": true}, {"Texte": "Un fichier de sauvegarde de conteneur", "bCorrecte": false}, {"Texte": "Une licence logicielle", "bCorrecte": false}], "Explication": "Chaque instruction du Dockerfile ajoute une couche à l'image.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "cloud_025", "Theme": "cloud", "Categorie": "technique", "Difficulte": 2, "TempsSecondes": 25, "Question": "Quelle commande Docker liste les conteneurs en cours d'exécution ?", "Reponses": [{"Texte": "docker list-all", "bCorrecte": false}, {"Texte": "docker show", "bCorrecte": false}, {"Texte": "docker ps", "bCorrecte": true}, {"Texte": "docker run -l", "bCorrecte": false}, {"Texte": "docker images -c", "bCorrecte": false}, {"Texte": "docker stats-all", "bCorrecte": false}], "Explication": "docker ps affiche les conteneurs actifs ; docker ps -a inclut les conteneurs arrêtés.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "cloud_026", "Theme": "cloud", "Categorie": "technique", "Difficulte": 2, "TempsSecondes": 25, "Question": "Qu'est-ce que l'« Infrastructure as Code » ?", "Reponses": [{"Texte": "Écrire du code dans un datacenter", "bCorrecte": false}, {"Texte": "Décrire et déployer l'infrastructure via des fichiers de code versionnés", "bCorrecte": true}, {"Texte": "Un langage de programmation pour jeux", "bCorrecte": false}, {"Texte": "Une sauvegarde automatique du code", "bCorrecte": false}], "Explication": "Terraform ou CloudFormation permettent de recréer une infrastructure de façon reproductible.", "EtiquetteRequise": "exp_migration_cloud", "bReserveeBluff": false},
-{"Name": "cloud_027", "Theme": "cloud", "Categorie": "technique", "Difficulte": 2, "TempsSecondes": 25, "Question": "Quelle est la différence entre mise à l'échelle verticale et horizontale ?", "Reponses": [{"Texte": "Verticale : augmenter la puissance d'une machine ; horizontale : ajouter des machines", "bCorrecte": true}, {"Texte": "Verticale : ajouter des machines ; horizontale : augmenter la puissance", "bCorrecte": false}, {"Texte": "Il n'y en a aucune", "bCorrecte": false}, {"Texte": "Verticale : réduire les coûts ; horizontale : réduire la latence", "bCorrecte": false}], "Explication": "La mise à l'échelle horizontale est souvent préférée pour la résilience.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "cloud_028", "Theme": "cloud", "Categorie": "technique", "Difficulte": 2, "TempsSecondes": 25, "Question": "Qu'est-ce qu'un load balancer ?", "Reponses": [{"Texte": "Un répartiteur qui distribue le trafic entre plusieurs serveurs", "bCorrecte": true}, {"Texte": "Un logiciel de sauvegarde", "bCorrecte": false}, {"Texte": "Un outil de supervision des coûts", "bCorrecte": false}, {"Texte": "Un type de pare-feu applicatif uniquement", "bCorrecte": false}], "Explication": "Il améliore la disponibilité et répartit la charge.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "cloud_029", "Theme": "cloud", "Categorie": "technique", "Difficulte": 2, "TempsSecondes": 25, "Question": "Quel service AWS stocke des objets (fichiers) de façon durable ?", "Reponses": [{"Texte": "EC2", "bCorrecte": false}, {"Texte": "Lambda", "bCorrecte": false}, {"Texte": "S3", "bCorrecte": true}, {"Texte": "RDS", "bCorrecte": false}, {"Texte": "CloudFront", "bCorrecte": false}, {"Texte": "IAM", "bCorrecte": false}], "Explication": "Amazon S3 est un stockage objet très durable ; EC2 fournit des machines virtuelles.", "EtiquetteRequise": "comp_cloud_aws", "bReserveeBluff": false},
-{"Name": "cloud_030", "Theme": "cloud", "Categorie": "technique", "Difficulte": 2, "TempsSecondes": 25, "Question": "Qu'est-ce que le « serverless » ?", "Reponses": [{"Texte": "Une application qui fonctionne sans Internet", "bCorrecte": false}, {"Texte": "Un modèle où l'on déploie du code sans gérer les serveurs, facturé à l'exécution", "bCorrecte": true}, {"Texte": "Un serveur sans système d'exploitation", "bCorrecte": false}, {"Texte": "Un réseau sans câbles", "bCorrecte": false}], "Explication": "Les serveurs existent, mais leur gestion est entièrement déléguée au fournisseur.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "cloud_031", "Theme": "cloud", "Categorie": "technique", "Difficulte": 2, "TempsSecondes": 25, "Question": "À quoi sert IAM dans le cloud ?", "Reponses": [{"Texte": "À mesurer la performance du réseau", "bCorrecte": false}, {"Texte": "À gérer qui peut accéder à quelles ressources et avec quels droits", "bCorrecte": true}, {"Texte": "À stocker des fichiers", "bCorrecte": false}, {"Texte": "À répartir la charge entre serveurs", "bCorrecte": false}], "Explication": "IAM (Identity and Access Management) est la base de la sécurité d'un compte cloud.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "cloud_032", "Theme": "cloud", "Categorie": "technique", "Difficulte": 2, "TempsSecondes": 25, "Question": "Que comprend généralement un pipeline CI/CD ?", "Reponses": [{"Texte": "La compilation, les tests automatiques, puis le déploiement", "bCorrecte": true}, {"Texte": "Seulement l'envoi de mails à l'équipe", "bCorrecte": false}, {"Texte": "Seulement la sauvegarde du code", "bCorrecte": false}, {"Texte": "La rédaction du cahier des charges", "bCorrecte": false}], "Explication": "Chaque étape doit réussir pour passer à la suivante.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "cloud_033", "Theme": "cloud", "Categorie": "technique", "Difficulte": 2, "TempsSecondes": 25, "Question": "Quel outil est largement utilisé pour l'Infrastructure as Code multi-cloud ?", "Reponses": [{"Texte": "Photoshop", "bCorrecte": false}, {"Texte": "Jenkins", "bCorrecte": false}, {"Texte": "Terraform", "bCorrecte": true}, {"Texte": "Wireshark", "bCorrecte": false}, {"Texte": "Grafana", "bCorrecte": false}, {"Texte": "Slack", "bCorrecte": false}], "Explication": "Terraform décrit l'infrastructure de façon déclarative pour plusieurs fournisseurs.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "cloud_034", "Theme": "cloud", "Categorie": "technique", "Difficulte": 2, "TempsSecondes": 25, "Question": "Quelle commande Linux affiche en continu l'activité des processus ?", "Reponses": [{"Texte": "cat", "bCorrecte": false}, {"Texte": "echo", "bCorrecte": false}, {"Texte": "top", "bCorrecte": true}, {"Texte": "mv", "bCorrecte": false}], "Explication": "top (ou htop) affiche la charge CPU et mémoire des processus en temps réel.", "EtiquetteRequise": "comp_linux_bash", "bReserveeBluff": false},
-{"Name": "cloud_035", "Theme": "cloud", "Categorie": "technique", "Difficulte": 2, "TempsSecondes": 25, "Question": "Dans un plan de reprise d'activité, que mesure le RPO ?", "Reponses": [{"Texte": "Le temps de remise en service", "bCorrecte": false}, {"Texte": "La quantité maximale de données perdues acceptable, exprimée en durée", "bCorrecte": true}, {"Texte": "Le coût total du plan", "bCorrecte": false}, {"Texte": "Le nombre de serveurs de secours", "bCorrecte": false}], "Explication": "Le RTO mesure le temps de rétablissement ; le RPO mesure la perte de données tolérée.", "EtiquetteRequise": "for_cert_cloud", "bReserveeBluff": false},
-{"Name": "cloud_036", "Theme": "cloud", "Categorie": "technique", "Difficulte": 2, "TempsSecondes": 25, "Question": "Quelle est la règle de sauvegarde « 3-2-1 » ?", "Reponses": [{"Texte": "Trois sauvegardes par jour, deux par semaine, une par mois", "bCorrecte": false}, {"Texte": "Trois copies, sur deux supports différents, dont une hors site", "bCorrecte": true}, {"Texte": "Trois disques, deux serveurs, un onduleur", "bCorrecte": false}, {"Texte": "Trois mots de passe, deux clés, un coffre", "bCorrecte": false}], "Explication": "Cette règle protège contre la panne matérielle, l'erreur humaine et le sinistre.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "cloud_037", "Theme": "cloud", "Categorie": "technique", "Difficulte": 2, "TempsSecondes": 25, "Question": "Qu'est-ce qu'un « health check » ?", "Reponses": [{"Texte": "Un test automatique vérifiant qu'un service fonctionne, utilisé par les répartiteurs et orchestrateurs", "bCorrecte": true}, {"Texte": "Un bilan de santé des développeurs", "bCorrecte": false}, {"Texte": "Une sauvegarde nocturne", "bCorrecte": false}, {"Texte": "Un journal de facturation", "bCorrecte": false}, {"Texte": "Un test de résistance du climatiseur", "bCorrecte": false}, {"Texte": "Un audit juridique", "bCorrecte": false}], "Explication": "Un service qui échoue son health check est retiré de la rotation ou redémarré.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "cloud_038", "Theme": "cloud", "Categorie": "technique", "Difficulte": 2, "TempsSecondes": 25, "Question": "Quelle est la différence entre une image Docker et un conteneur ?", "Reponses": [{"Texte": "Ce sont deux noms du même objet", "bCorrecte": false}, {"Texte": "L'image tourne, le conteneur est un fichier", "bCorrecte": false}, {"Texte": "Le conteneur est toujours plus petit que l'image", "bCorrecte": false}, {"Texte": "L'image est le modèle figé ; le conteneur est une instance en cours d'exécution", "bCorrecte": true}], "Explication": "On peut lancer plusieurs conteneurs à partir d'une même image.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "cloud_039", "Theme": "cloud", "Categorie": "technique", "Difficulte": 2, "TempsSecondes": 25, "Question": "Que fait la commande « kubectl get pods » ?", "Reponses": [{"Texte": "Elle supprime tous les pods", "bCorrecte": false}, {"Texte": "Elle crée un nouveau cluster", "bCorrecte": false}, {"Texte": "Elle liste les pods du cluster Kubernetes", "bCorrecte": true}, {"Texte": "Elle affiche la facture cloud", "bCorrecte": false}], "Explication": "kubectl est l'outil en ligne de commande pour interagir avec un cluster Kubernetes.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "cloud_040", "Theme": "cloud", "Categorie": "technique", "Difficulte": 2, "TempsSecondes": 25, "Question": "Qu'est-ce que le déploiement « blue/green » ?", "Reponses": [{"Texte": "Déployer uniquement la nuit", "bCorrecte": false}, {"Texte": "Déployer sur deux fournisseurs différents", "bCorrecte": false}, {"Texte": "Peindre l'interface en bleu et vert", "bCorrecte": false}, {"Texte": "Faire tourner deux environnements et basculer le trafic de l'ancien vers le nouveau pour limiter les risques", "bCorrecte": true}], "Explication": "En cas de problème, on revient immédiatement à l'ancien environnement.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "cloud_041", "Theme": "cloud", "Categorie": "technique", "Difficulte": 2, "TempsSecondes": 25, "Question": "Pourquoi appose-t-on des étiquettes (tags) sur les ressources cloud ?", "Reponses": [{"Texte": "Pour accélérer leur exécution", "bCorrecte": false}, {"Texte": "Pour les identifier, suivre les coûts et les attribuer aux bonnes équipes", "bCorrecte": true}, {"Texte": "Pour les chiffrer", "bCorrecte": false}, {"Texte": "Pour les rendre publiques", "bCorrecte": false}], "Explication": "Un bon étiquetage facilite l'organisation, la facturation et le nettoyage.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "cloud_042", "Theme": "cloud", "Categorie": "technique", "Difficulte": 3, "TempsSecondes": 20, "Question": "Quelle différence y a-t-il entre un Deployment et un StatefulSet dans Kubernetes ?", "Reponses": [{"Texte": "Le Deployment sert uniquement aux bases de données", "bCorrecte": false}, {"Texte": "Il n'y a aucune différence", "bCorrecte": false}, {"Texte": "Le StatefulSet ne fonctionne que sur AWS", "bCorrecte": false}, {"Texte": "Le Deployment ne supporte pas la mise à l'échelle", "bCorrecte": false}, {"Texte": "Le StatefulSet est réservé aux conteneurs sans réseau", "bCorrecte": false}, {"Texte": "Le StatefulSet fournit des identités stables et un stockage persistant par pod, le Deployment gère des pods interchangeables", "bCorrecte": true}], "Explication": "Les bases de données et services avec état utilisent souvent des StatefulSets.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "cloud_043", "Theme": "cloud", "Categorie": "technique", "Difficulte": 3, "TempsSecondes": 20, "Question": "Que décrit le théorème CAP ?", "Reponses": [{"Texte": "Les trois propriétés peuvent toujours être garanties", "bCorrecte": false}, {"Texte": "Il décrit le coût, l'accès et la performance du cloud", "bCorrecte": false}, {"Texte": "Il impose le chiffrement de bout en bout", "bCorrecte": false}, {"Texte": "C'est un modèle de facturation", "bCorrecte": false}, {"Texte": "En cas de partition réseau, un système distribué doit choisir entre cohérence et disponibilité", "bCorrecte": true}, {"Texte": "Il définit la capacité maximale d'un disque", "bCorrecte": false}], "Explication": "CAP : Consistency, Availability, Partition tolerance.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "cloud_044", "Theme": "cloud", "Categorie": "technique", "Difficulte": 3, "TempsSecondes": 20, "Question": "Qu'est-ce qu'un « circuit breaker » dans une architecture microservices ?", "Reponses": [{"Texte": "Un disjoncteur électrique du datacenter", "bCorrecte": false}, {"Texte": "Un outil de chiffrement", "bCorrecte": false}, {"Texte": "Un mécanisme qui coupe temporairement les appels vers un service défaillant pour éviter la propagation des pannes", "bCorrecte": true}, {"Texte": "Un répartiteur de charge", "bCorrecte": false}], "Explication": "Il évite qu'une panne locale ne se propage en cascade.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "cloud_045", "Theme": "cloud", "Categorie": "technique", "Difficulte": 3, "TempsSecondes": 20, "Question": "Quel est le rôle d'un service mesh ?", "Reponses": [{"Texte": "Stocker les fichiers des utilisateurs", "bCorrecte": false}, {"Texte": "Compiler les applications", "bCorrecte": false}, {"Texte": "Gérer les sauvegardes", "bCorrecte": false}, {"Texte": "Gérer la communication entre microservices (sécurité, routage, observabilité) via des proxys", "bCorrecte": true}], "Explication": "Istio et Linkerd sont des exemples de service mesh.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "cloud_046", "Theme": "cloud", "Categorie": "piege_bluff", "Difficulte": 3, "TempsSecondes": 20, "Question": "Combien de zones de disponibilité faut-il au minimum pour qu'une application survive à la panne d'un datacenter ?", "Reponses": [{"Texte": "1", "bCorrecte": false}, {"Texte": "0", "bCorrecte": false}, {"Texte": "Aucune : le cloud ne tombe jamais en panne", "bCorrecte": false}, {"Texte": "Au moins 2", "bCorrecte": true}], "Explication": "Répartir l'application sur plusieurs zones de disponibilité protège contre la panne d'une zone.", "EtiquetteRequise": "", "bReserveeBluff": true},
-{"Name": "cloud_047", "Theme": "cloud", "Categorie": "piege_bluff", "Difficulte": 3, "TempsSecondes": 20, "Question": "Quelle indisponibilité annuelle correspond à une disponibilité de 99,9 % (« trois neuf ») ?", "Reponses": [{"Texte": "Environ 52 minutes", "bCorrecte": false}, {"Texte": "Environ 5 minutes", "bCorrecte": false}, {"Texte": "Environ 3,65 jours", "bCorrecte": false}, {"Texte": "Environ 30 jours", "bCorrecte": false}, {"Texte": "Aucune", "bCorrecte": false}, {"Texte": "Environ 8,8 heures", "bCorrecte": true}], "Explication": "99,9 % laisse environ 8,76 h par an ; 99,99 % environ 52 min ; 99,999 % environ 5 min.", "EtiquetteRequise": "", "bReserveeBluff": true},
-{"Name": "cloud_048", "Theme": "cloud", "Categorie": "piege_bluff", "Difficulte": 3, "TempsSecondes": 20, "Question": "Pouvez-vous nous expliquer la technologie « Kubernetes Quantum Pod Mesh » ?", "Reponses": [{"Texte": "Bien sûr, nous l'utilisions chez mon précédent employeur", "bCorrecte": false}, {"Texte": "Je ne connais pas cette technologie et je ne crois pas qu'elle existe. Pensez-vous à un service mesh ?", "bCorrecte": true}, {"Texte": "C'est une extension officielle de Kubernetes sortie l'année dernière", "bCorrecte": false}, {"Texte": "C'est le nom marketing de Docker Swarm", "bCorrecte": false}], "Explication": "Face à un terme inventé, mieux vaut dire honnêtement qu'on ne le connaît pas.", "EtiquetteRequise": "", "bReserveeBluff": true},
-{"Name": "cloud_049", "Theme": "cloud", "Categorie": "piege_bluff", "Difficulte": 3, "TempsSecondes": 20, "Question": "Quel est le port par défaut du serveur d'API Kubernetes (kube-apiserver) ?", "Reponses": [{"Texte": "80", "bCorrecte": false}, {"Texte": "443", "bCorrecte": false}, {"Texte": "8080", "bCorrecte": false}, {"Texte": "2379", "bCorrecte": false}, {"Texte": "10250", "bCorrecte": false}, {"Texte": "6443", "bCorrecte": true}], "Explication": "6443 est le port par défaut de l'API Kubernetes ; 2379 est celui d'etcd.", "EtiquetteRequise": "", "bReserveeBluff": true},
-{"Name": "cloud_050", "Theme": "cloud", "Categorie": "piege_bluff", "Difficulte": 3, "TempsSecondes": 20, "Question": "Que signifie l'acronyme SLA ?", "Reponses": [{"Texte": "Server Load Analyzer", "bCorrecte": false}, {"Texte": "Service Level Agreement : l'accord de niveau de service", "bCorrecte": true}, {"Texte": "Secure Link Authentication", "bCorrecte": false}, {"Texte": "System Log Archive", "bCorrecte": false}], "Explication": "Le SLA définit les engagements du fournisseur (disponibilité, délais de réponse).", "EtiquetteRequise": "", "bReserveeBluff": true}
-]
+{
+  "theme": "cloud",
+  "questions": [
+    {
+      "id": "cloud_001",
+      "categorie": "motivation",
+      "difficulte": 1,
+      "temps_secondes": 30,
+      "question": "Pour commencer, pourquoi souhaitez-vous rejoindre notre équipe cloud et infrastructure ?",
+      "reponses": [
+        {
+          "texte": "Parce que le cloud, c'est l'ordinateur de quelqu'un d'autre et que ça m'amuse.",
+          "correcte": false
+        },
+        {
+          "texte": "Parce que les certifications cloud rapportent beaucoup.",
+          "correcte": false
+        },
+        {
+          "texte": "Parce que je ne veux plus jamais toucher à un serveur physique.",
+          "correcte": false
+        },
+        {
+          "texte": "Parce que j'ai étudié votre plateforme et vos clients, et que automatiser et fiabiliser des infrastructures correspond à ce que je veux approfondir.",
+          "correcte": true
+        }
+      ],
+      "explication": "Montrer un intérêt précis pour la plateforme et les enjeux de fiabilité de l'entreprise est apprécié.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "cloud_002",
+      "categorie": "motivation",
+      "difficulte": 1,
+      "temps_secondes": 30,
+      "question": "Pouvez-vous vous présenter en une minute ?",
+      "reponses": [
+        {
+          "texte": "Je résume mon parcours, mes projets d'infrastructure ou d'automatisation et les outils que je maîtrise.",
+          "correcte": true
+        },
+        {
+          "texte": "Je liste tous les services cloud dont je connais le nom.",
+          "correcte": false
+        },
+        {
+          "texte": "Je dis que j'ai déjà tout déployé dans le cloud, sans détails.",
+          "correcte": false
+        },
+        {
+          "texte": "Je montre ma facture cloud personnelle.",
+          "correcte": false
+        }
+      ],
+      "explication": "Une présentation structurée avec des exemples concrets est attendue.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "cloud_003",
+      "categorie": "comportemental",
+      "difficulte": 1,
+      "temps_secondes": 30,
+      "question": "Quel est votre principal défaut ?",
+      "reponses": [
+        {
+          "texte": "Je suis perfectionniste.",
+          "correcte": false
+        },
+        {
+          "texte": "Je n'ai aucun défaut.",
+          "correcte": false
+        },
+        {
+          "texte": "J'automatise parfois trop vite sans documenter. Je prends maintenant le temps de décrire chaque pipeline.",
+          "correcte": true
+        },
+        {
+          "texte": "Je modifie la production directement, c'est plus rapide.",
+          "correcte": false
+        }
+      ],
+      "explication": "Citez un vrai défaut et la pratique que vous avez mise en place pour le corriger.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "cloud_004",
+      "categorie": "motivation",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "Où vous voyez-vous dans cinq ans ?",
+      "reponses": [
+        {
+          "texte": "Pdg d'un fournisseur cloud concurrent.",
+          "correcte": false
+        },
+        {
+          "texte": "Je ne sais pas.",
+          "correcte": false
+        },
+        {
+          "texte": "Remplacé par un script d'automatisation.",
+          "correcte": false
+        },
+        {
+          "texte": "Avoir conçu et fiabilisé des plateformes plus complexes, et aidé les développeurs à livrer plus sereinement.",
+          "correcte": true
+        }
+      ],
+      "explication": "Une projection réaliste, orientée fiabilité et collaboration, est attendue.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "cloud_005",
+      "categorie": "motivation",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "Quelles sont vos prétentions salariales ?",
+      "reponses": [
+        {
+          "texte": "Le salaire d'un architecte cloud principal.",
+          "correcte": false
+        },
+        {
+          "texte": "Peu importe, je suis payé en crédits gratuits.",
+          "correcte": false
+        },
+        {
+          "texte": "Je préfère que vous donniez un chiffre, et je dirai non.",
+          "correcte": false
+        },
+        {
+          "texte": "Une fourchette basée sur le marché et mon niveau d'expérience, que je suis prêt à discuter.",
+          "correcte": true
+        },
+        {
+          "texte": "Autant que la facture mensuelle du cloud de l'entreprise.",
+          "correcte": false
+        },
+        {
+          "texte": "Je n'ai rien préparé, mais plus que ma dernière paie.",
+          "correcte": false
+        }
+      ],
+      "explication": "Se renseigner sur le marché et annoncer une fourchette justifiée est la meilleure approche.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "cloud_006",
+      "categorie": "motivation",
+      "difficulte": 1,
+      "temps_secondes": 30,
+      "question": "Avez-vous des questions à nous poser ?",
+      "reponses": [
+        {
+          "texte": "Non, aucune.",
+          "correcte": false
+        },
+        {
+          "texte": "Oui : comment gérez-vous les déploiements et les astreintes, et quelles sont vos priorités en matière de fiabilité ?",
+          "correcte": true
+        },
+        {
+          "texte": "Est-ce que je peux avoir un accès administrateur dès le premier jour ?",
+          "correcte": false
+        },
+        {
+          "texte": "Est-ce qu'on peut déployer le vendredi soir ?",
+          "correcte": false
+        }
+      ],
+      "explication": "Poser des questions sur les déploiements et les astreintes montre de la maturité.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "cloud_007",
+      "categorie": "comportemental",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "Un déploiement doit partir ce soir mais les tests échouent. Que faites-vous ?",
+      "reponses": [
+        {
+          "texte": "Je préviens l'équipe, j'analyse l'échec et je ne déploie que si c'est corrigé ou si le risque est explicitement accepté.",
+          "correcte": true
+        },
+        {
+          "texte": "Je désactive les tests et je déploie.",
+          "correcte": false
+        },
+        {
+          "texte": "Je déploie en cachette.",
+          "correcte": false
+        },
+        {
+          "texte": "Je supprime les tests qui échouent.",
+          "correcte": false
+        }
+      ],
+      "explication": "Contourner les tests masque les problèmes et les reporte en production.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "cloud_008",
+      "categorie": "comportemental",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "Un développeur demande un accès administrateur sur la production. Que faites-vous ?",
+      "reponses": [
+        {
+          "texte": "J'écoute son besoin et je propose un accès limité et temporaire, tracé et validé.",
+          "correcte": true
+        },
+        {
+          "texte": "Je lui donne tous les droits, ça ira plus vite.",
+          "correcte": false
+        },
+        {
+          "texte": "Je refuse sans discuter.",
+          "correcte": false
+        },
+        {
+          "texte": "Je partage mon compte administrateur.",
+          "correcte": false
+        },
+        {
+          "texte": "Je désactive les journaux pour simplifier.",
+          "correcte": false
+        },
+        {
+          "texte": "Je lui dis d'utiliser son compte cloud personnel.",
+          "correcte": false
+        }
+      ],
+      "explication": "Le principe du moindre privilège concilie sécurité et efficacité.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "cloud_009",
+      "categorie": "comportemental",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "Votre facture cloud explose à cause d'une ressource oubliée. Que faites-vous ?",
+      "reponses": [
+        {
+          "texte": "J'identifie et j'arrête la ressource, j'alerte mon responsable et j'ajoute des budgets et des alertes de coûts.",
+          "correcte": true
+        },
+        {
+          "texte": "Je supprime toutes les ressources du compte.",
+          "correcte": false
+        },
+        {
+          "texte": "Je cache la facture.",
+          "correcte": false
+        },
+        {
+          "texte": "Je change de fournisseur sans prévenir.",
+          "correcte": false
+        },
+        {
+          "texte": "Je dis que c'est la faute du fournisseur.",
+          "correcte": false
+        },
+        {
+          "texte": "J'attends le mois prochain.",
+          "correcte": false
+        }
+      ],
+      "explication": "La maîtrise des coûts (FinOps) passe par la visibilité, des budgets et des alertes.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "cloud_010",
+      "categorie": "comportemental",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "On vous interroge sur un service cloud que vous n'avez jamais utilisé. Que faites-vous ?",
+      "reponses": [
+        {
+          "texte": "Je dis que je l'utilise tous les jours.",
+          "correcte": false
+        },
+        {
+          "texte": "Je dis que c'est inutile.",
+          "correcte": false
+        },
+        {
+          "texte": "Je change de sujet.",
+          "correcte": false
+        },
+        {
+          "texte": "J'admets ne pas le connaître, je le rapproche de ce que je connais et j'explique comment je l'apprendrais.",
+          "correcte": true
+        }
+      ],
+      "explication": "Les services évoluent vite : montrer sa capacité d'apprentissage compte autant que le savoir.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "cloud_011",
+      "categorie": "comportemental",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "Vous trouvez une clé d'accès cloud dans un dépôt de code public. Que faites-vous ?",
+      "reponses": [
+        {
+          "texte": "Je supprime le fichier et je continue.",
+          "correcte": false
+        },
+        {
+          "texte": "Je révoque et régénère la clé immédiatement, j'alerte l'équipe et je vérifie les accès suspects.",
+          "correcte": true
+        },
+        {
+          "texte": "Je ne dis rien.",
+          "correcte": false
+        },
+        {
+          "texte": "Je laisse la clé : elle servira peut-être encore.",
+          "correcte": false
+        }
+      ],
+      "explication": "Une clé exposée doit être considérée comme compromise : la supprimer du dépôt ne suffit pas.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "cloud_012",
+      "categorie": "technique",
+      "difficulte": 1,
+      "temps_secondes": 30,
+      "question": "Que signifie IaaS ?",
+      "reponses": [
+        {
+          "texte": "Internet as a Software",
+          "correcte": false
+        },
+        {
+          "texte": "Integrated Application and Storage",
+          "correcte": false
+        },
+        {
+          "texte": "Infrastructure as a Service",
+          "correcte": true
+        },
+        {
+          "texte": "Interface as a Service",
+          "correcte": false
+        }
+      ],
+      "explication": "L'IaaS fournit des ressources de calcul, de stockage et de réseau à la demande.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "cloud_013",
+      "categorie": "technique",
+      "difficulte": 1,
+      "temps_secondes": 30,
+      "question": "Quel est l'avantage principal du cloud ?",
+      "reponses": [
+        {
+          "texte": "La possibilité d'adapter rapidement les ressources à la demande",
+          "correcte": true
+        },
+        {
+          "texte": "Il supprime tout risque de panne",
+          "correcte": false
+        },
+        {
+          "texte": "Il est toujours gratuit",
+          "correcte": false
+        },
+        {
+          "texte": "Il n'a besoin d'aucune connexion",
+          "correcte": false
+        }
+      ],
+      "explication": "L'élasticité permet d'augmenter ou de réduire les ressources selon les besoins.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "cloud_014",
+      "categorie": "technique",
+      "difficulte": 1,
+      "temps_secondes": 30,
+      "question": "Qu'est-ce qu'un conteneur Docker ?",
+      "reponses": [
+        {
+          "texte": "Une machine virtuelle complète avec son propre noyau",
+          "correcte": false
+        },
+        {
+          "texte": "Un environnement isolé et léger qui regroupe une application et ses dépendances",
+          "correcte": true
+        },
+        {
+          "texte": "Un fichier de sauvegarde",
+          "correcte": false
+        },
+        {
+          "texte": "Un type de base de données",
+          "correcte": false
+        }
+      ],
+      "explication": "Les conteneurs partagent le noyau de l'hôte, ce qui les rend légers.",
+      "etiquette_liee": "comp_docker_k8s",
+      "reservee_bluff": false
+    },
+    {
+      "id": "cloud_015",
+      "categorie": "technique",
+      "difficulte": 1,
+      "temps_secondes": 30,
+      "question": "Quelle commande Git envoie vos commits vers le dépôt distant ?",
+      "reponses": [
+        {
+          "texte": "git pull",
+          "correcte": false
+        },
+        {
+          "texte": "git clone",
+          "correcte": false
+        },
+        {
+          "texte": "git stash",
+          "correcte": false
+        },
+        {
+          "texte": "git init",
+          "correcte": false
+        },
+        {
+          "texte": "git diff",
+          "correcte": false
+        },
+        {
+          "texte": "git push",
+          "correcte": true
+        }
+      ],
+      "explication": "git push publie les commits locaux sur le dépôt distant.",
+      "etiquette_liee": "comp_git",
+      "reservee_bluff": false
+    },
+    {
+      "id": "cloud_016",
+      "categorie": "technique",
+      "difficulte": 1,
+      "temps_secondes": 30,
+      "question": "Que fait la commande Linux « ls » ?",
+      "reponses": [
+        {
+          "texte": "Elle supprime un fichier",
+          "correcte": false
+        },
+        {
+          "texte": "Elle redémarre le système",
+          "correcte": false
+        },
+        {
+          "texte": "Elle liste le contenu d'un répertoire",
+          "correcte": true
+        },
+        {
+          "texte": "Elle affiche l'adresse IP",
+          "correcte": false
+        }
+      ],
+      "explication": "ls est l'une des commandes de base du shell.",
+      "etiquette_liee": "comp_linux_bash",
+      "reservee_bluff": false
+    },
+    {
+      "id": "cloud_017",
+      "categorie": "technique",
+      "difficulte": 1,
+      "temps_secondes": 30,
+      "question": "Qu'est-ce qu'une machine virtuelle ?",
+      "reponses": [
+        {
+          "texte": "Un ordinateur sans écran",
+          "correcte": false
+        },
+        {
+          "texte": "Un logiciel de bureautique",
+          "correcte": false
+        },
+        {
+          "texte": "Un câble réseau virtuel",
+          "correcte": false
+        },
+        {
+          "texte": "Un ordinateur simulé par logiciel qui s'exécute sur une machine physique",
+          "correcte": true
+        }
+      ],
+      "explication": "Un hyperviseur permet d'exécuter plusieurs machines virtuelles sur un même serveur.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "cloud_018",
+      "categorie": "technique",
+      "difficulte": 1,
+      "temps_secondes": 30,
+      "question": "Lequel de ces fournisseurs propose des services cloud publics ?",
+      "reponses": [
+        {
+          "texte": "Adobe Photoshop",
+          "correcte": false
+        },
+        {
+          "texte": "Blender Foundation",
+          "correcte": false
+        },
+        {
+          "texte": "Mozilla Thunderbird",
+          "correcte": false
+        },
+        {
+          "texte": "Amazon Web Services (AWS)",
+          "correcte": true
+        },
+        {
+          "texte": "VLC Media Player",
+          "correcte": false
+        },
+        {
+          "texte": "Audacity",
+          "correcte": false
+        }
+      ],
+      "explication": "AWS, Microsoft Azure et Google Cloud sont les principaux fournisseurs de cloud public.",
+      "etiquette_liee": "comp_cloud_aws",
+      "reservee_bluff": false
+    },
+    {
+      "id": "cloud_019",
+      "categorie": "technique",
+      "difficulte": 1,
+      "temps_secondes": 30,
+      "question": "Que signifie CI/CD ?",
+      "reponses": [
+        {
+          "texte": "Contrôle Interne et Documentation",
+          "correcte": false
+        },
+        {
+          "texte": "Cloud Infrastructure et Données",
+          "correcte": false
+        },
+        {
+          "texte": "Code Inspecté et Distribué",
+          "correcte": false
+        },
+        {
+          "texte": "Intégration continue et livraison (ou déploiement) continue",
+          "correcte": true
+        }
+      ],
+      "explication": "Le CI/CD automatise les tests et le déploiement pour livrer plus vite et plus sûrement.",
+      "etiquette_liee": "exp_pipeline_cicd",
+      "reservee_bluff": false
+    },
+    {
+      "id": "cloud_020",
+      "categorie": "technique",
+      "difficulte": 1,
+      "temps_secondes": 30,
+      "question": "Que fait la commande « chmod » sous Linux ?",
+      "reponses": [
+        {
+          "texte": "Elle modifie les permissions d'un fichier",
+          "correcte": true
+        },
+        {
+          "texte": "Elle change l'heure du système",
+          "correcte": false
+        },
+        {
+          "texte": "Elle compresse un dossier",
+          "correcte": false
+        },
+        {
+          "texte": "Elle affiche les connexions réseau",
+          "correcte": false
+        }
+      ],
+      "explication": "chmod définit les droits de lecture, d'écriture et d'exécution.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "cloud_021",
+      "categorie": "culture",
+      "difficulte": 1,
+      "temps_secondes": 30,
+      "question": "Que signifie la blague « Le cloud, c'est juste l'ordinateur de quelqu'un d'autre » ?",
+      "reponses": [
+        {
+          "texte": "Le cloud n'existe pas vraiment",
+          "correcte": false
+        },
+        {
+          "texte": "Le cloud fonctionne sans électricité",
+          "correcte": false
+        },
+        {
+          "texte": "Le cloud est gratuit pour tout le monde",
+          "correcte": false
+        },
+        {
+          "texte": "Les données du cloud sont hébergées sur des serveurs physiques gérés par un fournisseur",
+          "correcte": true
+        }
+      ],
+      "explication": "Derrière le cloud, il y a bien des serveurs, des datacenters et de l'électricité.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "cloud_022",
+      "categorie": "technique",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "Quelle différence y a-t-il entre IaaS, PaaS et SaaS ?",
+      "reponses": [
+        {
+          "texte": "Ce sont trois noms du même service",
+          "correcte": false
+        },
+        {
+          "texte": "Le SaaS est réservé aux serveurs, l'IaaS aux logiciels",
+          "correcte": false
+        },
+        {
+          "texte": "L'IaaS fournit l'infrastructure, le PaaS une plateforme pour déployer ses applications, le SaaS une application prête à l'emploi",
+          "correcte": true
+        },
+        {
+          "texte": "Le PaaS ne concerne que le stockage",
+          "correcte": false
+        }
+      ],
+      "explication": "Plus on monte vers le SaaS, moins on gère de couches techniques soi-même.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "cloud_023",
+      "categorie": "technique",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "À quoi sert Kubernetes ?",
+      "reponses": [
+        {
+          "texte": "À compiler du code C",
+          "correcte": false
+        },
+        {
+          "texte": "À orchestrer des conteneurs : déploiement, mise à l'échelle et supervision",
+          "correcte": true
+        },
+        {
+          "texte": "À sauvegarder des bases de données uniquement",
+          "correcte": false
+        },
+        {
+          "texte": "À créer des images de machines virtuelles",
+          "correcte": false
+        }
+      ],
+      "explication": "Kubernetes gère automatiquement le cycle de vie des conteneurs sur un cluster.",
+      "etiquette_liee": "comp_docker_k8s",
+      "reservee_bluff": false
+    },
+    {
+      "id": "cloud_024",
+      "categorie": "technique",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "Qu'est-ce qu'un Dockerfile ?",
+      "reponses": [
+        {
+          "texte": "Un journal des erreurs de Docker",
+          "correcte": false
+        },
+        {
+          "texte": "Un fichier décrivant comment construire une image Docker",
+          "correcte": true
+        },
+        {
+          "texte": "Un fichier de sauvegarde de conteneur",
+          "correcte": false
+        },
+        {
+          "texte": "Une licence logicielle",
+          "correcte": false
+        }
+      ],
+      "explication": "Chaque instruction du Dockerfile ajoute une couche à l'image.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "cloud_025",
+      "categorie": "technique",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "Quelle commande Docker liste les conteneurs en cours d'exécution ?",
+      "reponses": [
+        {
+          "texte": "docker list-all",
+          "correcte": false
+        },
+        {
+          "texte": "docker show",
+          "correcte": false
+        },
+        {
+          "texte": "docker ps",
+          "correcte": true
+        },
+        {
+          "texte": "docker run -l",
+          "correcte": false
+        },
+        {
+          "texte": "docker images -c",
+          "correcte": false
+        },
+        {
+          "texte": "docker stats-all",
+          "correcte": false
+        }
+      ],
+      "explication": "docker ps affiche les conteneurs actifs ; docker ps -a inclut les conteneurs arrêtés.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "cloud_026",
+      "categorie": "technique",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "Qu'est-ce que l'« Infrastructure as Code » ?",
+      "reponses": [
+        {
+          "texte": "Écrire du code dans un datacenter",
+          "correcte": false
+        },
+        {
+          "texte": "Décrire et déployer l'infrastructure via des fichiers de code versionnés",
+          "correcte": true
+        },
+        {
+          "texte": "Un langage de programmation pour jeux",
+          "correcte": false
+        },
+        {
+          "texte": "Une sauvegarde automatique du code",
+          "correcte": false
+        }
+      ],
+      "explication": "Terraform ou CloudFormation permettent de recréer une infrastructure de façon reproductible.",
+      "etiquette_liee": "exp_migration_cloud",
+      "reservee_bluff": false
+    },
+    {
+      "id": "cloud_027",
+      "categorie": "technique",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "Quelle est la différence entre mise à l'échelle verticale et horizontale ?",
+      "reponses": [
+        {
+          "texte": "Verticale : augmenter la puissance d'une machine ; horizontale : ajouter des machines",
+          "correcte": true
+        },
+        {
+          "texte": "Verticale : ajouter des machines ; horizontale : augmenter la puissance",
+          "correcte": false
+        },
+        {
+          "texte": "Il n'y en a aucune",
+          "correcte": false
+        },
+        {
+          "texte": "Verticale : réduire les coûts ; horizontale : réduire la latence",
+          "correcte": false
+        }
+      ],
+      "explication": "La mise à l'échelle horizontale est souvent préférée pour la résilience.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "cloud_028",
+      "categorie": "technique",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "Qu'est-ce qu'un load balancer ?",
+      "reponses": [
+        {
+          "texte": "Un répartiteur qui distribue le trafic entre plusieurs serveurs",
+          "correcte": true
+        },
+        {
+          "texte": "Un logiciel de sauvegarde",
+          "correcte": false
+        },
+        {
+          "texte": "Un outil de supervision des coûts",
+          "correcte": false
+        },
+        {
+          "texte": "Un type de pare-feu applicatif uniquement",
+          "correcte": false
+        }
+      ],
+      "explication": "Il améliore la disponibilité et répartit la charge.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "cloud_029",
+      "categorie": "technique",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "Quel service AWS stocke des objets (fichiers) de façon durable ?",
+      "reponses": [
+        {
+          "texte": "EC2",
+          "correcte": false
+        },
+        {
+          "texte": "Lambda",
+          "correcte": false
+        },
+        {
+          "texte": "S3",
+          "correcte": true
+        },
+        {
+          "texte": "RDS",
+          "correcte": false
+        },
+        {
+          "texte": "CloudFront",
+          "correcte": false
+        },
+        {
+          "texte": "IAM",
+          "correcte": false
+        }
+      ],
+      "explication": "Amazon S3 est un stockage objet très durable ; EC2 fournit des machines virtuelles.",
+      "etiquette_liee": "comp_cloud_aws",
+      "reservee_bluff": false
+    },
+    {
+      "id": "cloud_030",
+      "categorie": "technique",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "Qu'est-ce que le « serverless » ?",
+      "reponses": [
+        {
+          "texte": "Une application qui fonctionne sans Internet",
+          "correcte": false
+        },
+        {
+          "texte": "Un modèle où l'on déploie du code sans gérer les serveurs, facturé à l'exécution",
+          "correcte": true
+        },
+        {
+          "texte": "Un serveur sans système d'exploitation",
+          "correcte": false
+        },
+        {
+          "texte": "Un réseau sans câbles",
+          "correcte": false
+        }
+      ],
+      "explication": "Les serveurs existent, mais leur gestion est entièrement déléguée au fournisseur.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "cloud_031",
+      "categorie": "technique",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "À quoi sert IAM dans le cloud ?",
+      "reponses": [
+        {
+          "texte": "À mesurer la performance du réseau",
+          "correcte": false
+        },
+        {
+          "texte": "À gérer qui peut accéder à quelles ressources et avec quels droits",
+          "correcte": true
+        },
+        {
+          "texte": "À stocker des fichiers",
+          "correcte": false
+        },
+        {
+          "texte": "À répartir la charge entre serveurs",
+          "correcte": false
+        }
+      ],
+      "explication": "IAM (Identity and Access Management) est la base de la sécurité d'un compte cloud.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "cloud_032",
+      "categorie": "technique",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "Que comprend généralement un pipeline CI/CD ?",
+      "reponses": [
+        {
+          "texte": "La compilation, les tests automatiques, puis le déploiement",
+          "correcte": true
+        },
+        {
+          "texte": "Seulement l'envoi de mails à l'équipe",
+          "correcte": false
+        },
+        {
+          "texte": "Seulement la sauvegarde du code",
+          "correcte": false
+        },
+        {
+          "texte": "La rédaction du cahier des charges",
+          "correcte": false
+        }
+      ],
+      "explication": "Chaque étape doit réussir pour passer à la suivante.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "cloud_033",
+      "categorie": "technique",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "Quel outil est largement utilisé pour l'Infrastructure as Code multi-cloud ?",
+      "reponses": [
+        {
+          "texte": "Photoshop",
+          "correcte": false
+        },
+        {
+          "texte": "Jenkins",
+          "correcte": false
+        },
+        {
+          "texte": "Terraform",
+          "correcte": true
+        },
+        {
+          "texte": "Wireshark",
+          "correcte": false
+        },
+        {
+          "texte": "Grafana",
+          "correcte": false
+        },
+        {
+          "texte": "Slack",
+          "correcte": false
+        }
+      ],
+      "explication": "Terraform décrit l'infrastructure de façon déclarative pour plusieurs fournisseurs.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "cloud_034",
+      "categorie": "technique",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "Quelle commande Linux affiche en continu l'activité des processus ?",
+      "reponses": [
+        {
+          "texte": "cat",
+          "correcte": false
+        },
+        {
+          "texte": "echo",
+          "correcte": false
+        },
+        {
+          "texte": "top",
+          "correcte": true
+        },
+        {
+          "texte": "mv",
+          "correcte": false
+        }
+      ],
+      "explication": "top (ou htop) affiche la charge CPU et mémoire des processus en temps réel.",
+      "etiquette_liee": "comp_linux_bash",
+      "reservee_bluff": false
+    },
+    {
+      "id": "cloud_035",
+      "categorie": "technique",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "Dans un plan de reprise d'activité, que mesure le RPO ?",
+      "reponses": [
+        {
+          "texte": "Le temps de remise en service",
+          "correcte": false
+        },
+        {
+          "texte": "La quantité maximale de données perdues acceptable, exprimée en durée",
+          "correcte": true
+        },
+        {
+          "texte": "Le coût total du plan",
+          "correcte": false
+        },
+        {
+          "texte": "Le nombre de serveurs de secours",
+          "correcte": false
+        }
+      ],
+      "explication": "Le RTO mesure le temps de rétablissement ; le RPO mesure la perte de données tolérée.",
+      "etiquette_liee": "for_cert_cloud",
+      "reservee_bluff": false
+    },
+    {
+      "id": "cloud_036",
+      "categorie": "technique",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "Quelle est la règle de sauvegarde « 3-2-1 » ?",
+      "reponses": [
+        {
+          "texte": "Trois sauvegardes par jour, deux par semaine, une par mois",
+          "correcte": false
+        },
+        {
+          "texte": "Trois copies, sur deux supports différents, dont une hors site",
+          "correcte": true
+        },
+        {
+          "texte": "Trois disques, deux serveurs, un onduleur",
+          "correcte": false
+        },
+        {
+          "texte": "Trois mots de passe, deux clés, un coffre",
+          "correcte": false
+        }
+      ],
+      "explication": "Cette règle protège contre la panne matérielle, l'erreur humaine et le sinistre.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "cloud_037",
+      "categorie": "technique",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "Qu'est-ce qu'un « health check » ?",
+      "reponses": [
+        {
+          "texte": "Un test automatique vérifiant qu'un service fonctionne, utilisé par les répartiteurs et orchestrateurs",
+          "correcte": true
+        },
+        {
+          "texte": "Un bilan de santé des développeurs",
+          "correcte": false
+        },
+        {
+          "texte": "Une sauvegarde nocturne",
+          "correcte": false
+        },
+        {
+          "texte": "Un journal de facturation",
+          "correcte": false
+        },
+        {
+          "texte": "Un test de résistance du climatiseur",
+          "correcte": false
+        },
+        {
+          "texte": "Un audit juridique",
+          "correcte": false
+        }
+      ],
+      "explication": "Un service qui échoue son health check est retiré de la rotation ou redémarré.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "cloud_038",
+      "categorie": "technique",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "Quelle est la différence entre une image Docker et un conteneur ?",
+      "reponses": [
+        {
+          "texte": "Ce sont deux noms du même objet",
+          "correcte": false
+        },
+        {
+          "texte": "L'image tourne, le conteneur est un fichier",
+          "correcte": false
+        },
+        {
+          "texte": "Le conteneur est toujours plus petit que l'image",
+          "correcte": false
+        },
+        {
+          "texte": "L'image est le modèle figé ; le conteneur est une instance en cours d'exécution",
+          "correcte": true
+        }
+      ],
+      "explication": "On peut lancer plusieurs conteneurs à partir d'une même image.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "cloud_039",
+      "categorie": "technique",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "Que fait la commande « kubectl get pods » ?",
+      "reponses": [
+        {
+          "texte": "Elle supprime tous les pods",
+          "correcte": false
+        },
+        {
+          "texte": "Elle crée un nouveau cluster",
+          "correcte": false
+        },
+        {
+          "texte": "Elle liste les pods du cluster Kubernetes",
+          "correcte": true
+        },
+        {
+          "texte": "Elle affiche la facture cloud",
+          "correcte": false
+        }
+      ],
+      "explication": "kubectl est l'outil en ligne de commande pour interagir avec un cluster Kubernetes.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "cloud_040",
+      "categorie": "technique",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "Qu'est-ce que le déploiement « blue/green » ?",
+      "reponses": [
+        {
+          "texte": "Déployer uniquement la nuit",
+          "correcte": false
+        },
+        {
+          "texte": "Déployer sur deux fournisseurs différents",
+          "correcte": false
+        },
+        {
+          "texte": "Peindre l'interface en bleu et vert",
+          "correcte": false
+        },
+        {
+          "texte": "Faire tourner deux environnements et basculer le trafic de l'ancien vers le nouveau pour limiter les risques",
+          "correcte": true
+        }
+      ],
+      "explication": "En cas de problème, on revient immédiatement à l'ancien environnement.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "cloud_041",
+      "categorie": "technique",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "Pourquoi appose-t-on des étiquettes (tags) sur les ressources cloud ?",
+      "reponses": [
+        {
+          "texte": "Pour accélérer leur exécution",
+          "correcte": false
+        },
+        {
+          "texte": "Pour les identifier, suivre les coûts et les attribuer aux bonnes équipes",
+          "correcte": true
+        },
+        {
+          "texte": "Pour les chiffrer",
+          "correcte": false
+        },
+        {
+          "texte": "Pour les rendre publiques",
+          "correcte": false
+        }
+      ],
+      "explication": "Un bon étiquetage facilite l'organisation, la facturation et le nettoyage.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "cloud_042",
+      "categorie": "technique",
+      "difficulte": 3,
+      "temps_secondes": 20,
+      "question": "Quelle différence y a-t-il entre un Deployment et un StatefulSet dans Kubernetes ?",
+      "reponses": [
+        {
+          "texte": "Le Deployment sert uniquement aux bases de données",
+          "correcte": false
+        },
+        {
+          "texte": "Il n'y a aucune différence",
+          "correcte": false
+        },
+        {
+          "texte": "Le StatefulSet ne fonctionne que sur AWS",
+          "correcte": false
+        },
+        {
+          "texte": "Le Deployment ne supporte pas la mise à l'échelle",
+          "correcte": false
+        },
+        {
+          "texte": "Le StatefulSet est réservé aux conteneurs sans réseau",
+          "correcte": false
+        },
+        {
+          "texte": "Le StatefulSet fournit des identités stables et un stockage persistant par pod, le Deployment gère des pods interchangeables",
+          "correcte": true
+        }
+      ],
+      "explication": "Les bases de données et services avec état utilisent souvent des StatefulSets.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "cloud_043",
+      "categorie": "technique",
+      "difficulte": 3,
+      "temps_secondes": 20,
+      "question": "Que décrit le théorème CAP ?",
+      "reponses": [
+        {
+          "texte": "Les trois propriétés peuvent toujours être garanties",
+          "correcte": false
+        },
+        {
+          "texte": "Il décrit le coût, l'accès et la performance du cloud",
+          "correcte": false
+        },
+        {
+          "texte": "Il impose le chiffrement de bout en bout",
+          "correcte": false
+        },
+        {
+          "texte": "C'est un modèle de facturation",
+          "correcte": false
+        },
+        {
+          "texte": "En cas de partition réseau, un système distribué doit choisir entre cohérence et disponibilité",
+          "correcte": true
+        },
+        {
+          "texte": "Il définit la capacité maximale d'un disque",
+          "correcte": false
+        }
+      ],
+      "explication": "CAP : Consistency, Availability, Partition tolerance.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "cloud_044",
+      "categorie": "technique",
+      "difficulte": 3,
+      "temps_secondes": 20,
+      "question": "Qu'est-ce qu'un « circuit breaker » dans une architecture microservices ?",
+      "reponses": [
+        {
+          "texte": "Un disjoncteur électrique du datacenter",
+          "correcte": false
+        },
+        {
+          "texte": "Un outil de chiffrement",
+          "correcte": false
+        },
+        {
+          "texte": "Un mécanisme qui coupe temporairement les appels vers un service défaillant pour éviter la propagation des pannes",
+          "correcte": true
+        },
+        {
+          "texte": "Un répartiteur de charge",
+          "correcte": false
+        }
+      ],
+      "explication": "Il évite qu'une panne locale ne se propage en cascade.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "cloud_045",
+      "categorie": "technique",
+      "difficulte": 3,
+      "temps_secondes": 20,
+      "question": "Quel est le rôle d'un service mesh ?",
+      "reponses": [
+        {
+          "texte": "Stocker les fichiers des utilisateurs",
+          "correcte": false
+        },
+        {
+          "texte": "Compiler les applications",
+          "correcte": false
+        },
+        {
+          "texte": "Gérer les sauvegardes",
+          "correcte": false
+        },
+        {
+          "texte": "Gérer la communication entre microservices (sécurité, routage, observabilité) via des proxys",
+          "correcte": true
+        }
+      ],
+      "explication": "Istio et Linkerd sont des exemples de service mesh.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "cloud_046",
+      "categorie": "piege_bluff",
+      "difficulte": 3,
+      "temps_secondes": 20,
+      "question": "Combien de zones de disponibilité faut-il au minimum pour qu'une application survive à la panne d'un datacenter ?",
+      "reponses": [
+        {
+          "texte": "1",
+          "correcte": false
+        },
+        {
+          "texte": "0",
+          "correcte": false
+        },
+        {
+          "texte": "Aucune : le cloud ne tombe jamais en panne",
+          "correcte": false
+        },
+        {
+          "texte": "Au moins 2",
+          "correcte": true
+        }
+      ],
+      "explication": "Répartir l'application sur plusieurs zones de disponibilité protège contre la panne d'une zone.",
+      "etiquette_liee": null,
+      "reservee_bluff": true
+    },
+    {
+      "id": "cloud_047",
+      "categorie": "piege_bluff",
+      "difficulte": 3,
+      "temps_secondes": 20,
+      "question": "Quelle indisponibilité annuelle correspond à une disponibilité de 99,9 % (« trois neuf ») ?",
+      "reponses": [
+        {
+          "texte": "Environ 52 minutes",
+          "correcte": false
+        },
+        {
+          "texte": "Environ 5 minutes",
+          "correcte": false
+        },
+        {
+          "texte": "Environ 3,65 jours",
+          "correcte": false
+        },
+        {
+          "texte": "Environ 30 jours",
+          "correcte": false
+        },
+        {
+          "texte": "Aucune",
+          "correcte": false
+        },
+        {
+          "texte": "Environ 8,8 heures",
+          "correcte": true
+        }
+      ],
+      "explication": "99,9 % laisse environ 8,76 h par an ; 99,99 % environ 52 min ; 99,999 % environ 5 min.",
+      "etiquette_liee": null,
+      "reservee_bluff": true
+    },
+    {
+      "id": "cloud_048",
+      "categorie": "piege_bluff",
+      "difficulte": 3,
+      "temps_secondes": 20,
+      "question": "Pouvez-vous nous expliquer la technologie « Kubernetes Quantum Pod Mesh » ?",
+      "reponses": [
+        {
+          "texte": "Bien sûr, nous l'utilisions chez mon précédent employeur",
+          "correcte": false
+        },
+        {
+          "texte": "Je ne connais pas cette technologie et je ne crois pas qu'elle existe. Pensez-vous à un service mesh ?",
+          "correcte": true
+        },
+        {
+          "texte": "C'est une extension officielle de Kubernetes sortie l'année dernière",
+          "correcte": false
+        },
+        {
+          "texte": "C'est le nom marketing de Docker Swarm",
+          "correcte": false
+        }
+      ],
+      "explication": "Face à un terme inventé, mieux vaut dire honnêtement qu'on ne le connaît pas.",
+      "etiquette_liee": null,
+      "reservee_bluff": true
+    },
+    {
+      "id": "cloud_049",
+      "categorie": "piege_bluff",
+      "difficulte": 3,
+      "temps_secondes": 20,
+      "question": "Quel est le port par défaut du serveur d'API Kubernetes (kube-apiserver) ?",
+      "reponses": [
+        {
+          "texte": "80",
+          "correcte": false
+        },
+        {
+          "texte": "443",
+          "correcte": false
+        },
+        {
+          "texte": "8080",
+          "correcte": false
+        },
+        {
+          "texte": "2379",
+          "correcte": false
+        },
+        {
+          "texte": "10250",
+          "correcte": false
+        },
+        {
+          "texte": "6443",
+          "correcte": true
+        }
+      ],
+      "explication": "6443 est le port par défaut de l'API Kubernetes ; 2379 est celui d'etcd.",
+      "etiquette_liee": null,
+      "reservee_bluff": true
+    },
+    {
+      "id": "cloud_050",
+      "categorie": "piege_bluff",
+      "difficulte": 3,
+      "temps_secondes": 20,
+      "question": "Que signifie l'acronyme SLA ?",
+      "reponses": [
+        {
+          "texte": "Server Load Analyzer",
+          "correcte": false
+        },
+        {
+          "texte": "Service Level Agreement : l'accord de niveau de service",
+          "correcte": true
+        },
+        {
+          "texte": "Secure Link Authentication",
+          "correcte": false
+        },
+        {
+          "texte": "System Log Archive",
+          "correcte": false
+        }
+      ],
+      "explication": "Le SLA définit les engagements du fournisseur (disponibilité, délais de réponse).",
+      "etiquette_liee": null,
+      "reservee_bluff": true
+    }
+  ]
+}

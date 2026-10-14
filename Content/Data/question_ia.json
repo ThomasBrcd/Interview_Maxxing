@@ -1,52 +1,1509 @@
-[
-{"Name": "ia_001", "Theme": "ia", "Categorie": "motivation", "Difficulte": 1, "TempsSecondes": 30, "Question": "Pour commencer, pourquoi souhaitez-vous rejoindre notre équipe data / IA ?", "Reponses": [{"Texte": "Parce que j'ai étudié vos produits et vos données, et que vos problèmes correspondent à ce que je veux approfondir.", "bCorrecte": true}, {"Texte": "Parce que l'IA va remplacer tout le monde et que je veux être du bon côté.", "bCorrecte": false}, {"Texte": "Parce qu'un chatbot me l'a recommandé.", "bCorrecte": false}, {"Texte": "Parce que « data scientist » sonne bien sur LinkedIn.", "bCorrecte": false}], "Explication": "Montrer un intérêt précis pour les problèmes de l'entreprise vaut mieux qu'un effet de mode.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "ia_002", "Theme": "ia", "Categorie": "motivation", "Difficulte": 1, "TempsSecondes": 30, "Question": "Pouvez-vous vous présenter en une minute ?", "Reponses": [{"Texte": "Je résume mon parcours, mes projets data (modèles, analyses) et ma méthode de travail.", "bCorrecte": true}, {"Texte": "Je liste toutes les bibliothèques que j'ai déjà installées.", "bCorrecte": false}, {"Texte": "Je dis que mon modèle est meilleur que tous les autres.", "bCorrecte": false}, {"Texte": "Je montre mon score sur un classement en ligne sans contexte.", "bCorrecte": false}], "Explication": "Une présentation structurée, appuyée par des projets concrets et leur contexte, est attendue.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "ia_003", "Theme": "ia", "Categorie": "comportemental", "Difficulte": 1, "TempsSecondes": 30, "Question": "Quel est votre principal défaut ?", "Reponses": [{"Texte": "Je suis perfectionniste.", "bCorrecte": false}, {"Texte": "Je n'ai aucun défaut.", "bCorrecte": false}, {"Texte": "J'ai tendance à complexifier mes modèles. Je commence désormais par une solution simple de référence (baseline).", "bCorrecte": true}, {"Texte": "Je fais confiance au modèle sans vérifier ses résultats.", "bCorrecte": false}], "Explication": "Citez un défaut honnête et la méthode que vous utilisez pour le corriger.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "ia_004", "Theme": "ia", "Categorie": "motivation", "Difficulte": 2, "TempsSecondes": 25, "Question": "Où vous voyez-vous dans cinq ans ?", "Reponses": [{"Texte": "Avoir mis en production plusieurs modèles utiles et encadré de nouveaux collègues.", "bCorrecte": true}, {"Texte": "Remplacé par un modèle de langage.", "bCorrecte": false}, {"Texte": "Je ne sais pas.", "bCorrecte": false}, {"Texte": "À la tête d'une intelligence artificielle mondiale.", "bCorrecte": false}], "Explication": "Une projection réaliste, orientée impact concret, est attendue.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "ia_005", "Theme": "ia", "Categorie": "motivation", "Difficulte": 2, "TempsSecondes": 25, "Question": "Quelles sont vos prétentions salariales ?", "Reponses": [{"Texte": "Le salaire d'un chercheur d'un grand laboratoire.", "bCorrecte": false}, {"Texte": "Peu importe, je suis payé en jetons de calcul.", "bCorrecte": false}, {"Texte": "Je préfère que vous donniez un chiffre, et je dirai non.", "bCorrecte": false}, {"Texte": "Autant qu'un GPU haut de gamme.", "bCorrecte": false}, {"Texte": "Je n'ai rien préparé, mais plus que ma dernière paie.", "bCorrecte": false}, {"Texte": "Une fourchette basée sur le marché et mon niveau d'expérience, que je suis prêt à discuter.", "bCorrecte": true}], "Explication": "Se renseigner sur le marché et annoncer une fourchette justifiée est la meilleure approche.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "ia_006", "Theme": "ia", "Categorie": "motivation", "Difficulte": 1, "TempsSecondes": 30, "Question": "Avez-vous des questions à nous poser ?", "Reponses": [{"Texte": "Non, aucune.", "bCorrecte": false}, {"Texte": "Est-ce que vous avez des GPU pour mes jeux vidéo ?", "bCorrecte": false}, {"Texte": "Est-ce que l'IA va me remplacer ici ?", "bCorrecte": false}, {"Texte": "Oui : quelles données utilisez-vous, comment mesurez-vous la performance des modèles et comment les mettez-vous en production ?", "bCorrecte": true}], "Explication": "Poser des questions sur les données et la mise en production montre de la maturité.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "ia_007", "Theme": "ia", "Categorie": "comportemental", "Difficulte": 2, "TempsSecondes": 25, "Question": "Votre modèle doit être livré demain mais ses résultats sont décevants. Que faites-vous ?", "Reponses": [{"Texte": "J'explique l'état réel au client, je livre la meilleure version fiable avec ses limites et je planifie les améliorations.", "bCorrecte": true}, {"Texte": "Je choisis les exemples où ça marche pour la démonstration.", "bCorrecte": false}, {"Texte": "Je modifie le jeu de test pour améliorer le score.", "bCorrecte": false}, {"Texte": "Je reporte la livraison sans prévenir.", "bCorrecte": false}], "Explication": "L'honnêteté sur les performances est un principe de base en data science.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "ia_008", "Theme": "ia", "Categorie": "comportemental", "Difficulte": 2, "TempsSecondes": 25, "Question": "Un expert métier conteste les résultats de votre modèle. Que faites-vous ?", "Reponses": [{"Texte": "Je lui dis que le modèle a raison, puisque c'est mathématique.", "bCorrecte": false}, {"Texte": "J'ignore son avis, il ne comprend pas l'IA.", "bCorrecte": false}, {"Texte": "Je supprime les cas qui posent problème.", "bCorrecte": false}, {"Texte": "Je modifie le score pour qu'il soit d'accord.", "bCorrecte": false}, {"Texte": "Je lui explique la formule en quarante diapositives.", "bCorrecte": false}, {"Texte": "J'écoute son retour, j'examine les cas contestés et on ajuste les données ou le modèle si nécessaire.", "bCorrecte": true}], "Explication": "Les experts métier détectent souvent des erreurs de données ou de cadrage que les métriques cachent.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "ia_009", "Theme": "ia", "Categorie": "comportemental", "Difficulte": 2, "TempsSecondes": 25, "Question": "Vous découvrez que votre modèle en production donne des résultats faux depuis plusieurs jours. Que faites-vous ?", "Reponses": [{"Texte": "Je préviens l'équipe, je reviens à la version précédente, j'identifie la cause (dérive des données ?) et je documente.", "bCorrecte": true}, {"Texte": "Je corrige silencieusement sans rien dire.", "bCorrecte": false}, {"Texte": "Je laisse tourner en espérant que ça s'arrange.", "bCorrecte": false}, {"Texte": "Je supprime l'historique des prédictions.", "bCorrecte": false}, {"Texte": "Je dis que c'est l'utilisateur qui se trompe.", "bCorrecte": false}, {"Texte": "Je réentraîne le modèle au hasard jusqu'à ce que ça passe.", "bCorrecte": false}], "Explication": "Face à un incident : prévenir, revenir à un état sûr, comprendre la cause, documenter.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "ia_010", "Theme": "ia", "Categorie": "comportemental", "Difficulte": 2, "TempsSecondes": 25, "Question": "On vous interroge sur un algorithme que vous ne connaissez pas. Que faites-vous ?", "Reponses": [{"Texte": "Je dis que je l'utilise depuis des années.", "bCorrecte": false}, {"Texte": "Je dis que c'est dépassé.", "bCorrecte": false}, {"Texte": "J'admets ne pas le connaître, je dis ce que j'en devine et comment je l'étudierais.", "bCorrecte": true}, {"Texte": "Je change de sujet.", "bCorrecte": false}], "Explication": "Reconnaître ses limites vaut mieux que bluffer sur un sujet que l'interlocuteur maîtrise peut-être.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "ia_011", "Theme": "ia", "Categorie": "comportemental", "Difficulte": 2, "TempsSecondes": 25, "Question": "Votre jeu de données contient des informations personnelles sensibles. Que faites-vous ?", "Reponses": [{"Texte": "Je les utilise telles quelles, c'est plus précis.", "bCorrecte": false}, {"Texte": "Je les partage sur un forum pour demander de l'aide.", "bCorrecte": false}, {"Texte": "Je les copie sur mon ordinateur personnel.", "bCorrecte": false}, {"Texte": "Je vérifie le cadre légal (RGPD), je minimise et j'anonymise les données, et j'informe le responsable.", "bCorrecte": true}], "Explication": "Les données personnelles imposent minimisation, anonymisation et respect du RGPD.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "ia_012", "Theme": "ia", "Categorie": "technique", "Difficulte": 1, "TempsSecondes": 30, "Question": "Que signifie « machine learning » ?", "Reponses": [{"Texte": "Une machine qui répare d'autres machines", "bCorrecte": false}, {"Texte": "Un langage de programmation pour robots", "bCorrecte": false}, {"Texte": "Des méthodes où un programme apprend à partir de données plutôt que d'être entièrement programmé à la main", "bCorrecte": true}, {"Texte": "Un type de base de données", "bCorrecte": false}], "Explication": "L'apprentissage automatique construit des modèles à partir d'exemples.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "ia_013", "Theme": "ia", "Categorie": "technique", "Difficulte": 1, "TempsSecondes": 30, "Question": "Quel langage est le plus utilisé en science des données et en IA ?", "Reponses": [{"Texte": "COBOL", "bCorrecte": false}, {"Texte": "Assembleur", "bCorrecte": false}, {"Texte": "Python", "bCorrecte": true}, {"Texte": "HTML", "bCorrecte": false}], "Explication": "Python dispose d'un écosystème très riche (pandas, scikit-learn, PyTorch).", "EtiquetteRequise": "comp_python", "bReserveeBluff": false},
-{"Name": "ia_014", "Theme": "ia", "Categorie": "technique", "Difficulte": 1, "TempsSecondes": 30, "Question": "Qu'est-ce qu'un jeu de données d'entraînement ?", "Reponses": [{"Texte": "Les résultats finaux du modèle", "bCorrecte": false}, {"Texte": "Le code source du modèle", "bCorrecte": false}, {"Texte": "La documentation du projet", "bCorrecte": false}, {"Texte": "Les exemples utilisés pour que le modèle apprenne", "bCorrecte": true}], "Explication": "Le modèle ajuste ses paramètres à partir de ces exemples.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "ia_015", "Theme": "ia", "Categorie": "technique", "Difficulte": 1, "TempsSecondes": 30, "Question": "Lequel de ces outils est une bibliothèque de machine learning en Python ?", "Reponses": [{"Texte": "Pygame", "bCorrecte": false}, {"Texte": "Flask", "bCorrecte": false}, {"Texte": "scikit-learn", "bCorrecte": true}, {"Texte": "Tkinter", "bCorrecte": false}, {"Texte": "Selenium", "bCorrecte": false}, {"Texte": "Matplotlib", "bCorrecte": false}], "Explication": "scikit-learn propose de nombreux algorithmes classiques (régression, arbres, clustering).", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "ia_016", "Theme": "ia", "Categorie": "technique", "Difficulte": 1, "TempsSecondes": 30, "Question": "À quoi sert une base de données SQL dans un projet data ?", "Reponses": [{"Texte": "Stocker et interroger des données structurées", "bCorrecte": true}, {"Texte": "Entraîner directement un réseau de neurones", "bCorrecte": false}, {"Texte": "Dessiner des graphiques", "bCorrecte": false}, {"Texte": "Compiler du code", "bCorrecte": false}], "Explication": "SQL permet d'extraire et de préparer les données avant l'analyse.", "EtiquetteRequise": "comp_sql", "bReserveeBluff": false},
-{"Name": "ia_017", "Theme": "ia", "Categorie": "technique", "Difficulte": 1, "TempsSecondes": 30, "Question": "Qu'est-ce qu'un « label » (étiquette) en apprentissage supervisé ?", "Reponses": [{"Texte": "La réponse attendue associée à chaque exemple", "bCorrecte": true}, {"Texte": "Le nom du fichier de données", "bCorrecte": false}, {"Texte": "Le titre du projet", "bCorrecte": false}, {"Texte": "Le nom du modèle", "bCorrecte": false}], "Explication": "Le modèle apprend à prédire le label à partir des variables d'entrée.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "ia_018", "Theme": "ia", "Categorie": "technique", "Difficulte": 1, "TempsSecondes": 30, "Question": "Qu'est-ce qu'un « prompt » pour un modèle de langage ?", "Reponses": [{"Texte": "Le code du modèle", "bCorrecte": false}, {"Texte": "Un type de processeur", "bCorrecte": false}, {"Texte": "Le texte d'instruction ou la question envoyé au modèle", "bCorrecte": true}, {"Texte": "La taille du jeu de données", "bCorrecte": false}], "Explication": "La qualité du prompt influence fortement la qualité de la réponse.", "EtiquetteRequise": "comp_prompt_engineering", "bReserveeBluff": false},
-{"Name": "ia_019", "Theme": "ia", "Categorie": "technique", "Difficulte": 1, "TempsSecondes": 30, "Question": "Quel type de graphique convient le mieux pour montrer l'évolution d'une valeur dans le temps ?", "Reponses": [{"Texte": "Un camembert", "bCorrecte": false}, {"Texte": "Un nuage de mots", "bCorrecte": false}, {"Texte": "Un diagramme de Venn", "bCorrecte": false}, {"Texte": "Un organigramme", "bCorrecte": false}, {"Texte": "Une carte du monde", "bCorrecte": false}, {"Texte": "Un graphique en courbes", "bCorrecte": true}], "Explication": "Les courbes montrent bien une tendance au fil du temps.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "ia_020", "Theme": "ia", "Categorie": "technique", "Difficulte": 1, "TempsSecondes": 30, "Question": "Qu'est-ce qu'un réseau de neurones artificiel ?", "Reponses": [{"Texte": "Un câble qui relie des ordinateurs", "bCorrecte": false}, {"Texte": "Un cerveau humain simulé à l'identique", "bCorrecte": false}, {"Texte": "Un type de base de données", "bCorrecte": false}, {"Texte": "Un modèle composé de couches d'unités qui transforment progressivement les données", "bCorrecte": true}], "Explication": "Chaque couche applique des transformations apprises pendant l'entraînement.", "EtiquetteRequise": "comp_machine_learning", "bReserveeBluff": false},
-{"Name": "ia_021", "Theme": "ia", "Categorie": "culture", "Difficulte": 1, "TempsSecondes": 30, "Question": "Qu'appelle-t-on une « hallucination » pour un modèle de langage ?", "Reponses": [{"Texte": "Une image générée par erreur", "bCorrecte": false}, {"Texte": "Une panne de la carte graphique", "bCorrecte": false}, {"Texte": "Une réponse inventée mais présentée comme exacte", "bCorrecte": true}, {"Texte": "Un mode de rêve du modèle", "bCorrecte": false}], "Explication": "C'est pourquoi il faut toujours vérifier les affirmations d'un modèle de langage.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "ia_022", "Theme": "ia", "Categorie": "technique", "Difficulte": 2, "TempsSecondes": 25, "Question": "Quelle est la différence entre apprentissage supervisé et non supervisé ?", "Reponses": [{"Texte": "Le supervisé utilise des exemples étiquetés, le non supervisé cherche des structures dans des données sans étiquettes", "bCorrecte": true}, {"Texte": "Le supervisé nécessite un humain en permanence, pas le non supervisé", "bCorrecte": false}, {"Texte": "Le non supervisé est toujours plus précis", "bCorrecte": false}, {"Texte": "Il n'y a aucune différence", "bCorrecte": false}], "Explication": "La classification est supervisée ; le clustering est non supervisé.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "ia_023", "Theme": "ia", "Categorie": "technique", "Difficulte": 2, "TempsSecondes": 25, "Question": "Qu'est-ce que le surapprentissage (overfitting) ?", "Reponses": [{"Texte": "Quand le modèle apprend trop vite", "bCorrecte": false}, {"Texte": "Quand le modèle mémorise les données d'entraînement et généralise mal à de nouvelles données", "bCorrecte": true}, {"Texte": "Quand le modèle refuse d'apprendre", "bCorrecte": false}, {"Texte": "Quand le jeu de données est trop petit pour être stocké", "bCorrecte": false}], "Explication": "On le repère par un écart entre la performance d'entraînement et celle de test.", "EtiquetteRequise": "comp_machine_learning", "bReserveeBluff": false},
-{"Name": "ia_024", "Theme": "ia", "Categorie": "technique", "Difficulte": 2, "TempsSecondes": 25, "Question": "Pourquoi sépare-t-on les données en jeux d'entraînement et de test ?", "Reponses": [{"Texte": "Pour gagner de la place sur le disque", "bCorrecte": false}, {"Texte": "Pour entraîner deux modèles différents", "bCorrecte": false}, {"Texte": "Pour évaluer le modèle sur des données qu'il n'a jamais vues", "bCorrecte": true}, {"Texte": "Pour supprimer les doublons", "bCorrecte": false}], "Explication": "Évaluer sur les données d'entraînement donnerait une performance trompeuse.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "ia_025", "Theme": "ia", "Categorie": "technique", "Difficulte": 2, "TempsSecondes": 25, "Question": "Quelle métrique est la plus adaptée pour évaluer un modèle de régression ?", "Reponses": [{"Texte": "La précision (accuracy)", "bCorrecte": false}, {"Texte": "Le rappel (recall)", "bCorrecte": false}, {"Texte": "Le F1-score", "bCorrecte": false}, {"Texte": "La matrice de confusion", "bCorrecte": false}, {"Texte": "L'erreur quadratique moyenne (RMSE)", "bCorrecte": true}, {"Texte": "L'AUC-ROC", "bCorrecte": false}], "Explication": "Les autres métriques évaluent des modèles de classification.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "ia_026", "Theme": "ia", "Categorie": "technique", "Difficulte": 2, "TempsSecondes": 25, "Question": "Que représente la précision (precision) en classification ?", "Reponses": [{"Texte": "La part des prédictions positives qui sont réellement positives", "bCorrecte": true}, {"Texte": "La part des positifs réels retrouvés par le modèle", "bCorrecte": false}, {"Texte": "La vitesse d'exécution du modèle", "bCorrecte": false}, {"Texte": "Le nombre de classes prédites", "bCorrecte": false}], "Explication": "Le rappel (recall) mesure la part des positifs réels retrouvés.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "ia_027", "Theme": "ia", "Categorie": "technique", "Difficulte": 2, "TempsSecondes": 25, "Question": "Quelle bibliothèque Python est utilisée pour manipuler des tableaux de données (DataFrames) ?", "Reponses": [{"Texte": "pandas", "bCorrecte": true}, {"Texte": "Pillow", "bCorrecte": false}, {"Texte": "Flask", "bCorrecte": false}, {"Texte": "Django", "bCorrecte": false}], "Explication": "pandas facilite le nettoyage, le filtrage et l'agrégation de données.", "EtiquetteRequise": "comp_python", "bReserveeBluff": false},
-{"Name": "ia_028", "Theme": "ia", "Categorie": "technique", "Difficulte": 2, "TempsSecondes": 25, "Question": "Qu'est-ce qu'un embedding ?", "Reponses": [{"Texte": "Un fichier de sauvegarde du modèle", "bCorrecte": false}, {"Texte": "Une couche de compression d'image", "bCorrecte": false}, {"Texte": "Une représentation numérique (vecteur) d'un mot, d'une image ou d'un document, qui capture son sens", "bCorrecte": true}, {"Texte": "Un format de base de données", "bCorrecte": false}], "Explication": "Des objets proches en sens ont des vecteurs proches.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "ia_029", "Theme": "ia", "Categorie": "technique", "Difficulte": 2, "TempsSecondes": 25, "Question": "Quel framework est utilisé pour construire et entraîner des réseaux de neurones ?", "Reponses": [{"Texte": "Bootstrap", "bCorrecte": false}, {"Texte": "Express", "bCorrecte": false}, {"Texte": "PyTorch", "bCorrecte": true}, {"Texte": "Laravel", "bCorrecte": false}, {"Texte": "jQuery", "bCorrecte": false}, {"Texte": "Spring", "bCorrecte": false}], "Explication": "PyTorch et TensorFlow sont les deux frameworks de deep learning les plus répandus.", "EtiquetteRequise": "comp_machine_learning", "bReserveeBluff": false},
-{"Name": "ia_030", "Theme": "ia", "Categorie": "technique", "Difficulte": 2, "TempsSecondes": 25, "Question": "Qu'est-ce que la descente de gradient ?", "Reponses": [{"Texte": "Un algorithme qui ajuste les paramètres pas à pas pour réduire l'erreur", "bCorrecte": true}, {"Texte": "Une méthode pour trier des données", "bCorrecte": false}, {"Texte": "Un type de réseau de neurones", "bCorrecte": false}, {"Texte": "Une technique de compression", "bCorrecte": false}], "Explication": "À chaque pas, on se déplace dans la direction qui diminue la fonction de coût.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "ia_031", "Theme": "ia", "Categorie": "technique", "Difficulte": 2, "TempsSecondes": 25, "Question": "Que signifie LLM ?", "Reponses": [{"Texte": "Linear Learning Machine", "bCorrecte": false}, {"Texte": "Local Logic Module", "bCorrecte": false}, {"Texte": "Layered Learning Matrix", "bCorrecte": false}, {"Texte": "Large Language Model (grand modèle de langage)", "bCorrecte": true}], "Explication": "Un LLM est un modèle entraîné sur de très grands corpus de texte.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "ia_032", "Theme": "ia", "Categorie": "technique", "Difficulte": 2, "TempsSecondes": 25, "Question": "Qu'est-ce qu'un token pour un modèle de langage ?", "Reponses": [{"Texte": "Un jeton d'authentification", "bCorrecte": false}, {"Texte": "Une unité monétaire de l'entreprise", "bCorrecte": false}, {"Texte": "Un morceau de texte (mot, partie de mot ou caractère) traité par le modèle", "bCorrecte": true}, {"Texte": "Une couche du réseau", "bCorrecte": false}], "Explication": "La longueur des textes se mesure en tokens, ce qui influence coût et limites.", "EtiquetteRequise": "comp_prompt_engineering", "bReserveeBluff": false},
-{"Name": "ia_033", "Theme": "ia", "Categorie": "technique", "Difficulte": 2, "TempsSecondes": 25, "Question": "Quelle technique permet de fournir des documents de référence au modèle pour qu'il réponde sans tout inventer ?", "Reponses": [{"Texte": "La génération augmentée par récupération (RAG)", "bCorrecte": true}, {"Texte": "Le surapprentissage", "bCorrecte": false}, {"Texte": "La compression JPEG", "bCorrecte": false}, {"Texte": "Le dropout", "bCorrecte": false}, {"Texte": "La régularisation L2", "bCorrecte": false}, {"Texte": "Le pooling", "bCorrecte": false}], "Explication": "Le RAG récupère des passages pertinents et les ajoute au prompt.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "ia_034", "Theme": "ia", "Categorie": "technique", "Difficulte": 2, "TempsSecondes": 25, "Question": "Qu'est-ce que la normalisation des données ?", "Reponses": [{"Texte": "Supprimer les valeurs extrêmes", "bCorrecte": false}, {"Texte": "Convertir les données en texte", "bCorrecte": false}, {"Texte": "Mettre les variables à des échelles comparables", "bCorrecte": true}, {"Texte": "Chiffrer les données", "bCorrecte": false}], "Explication": "Elle aide de nombreux algorithmes à converger et à mieux traiter toutes les variables.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "ia_035", "Theme": "ia", "Categorie": "technique", "Difficulte": 2, "TempsSecondes": 25, "Question": "Que fait la clause SQL GROUP BY ?", "Reponses": [{"Texte": "Regrouper des lignes partageant une valeur pour calculer des agrégats (somme, moyenne...)", "bCorrecte": true}, {"Texte": "Trier les résultats par ordre alphabétique", "bCorrecte": false}, {"Texte": "Supprimer les doublons d'une table", "bCorrecte": false}, {"Texte": "Créer un index", "bCorrecte": false}], "Explication": "On l'utilise avec des fonctions comme COUNT, SUM ou AVG.", "EtiquetteRequise": "comp_sql", "bReserveeBluff": false},
-{"Name": "ia_036", "Theme": "ia", "Categorie": "technique", "Difficulte": 2, "TempsSecondes": 25, "Question": "Qu'est-ce qu'une valeur manquante et comment la traite-t-on souvent ?", "Reponses": [{"Texte": "Une donnée trop grande, qu'on réduit", "bCorrecte": false}, {"Texte": "Une donnée chiffrée qu'on déchiffre", "bCorrecte": false}, {"Texte": "Une donnée absente, que l'on peut supprimer, remplacer (moyenne, médiane) ou modéliser", "bCorrecte": true}, {"Texte": "Une valeur toujours égale à zéro", "bCorrecte": false}], "Explication": "Le traitement choisi dépend de la quantité et de la cause des données manquantes.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "ia_037", "Theme": "ia", "Categorie": "technique", "Difficulte": 2, "TempsSecondes": 25, "Question": "Qu'est-ce qu'un biais dans un jeu de données ?", "Reponses": [{"Texte": "Une erreur de syntaxe dans le fichier", "bCorrecte": false}, {"Texte": "Un type de normalisation", "bCorrecte": false}, {"Texte": "Une distorsion qui rend les données non représentatives et peut conduire à des résultats injustes", "bCorrecte": true}, {"Texte": "Une colonne vide", "bCorrecte": false}], "Explication": "Un biais dans les données se retrouve souvent amplifié dans le modèle.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "ia_038", "Theme": "ia", "Categorie": "technique", "Difficulte": 2, "TempsSecondes": 25, "Question": "Quel est l'intérêt de la validation croisée (cross-validation) ?", "Reponses": [{"Texte": "Accélérer l'entraînement par dix", "bCorrecte": false}, {"Texte": "Chiffrer les données", "bCorrecte": false}, {"Texte": "Supprimer les doublons", "bCorrecte": false}, {"Texte": "Augmenter le nombre de classes", "bCorrecte": false}, {"Texte": "Estimer plus fiablement la performance du modèle en l'évaluant sur plusieurs découpages des données", "bCorrecte": true}, {"Texte": "Sauvegarder le modèle", "bCorrecte": false}], "Explication": "On répète l'entraînement et l'évaluation sur plusieurs partitions, puis on moyenne.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "ia_039", "Theme": "ia", "Categorie": "technique", "Difficulte": 2, "TempsSecondes": 25, "Question": "À quoi sert le paramètre « temperature » dans la génération de texte ?", "Reponses": [{"Texte": "À mesurer la température du processeur", "bCorrecte": false}, {"Texte": "À régler le degré de hasard des réponses (plus élevé = plus varié)", "bCorrecte": true}, {"Texte": "À limiter la longueur de la réponse", "bCorrecte": false}, {"Texte": "À choisir la langue de sortie", "bCorrecte": false}], "Explication": "Une température basse donne des réponses plus déterministes.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "ia_040", "Theme": "ia", "Categorie": "technique", "Difficulte": 2, "TempsSecondes": 25, "Question": "Quelle différence y a-t-il entre classification et régression ?", "Reponses": [{"Texte": "La classification prédit une catégorie, la régression prédit une valeur numérique", "bCorrecte": true}, {"Texte": "La classification utilise des images, la régression du texte", "bCorrecte": false}, {"Texte": "La régression est toujours non supervisée", "bCorrecte": false}, {"Texte": "Il n'y en a aucune", "bCorrecte": false}], "Explication": "Prédire spam ou non spam est une classification ; prédire un prix est une régression.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "ia_041", "Theme": "ia", "Categorie": "technique", "Difficulte": 2, "TempsSecondes": 25, "Question": "Qu'est-ce que le fine-tuning ?", "Reponses": [{"Texte": "Réduire la taille d'un modèle", "bCorrecte": false}, {"Texte": "Ré-entraîner un modèle déjà préentraîné sur des données spécifiques à une tâche", "bCorrecte": true}, {"Texte": "Écrire un prompt plus long", "bCorrecte": false}, {"Texte": "Convertir un modèle en SQL", "bCorrecte": false}], "Explication": "Le fine-tuning adapte un modèle général à un domaine précis.", "EtiquetteRequise": "for_phd_mit", "bReserveeBluff": false},
-{"Name": "ia_042", "Theme": "ia", "Categorie": "technique", "Difficulte": 3, "TempsSecondes": 20, "Question": "Dans le mécanisme d'attention d'un Transformer, à quoi servent les matrices Q, K et V ?", "Reponses": [{"Texte": "Elles compressent les images", "bCorrecte": false}, {"Texte": "Elles servent de couches de sortie pour classer", "bCorrecte": false}, {"Texte": "Q (requêtes) est comparée à K (clés) pour pondérer les valeurs V", "bCorrecte": true}, {"Texte": "Q est la sortie, K l'entrée, V la perte", "bCorrecte": false}, {"Texte": "Elles stockent l'historique de conversation", "bCorrecte": false}, {"Texte": "Elles servent à chiffrer les poids du modèle", "bCorrecte": false}], "Explication": "Les scores Q·K déterminent combien chaque valeur V contribue à la sortie.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "ia_043", "Theme": "ia", "Categorie": "technique", "Difficulte": 3, "TempsSecondes": 20, "Question": "Qu'est-ce que le « vanishing gradient » ?", "Reponses": [{"Texte": "Des gradients qui deviennent presque nuls dans les couches profondes, ralentissant ou bloquant l'apprentissage", "bCorrecte": true}, {"Texte": "Des gradients qui deviennent infinis", "bCorrecte": false}, {"Texte": "Un bug d'affichage des courbes", "bCorrecte": false}, {"Texte": "Une perte de données lors du chargement", "bCorrecte": false}, {"Texte": "Un manque de mémoire GPU", "bCorrecte": false}, {"Texte": "Une erreur de normalisation des images", "bCorrecte": false}], "Explication": "Des fonctions d'activation adaptées (ReLU) et des connexions résiduelles limitent ce problème.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "ia_044", "Theme": "ia", "Categorie": "technique", "Difficulte": 3, "TempsSecondes": 20, "Question": "Que mesure l'AUC-ROC ?", "Reponses": [{"Texte": "Le temps d'entraînement", "bCorrecte": false}, {"Texte": "La capacité d'un classifieur à distinguer les classes pour tous les seuils de décision", "bCorrecte": true}, {"Texte": "Le nombre de paramètres", "bCorrecte": false}, {"Texte": "La quantité de mémoire utilisée", "bCorrecte": false}], "Explication": "Une AUC de 0,5 correspond au hasard, 1 à une séparation parfaite.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "ia_045", "Theme": "ia", "Categorie": "technique", "Difficulte": 3, "TempsSecondes": 20, "Question": "Quelle différence y a-t-il entre bagging et boosting ?", "Reponses": [{"Texte": "Le bagging est réservé aux images", "bCorrecte": false}, {"Texte": "Le boosting n'utilise qu'un seul modèle", "bCorrecte": false}, {"Texte": "Le bagging entraîne des modèles indépendants puis les moyenne, le boosting entraîne des modèles successifs qui corrigent les erreurs précédentes", "bCorrecte": true}, {"Texte": "Il n'y a aucune différence", "bCorrecte": false}], "Explication": "La forêt aléatoire est un exemple de bagging, XGBoost un exemple de boosting.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "ia_046", "Theme": "ia", "Categorie": "piege_bluff", "Difficulte": 3, "TempsSecondes": 20, "Question": "Quelle valeur de sortie donne la fonction sigmoïde pour une entrée très grande et positive ?", "Reponses": [{"Texte": "Proche de 0", "bCorrecte": false}, {"Texte": "Proche de −1", "bCorrecte": false}, {"Texte": "Une valeur proche de 1", "bCorrecte": true}, {"Texte": "Proche de 100", "bCorrecte": false}], "Explication": "La sigmoïde est bornée entre 0 et 1.", "EtiquetteRequise": "", "bReserveeBluff": true},
-{"Name": "ia_047", "Theme": "ia", "Categorie": "piege_bluff", "Difficulte": 3, "TempsSecondes": 20, "Question": "Combien de paramètres compte une couche dense avec 10 entrées, 5 sorties et un biais par sortie ?", "Reponses": [{"Texte": "50", "bCorrecte": false}, {"Texte": "55", "bCorrecte": true}, {"Texte": "15", "bCorrecte": false}, {"Texte": "60", "bCorrecte": false}, {"Texte": "10", "bCorrecte": false}, {"Texte": "5", "bCorrecte": false}], "Explication": "10 × 5 poids + 5 biais = 55 paramètres.", "EtiquetteRequise": "", "bReserveeBluff": true},
-{"Name": "ia_048", "Theme": "ia", "Categorie": "piege_bluff", "Difficulte": 3, "TempsSecondes": 20, "Question": "Pouvez-vous nous expliquer l'algorithme « Quantum Gradient Fusion Descent » ?", "Reponses": [{"Texte": "Bien sûr, c'est ce que j'utilise pour tous mes modèles", "bCorrecte": false}, {"Texte": "C'est une version du boosting développée en 2023", "bCorrecte": false}, {"Texte": "Je ne connais pas cet algorithme et je ne crois pas qu'il existe. Pensez-vous à une autre variante ?", "bCorrecte": true}, {"Texte": "C'est le nom interne de PyTorch pour l'optimiseur Adam", "bCorrecte": false}], "Explication": "Face à un terme inventé, mieux vaut dire honnêtement qu'on ne le connaît pas.", "EtiquetteRequise": "", "bReserveeBluff": true},
-{"Name": "ia_049", "Theme": "ia", "Categorie": "piege_bluff", "Difficulte": 3, "TempsSecondes": 20, "Question": "Un modèle prédit toujours « pas de fraude » sur un jeu où 1 % des cas sont frauduleux. Quelle est son accuracy ?", "Reponses": [{"Texte": "99 %, mais il est inutile pour détecter la fraude", "bCorrecte": true}, {"Texte": "1 %", "bCorrecte": false}, {"Texte": "50 %", "bCorrecte": false}, {"Texte": "0 %", "bCorrecte": false}, {"Texte": "100 %", "bCorrecte": false}, {"Texte": "Impossible à calculer", "bCorrecte": false}], "Explication": "Sur des classes déséquilibrées, l'accuracy est trompeuse : il faut regarder précision et rappel.", "EtiquetteRequise": "", "bReserveeBluff": true},
-{"Name": "ia_050", "Theme": "ia", "Categorie": "piege_bluff", "Difficulte": 3, "TempsSecondes": 20, "Question": "Que signifie le « p » dans « p-value » ?", "Reponses": [{"Texte": "Précision", "bCorrecte": false}, {"Texte": "Performance", "bCorrecte": false}, {"Texte": "Probabilité", "bCorrecte": true}, {"Texte": "Pondération", "bCorrecte": false}], "Explication": "La p-value est la probabilité d'observer un résultat au moins aussi extrême si l'hypothèse nulle est vraie.", "EtiquetteRequise": "", "bReserveeBluff": true}
-]
+{
+  "theme": "ia",
+  "questions": [
+    {
+      "id": "ia_001",
+      "categorie": "motivation",
+      "difficulte": 1,
+      "temps_secondes": 30,
+      "question": "Pour commencer, pourquoi souhaitez-vous rejoindre notre équipe data / IA ?",
+      "reponses": [
+        {
+          "texte": "Parce que j'ai étudié vos produits et vos données, et que vos problèmes correspondent à ce que je veux approfondir.",
+          "correcte": true
+        },
+        {
+          "texte": "Parce que l'IA va remplacer tout le monde et que je veux être du bon côté.",
+          "correcte": false
+        },
+        {
+          "texte": "Parce qu'un chatbot me l'a recommandé.",
+          "correcte": false
+        },
+        {
+          "texte": "Parce que « data scientist » sonne bien sur LinkedIn.",
+          "correcte": false
+        }
+      ],
+      "explication": "Montrer un intérêt précis pour les problèmes de l'entreprise vaut mieux qu'un effet de mode.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "ia_002",
+      "categorie": "motivation",
+      "difficulte": 1,
+      "temps_secondes": 30,
+      "question": "Pouvez-vous vous présenter en une minute ?",
+      "reponses": [
+        {
+          "texte": "Je résume mon parcours, mes projets data (modèles, analyses) et ma méthode de travail.",
+          "correcte": true
+        },
+        {
+          "texte": "Je liste toutes les bibliothèques que j'ai déjà installées.",
+          "correcte": false
+        },
+        {
+          "texte": "Je dis que mon modèle est meilleur que tous les autres.",
+          "correcte": false
+        },
+        {
+          "texte": "Je montre mon score sur un classement en ligne sans contexte.",
+          "correcte": false
+        }
+      ],
+      "explication": "Une présentation structurée, appuyée par des projets concrets et leur contexte, est attendue.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "ia_003",
+      "categorie": "comportemental",
+      "difficulte": 1,
+      "temps_secondes": 30,
+      "question": "Quel est votre principal défaut ?",
+      "reponses": [
+        {
+          "texte": "Je suis perfectionniste.",
+          "correcte": false
+        },
+        {
+          "texte": "Je n'ai aucun défaut.",
+          "correcte": false
+        },
+        {
+          "texte": "J'ai tendance à complexifier mes modèles. Je commence désormais par une solution simple de référence (baseline).",
+          "correcte": true
+        },
+        {
+          "texte": "Je fais confiance au modèle sans vérifier ses résultats.",
+          "correcte": false
+        }
+      ],
+      "explication": "Citez un défaut honnête et la méthode que vous utilisez pour le corriger.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "ia_004",
+      "categorie": "motivation",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "Où vous voyez-vous dans cinq ans ?",
+      "reponses": [
+        {
+          "texte": "Avoir mis en production plusieurs modèles utiles et encadré de nouveaux collègues.",
+          "correcte": true
+        },
+        {
+          "texte": "Remplacé par un modèle de langage.",
+          "correcte": false
+        },
+        {
+          "texte": "Je ne sais pas.",
+          "correcte": false
+        },
+        {
+          "texte": "À la tête d'une intelligence artificielle mondiale.",
+          "correcte": false
+        }
+      ],
+      "explication": "Une projection réaliste, orientée impact concret, est attendue.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "ia_005",
+      "categorie": "motivation",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "Quelles sont vos prétentions salariales ?",
+      "reponses": [
+        {
+          "texte": "Le salaire d'un chercheur d'un grand laboratoire.",
+          "correcte": false
+        },
+        {
+          "texte": "Peu importe, je suis payé en jetons de calcul.",
+          "correcte": false
+        },
+        {
+          "texte": "Je préfère que vous donniez un chiffre, et je dirai non.",
+          "correcte": false
+        },
+        {
+          "texte": "Autant qu'un GPU haut de gamme.",
+          "correcte": false
+        },
+        {
+          "texte": "Je n'ai rien préparé, mais plus que ma dernière paie.",
+          "correcte": false
+        },
+        {
+          "texte": "Une fourchette basée sur le marché et mon niveau d'expérience, que je suis prêt à discuter.",
+          "correcte": true
+        }
+      ],
+      "explication": "Se renseigner sur le marché et annoncer une fourchette justifiée est la meilleure approche.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "ia_006",
+      "categorie": "motivation",
+      "difficulte": 1,
+      "temps_secondes": 30,
+      "question": "Avez-vous des questions à nous poser ?",
+      "reponses": [
+        {
+          "texte": "Non, aucune.",
+          "correcte": false
+        },
+        {
+          "texte": "Est-ce que vous avez des GPU pour mes jeux vidéo ?",
+          "correcte": false
+        },
+        {
+          "texte": "Est-ce que l'IA va me remplacer ici ?",
+          "correcte": false
+        },
+        {
+          "texte": "Oui : quelles données utilisez-vous, comment mesurez-vous la performance des modèles et comment les mettez-vous en production ?",
+          "correcte": true
+        }
+      ],
+      "explication": "Poser des questions sur les données et la mise en production montre de la maturité.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "ia_007",
+      "categorie": "comportemental",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "Votre modèle doit être livré demain mais ses résultats sont décevants. Que faites-vous ?",
+      "reponses": [
+        {
+          "texte": "J'explique l'état réel au client, je livre la meilleure version fiable avec ses limites et je planifie les améliorations.",
+          "correcte": true
+        },
+        {
+          "texte": "Je choisis les exemples où ça marche pour la démonstration.",
+          "correcte": false
+        },
+        {
+          "texte": "Je modifie le jeu de test pour améliorer le score.",
+          "correcte": false
+        },
+        {
+          "texte": "Je reporte la livraison sans prévenir.",
+          "correcte": false
+        }
+      ],
+      "explication": "L'honnêteté sur les performances est un principe de base en data science.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "ia_008",
+      "categorie": "comportemental",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "Un expert métier conteste les résultats de votre modèle. Que faites-vous ?",
+      "reponses": [
+        {
+          "texte": "Je lui dis que le modèle a raison, puisque c'est mathématique.",
+          "correcte": false
+        },
+        {
+          "texte": "J'ignore son avis, il ne comprend pas l'IA.",
+          "correcte": false
+        },
+        {
+          "texte": "Je supprime les cas qui posent problème.",
+          "correcte": false
+        },
+        {
+          "texte": "Je modifie le score pour qu'il soit d'accord.",
+          "correcte": false
+        },
+        {
+          "texte": "Je lui explique la formule en quarante diapositives.",
+          "correcte": false
+        },
+        {
+          "texte": "J'écoute son retour, j'examine les cas contestés et on ajuste les données ou le modèle si nécessaire.",
+          "correcte": true
+        }
+      ],
+      "explication": "Les experts métier détectent souvent des erreurs de données ou de cadrage que les métriques cachent.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "ia_009",
+      "categorie": "comportemental",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "Vous découvrez que votre modèle en production donne des résultats faux depuis plusieurs jours. Que faites-vous ?",
+      "reponses": [
+        {
+          "texte": "Je préviens l'équipe, je reviens à la version précédente, j'identifie la cause (dérive des données ?) et je documente.",
+          "correcte": true
+        },
+        {
+          "texte": "Je corrige silencieusement sans rien dire.",
+          "correcte": false
+        },
+        {
+          "texte": "Je laisse tourner en espérant que ça s'arrange.",
+          "correcte": false
+        },
+        {
+          "texte": "Je supprime l'historique des prédictions.",
+          "correcte": false
+        },
+        {
+          "texte": "Je dis que c'est l'utilisateur qui se trompe.",
+          "correcte": false
+        },
+        {
+          "texte": "Je réentraîne le modèle au hasard jusqu'à ce que ça passe.",
+          "correcte": false
+        }
+      ],
+      "explication": "Face à un incident : prévenir, revenir à un état sûr, comprendre la cause, documenter.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "ia_010",
+      "categorie": "comportemental",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "On vous interroge sur un algorithme que vous ne connaissez pas. Que faites-vous ?",
+      "reponses": [
+        {
+          "texte": "Je dis que je l'utilise depuis des années.",
+          "correcte": false
+        },
+        {
+          "texte": "Je dis que c'est dépassé.",
+          "correcte": false
+        },
+        {
+          "texte": "J'admets ne pas le connaître, je dis ce que j'en devine et comment je l'étudierais.",
+          "correcte": true
+        },
+        {
+          "texte": "Je change de sujet.",
+          "correcte": false
+        }
+      ],
+      "explication": "Reconnaître ses limites vaut mieux que bluffer sur un sujet que l'interlocuteur maîtrise peut-être.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "ia_011",
+      "categorie": "comportemental",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "Votre jeu de données contient des informations personnelles sensibles. Que faites-vous ?",
+      "reponses": [
+        {
+          "texte": "Je les utilise telles quelles, c'est plus précis.",
+          "correcte": false
+        },
+        {
+          "texte": "Je les partage sur un forum pour demander de l'aide.",
+          "correcte": false
+        },
+        {
+          "texte": "Je les copie sur mon ordinateur personnel.",
+          "correcte": false
+        },
+        {
+          "texte": "Je vérifie le cadre légal (RGPD), je minimise et j'anonymise les données, et j'informe le responsable.",
+          "correcte": true
+        }
+      ],
+      "explication": "Les données personnelles imposent minimisation, anonymisation et respect du RGPD.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "ia_012",
+      "categorie": "technique",
+      "difficulte": 1,
+      "temps_secondes": 30,
+      "question": "Que signifie « machine learning » ?",
+      "reponses": [
+        {
+          "texte": "Une machine qui répare d'autres machines",
+          "correcte": false
+        },
+        {
+          "texte": "Un langage de programmation pour robots",
+          "correcte": false
+        },
+        {
+          "texte": "Des méthodes où un programme apprend à partir de données plutôt que d'être entièrement programmé à la main",
+          "correcte": true
+        },
+        {
+          "texte": "Un type de base de données",
+          "correcte": false
+        }
+      ],
+      "explication": "L'apprentissage automatique construit des modèles à partir d'exemples.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "ia_013",
+      "categorie": "technique",
+      "difficulte": 1,
+      "temps_secondes": 30,
+      "question": "Quel langage est le plus utilisé en science des données et en IA ?",
+      "reponses": [
+        {
+          "texte": "COBOL",
+          "correcte": false
+        },
+        {
+          "texte": "Assembleur",
+          "correcte": false
+        },
+        {
+          "texte": "Python",
+          "correcte": true
+        },
+        {
+          "texte": "HTML",
+          "correcte": false
+        }
+      ],
+      "explication": "Python dispose d'un écosystème très riche (pandas, scikit-learn, PyTorch).",
+      "etiquette_liee": "comp_python",
+      "reservee_bluff": false
+    },
+    {
+      "id": "ia_014",
+      "categorie": "technique",
+      "difficulte": 1,
+      "temps_secondes": 30,
+      "question": "Qu'est-ce qu'un jeu de données d'entraînement ?",
+      "reponses": [
+        {
+          "texte": "Les résultats finaux du modèle",
+          "correcte": false
+        },
+        {
+          "texte": "Le code source du modèle",
+          "correcte": false
+        },
+        {
+          "texte": "La documentation du projet",
+          "correcte": false
+        },
+        {
+          "texte": "Les exemples utilisés pour que le modèle apprenne",
+          "correcte": true
+        }
+      ],
+      "explication": "Le modèle ajuste ses paramètres à partir de ces exemples.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "ia_015",
+      "categorie": "technique",
+      "difficulte": 1,
+      "temps_secondes": 30,
+      "question": "Lequel de ces outils est une bibliothèque de machine learning en Python ?",
+      "reponses": [
+        {
+          "texte": "Pygame",
+          "correcte": false
+        },
+        {
+          "texte": "Flask",
+          "correcte": false
+        },
+        {
+          "texte": "scikit-learn",
+          "correcte": true
+        },
+        {
+          "texte": "Tkinter",
+          "correcte": false
+        },
+        {
+          "texte": "Selenium",
+          "correcte": false
+        },
+        {
+          "texte": "Matplotlib",
+          "correcte": false
+        }
+      ],
+      "explication": "scikit-learn propose de nombreux algorithmes classiques (régression, arbres, clustering).",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "ia_016",
+      "categorie": "technique",
+      "difficulte": 1,
+      "temps_secondes": 30,
+      "question": "À quoi sert une base de données SQL dans un projet data ?",
+      "reponses": [
+        {
+          "texte": "Stocker et interroger des données structurées",
+          "correcte": true
+        },
+        {
+          "texte": "Entraîner directement un réseau de neurones",
+          "correcte": false
+        },
+        {
+          "texte": "Dessiner des graphiques",
+          "correcte": false
+        },
+        {
+          "texte": "Compiler du code",
+          "correcte": false
+        }
+      ],
+      "explication": "SQL permet d'extraire et de préparer les données avant l'analyse.",
+      "etiquette_liee": "comp_sql",
+      "reservee_bluff": false
+    },
+    {
+      "id": "ia_017",
+      "categorie": "technique",
+      "difficulte": 1,
+      "temps_secondes": 30,
+      "question": "Qu'est-ce qu'un « label » (étiquette) en apprentissage supervisé ?",
+      "reponses": [
+        {
+          "texte": "La réponse attendue associée à chaque exemple",
+          "correcte": true
+        },
+        {
+          "texte": "Le nom du fichier de données",
+          "correcte": false
+        },
+        {
+          "texte": "Le titre du projet",
+          "correcte": false
+        },
+        {
+          "texte": "Le nom du modèle",
+          "correcte": false
+        }
+      ],
+      "explication": "Le modèle apprend à prédire le label à partir des variables d'entrée.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "ia_018",
+      "categorie": "technique",
+      "difficulte": 1,
+      "temps_secondes": 30,
+      "question": "Qu'est-ce qu'un « prompt » pour un modèle de langage ?",
+      "reponses": [
+        {
+          "texte": "Le code du modèle",
+          "correcte": false
+        },
+        {
+          "texte": "Un type de processeur",
+          "correcte": false
+        },
+        {
+          "texte": "Le texte d'instruction ou la question envoyé au modèle",
+          "correcte": true
+        },
+        {
+          "texte": "La taille du jeu de données",
+          "correcte": false
+        }
+      ],
+      "explication": "La qualité du prompt influence fortement la qualité de la réponse.",
+      "etiquette_liee": "comp_prompt_engineering",
+      "reservee_bluff": false
+    },
+    {
+      "id": "ia_019",
+      "categorie": "technique",
+      "difficulte": 1,
+      "temps_secondes": 30,
+      "question": "Quel type de graphique convient le mieux pour montrer l'évolution d'une valeur dans le temps ?",
+      "reponses": [
+        {
+          "texte": "Un camembert",
+          "correcte": false
+        },
+        {
+          "texte": "Un nuage de mots",
+          "correcte": false
+        },
+        {
+          "texte": "Un diagramme de Venn",
+          "correcte": false
+        },
+        {
+          "texte": "Un organigramme",
+          "correcte": false
+        },
+        {
+          "texte": "Une carte du monde",
+          "correcte": false
+        },
+        {
+          "texte": "Un graphique en courbes",
+          "correcte": true
+        }
+      ],
+      "explication": "Les courbes montrent bien une tendance au fil du temps.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "ia_020",
+      "categorie": "technique",
+      "difficulte": 1,
+      "temps_secondes": 30,
+      "question": "Qu'est-ce qu'un réseau de neurones artificiel ?",
+      "reponses": [
+        {
+          "texte": "Un câble qui relie des ordinateurs",
+          "correcte": false
+        },
+        {
+          "texte": "Un cerveau humain simulé à l'identique",
+          "correcte": false
+        },
+        {
+          "texte": "Un type de base de données",
+          "correcte": false
+        },
+        {
+          "texte": "Un modèle composé de couches d'unités qui transforment progressivement les données",
+          "correcte": true
+        }
+      ],
+      "explication": "Chaque couche applique des transformations apprises pendant l'entraînement.",
+      "etiquette_liee": "comp_machine_learning",
+      "reservee_bluff": false
+    },
+    {
+      "id": "ia_021",
+      "categorie": "culture",
+      "difficulte": 1,
+      "temps_secondes": 30,
+      "question": "Qu'appelle-t-on une « hallucination » pour un modèle de langage ?",
+      "reponses": [
+        {
+          "texte": "Une image générée par erreur",
+          "correcte": false
+        },
+        {
+          "texte": "Une panne de la carte graphique",
+          "correcte": false
+        },
+        {
+          "texte": "Une réponse inventée mais présentée comme exacte",
+          "correcte": true
+        },
+        {
+          "texte": "Un mode de rêve du modèle",
+          "correcte": false
+        }
+      ],
+      "explication": "C'est pourquoi il faut toujours vérifier les affirmations d'un modèle de langage.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "ia_022",
+      "categorie": "technique",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "Quelle est la différence entre apprentissage supervisé et non supervisé ?",
+      "reponses": [
+        {
+          "texte": "Le supervisé utilise des exemples étiquetés, le non supervisé cherche des structures dans des données sans étiquettes",
+          "correcte": true
+        },
+        {
+          "texte": "Le supervisé nécessite un humain en permanence, pas le non supervisé",
+          "correcte": false
+        },
+        {
+          "texte": "Le non supervisé est toujours plus précis",
+          "correcte": false
+        },
+        {
+          "texte": "Il n'y a aucune différence",
+          "correcte": false
+        }
+      ],
+      "explication": "La classification est supervisée ; le clustering est non supervisé.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "ia_023",
+      "categorie": "technique",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "Qu'est-ce que le surapprentissage (overfitting) ?",
+      "reponses": [
+        {
+          "texte": "Quand le modèle apprend trop vite",
+          "correcte": false
+        },
+        {
+          "texte": "Quand le modèle mémorise les données d'entraînement et généralise mal à de nouvelles données",
+          "correcte": true
+        },
+        {
+          "texte": "Quand le modèle refuse d'apprendre",
+          "correcte": false
+        },
+        {
+          "texte": "Quand le jeu de données est trop petit pour être stocké",
+          "correcte": false
+        }
+      ],
+      "explication": "On le repère par un écart entre la performance d'entraînement et celle de test.",
+      "etiquette_liee": "comp_machine_learning",
+      "reservee_bluff": false
+    },
+    {
+      "id": "ia_024",
+      "categorie": "technique",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "Pourquoi sépare-t-on les données en jeux d'entraînement et de test ?",
+      "reponses": [
+        {
+          "texte": "Pour gagner de la place sur le disque",
+          "correcte": false
+        },
+        {
+          "texte": "Pour entraîner deux modèles différents",
+          "correcte": false
+        },
+        {
+          "texte": "Pour évaluer le modèle sur des données qu'il n'a jamais vues",
+          "correcte": true
+        },
+        {
+          "texte": "Pour supprimer les doublons",
+          "correcte": false
+        }
+      ],
+      "explication": "Évaluer sur les données d'entraînement donnerait une performance trompeuse.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "ia_025",
+      "categorie": "technique",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "Quelle métrique est la plus adaptée pour évaluer un modèle de régression ?",
+      "reponses": [
+        {
+          "texte": "La précision (accuracy)",
+          "correcte": false
+        },
+        {
+          "texte": "Le rappel (recall)",
+          "correcte": false
+        },
+        {
+          "texte": "Le F1-score",
+          "correcte": false
+        },
+        {
+          "texte": "La matrice de confusion",
+          "correcte": false
+        },
+        {
+          "texte": "L'erreur quadratique moyenne (RMSE)",
+          "correcte": true
+        },
+        {
+          "texte": "L'AUC-ROC",
+          "correcte": false
+        }
+      ],
+      "explication": "Les autres métriques évaluent des modèles de classification.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "ia_026",
+      "categorie": "technique",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "Que représente la précision (precision) en classification ?",
+      "reponses": [
+        {
+          "texte": "La part des prédictions positives qui sont réellement positives",
+          "correcte": true
+        },
+        {
+          "texte": "La part des positifs réels retrouvés par le modèle",
+          "correcte": false
+        },
+        {
+          "texte": "La vitesse d'exécution du modèle",
+          "correcte": false
+        },
+        {
+          "texte": "Le nombre de classes prédites",
+          "correcte": false
+        }
+      ],
+      "explication": "Le rappel (recall) mesure la part des positifs réels retrouvés.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "ia_027",
+      "categorie": "technique",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "Quelle bibliothèque Python est utilisée pour manipuler des tableaux de données (DataFrames) ?",
+      "reponses": [
+        {
+          "texte": "pandas",
+          "correcte": true
+        },
+        {
+          "texte": "Pillow",
+          "correcte": false
+        },
+        {
+          "texte": "Flask",
+          "correcte": false
+        },
+        {
+          "texte": "Django",
+          "correcte": false
+        }
+      ],
+      "explication": "pandas facilite le nettoyage, le filtrage et l'agrégation de données.",
+      "etiquette_liee": "comp_python",
+      "reservee_bluff": false
+    },
+    {
+      "id": "ia_028",
+      "categorie": "technique",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "Qu'est-ce qu'un embedding ?",
+      "reponses": [
+        {
+          "texte": "Un fichier de sauvegarde du modèle",
+          "correcte": false
+        },
+        {
+          "texte": "Une couche de compression d'image",
+          "correcte": false
+        },
+        {
+          "texte": "Une représentation numérique (vecteur) d'un mot, d'une image ou d'un document, qui capture son sens",
+          "correcte": true
+        },
+        {
+          "texte": "Un format de base de données",
+          "correcte": false
+        }
+      ],
+      "explication": "Des objets proches en sens ont des vecteurs proches.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "ia_029",
+      "categorie": "technique",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "Quel framework est utilisé pour construire et entraîner des réseaux de neurones ?",
+      "reponses": [
+        {
+          "texte": "Bootstrap",
+          "correcte": false
+        },
+        {
+          "texte": "Express",
+          "correcte": false
+        },
+        {
+          "texte": "PyTorch",
+          "correcte": true
+        },
+        {
+          "texte": "Laravel",
+          "correcte": false
+        },
+        {
+          "texte": "jQuery",
+          "correcte": false
+        },
+        {
+          "texte": "Spring",
+          "correcte": false
+        }
+      ],
+      "explication": "PyTorch et TensorFlow sont les deux frameworks de deep learning les plus répandus.",
+      "etiquette_liee": "comp_machine_learning",
+      "reservee_bluff": false
+    },
+    {
+      "id": "ia_030",
+      "categorie": "technique",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "Qu'est-ce que la descente de gradient ?",
+      "reponses": [
+        {
+          "texte": "Un algorithme qui ajuste les paramètres pas à pas pour réduire l'erreur",
+          "correcte": true
+        },
+        {
+          "texte": "Une méthode pour trier des données",
+          "correcte": false
+        },
+        {
+          "texte": "Un type de réseau de neurones",
+          "correcte": false
+        },
+        {
+          "texte": "Une technique de compression",
+          "correcte": false
+        }
+      ],
+      "explication": "À chaque pas, on se déplace dans la direction qui diminue la fonction de coût.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "ia_031",
+      "categorie": "technique",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "Que signifie LLM ?",
+      "reponses": [
+        {
+          "texte": "Linear Learning Machine",
+          "correcte": false
+        },
+        {
+          "texte": "Local Logic Module",
+          "correcte": false
+        },
+        {
+          "texte": "Layered Learning Matrix",
+          "correcte": false
+        },
+        {
+          "texte": "Large Language Model (grand modèle de langage)",
+          "correcte": true
+        }
+      ],
+      "explication": "Un LLM est un modèle entraîné sur de très grands corpus de texte.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "ia_032",
+      "categorie": "technique",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "Qu'est-ce qu'un token pour un modèle de langage ?",
+      "reponses": [
+        {
+          "texte": "Un jeton d'authentification",
+          "correcte": false
+        },
+        {
+          "texte": "Une unité monétaire de l'entreprise",
+          "correcte": false
+        },
+        {
+          "texte": "Un morceau de texte (mot, partie de mot ou caractère) traité par le modèle",
+          "correcte": true
+        },
+        {
+          "texte": "Une couche du réseau",
+          "correcte": false
+        }
+      ],
+      "explication": "La longueur des textes se mesure en tokens, ce qui influence coût et limites.",
+      "etiquette_liee": "comp_prompt_engineering",
+      "reservee_bluff": false
+    },
+    {
+      "id": "ia_033",
+      "categorie": "technique",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "Quelle technique permet de fournir des documents de référence au modèle pour qu'il réponde sans tout inventer ?",
+      "reponses": [
+        {
+          "texte": "La génération augmentée par récupération (RAG)",
+          "correcte": true
+        },
+        {
+          "texte": "Le surapprentissage",
+          "correcte": false
+        },
+        {
+          "texte": "La compression JPEG",
+          "correcte": false
+        },
+        {
+          "texte": "Le dropout",
+          "correcte": false
+        },
+        {
+          "texte": "La régularisation L2",
+          "correcte": false
+        },
+        {
+          "texte": "Le pooling",
+          "correcte": false
+        }
+      ],
+      "explication": "Le RAG récupère des passages pertinents et les ajoute au prompt.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "ia_034",
+      "categorie": "technique",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "Qu'est-ce que la normalisation des données ?",
+      "reponses": [
+        {
+          "texte": "Supprimer les valeurs extrêmes",
+          "correcte": false
+        },
+        {
+          "texte": "Convertir les données en texte",
+          "correcte": false
+        },
+        {
+          "texte": "Mettre les variables à des échelles comparables",
+          "correcte": true
+        },
+        {
+          "texte": "Chiffrer les données",
+          "correcte": false
+        }
+      ],
+      "explication": "Elle aide de nombreux algorithmes à converger et à mieux traiter toutes les variables.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "ia_035",
+      "categorie": "technique",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "Que fait la clause SQL GROUP BY ?",
+      "reponses": [
+        {
+          "texte": "Regrouper des lignes partageant une valeur pour calculer des agrégats (somme, moyenne...)",
+          "correcte": true
+        },
+        {
+          "texte": "Trier les résultats par ordre alphabétique",
+          "correcte": false
+        },
+        {
+          "texte": "Supprimer les doublons d'une table",
+          "correcte": false
+        },
+        {
+          "texte": "Créer un index",
+          "correcte": false
+        }
+      ],
+      "explication": "On l'utilise avec des fonctions comme COUNT, SUM ou AVG.",
+      "etiquette_liee": "comp_sql",
+      "reservee_bluff": false
+    },
+    {
+      "id": "ia_036",
+      "categorie": "technique",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "Qu'est-ce qu'une valeur manquante et comment la traite-t-on souvent ?",
+      "reponses": [
+        {
+          "texte": "Une donnée trop grande, qu'on réduit",
+          "correcte": false
+        },
+        {
+          "texte": "Une donnée chiffrée qu'on déchiffre",
+          "correcte": false
+        },
+        {
+          "texte": "Une donnée absente, que l'on peut supprimer, remplacer (moyenne, médiane) ou modéliser",
+          "correcte": true
+        },
+        {
+          "texte": "Une valeur toujours égale à zéro",
+          "correcte": false
+        }
+      ],
+      "explication": "Le traitement choisi dépend de la quantité et de la cause des données manquantes.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "ia_037",
+      "categorie": "technique",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "Qu'est-ce qu'un biais dans un jeu de données ?",
+      "reponses": [
+        {
+          "texte": "Une erreur de syntaxe dans le fichier",
+          "correcte": false
+        },
+        {
+          "texte": "Un type de normalisation",
+          "correcte": false
+        },
+        {
+          "texte": "Une distorsion qui rend les données non représentatives et peut conduire à des résultats injustes",
+          "correcte": true
+        },
+        {
+          "texte": "Une colonne vide",
+          "correcte": false
+        }
+      ],
+      "explication": "Un biais dans les données se retrouve souvent amplifié dans le modèle.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "ia_038",
+      "categorie": "technique",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "Quel est l'intérêt de la validation croisée (cross-validation) ?",
+      "reponses": [
+        {
+          "texte": "Accélérer l'entraînement par dix",
+          "correcte": false
+        },
+        {
+          "texte": "Chiffrer les données",
+          "correcte": false
+        },
+        {
+          "texte": "Supprimer les doublons",
+          "correcte": false
+        },
+        {
+          "texte": "Augmenter le nombre de classes",
+          "correcte": false
+        },
+        {
+          "texte": "Estimer plus fiablement la performance du modèle en l'évaluant sur plusieurs découpages des données",
+          "correcte": true
+        },
+        {
+          "texte": "Sauvegarder le modèle",
+          "correcte": false
+        }
+      ],
+      "explication": "On répète l'entraînement et l'évaluation sur plusieurs partitions, puis on moyenne.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "ia_039",
+      "categorie": "technique",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "À quoi sert le paramètre « temperature » dans la génération de texte ?",
+      "reponses": [
+        {
+          "texte": "À mesurer la température du processeur",
+          "correcte": false
+        },
+        {
+          "texte": "À régler le degré de hasard des réponses (plus élevé = plus varié)",
+          "correcte": true
+        },
+        {
+          "texte": "À limiter la longueur de la réponse",
+          "correcte": false
+        },
+        {
+          "texte": "À choisir la langue de sortie",
+          "correcte": false
+        }
+      ],
+      "explication": "Une température basse donne des réponses plus déterministes.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "ia_040",
+      "categorie": "technique",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "Quelle différence y a-t-il entre classification et régression ?",
+      "reponses": [
+        {
+          "texte": "La classification prédit une catégorie, la régression prédit une valeur numérique",
+          "correcte": true
+        },
+        {
+          "texte": "La classification utilise des images, la régression du texte",
+          "correcte": false
+        },
+        {
+          "texte": "La régression est toujours non supervisée",
+          "correcte": false
+        },
+        {
+          "texte": "Il n'y en a aucune",
+          "correcte": false
+        }
+      ],
+      "explication": "Prédire spam ou non spam est une classification ; prédire un prix est une régression.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "ia_041",
+      "categorie": "technique",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "Qu'est-ce que le fine-tuning ?",
+      "reponses": [
+        {
+          "texte": "Réduire la taille d'un modèle",
+          "correcte": false
+        },
+        {
+          "texte": "Ré-entraîner un modèle déjà préentraîné sur des données spécifiques à une tâche",
+          "correcte": true
+        },
+        {
+          "texte": "Écrire un prompt plus long",
+          "correcte": false
+        },
+        {
+          "texte": "Convertir un modèle en SQL",
+          "correcte": false
+        }
+      ],
+      "explication": "Le fine-tuning adapte un modèle général à un domaine précis.",
+      "etiquette_liee": "for_phd_mit",
+      "reservee_bluff": false
+    },
+    {
+      "id": "ia_042",
+      "categorie": "technique",
+      "difficulte": 3,
+      "temps_secondes": 20,
+      "question": "Dans le mécanisme d'attention d'un Transformer, à quoi servent les matrices Q, K et V ?",
+      "reponses": [
+        {
+          "texte": "Elles compressent les images",
+          "correcte": false
+        },
+        {
+          "texte": "Elles servent de couches de sortie pour classer",
+          "correcte": false
+        },
+        {
+          "texte": "Q (requêtes) est comparée à K (clés) pour pondérer les valeurs V",
+          "correcte": true
+        },
+        {
+          "texte": "Q est la sortie, K l'entrée, V la perte",
+          "correcte": false
+        },
+        {
+          "texte": "Elles stockent l'historique de conversation",
+          "correcte": false
+        },
+        {
+          "texte": "Elles servent à chiffrer les poids du modèle",
+          "correcte": false
+        }
+      ],
+      "explication": "Les scores Q·K déterminent combien chaque valeur V contribue à la sortie.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "ia_043",
+      "categorie": "technique",
+      "difficulte": 3,
+      "temps_secondes": 20,
+      "question": "Qu'est-ce que le « vanishing gradient » ?",
+      "reponses": [
+        {
+          "texte": "Des gradients qui deviennent presque nuls dans les couches profondes, ralentissant ou bloquant l'apprentissage",
+          "correcte": true
+        },
+        {
+          "texte": "Des gradients qui deviennent infinis",
+          "correcte": false
+        },
+        {
+          "texte": "Un bug d'affichage des courbes",
+          "correcte": false
+        },
+        {
+          "texte": "Une perte de données lors du chargement",
+          "correcte": false
+        },
+        {
+          "texte": "Un manque de mémoire GPU",
+          "correcte": false
+        },
+        {
+          "texte": "Une erreur de normalisation des images",
+          "correcte": false
+        }
+      ],
+      "explication": "Des fonctions d'activation adaptées (ReLU) et des connexions résiduelles limitent ce problème.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "ia_044",
+      "categorie": "technique",
+      "difficulte": 3,
+      "temps_secondes": 20,
+      "question": "Que mesure l'AUC-ROC ?",
+      "reponses": [
+        {
+          "texte": "Le temps d'entraînement",
+          "correcte": false
+        },
+        {
+          "texte": "La capacité d'un classifieur à distinguer les classes pour tous les seuils de décision",
+          "correcte": true
+        },
+        {
+          "texte": "Le nombre de paramètres",
+          "correcte": false
+        },
+        {
+          "texte": "La quantité de mémoire utilisée",
+          "correcte": false
+        }
+      ],
+      "explication": "Une AUC de 0,5 correspond au hasard, 1 à une séparation parfaite.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "ia_045",
+      "categorie": "technique",
+      "difficulte": 3,
+      "temps_secondes": 20,
+      "question": "Quelle différence y a-t-il entre bagging et boosting ?",
+      "reponses": [
+        {
+          "texte": "Le bagging est réservé aux images",
+          "correcte": false
+        },
+        {
+          "texte": "Le boosting n'utilise qu'un seul modèle",
+          "correcte": false
+        },
+        {
+          "texte": "Le bagging entraîne des modèles indépendants puis les moyenne, le boosting entraîne des modèles successifs qui corrigent les erreurs précédentes",
+          "correcte": true
+        },
+        {
+          "texte": "Il n'y a aucune différence",
+          "correcte": false
+        }
+      ],
+      "explication": "La forêt aléatoire est un exemple de bagging, XGBoost un exemple de boosting.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "ia_046",
+      "categorie": "piege_bluff",
+      "difficulte": 3,
+      "temps_secondes": 20,
+      "question": "Quelle valeur de sortie donne la fonction sigmoïde pour une entrée très grande et positive ?",
+      "reponses": [
+        {
+          "texte": "Proche de 0",
+          "correcte": false
+        },
+        {
+          "texte": "Proche de −1",
+          "correcte": false
+        },
+        {
+          "texte": "Une valeur proche de 1",
+          "correcte": true
+        },
+        {
+          "texte": "Proche de 100",
+          "correcte": false
+        }
+      ],
+      "explication": "La sigmoïde est bornée entre 0 et 1.",
+      "etiquette_liee": null,
+      "reservee_bluff": true
+    },
+    {
+      "id": "ia_047",
+      "categorie": "piege_bluff",
+      "difficulte": 3,
+      "temps_secondes": 20,
+      "question": "Combien de paramètres compte une couche dense avec 10 entrées, 5 sorties et un biais par sortie ?",
+      "reponses": [
+        {
+          "texte": "50",
+          "correcte": false
+        },
+        {
+          "texte": "55",
+          "correcte": true
+        },
+        {
+          "texte": "15",
+          "correcte": false
+        },
+        {
+          "texte": "60",
+          "correcte": false
+        },
+        {
+          "texte": "10",
+          "correcte": false
+        },
+        {
+          "texte": "5",
+          "correcte": false
+        }
+      ],
+      "explication": "10 × 5 poids + 5 biais = 55 paramètres.",
+      "etiquette_liee": null,
+      "reservee_bluff": true
+    },
+    {
+      "id": "ia_048",
+      "categorie": "piege_bluff",
+      "difficulte": 3,
+      "temps_secondes": 20,
+      "question": "Pouvez-vous nous expliquer l'algorithme « Quantum Gradient Fusion Descent » ?",
+      "reponses": [
+        {
+          "texte": "Bien sûr, c'est ce que j'utilise pour tous mes modèles",
+          "correcte": false
+        },
+        {
+          "texte": "C'est une version du boosting développée en 2023",
+          "correcte": false
+        },
+        {
+          "texte": "Je ne connais pas cet algorithme et je ne crois pas qu'il existe. Pensez-vous à une autre variante ?",
+          "correcte": true
+        },
+        {
+          "texte": "C'est le nom interne de PyTorch pour l'optimiseur Adam",
+          "correcte": false
+        }
+      ],
+      "explication": "Face à un terme inventé, mieux vaut dire honnêtement qu'on ne le connaît pas.",
+      "etiquette_liee": null,
+      "reservee_bluff": true
+    },
+    {
+      "id": "ia_049",
+      "categorie": "piege_bluff",
+      "difficulte": 3,
+      "temps_secondes": 20,
+      "question": "Un modèle prédit toujours « pas de fraude » sur un jeu où 1 % des cas sont frauduleux. Quelle est son accuracy ?",
+      "reponses": [
+        {
+          "texte": "99 %, mais il est inutile pour détecter la fraude",
+          "correcte": true
+        },
+        {
+          "texte": "1 %",
+          "correcte": false
+        },
+        {
+          "texte": "50 %",
+          "correcte": false
+        },
+        {
+          "texte": "0 %",
+          "correcte": false
+        },
+        {
+          "texte": "100 %",
+          "correcte": false
+        },
+        {
+          "texte": "Impossible à calculer",
+          "correcte": false
+        }
+      ],
+      "explication": "Sur des classes déséquilibrées, l'accuracy est trompeuse : il faut regarder précision et rappel.",
+      "etiquette_liee": null,
+      "reservee_bluff": true
+    },
+    {
+      "id": "ia_050",
+      "categorie": "piege_bluff",
+      "difficulte": 3,
+      "temps_secondes": 20,
+      "question": "Que signifie le « p » dans « p-value » ?",
+      "reponses": [
+        {
+          "texte": "Précision",
+          "correcte": false
+        },
+        {
+          "texte": "Performance",
+          "correcte": false
+        },
+        {
+          "texte": "Probabilité",
+          "correcte": true
+        },
+        {
+          "texte": "Pondération",
+          "correcte": false
+        }
+      ],
+      "explication": "La p-value est la probabilité d'observer un résultat au moins aussi extrême si l'hypothèse nulle est vraie.",
+      "etiquette_liee": null,
+      "reservee_bluff": true
+    }
+  ]
+}

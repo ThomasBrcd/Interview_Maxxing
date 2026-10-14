@@ -1,52 +1,1509 @@
-[
-{"Name": "cyber_001", "Theme": "cyber", "Categorie": "motivation", "Difficulte": 1, "TempsSecondes": 30, "Question": "Pour commencer, pourquoi souhaitez-vous rejoindre notre équipe de sécurité ?", "Reponses": [{"Texte": "Parce que j'ai toujours voulu hacker des gens.", "bCorrecte": false}, {"Texte": "Parce que j'ai étudié vos missions et que protéger des systèmes réels correspond à ce que je veux apprendre.", "bCorrecte": true}, {"Texte": "Parce que j'ai vu un film de hackers.", "bCorrecte": false}, {"Texte": "Parce que les salaires en cybersécurité sont énormes.", "bCorrecte": false}], "Explication": "Le recruteur cherche une motivation tournée vers la protection, pas vers l'attaque pour elle-même.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "cyber_002", "Theme": "cyber", "Categorie": "motivation", "Difficulte": 1, "TempsSecondes": 30, "Question": "Pouvez-vous vous présenter en une minute ?", "Reponses": [{"Texte": "Je résume mon parcours, mes projets de sécurité (CTF, laboratoires) et ma façon de travailler.", "bCorrecte": true}, {"Texte": "Je préfère rester anonyme, par habitude.", "bCorrecte": false}, {"Texte": "Je dis que mon pseudo est connu sur les forums.", "bCorrecte": false}, {"Texte": "Je liste tous les outils que j'ai déjà installés.", "bCorrecte": false}], "Explication": "Une présentation claire, appuyée par des exemples concrets, rassure sur votre sérieux.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "cyber_003", "Theme": "cyber", "Categorie": "comportemental", "Difficulte": 1, "TempsSecondes": 30, "Question": "Quel est votre principal défaut ?", "Reponses": [{"Texte": "Je suis perfectionniste.", "bCorrecte": false}, {"Texte": "Je creuse trop longtemps une piste. Je me fixe maintenant des points d'étape pour en parler à l'équipe.", "bCorrecte": true}, {"Texte": "Je n'ai aucun défaut.", "bCorrecte": false}, {"Texte": "Je fais mes tests sur n'importe quel réseau, même sans autorisation.", "bCorrecte": false}], "Explication": "Citez un défaut honnête. Tester sans autorisation, lui, est une faute grave en sécurité.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "cyber_004", "Theme": "cyber", "Categorie": "motivation", "Difficulte": 2, "TempsSecondes": 25, "Question": "Où vous voyez-vous dans cinq ans ?", "Reponses": [{"Texte": "À la tête d'un groupe de hackers anonymes.", "bCorrecte": false}, {"Texte": "Je ne sais pas.", "bCorrecte": false}, {"Texte": "Avoir progressé vers des audits complexes et partagé mon expérience avec les nouveaux.", "bCorrecte": true}, {"Texte": "Sur une île sans réseau.", "bCorrecte": false}], "Explication": "Une projection professionnelle et réaliste est attendue.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "cyber_005", "Theme": "cyber", "Categorie": "motivation", "Difficulte": 2, "TempsSecondes": 25, "Question": "Quelles sont vos prétentions salariales ?", "Reponses": [{"Texte": "Le salaire d'un directeur de la sécurité.", "bCorrecte": false}, {"Texte": "Peu importe, je suis payé en bug bounty.", "bCorrecte": false}, {"Texte": "Je préfère que vous donniez un chiffre, et je dirai non.", "bCorrecte": false}, {"Texte": "Un salaire versé en cryptomonnaie uniquement.", "bCorrecte": false}, {"Texte": "Une fourchette basée sur le marché et mon niveau d'expérience, que je suis prêt à discuter.", "bCorrecte": true}, {"Texte": "Je n'ai rien préparé, mais plus que ma dernière paie.", "bCorrecte": false}], "Explication": "Se renseigner sur le marché et annoncer une fourchette justifiée est la meilleure approche.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "cyber_006", "Theme": "cyber", "Categorie": "motivation", "Difficulte": 1, "TempsSecondes": 30, "Question": "Avez-vous des questions à nous poser ?", "Reponses": [{"Texte": "Oui : comment sont encadrées les missions, quels outils utilisez-vous et comment se passe la montée en compétences ?", "bCorrecte": true}, {"Texte": "Non, aucune.", "bCorrecte": false}, {"Texte": "Est-ce que je peux garder mon ordinateur personnel pour les missions ?", "bCorrecte": false}, {"Texte": "Est-ce que je peux tester vos systèmes dès ce soir ?", "bCorrecte": false}], "Explication": "Poser des questions sur l'encadrement et les outils montre de l'intérêt pour le poste.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "cyber_007", "Theme": "cyber", "Categorie": "comportemental", "Difficulte": 2, "TempsSecondes": 25, "Question": "Une alerte critique tombe un vendredi à 18 h. Que faites-vous ?", "Reponses": [{"Texte": "Je l'ignore, ça attendra lundi.", "bCorrecte": false}, {"Texte": "Je coupe tout le réseau de l'entreprise par précaution.", "bCorrecte": false}, {"Texte": "Je qualifie l'alerte, je suis la procédure d'escalade et je tiens l'équipe informée.", "bCorrecte": true}, {"Texte": "Je supprime l'alerte pour qu'elle disparaisse.", "bCorrecte": false}], "Explication": "Une alerte se qualifie, s'escalade selon la procédure et se documente.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "cyber_008", "Theme": "cyber", "Categorie": "comportemental", "Difficulte": 2, "TempsSecondes": 25, "Question": "Un développeur refuse de corriger une vulnérabilité que vous avez trouvée. Que faites-vous ?", "Reponses": [{"Texte": "Je publie la faille sur Internet.", "bCorrecte": false}, {"Texte": "Je corrige son code moi-même sans le dire.", "bCorrecte": false}, {"Texte": "Je lui dis qu'il est incompétent.", "bCorrecte": false}, {"Texte": "J'abandonne le sujet.", "bCorrecte": false}, {"Texte": "J'explique l'impact avec un exemple concret, je propose un correctif simple et j'escalade si le risque reste élevé.", "bCorrecte": true}, {"Texte": "Je menace de démissionner.", "bCorrecte": false}], "Explication": "La pédagogie et l'escalade encadrée sont plus efficaces que la pression.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "cyber_009", "Theme": "cyber", "Categorie": "comportemental", "Difficulte": 2, "TempsSecondes": 25, "Question": "Vous réalisez qu'un test d'intrusion a fait tomber un serveur de production client. Que faites-vous ?", "Reponses": [{"Texte": "Je ne dis rien.", "bCorrecte": false}, {"Texte": "Je continue le test pour finir à temps.", "bCorrecte": false}, {"Texte": "Je supprime les traces dans les journaux.", "bCorrecte": false}, {"Texte": "Je dis que c'est une panne matérielle.", "bCorrecte": false}, {"Texte": "Je préviens immédiatement le client et mon responsable, je documente et j'aide au rétablissement.", "bCorrecte": true}, {"Texte": "Je préviens le client dans une semaine.", "bCorrecte": false}], "Explication": "La transparence immédiate est essentielle : masquer un incident aggrave toujours la situation.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "cyber_010", "Theme": "cyber", "Categorie": "comportemental", "Difficulte": 2, "TempsSecondes": 25, "Question": "On vous interroge sur une vulnérabilité que vous ne connaissez pas. Que faites-vous ?", "Reponses": [{"Texte": "Je dis que je l'ai déjà exploitée plusieurs fois.", "bCorrecte": false}, {"Texte": "Je dis que ce n'est pas une vraie faille.", "bCorrecte": false}, {"Texte": "Je change de sujet.", "bCorrecte": false}, {"Texte": "J'admets ne pas la connaître, j'explique ma démarche pour me renseigner et ce que je ferais ensuite.", "bCorrecte": true}], "Explication": "En sécurité, prétendre savoir est dangereux ; la méthode compte autant que la connaissance.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "cyber_011", "Theme": "cyber", "Categorie": "comportemental", "Difficulte": 2, "TempsSecondes": 25, "Question": "Un ami vous demande de tester la sécurité du site de son entreprise sans l'accord de sa direction. Que faites-vous ?", "Reponses": [{"Texte": "J'accepte, c'est pour l'aider.", "bCorrecte": false}, {"Texte": "Je refuse, sauf autorisation écrite de l'entreprise définissant le périmètre.", "bCorrecte": true}, {"Texte": "J'accepte mais de nuit, pour ne pas être vu.", "bCorrecte": false}, {"Texte": "Je teste en secret et je lui envoie un rapport.", "bCorrecte": false}], "Explication": "Tester sans autorisation écrite est illégal, même avec de bonnes intentions.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "cyber_012", "Theme": "cyber", "Categorie": "technique", "Difficulte": 1, "TempsSecondes": 30, "Question": "Que signifie l'acronyme VPN ?", "Reponses": [{"Texte": "Very Public Network", "bCorrecte": false}, {"Texte": "Verified Protocol Node", "bCorrecte": false}, {"Texte": "Virtual Private Network", "bCorrecte": true}, {"Texte": "Variable Packet Navigator", "bCorrecte": false}], "Explication": "Un VPN crée un tunnel chiffré entre un appareil et un réseau.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "cyber_013", "Theme": "cyber", "Categorie": "technique", "Difficulte": 1, "TempsSecondes": 30, "Question": "Qu'est-ce que le phishing (hameçonnage) ?", "Reponses": [{"Texte": "Une méthode de sauvegarde", "bCorrecte": false}, {"Texte": "Une attaque qui pousse la victime à donner des informations via un faux message ou un faux site", "bCorrecte": true}, {"Texte": "Un type de pare-feu", "bCorrecte": false}, {"Texte": "Un logiciel de chiffrement", "bCorrecte": false}], "Explication": "Le phishing exploite la confiance de la victime plutôt qu'une faille technique.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "cyber_014", "Theme": "cyber", "Categorie": "technique", "Difficulte": 1, "TempsSecondes": 30, "Question": "Qu'est-ce qu'un pare-feu (firewall) ?", "Reponses": [{"Texte": "Un logiciel de retouche d'image", "bCorrecte": false}, {"Texte": "Un dispositif qui filtre le trafic réseau selon des règles", "bCorrecte": true}, {"Texte": "Un câble réseau blindé", "bCorrecte": false}, {"Texte": "Un type de mot de passe", "bCorrecte": false}], "Explication": "Un pare-feu autorise ou bloque les connexions selon des règles définies.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "cyber_015", "Theme": "cyber", "Categorie": "technique", "Difficulte": 1, "TempsSecondes": 30, "Question": "Lequel de ces mots de passe est le plus robuste ?", "Reponses": [{"Texte": "123456", "bCorrecte": false}, {"Texte": "Une longue phrase de passe aléatoire et unique", "bCorrecte": true}, {"Texte": "password", "bCorrecte": false}, {"Texte": "azerty", "bCorrecte": false}, {"Texte": "MonPrénom1990", "bCorrecte": false}, {"Texte": "qwerty123", "bCorrecte": false}], "Explication": "La longueur et l'unicité comptent plus que les substitutions de caractères prévisibles.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "cyber_016", "Theme": "cyber", "Categorie": "technique", "Difficulte": 1, "TempsSecondes": 30, "Question": "Que signifie 2FA ?", "Reponses": [{"Texte": "Deuxième pare-feu automatique", "bCorrecte": false}, {"Texte": "Double chiffrement de fichiers", "bCorrecte": false}, {"Texte": "Deux fois plus d'antivirus", "bCorrecte": false}, {"Texte": "Authentification à deux facteurs", "bCorrecte": true}], "Explication": "La 2FA ajoute un second justificatif (code, clé physique) au mot de passe.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "cyber_017", "Theme": "cyber", "Categorie": "technique", "Difficulte": 1, "TempsSecondes": 30, "Question": "Qu'est-ce qu'un malware ?", "Reponses": [{"Texte": "Un logiciel de bureautique", "bCorrecte": false}, {"Texte": "Un logiciel malveillant conçu pour nuire ou espionner", "bCorrecte": true}, {"Texte": "Un système d'exploitation", "bCorrecte": false}, {"Texte": "Un câble défectueux", "bCorrecte": false}], "Explication": "Virus, chevaux de Troie, rançongiciels et espiogiciels sont des malwares.", "EtiquetteRequise": "comp_malware", "bReserveeBluff": false},
-{"Name": "cyber_018", "Theme": "cyber", "Categorie": "technique", "Difficulte": 1, "TempsSecondes": 30, "Question": "Que signifie CTF dans le milieu de la sécurité ?", "Reponses": [{"Texte": "Cyber Threat Firewall", "bCorrecte": false}, {"Texte": "Code Test Framework", "bCorrecte": false}, {"Texte": "Central Trust File", "bCorrecte": false}, {"Texte": "Capture The Flag : une compétition où l'on résout des défis de sécurité", "bCorrecte": true}], "Explication": "Les CTF sont un excellent moyen de s'entraîner dans un cadre légal.", "EtiquetteRequise": "loi_ctf", "bReserveeBluff": false},
-{"Name": "cyber_019", "Theme": "cyber", "Categorie": "technique", "Difficulte": 1, "TempsSecondes": 30, "Question": "Quel protocole sécurise la navigation web en chiffrant les échanges ?", "Reponses": [{"Texte": "HTTP", "bCorrecte": false}, {"Texte": "FTP", "bCorrecte": false}, {"Texte": "Telnet", "bCorrecte": false}, {"Texte": "HTTPS", "bCorrecte": true}, {"Texte": "SMTP", "bCorrecte": false}, {"Texte": "SNMP", "bCorrecte": false}], "Explication": "HTTPS combine HTTP et TLS pour chiffrer et authentifier les échanges.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "cyber_020", "Theme": "cyber", "Categorie": "technique", "Difficulte": 1, "TempsSecondes": 30, "Question": "Qu'est-ce que le chiffrement ?", "Reponses": [{"Texte": "Supprimer définitivement des données", "bCorrecte": false}, {"Texte": "Compresser un fichier", "bCorrecte": false}, {"Texte": "Copier des données sur un autre disque", "bCorrecte": false}, {"Texte": "Transformer des données pour qu'elles ne soient lisibles qu'avec une clé", "bCorrecte": true}], "Explication": "Le chiffrement protège la confidentialité des données.", "EtiquetteRequise": "comp_crypto", "bReserveeBluff": false},
-{"Name": "cyber_021", "Theme": "cyber", "Categorie": "culture", "Difficulte": 1, "TempsSecondes": 30, "Question": "Qu'est-ce qu'un hacker « chapeau blanc » (white hat) ?", "Reponses": [{"Texte": "Un expert qui teste la sécurité avec autorisation pour aider à corriger les failles", "bCorrecte": true}, {"Texte": "Un pirate qui vole des données", "bCorrecte": false}, {"Texte": "Un hacker qui travaille uniquement de jour", "bCorrecte": false}, {"Texte": "Un développeur de jeux vidéo", "bCorrecte": false}], "Explication": "Les chapeaux blancs agissent dans un cadre légal, les chapeaux noirs hors de tout cadre.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "cyber_022", "Theme": "cyber", "Categorie": "technique", "Difficulte": 2, "TempsSecondes": 25, "Question": "Que signifie le sigle CIA (ou triade CID) en sécurité de l'information ?", "Reponses": [{"Texte": "Confidentialité, Intégrité, Disponibilité", "bCorrecte": true}, {"Texte": "Contrôle, Identité, Authentification", "bCorrecte": false}, {"Texte": "Chiffrement, Inspection, Audit", "bCorrecte": false}, {"Texte": "Cryptographie, Intrusion, Alerte", "bCorrecte": false}], "Explication": "Ces trois propriétés servent de base pour évaluer un risque.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "cyber_023", "Theme": "cyber", "Categorie": "technique", "Difficulte": 2, "TempsSecondes": 25, "Question": "Quelle différence y a-t-il entre un virus et un ver (worm) ?", "Reponses": [{"Texte": "Un ver est toujours inoffensif", "bCorrecte": false}, {"Texte": "Un virus ne touche que les smartphones", "bCorrecte": false}, {"Texte": "Un ver se propage seul via le réseau, un virus a besoin d'un fichier hôte exécuté", "bCorrecte": true}, {"Texte": "Il n'y en a aucune", "bCorrecte": false}], "Explication": "Les vers peuvent infecter des milliers de machines sans action de l'utilisateur.", "EtiquetteRequise": "comp_malware", "bReserveeBluff": false},
-{"Name": "cyber_024", "Theme": "cyber", "Categorie": "technique", "Difficulte": 2, "TempsSecondes": 25, "Question": "Qu'est-ce qu'un hash ?", "Reponses": [{"Texte": "Une clé de chiffrement publique", "bCorrecte": false}, {"Texte": "Une empreinte de taille fixe calculée à partir de données, à sens unique", "bCorrecte": true}, {"Texte": "Un mot de passe temporaire", "bCorrecte": false}, {"Texte": "Une copie compressée du fichier", "bCorrecte": false}], "Explication": "On ne peut pas retrouver les données à partir d'un bon hash.", "EtiquetteRequise": "comp_crypto", "bReserveeBluff": false},
-{"Name": "cyber_025", "Theme": "cyber", "Categorie": "technique", "Difficulte": 2, "TempsSecondes": 25, "Question": "Lequel de ces algorithmes de hachage est considéré comme obsolète et cassé pour la sécurité ?", "Reponses": [{"Texte": "SHA-256", "bCorrecte": false}, {"Texte": "SHA-3", "bCorrecte": false}, {"Texte": "bcrypt", "bCorrecte": false}, {"Texte": "Argon2", "bCorrecte": false}, {"Texte": "MD5", "bCorrecte": true}, {"Texte": "scrypt", "bCorrecte": false}], "Explication": "MD5 est vulnérable aux collisions et ne doit plus servir à protéger des mots de passe.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "cyber_026", "Theme": "cyber", "Categorie": "technique", "Difficulte": 2, "TempsSecondes": 25, "Question": "Pourquoi ajoute-t-on un sel (salt) avant de hacher un mot de passe ?", "Reponses": [{"Texte": "Pour que deux mots de passe identiques n'aient pas le même hash et contrer les tables précalculées", "bCorrecte": true}, {"Texte": "Pour accélérer le calcul du hash", "bCorrecte": false}, {"Texte": "Pour chiffrer le hash", "bCorrecte": false}, {"Texte": "Pour raccourcir le mot de passe", "bCorrecte": false}], "Explication": "Le sel est aléatoire, unique par utilisateur et stocké avec le hash.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "cyber_027", "Theme": "cyber", "Categorie": "technique", "Difficulte": 2, "TempsSecondes": 25, "Question": "Qu'est-ce qu'une attaque par force brute ?", "Reponses": [{"Texte": "Envoyer un e-mail piégé", "bCorrecte": false}, {"Texte": "Essayer systématiquement de nombreuses combinaisons jusqu'à trouver la bonne", "bCorrecte": true}, {"Texte": "Exploiter une faille inconnue", "bCorrecte": false}, {"Texte": "Inonder un serveur de requêtes", "bCorrecte": false}], "Explication": "Des mots de passe longs et un verrouillage après échecs limitent ce type d'attaque.", "EtiquetteRequise": "con_rootme_htb", "bReserveeBluff": false},
-{"Name": "cyber_028", "Theme": "cyber", "Categorie": "technique", "Difficulte": 2, "TempsSecondes": 25, "Question": "Qu'est-ce qu'une attaque DDoS ?", "Reponses": [{"Texte": "Voler des mots de passe par e-mail", "bCorrecte": false}, {"Texte": "Chiffrer des fichiers contre rançon", "bCorrecte": false}, {"Texte": "Saturer un service avec un trafic massif provenant de nombreuses sources", "bCorrecte": true}, {"Texte": "Écouter discrètement le trafic", "bCorrecte": false}], "Explication": "Le but est de rendre le service indisponible.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "cyber_029", "Theme": "cyber", "Categorie": "technique", "Difficulte": 2, "TempsSecondes": 25, "Question": "Que désigne l'OWASP Top 10 ?", "Reponses": [{"Texte": "Un classement des dix meilleurs antivirus", "bCorrecte": false}, {"Texte": "Les dix ports les plus ouverts", "bCorrecte": false}, {"Texte": "Une norme de chiffrement", "bCorrecte": false}, {"Texte": "Les dix outils de pentest les plus rapides", "bCorrecte": false}, {"Texte": "Un top des hackers célèbres", "bCorrecte": false}, {"Texte": "La liste des dix risques de sécurité les plus critiques pour les applications web", "bCorrecte": true}], "Explication": "C'est une référence pour sensibiliser les développeurs et auditeurs.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "cyber_030", "Theme": "cyber", "Categorie": "technique", "Difficulte": 2, "TempsSecondes": 25, "Question": "Qu'est-ce qu'une vulnérabilité « zero-day » ?", "Reponses": [{"Texte": "Une faille inconnue de l'éditeur, sans correctif disponible", "bCorrecte": true}, {"Texte": "Une faille corrigée le jour même", "bCorrecte": false}, {"Texte": "Un virus qui s'active à minuit", "bCorrecte": false}, {"Texte": "Un test d'intrusion de 24 heures", "bCorrecte": false}], "Explication": "Les zero-days sont recherchés car aucun correctif n'existe encore.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "cyber_031", "Theme": "cyber", "Categorie": "technique", "Difficulte": 2, "TempsSecondes": 25, "Question": "Qu'est-ce que l'ingénierie sociale ?", "Reponses": [{"Texte": "Manipuler des personnes pour obtenir des informations ou un accès", "bCorrecte": true}, {"Texte": "Un réseau social professionnel", "bCorrecte": false}, {"Texte": "Une méthode de programmation", "bCorrecte": false}, {"Texte": "Un protocole de messagerie", "bCorrecte": false}], "Explication": "L'humain reste souvent le maillon le plus exploité.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "cyber_032", "Theme": "cyber", "Categorie": "technique", "Difficulte": 2, "TempsSecondes": 25, "Question": "Qu'est-ce que le principe du moindre privilège ?", "Reponses": [{"Texte": "Donner tous les droits aux administrateurs et à tous les autres", "bCorrecte": false}, {"Texte": "Donner à chaque utilisateur ou service uniquement les droits nécessaires", "bCorrecte": true}, {"Texte": "Supprimer tous les comptes inutilisés chaque jour", "bCorrecte": false}, {"Texte": "Limiter le nombre d'utilisateurs à un seul", "bCorrecte": false}], "Explication": "Cela limite les dégâts en cas de compromission d'un compte.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "cyber_033", "Theme": "cyber", "Categorie": "technique", "Difficulte": 2, "TempsSecondes": 25, "Question": "Quel outil est un framework de test d'intrusion très répandu ?", "Reponses": [{"Texte": "Photoshop", "bCorrecte": false}, {"Texte": "Excel", "bCorrecte": false}, {"Texte": "Wireshark", "bCorrecte": false}, {"Texte": "Blender", "bCorrecte": false}, {"Texte": "Metasploit", "bCorrecte": true}, {"Texte": "Figma", "bCorrecte": false}], "Explication": "Metasploit regroupe des modules d'exploitation utilisés dans des tests autorisés.", "EtiquetteRequise": "exp_audit_pentest", "bReserveeBluff": false},
-{"Name": "cyber_034", "Theme": "cyber", "Categorie": "technique", "Difficulte": 2, "TempsSecondes": 25, "Question": "Lequel de ces chiffrements est asymétrique ?", "Reponses": [{"Texte": "AES", "bCorrecte": false}, {"Texte": "DES", "bCorrecte": false}, {"Texte": "ChaCha20", "bCorrecte": false}, {"Texte": "RSA", "bCorrecte": true}], "Explication": "RSA utilise une paire de clés (publique / privée), contrairement à AES, DES et ChaCha20.", "EtiquetteRequise": "for_cert_cyber", "bReserveeBluff": false},
-{"Name": "cyber_035", "Theme": "cyber", "Categorie": "technique", "Difficulte": 2, "TempsSecondes": 25, "Question": "Qu'est-ce qu'un SIEM ?", "Reponses": [{"Texte": "Un antivirus pour mobiles", "bCorrecte": false}, {"Texte": "Un type de pare-feu matériel", "bCorrecte": false}, {"Texte": "Un système qui centralise et corrèle les journaux de sécurité pour détecter des incidents", "bCorrecte": true}, {"Texte": "Un format de sauvegarde", "bCorrecte": false}], "Explication": "Un SIEM alimente les équipes du SOC en alertes exploitables.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "cyber_036", "Theme": "cyber", "Categorie": "technique", "Difficulte": 2, "TempsSecondes": 25, "Question": "Qu'est-ce qu'un honeypot ?", "Reponses": [{"Texte": "Un coffre-fort de mots de passe", "bCorrecte": false}, {"Texte": "Un système leurre conçu pour attirer et observer des attaquants", "bCorrecte": true}, {"Texte": "Un logiciel de sauvegarde", "bCorrecte": false}, {"Texte": "Un type de VPN", "bCorrecte": false}], "Explication": "Il permet d'étudier les techniques d'attaque sans exposer les vrais systèmes.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "cyber_037", "Theme": "cyber", "Categorie": "technique", "Difficulte": 2, "TempsSecondes": 25, "Question": "Quel outil permet de désassembler et analyser un programme compilé (rétro-ingénierie) ?", "Reponses": [{"Texte": "Audacity", "bCorrecte": false}, {"Texte": "Inkscape", "bCorrecte": false}, {"Texte": "Scribus", "bCorrecte": false}, {"Texte": "Ghidra", "bCorrecte": true}], "Explication": "Ghidra est un outil libre de rétro-ingénierie développé par la NSA.", "EtiquetteRequise": "comp_assembleur", "bReserveeBluff": false},
-{"Name": "cyber_038", "Theme": "cyber", "Categorie": "technique", "Difficulte": 2, "TempsSecondes": 25, "Question": "À quoi sert un WAF ?", "Reponses": [{"Texte": "À accélérer la base de données", "bCorrecte": false}, {"Texte": "À chiffrer les disques", "bCorrecte": false}, {"Texte": "À filtrer le trafic HTTP pour protéger une application web contre des attaques courantes", "bCorrecte": true}, {"Texte": "À sauvegarder les sites web", "bCorrecte": false}], "Explication": "Un Web Application Firewall bloque par exemple des injections SQL ou du XSS.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "cyber_039", "Theme": "cyber", "Categorie": "technique", "Difficulte": 2, "TempsSecondes": 25, "Question": "Dans quel cas utilise-t-on un certificat TLS ?", "Reponses": [{"Texte": "Pour compresser les images", "bCorrecte": false}, {"Texte": "Pour authentifier un serveur et chiffrer les échanges", "bCorrecte": true}, {"Texte": "Pour accélérer le DNS", "bCorrecte": false}, {"Texte": "Pour sauvegarder des fichiers", "bCorrecte": false}, {"Texte": "Pour synchroniser l'heure", "bCorrecte": false}, {"Texte": "Pour bloquer les publicités", "bCorrecte": false}], "Explication": "Le certificat prouve l'identité du serveur et permet la mise en place du chiffrement.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "cyber_040", "Theme": "cyber", "Categorie": "technique", "Difficulte": 2, "TempsSecondes": 25, "Question": "Quelle est la bonne pratique pour stocker les mots de passe des utilisateurs en base ?", "Reponses": [{"Texte": "Les hacher avec un algorithme dédié (bcrypt, Argon2) et un sel", "bCorrecte": true}, {"Texte": "En clair, pour pouvoir les envoyer par e-mail", "bCorrecte": false}, {"Texte": "Chiffrés avec une clé stockée dans le code source", "bCorrecte": false}, {"Texte": "Dans un fichier texte public", "bCorrecte": false}], "Explication": "On ne stocke jamais un mot de passe en clair et on n'a pas besoin de pouvoir le retrouver.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "cyber_041", "Theme": "cyber", "Categorie": "technique", "Difficulte": 2, "TempsSecondes": 25, "Question": "À quoi sert un plan de réponse aux incidents ?", "Reponses": [{"Texte": "À répartir les congés de l'équipe", "bCorrecte": false}, {"Texte": "À choisir les couleurs de l'interface", "bCorrecte": false}, {"Texte": "À planifier les mises à jour de bureautique", "bCorrecte": false}, {"Texte": "À définir les étapes à suivre : détection, confinement, éradication, restauration, retour d'expérience", "bCorrecte": true}], "Explication": "Préparer la réponse à l'avance évite d'improviser en situation de crise.", "EtiquetteRequise": "comp_normes_iso_itil", "bReserveeBluff": false},
-{"Name": "cyber_042", "Theme": "cyber", "Categorie": "technique", "Difficulte": 3, "TempsSecondes": 20, "Question": "Quelle différence y a-t-il entre une attaque XSS stockée et une XSS réfléchie ?", "Reponses": [{"Texte": "La stockée n'existe que sur mobile", "bCorrecte": false}, {"Texte": "La réfléchie vole directement le disque dur", "bCorrecte": false}, {"Texte": "Il n'y a aucune différence", "bCorrecte": false}, {"Texte": "La stockée ne s'exécute jamais", "bCorrecte": false}, {"Texte": "La stockée est enregistrée côté serveur et touche tous les visiteurs, la réfléchie dépend d'un lien piégé", "bCorrecte": true}, {"Texte": "La réfléchie est toujours inoffensive", "bCorrecte": false}], "Explication": "Dans la XSS stockée, le script malveillant persiste (commentaire, profil) et touche chaque visiteur.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "cyber_043", "Theme": "cyber", "Categorie": "technique", "Difficulte": 3, "TempsSecondes": 20, "Question": "Qu'est-ce que l'attaque « pass-the-hash » ?", "Reponses": [{"Texte": "Deviner un mot de passe en testant un dictionnaire", "bCorrecte": false}, {"Texte": "Réutiliser le hash d'un mot de passe volé pour s'authentifier sans connaître le mot de passe", "bCorrecte": true}, {"Texte": "Envoyer un faux e-mail pour obtenir un mot de passe", "bCorrecte": false}, {"Texte": "Intercepter un mot de passe sur un réseau Wi-Fi ouvert", "bCorrecte": false}, {"Texte": "Casser un hash avec des tables précalculées", "bCorrecte": false}, {"Texte": "Installer un enregistreur de frappe", "bCorrecte": false}], "Explication": "Elle exploite des protocoles d'authentification qui acceptent directement le hash.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "cyber_044", "Theme": "cyber", "Categorie": "technique", "Difficulte": 3, "TempsSecondes": 20, "Question": "Qu'est-ce qu'une attaque CSRF ?", "Reponses": [{"Texte": "Injecter du SQL dans un formulaire", "bCorrecte": false}, {"Texte": "Saturer un serveur de requêtes", "bCorrecte": false}, {"Texte": "Voler un certificat TLS", "bCorrecte": false}, {"Texte": "Forcer le navigateur d'un utilisateur connecté à envoyer une requête non voulue à un site", "bCorrecte": true}], "Explication": "On s'en protège avec des jetons anti-CSRF et des cookies SameSite.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "cyber_045", "Theme": "cyber", "Categorie": "technique", "Difficulte": 3, "TempsSecondes": 20, "Question": "Dans le modèle de menace STRIDE, que signifie la lettre S ?", "Reponses": [{"Texte": "Sniffing", "bCorrecte": false}, {"Texte": "Scanning", "bCorrecte": false}, {"Texte": "Sabotage", "bCorrecte": false}, {"Texte": "Spoofing (usurpation d'identité)", "bCorrecte": true}], "Explication": "STRIDE : Spoofing, Tampering, Repudiation, Information disclosure, Denial of service, Elevation of privilege.", "EtiquetteRequise": "", "bReserveeBluff": false},
-{"Name": "cyber_046", "Theme": "cyber", "Categorie": "piege_bluff", "Difficulte": 3, "TempsSecondes": 20, "Question": "Quelle est la longueur de sortie d'un hash SHA-256 ?", "Reponses": [{"Texte": "128 bits", "bCorrecte": false}, {"Texte": "160 bits", "bCorrecte": false}, {"Texte": "256 bits (32 octets)", "bCorrecte": true}, {"Texte": "512 bits", "bCorrecte": false}], "Explication": "SHA-256 produit une empreinte de 256 bits.", "EtiquetteRequise": "", "bReserveeBluff": true},
-{"Name": "cyber_047", "Theme": "cyber", "Categorie": "piege_bluff", "Difficulte": 3, "TempsSecondes": 20, "Question": "Quel port utilise par défaut le protocole RDP (Bureau à distance Windows) ?", "Reponses": [{"Texte": "22", "bCorrecte": false}, {"Texte": "23", "bCorrecte": false}, {"Texte": "445", "bCorrecte": false}, {"Texte": "5900", "bCorrecte": false}, {"Texte": "3389", "bCorrecte": true}, {"Texte": "8080", "bCorrecte": false}], "Explication": "RDP écoute sur le port TCP 3389, souvent ciblé par des attaques.", "EtiquetteRequise": "", "bReserveeBluff": true},
-{"Name": "cyber_048", "Theme": "cyber", "Categorie": "piege_bluff", "Difficulte": 3, "TempsSecondes": 20, "Question": "Pouvez-vous nous expliquer l'attaque « Quantum Shadow Injection v9 » ?", "Reponses": [{"Texte": "Je ne connais pas cette attaque et je ne crois pas qu'elle existe. Pensez-vous à une autre ?", "bCorrecte": true}, {"Texte": "Bien sûr, je l'ai déjà utilisée en mission", "bCorrecte": false}, {"Texte": "C'est une variante de l'injection SQL, très répandue", "bCorrecte": false}, {"Texte": "C'est une faille connue de tous les navigateurs", "bCorrecte": false}], "Explication": "Face à un terme inventé, mieux vaut dire honnêtement qu'on ne le connaît pas.", "EtiquetteRequise": "", "bReserveeBluff": true},
-{"Name": "cyber_049", "Theme": "cyber", "Categorie": "piege_bluff", "Difficulte": 3, "TempsSecondes": 20, "Question": "Quelle est la taille de clé minimale généralement recommandée aujourd'hui pour RSA ?", "Reponses": [{"Texte": "512 bits", "bCorrecte": false}, {"Texte": "768 bits", "bCorrecte": false}, {"Texte": "1024 bits", "bCorrecte": false}, {"Texte": "2048 bits", "bCorrecte": true}, {"Texte": "256 bits", "bCorrecte": false}, {"Texte": "64 bits", "bCorrecte": false}], "Explication": "RSA 1024 bits est jugé trop faible ; 2048 bits est le minimum courant.", "EtiquetteRequise": "", "bReserveeBluff": true},
-{"Name": "cyber_050", "Theme": "cyber", "Categorie": "piege_bluff", "Difficulte": 3, "TempsSecondes": 20, "Question": "Que signifie CVE ?", "Reponses": [{"Texte": "Critical Virus Evaluation", "bCorrecte": false}, {"Texte": "Cyber Verification Engine", "bCorrecte": false}, {"Texte": "Code Vulnerability Encryption", "bCorrecte": false}, {"Texte": "Common Vulnerabilities and Exposures : un identifiant public de vulnérabilité", "bCorrecte": true}], "Explication": "Un identifiant CVE (par exemple CVE-2021-44228) référence une faille connue.", "EtiquetteRequise": "", "bReserveeBluff": true}
-]
+{
+  "theme": "cyber",
+  "questions": [
+    {
+      "id": "cyber_001",
+      "categorie": "motivation",
+      "difficulte": 1,
+      "temps_secondes": 30,
+      "question": "Pour commencer, pourquoi souhaitez-vous rejoindre notre équipe de sécurité ?",
+      "reponses": [
+        {
+          "texte": "Parce que j'ai toujours voulu hacker des gens.",
+          "correcte": false
+        },
+        {
+          "texte": "Parce que j'ai étudié vos missions et que protéger des systèmes réels correspond à ce que je veux apprendre.",
+          "correcte": true
+        },
+        {
+          "texte": "Parce que j'ai vu un film de hackers.",
+          "correcte": false
+        },
+        {
+          "texte": "Parce que les salaires en cybersécurité sont énormes.",
+          "correcte": false
+        }
+      ],
+      "explication": "Le recruteur cherche une motivation tournée vers la protection, pas vers l'attaque pour elle-même.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "cyber_002",
+      "categorie": "motivation",
+      "difficulte": 1,
+      "temps_secondes": 30,
+      "question": "Pouvez-vous vous présenter en une minute ?",
+      "reponses": [
+        {
+          "texte": "Je résume mon parcours, mes projets de sécurité (CTF, laboratoires) et ma façon de travailler.",
+          "correcte": true
+        },
+        {
+          "texte": "Je préfère rester anonyme, par habitude.",
+          "correcte": false
+        },
+        {
+          "texte": "Je dis que mon pseudo est connu sur les forums.",
+          "correcte": false
+        },
+        {
+          "texte": "Je liste tous les outils que j'ai déjà installés.",
+          "correcte": false
+        }
+      ],
+      "explication": "Une présentation claire, appuyée par des exemples concrets, rassure sur votre sérieux.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "cyber_003",
+      "categorie": "comportemental",
+      "difficulte": 1,
+      "temps_secondes": 30,
+      "question": "Quel est votre principal défaut ?",
+      "reponses": [
+        {
+          "texte": "Je suis perfectionniste.",
+          "correcte": false
+        },
+        {
+          "texte": "Je creuse trop longtemps une piste. Je me fixe maintenant des points d'étape pour en parler à l'équipe.",
+          "correcte": true
+        },
+        {
+          "texte": "Je n'ai aucun défaut.",
+          "correcte": false
+        },
+        {
+          "texte": "Je fais mes tests sur n'importe quel réseau, même sans autorisation.",
+          "correcte": false
+        }
+      ],
+      "explication": "Citez un défaut honnête. Tester sans autorisation, lui, est une faute grave en sécurité.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "cyber_004",
+      "categorie": "motivation",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "Où vous voyez-vous dans cinq ans ?",
+      "reponses": [
+        {
+          "texte": "À la tête d'un groupe de hackers anonymes.",
+          "correcte": false
+        },
+        {
+          "texte": "Je ne sais pas.",
+          "correcte": false
+        },
+        {
+          "texte": "Avoir progressé vers des audits complexes et partagé mon expérience avec les nouveaux.",
+          "correcte": true
+        },
+        {
+          "texte": "Sur une île sans réseau.",
+          "correcte": false
+        }
+      ],
+      "explication": "Une projection professionnelle et réaliste est attendue.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "cyber_005",
+      "categorie": "motivation",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "Quelles sont vos prétentions salariales ?",
+      "reponses": [
+        {
+          "texte": "Le salaire d'un directeur de la sécurité.",
+          "correcte": false
+        },
+        {
+          "texte": "Peu importe, je suis payé en bug bounty.",
+          "correcte": false
+        },
+        {
+          "texte": "Je préfère que vous donniez un chiffre, et je dirai non.",
+          "correcte": false
+        },
+        {
+          "texte": "Un salaire versé en cryptomonnaie uniquement.",
+          "correcte": false
+        },
+        {
+          "texte": "Une fourchette basée sur le marché et mon niveau d'expérience, que je suis prêt à discuter.",
+          "correcte": true
+        },
+        {
+          "texte": "Je n'ai rien préparé, mais plus que ma dernière paie.",
+          "correcte": false
+        }
+      ],
+      "explication": "Se renseigner sur le marché et annoncer une fourchette justifiée est la meilleure approche.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "cyber_006",
+      "categorie": "motivation",
+      "difficulte": 1,
+      "temps_secondes": 30,
+      "question": "Avez-vous des questions à nous poser ?",
+      "reponses": [
+        {
+          "texte": "Oui : comment sont encadrées les missions, quels outils utilisez-vous et comment se passe la montée en compétences ?",
+          "correcte": true
+        },
+        {
+          "texte": "Non, aucune.",
+          "correcte": false
+        },
+        {
+          "texte": "Est-ce que je peux garder mon ordinateur personnel pour les missions ?",
+          "correcte": false
+        },
+        {
+          "texte": "Est-ce que je peux tester vos systèmes dès ce soir ?",
+          "correcte": false
+        }
+      ],
+      "explication": "Poser des questions sur l'encadrement et les outils montre de l'intérêt pour le poste.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "cyber_007",
+      "categorie": "comportemental",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "Une alerte critique tombe un vendredi à 18 h. Que faites-vous ?",
+      "reponses": [
+        {
+          "texte": "Je l'ignore, ça attendra lundi.",
+          "correcte": false
+        },
+        {
+          "texte": "Je coupe tout le réseau de l'entreprise par précaution.",
+          "correcte": false
+        },
+        {
+          "texte": "Je qualifie l'alerte, je suis la procédure d'escalade et je tiens l'équipe informée.",
+          "correcte": true
+        },
+        {
+          "texte": "Je supprime l'alerte pour qu'elle disparaisse.",
+          "correcte": false
+        }
+      ],
+      "explication": "Une alerte se qualifie, s'escalade selon la procédure et se documente.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "cyber_008",
+      "categorie": "comportemental",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "Un développeur refuse de corriger une vulnérabilité que vous avez trouvée. Que faites-vous ?",
+      "reponses": [
+        {
+          "texte": "Je publie la faille sur Internet.",
+          "correcte": false
+        },
+        {
+          "texte": "Je corrige son code moi-même sans le dire.",
+          "correcte": false
+        },
+        {
+          "texte": "Je lui dis qu'il est incompétent.",
+          "correcte": false
+        },
+        {
+          "texte": "J'abandonne le sujet.",
+          "correcte": false
+        },
+        {
+          "texte": "J'explique l'impact avec un exemple concret, je propose un correctif simple et j'escalade si le risque reste élevé.",
+          "correcte": true
+        },
+        {
+          "texte": "Je menace de démissionner.",
+          "correcte": false
+        }
+      ],
+      "explication": "La pédagogie et l'escalade encadrée sont plus efficaces que la pression.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "cyber_009",
+      "categorie": "comportemental",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "Vous réalisez qu'un test d'intrusion a fait tomber un serveur de production client. Que faites-vous ?",
+      "reponses": [
+        {
+          "texte": "Je ne dis rien.",
+          "correcte": false
+        },
+        {
+          "texte": "Je continue le test pour finir à temps.",
+          "correcte": false
+        },
+        {
+          "texte": "Je supprime les traces dans les journaux.",
+          "correcte": false
+        },
+        {
+          "texte": "Je dis que c'est une panne matérielle.",
+          "correcte": false
+        },
+        {
+          "texte": "Je préviens immédiatement le client et mon responsable, je documente et j'aide au rétablissement.",
+          "correcte": true
+        },
+        {
+          "texte": "Je préviens le client dans une semaine.",
+          "correcte": false
+        }
+      ],
+      "explication": "La transparence immédiate est essentielle : masquer un incident aggrave toujours la situation.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "cyber_010",
+      "categorie": "comportemental",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "On vous interroge sur une vulnérabilité que vous ne connaissez pas. Que faites-vous ?",
+      "reponses": [
+        {
+          "texte": "Je dis que je l'ai déjà exploitée plusieurs fois.",
+          "correcte": false
+        },
+        {
+          "texte": "Je dis que ce n'est pas une vraie faille.",
+          "correcte": false
+        },
+        {
+          "texte": "Je change de sujet.",
+          "correcte": false
+        },
+        {
+          "texte": "J'admets ne pas la connaître, j'explique ma démarche pour me renseigner et ce que je ferais ensuite.",
+          "correcte": true
+        }
+      ],
+      "explication": "En sécurité, prétendre savoir est dangereux ; la méthode compte autant que la connaissance.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "cyber_011",
+      "categorie": "comportemental",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "Un ami vous demande de tester la sécurité du site de son entreprise sans l'accord de sa direction. Que faites-vous ?",
+      "reponses": [
+        {
+          "texte": "J'accepte, c'est pour l'aider.",
+          "correcte": false
+        },
+        {
+          "texte": "Je refuse, sauf autorisation écrite de l'entreprise définissant le périmètre.",
+          "correcte": true
+        },
+        {
+          "texte": "J'accepte mais de nuit, pour ne pas être vu.",
+          "correcte": false
+        },
+        {
+          "texte": "Je teste en secret et je lui envoie un rapport.",
+          "correcte": false
+        }
+      ],
+      "explication": "Tester sans autorisation écrite est illégal, même avec de bonnes intentions.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "cyber_012",
+      "categorie": "technique",
+      "difficulte": 1,
+      "temps_secondes": 30,
+      "question": "Que signifie l'acronyme VPN ?",
+      "reponses": [
+        {
+          "texte": "Very Public Network",
+          "correcte": false
+        },
+        {
+          "texte": "Verified Protocol Node",
+          "correcte": false
+        },
+        {
+          "texte": "Virtual Private Network",
+          "correcte": true
+        },
+        {
+          "texte": "Variable Packet Navigator",
+          "correcte": false
+        }
+      ],
+      "explication": "Un VPN crée un tunnel chiffré entre un appareil et un réseau.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "cyber_013",
+      "categorie": "technique",
+      "difficulte": 1,
+      "temps_secondes": 30,
+      "question": "Qu'est-ce que le phishing (hameçonnage) ?",
+      "reponses": [
+        {
+          "texte": "Une méthode de sauvegarde",
+          "correcte": false
+        },
+        {
+          "texte": "Une attaque qui pousse la victime à donner des informations via un faux message ou un faux site",
+          "correcte": true
+        },
+        {
+          "texte": "Un type de pare-feu",
+          "correcte": false
+        },
+        {
+          "texte": "Un logiciel de chiffrement",
+          "correcte": false
+        }
+      ],
+      "explication": "Le phishing exploite la confiance de la victime plutôt qu'une faille technique.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "cyber_014",
+      "categorie": "technique",
+      "difficulte": 1,
+      "temps_secondes": 30,
+      "question": "Qu'est-ce qu'un pare-feu (firewall) ?",
+      "reponses": [
+        {
+          "texte": "Un logiciel de retouche d'image",
+          "correcte": false
+        },
+        {
+          "texte": "Un dispositif qui filtre le trafic réseau selon des règles",
+          "correcte": true
+        },
+        {
+          "texte": "Un câble réseau blindé",
+          "correcte": false
+        },
+        {
+          "texte": "Un type de mot de passe",
+          "correcte": false
+        }
+      ],
+      "explication": "Un pare-feu autorise ou bloque les connexions selon des règles définies.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "cyber_015",
+      "categorie": "technique",
+      "difficulte": 1,
+      "temps_secondes": 30,
+      "question": "Lequel de ces mots de passe est le plus robuste ?",
+      "reponses": [
+        {
+          "texte": "123456",
+          "correcte": false
+        },
+        {
+          "texte": "Une longue phrase de passe aléatoire et unique",
+          "correcte": true
+        },
+        {
+          "texte": "password",
+          "correcte": false
+        },
+        {
+          "texte": "azerty",
+          "correcte": false
+        },
+        {
+          "texte": "MonPrénom1990",
+          "correcte": false
+        },
+        {
+          "texte": "qwerty123",
+          "correcte": false
+        }
+      ],
+      "explication": "La longueur et l'unicité comptent plus que les substitutions de caractères prévisibles.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "cyber_016",
+      "categorie": "technique",
+      "difficulte": 1,
+      "temps_secondes": 30,
+      "question": "Que signifie 2FA ?",
+      "reponses": [
+        {
+          "texte": "Deuxième pare-feu automatique",
+          "correcte": false
+        },
+        {
+          "texte": "Double chiffrement de fichiers",
+          "correcte": false
+        },
+        {
+          "texte": "Deux fois plus d'antivirus",
+          "correcte": false
+        },
+        {
+          "texte": "Authentification à deux facteurs",
+          "correcte": true
+        }
+      ],
+      "explication": "La 2FA ajoute un second justificatif (code, clé physique) au mot de passe.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "cyber_017",
+      "categorie": "technique",
+      "difficulte": 1,
+      "temps_secondes": 30,
+      "question": "Qu'est-ce qu'un malware ?",
+      "reponses": [
+        {
+          "texte": "Un logiciel de bureautique",
+          "correcte": false
+        },
+        {
+          "texte": "Un logiciel malveillant conçu pour nuire ou espionner",
+          "correcte": true
+        },
+        {
+          "texte": "Un système d'exploitation",
+          "correcte": false
+        },
+        {
+          "texte": "Un câble défectueux",
+          "correcte": false
+        }
+      ],
+      "explication": "Virus, chevaux de Troie, rançongiciels et espiogiciels sont des malwares.",
+      "etiquette_liee": "comp_malware",
+      "reservee_bluff": false
+    },
+    {
+      "id": "cyber_018",
+      "categorie": "technique",
+      "difficulte": 1,
+      "temps_secondes": 30,
+      "question": "Que signifie CTF dans le milieu de la sécurité ?",
+      "reponses": [
+        {
+          "texte": "Cyber Threat Firewall",
+          "correcte": false
+        },
+        {
+          "texte": "Code Test Framework",
+          "correcte": false
+        },
+        {
+          "texte": "Central Trust File",
+          "correcte": false
+        },
+        {
+          "texte": "Capture The Flag : une compétition où l'on résout des défis de sécurité",
+          "correcte": true
+        }
+      ],
+      "explication": "Les CTF sont un excellent moyen de s'entraîner dans un cadre légal.",
+      "etiquette_liee": "loi_ctf",
+      "reservee_bluff": false
+    },
+    {
+      "id": "cyber_019",
+      "categorie": "technique",
+      "difficulte": 1,
+      "temps_secondes": 30,
+      "question": "Quel protocole sécurise la navigation web en chiffrant les échanges ?",
+      "reponses": [
+        {
+          "texte": "HTTP",
+          "correcte": false
+        },
+        {
+          "texte": "FTP",
+          "correcte": false
+        },
+        {
+          "texte": "Telnet",
+          "correcte": false
+        },
+        {
+          "texte": "HTTPS",
+          "correcte": true
+        },
+        {
+          "texte": "SMTP",
+          "correcte": false
+        },
+        {
+          "texte": "SNMP",
+          "correcte": false
+        }
+      ],
+      "explication": "HTTPS combine HTTP et TLS pour chiffrer et authentifier les échanges.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "cyber_020",
+      "categorie": "technique",
+      "difficulte": 1,
+      "temps_secondes": 30,
+      "question": "Qu'est-ce que le chiffrement ?",
+      "reponses": [
+        {
+          "texte": "Supprimer définitivement des données",
+          "correcte": false
+        },
+        {
+          "texte": "Compresser un fichier",
+          "correcte": false
+        },
+        {
+          "texte": "Copier des données sur un autre disque",
+          "correcte": false
+        },
+        {
+          "texte": "Transformer des données pour qu'elles ne soient lisibles qu'avec une clé",
+          "correcte": true
+        }
+      ],
+      "explication": "Le chiffrement protège la confidentialité des données.",
+      "etiquette_liee": "comp_crypto",
+      "reservee_bluff": false
+    },
+    {
+      "id": "cyber_021",
+      "categorie": "culture",
+      "difficulte": 1,
+      "temps_secondes": 30,
+      "question": "Qu'est-ce qu'un hacker « chapeau blanc » (white hat) ?",
+      "reponses": [
+        {
+          "texte": "Un expert qui teste la sécurité avec autorisation pour aider à corriger les failles",
+          "correcte": true
+        },
+        {
+          "texte": "Un pirate qui vole des données",
+          "correcte": false
+        },
+        {
+          "texte": "Un hacker qui travaille uniquement de jour",
+          "correcte": false
+        },
+        {
+          "texte": "Un développeur de jeux vidéo",
+          "correcte": false
+        }
+      ],
+      "explication": "Les chapeaux blancs agissent dans un cadre légal, les chapeaux noirs hors de tout cadre.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "cyber_022",
+      "categorie": "technique",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "Que signifie le sigle CIA (ou triade CID) en sécurité de l'information ?",
+      "reponses": [
+        {
+          "texte": "Confidentialité, Intégrité, Disponibilité",
+          "correcte": true
+        },
+        {
+          "texte": "Contrôle, Identité, Authentification",
+          "correcte": false
+        },
+        {
+          "texte": "Chiffrement, Inspection, Audit",
+          "correcte": false
+        },
+        {
+          "texte": "Cryptographie, Intrusion, Alerte",
+          "correcte": false
+        }
+      ],
+      "explication": "Ces trois propriétés servent de base pour évaluer un risque.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "cyber_023",
+      "categorie": "technique",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "Quelle différence y a-t-il entre un virus et un ver (worm) ?",
+      "reponses": [
+        {
+          "texte": "Un ver est toujours inoffensif",
+          "correcte": false
+        },
+        {
+          "texte": "Un virus ne touche que les smartphones",
+          "correcte": false
+        },
+        {
+          "texte": "Un ver se propage seul via le réseau, un virus a besoin d'un fichier hôte exécuté",
+          "correcte": true
+        },
+        {
+          "texte": "Il n'y en a aucune",
+          "correcte": false
+        }
+      ],
+      "explication": "Les vers peuvent infecter des milliers de machines sans action de l'utilisateur.",
+      "etiquette_liee": "comp_malware",
+      "reservee_bluff": false
+    },
+    {
+      "id": "cyber_024",
+      "categorie": "technique",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "Qu'est-ce qu'un hash ?",
+      "reponses": [
+        {
+          "texte": "Une clé de chiffrement publique",
+          "correcte": false
+        },
+        {
+          "texte": "Une empreinte de taille fixe calculée à partir de données, à sens unique",
+          "correcte": true
+        },
+        {
+          "texte": "Un mot de passe temporaire",
+          "correcte": false
+        },
+        {
+          "texte": "Une copie compressée du fichier",
+          "correcte": false
+        }
+      ],
+      "explication": "On ne peut pas retrouver les données à partir d'un bon hash.",
+      "etiquette_liee": "comp_crypto",
+      "reservee_bluff": false
+    },
+    {
+      "id": "cyber_025",
+      "categorie": "technique",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "Lequel de ces algorithmes de hachage est considéré comme obsolète et cassé pour la sécurité ?",
+      "reponses": [
+        {
+          "texte": "SHA-256",
+          "correcte": false
+        },
+        {
+          "texte": "SHA-3",
+          "correcte": false
+        },
+        {
+          "texte": "bcrypt",
+          "correcte": false
+        },
+        {
+          "texte": "Argon2",
+          "correcte": false
+        },
+        {
+          "texte": "MD5",
+          "correcte": true
+        },
+        {
+          "texte": "scrypt",
+          "correcte": false
+        }
+      ],
+      "explication": "MD5 est vulnérable aux collisions et ne doit plus servir à protéger des mots de passe.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "cyber_026",
+      "categorie": "technique",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "Pourquoi ajoute-t-on un sel (salt) avant de hacher un mot de passe ?",
+      "reponses": [
+        {
+          "texte": "Pour que deux mots de passe identiques n'aient pas le même hash et contrer les tables précalculées",
+          "correcte": true
+        },
+        {
+          "texte": "Pour accélérer le calcul du hash",
+          "correcte": false
+        },
+        {
+          "texte": "Pour chiffrer le hash",
+          "correcte": false
+        },
+        {
+          "texte": "Pour raccourcir le mot de passe",
+          "correcte": false
+        }
+      ],
+      "explication": "Le sel est aléatoire, unique par utilisateur et stocké avec le hash.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "cyber_027",
+      "categorie": "technique",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "Qu'est-ce qu'une attaque par force brute ?",
+      "reponses": [
+        {
+          "texte": "Envoyer un e-mail piégé",
+          "correcte": false
+        },
+        {
+          "texte": "Essayer systématiquement de nombreuses combinaisons jusqu'à trouver la bonne",
+          "correcte": true
+        },
+        {
+          "texte": "Exploiter une faille inconnue",
+          "correcte": false
+        },
+        {
+          "texte": "Inonder un serveur de requêtes",
+          "correcte": false
+        }
+      ],
+      "explication": "Des mots de passe longs et un verrouillage après échecs limitent ce type d'attaque.",
+      "etiquette_liee": "con_rootme_htb",
+      "reservee_bluff": false
+    },
+    {
+      "id": "cyber_028",
+      "categorie": "technique",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "Qu'est-ce qu'une attaque DDoS ?",
+      "reponses": [
+        {
+          "texte": "Voler des mots de passe par e-mail",
+          "correcte": false
+        },
+        {
+          "texte": "Chiffrer des fichiers contre rançon",
+          "correcte": false
+        },
+        {
+          "texte": "Saturer un service avec un trafic massif provenant de nombreuses sources",
+          "correcte": true
+        },
+        {
+          "texte": "Écouter discrètement le trafic",
+          "correcte": false
+        }
+      ],
+      "explication": "Le but est de rendre le service indisponible.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "cyber_029",
+      "categorie": "technique",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "Que désigne l'OWASP Top 10 ?",
+      "reponses": [
+        {
+          "texte": "Un classement des dix meilleurs antivirus",
+          "correcte": false
+        },
+        {
+          "texte": "Les dix ports les plus ouverts",
+          "correcte": false
+        },
+        {
+          "texte": "Une norme de chiffrement",
+          "correcte": false
+        },
+        {
+          "texte": "Les dix outils de pentest les plus rapides",
+          "correcte": false
+        },
+        {
+          "texte": "Un top des hackers célèbres",
+          "correcte": false
+        },
+        {
+          "texte": "La liste des dix risques de sécurité les plus critiques pour les applications web",
+          "correcte": true
+        }
+      ],
+      "explication": "C'est une référence pour sensibiliser les développeurs et auditeurs.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "cyber_030",
+      "categorie": "technique",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "Qu'est-ce qu'une vulnérabilité « zero-day » ?",
+      "reponses": [
+        {
+          "texte": "Une faille inconnue de l'éditeur, sans correctif disponible",
+          "correcte": true
+        },
+        {
+          "texte": "Une faille corrigée le jour même",
+          "correcte": false
+        },
+        {
+          "texte": "Un virus qui s'active à minuit",
+          "correcte": false
+        },
+        {
+          "texte": "Un test d'intrusion de 24 heures",
+          "correcte": false
+        }
+      ],
+      "explication": "Les zero-days sont recherchés car aucun correctif n'existe encore.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "cyber_031",
+      "categorie": "technique",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "Qu'est-ce que l'ingénierie sociale ?",
+      "reponses": [
+        {
+          "texte": "Manipuler des personnes pour obtenir des informations ou un accès",
+          "correcte": true
+        },
+        {
+          "texte": "Un réseau social professionnel",
+          "correcte": false
+        },
+        {
+          "texte": "Une méthode de programmation",
+          "correcte": false
+        },
+        {
+          "texte": "Un protocole de messagerie",
+          "correcte": false
+        }
+      ],
+      "explication": "L'humain reste souvent le maillon le plus exploité.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "cyber_032",
+      "categorie": "technique",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "Qu'est-ce que le principe du moindre privilège ?",
+      "reponses": [
+        {
+          "texte": "Donner tous les droits aux administrateurs et à tous les autres",
+          "correcte": false
+        },
+        {
+          "texte": "Donner à chaque utilisateur ou service uniquement les droits nécessaires",
+          "correcte": true
+        },
+        {
+          "texte": "Supprimer tous les comptes inutilisés chaque jour",
+          "correcte": false
+        },
+        {
+          "texte": "Limiter le nombre d'utilisateurs à un seul",
+          "correcte": false
+        }
+      ],
+      "explication": "Cela limite les dégâts en cas de compromission d'un compte.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "cyber_033",
+      "categorie": "technique",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "Quel outil est un framework de test d'intrusion très répandu ?",
+      "reponses": [
+        {
+          "texte": "Photoshop",
+          "correcte": false
+        },
+        {
+          "texte": "Excel",
+          "correcte": false
+        },
+        {
+          "texte": "Wireshark",
+          "correcte": false
+        },
+        {
+          "texte": "Blender",
+          "correcte": false
+        },
+        {
+          "texte": "Metasploit",
+          "correcte": true
+        },
+        {
+          "texte": "Figma",
+          "correcte": false
+        }
+      ],
+      "explication": "Metasploit regroupe des modules d'exploitation utilisés dans des tests autorisés.",
+      "etiquette_liee": "exp_audit_pentest",
+      "reservee_bluff": false
+    },
+    {
+      "id": "cyber_034",
+      "categorie": "technique",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "Lequel de ces chiffrements est asymétrique ?",
+      "reponses": [
+        {
+          "texte": "AES",
+          "correcte": false
+        },
+        {
+          "texte": "DES",
+          "correcte": false
+        },
+        {
+          "texte": "ChaCha20",
+          "correcte": false
+        },
+        {
+          "texte": "RSA",
+          "correcte": true
+        }
+      ],
+      "explication": "RSA utilise une paire de clés (publique / privée), contrairement à AES, DES et ChaCha20.",
+      "etiquette_liee": "for_cert_cyber",
+      "reservee_bluff": false
+    },
+    {
+      "id": "cyber_035",
+      "categorie": "technique",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "Qu'est-ce qu'un SIEM ?",
+      "reponses": [
+        {
+          "texte": "Un antivirus pour mobiles",
+          "correcte": false
+        },
+        {
+          "texte": "Un type de pare-feu matériel",
+          "correcte": false
+        },
+        {
+          "texte": "Un système qui centralise et corrèle les journaux de sécurité pour détecter des incidents",
+          "correcte": true
+        },
+        {
+          "texte": "Un format de sauvegarde",
+          "correcte": false
+        }
+      ],
+      "explication": "Un SIEM alimente les équipes du SOC en alertes exploitables.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "cyber_036",
+      "categorie": "technique",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "Qu'est-ce qu'un honeypot ?",
+      "reponses": [
+        {
+          "texte": "Un coffre-fort de mots de passe",
+          "correcte": false
+        },
+        {
+          "texte": "Un système leurre conçu pour attirer et observer des attaquants",
+          "correcte": true
+        },
+        {
+          "texte": "Un logiciel de sauvegarde",
+          "correcte": false
+        },
+        {
+          "texte": "Un type de VPN",
+          "correcte": false
+        }
+      ],
+      "explication": "Il permet d'étudier les techniques d'attaque sans exposer les vrais systèmes.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "cyber_037",
+      "categorie": "technique",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "Quel outil permet de désassembler et analyser un programme compilé (rétro-ingénierie) ?",
+      "reponses": [
+        {
+          "texte": "Audacity",
+          "correcte": false
+        },
+        {
+          "texte": "Inkscape",
+          "correcte": false
+        },
+        {
+          "texte": "Scribus",
+          "correcte": false
+        },
+        {
+          "texte": "Ghidra",
+          "correcte": true
+        }
+      ],
+      "explication": "Ghidra est un outil libre de rétro-ingénierie développé par la NSA.",
+      "etiquette_liee": "comp_assembleur",
+      "reservee_bluff": false
+    },
+    {
+      "id": "cyber_038",
+      "categorie": "technique",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "À quoi sert un WAF ?",
+      "reponses": [
+        {
+          "texte": "À accélérer la base de données",
+          "correcte": false
+        },
+        {
+          "texte": "À chiffrer les disques",
+          "correcte": false
+        },
+        {
+          "texte": "À filtrer le trafic HTTP pour protéger une application web contre des attaques courantes",
+          "correcte": true
+        },
+        {
+          "texte": "À sauvegarder les sites web",
+          "correcte": false
+        }
+      ],
+      "explication": "Un Web Application Firewall bloque par exemple des injections SQL ou du XSS.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "cyber_039",
+      "categorie": "technique",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "Dans quel cas utilise-t-on un certificat TLS ?",
+      "reponses": [
+        {
+          "texte": "Pour compresser les images",
+          "correcte": false
+        },
+        {
+          "texte": "Pour authentifier un serveur et chiffrer les échanges",
+          "correcte": true
+        },
+        {
+          "texte": "Pour accélérer le DNS",
+          "correcte": false
+        },
+        {
+          "texte": "Pour sauvegarder des fichiers",
+          "correcte": false
+        },
+        {
+          "texte": "Pour synchroniser l'heure",
+          "correcte": false
+        },
+        {
+          "texte": "Pour bloquer les publicités",
+          "correcte": false
+        }
+      ],
+      "explication": "Le certificat prouve l'identité du serveur et permet la mise en place du chiffrement.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "cyber_040",
+      "categorie": "technique",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "Quelle est la bonne pratique pour stocker les mots de passe des utilisateurs en base ?",
+      "reponses": [
+        {
+          "texte": "Les hacher avec un algorithme dédié (bcrypt, Argon2) et un sel",
+          "correcte": true
+        },
+        {
+          "texte": "En clair, pour pouvoir les envoyer par e-mail",
+          "correcte": false
+        },
+        {
+          "texte": "Chiffrés avec une clé stockée dans le code source",
+          "correcte": false
+        },
+        {
+          "texte": "Dans un fichier texte public",
+          "correcte": false
+        }
+      ],
+      "explication": "On ne stocke jamais un mot de passe en clair et on n'a pas besoin de pouvoir le retrouver.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "cyber_041",
+      "categorie": "technique",
+      "difficulte": 2,
+      "temps_secondes": 25,
+      "question": "À quoi sert un plan de réponse aux incidents ?",
+      "reponses": [
+        {
+          "texte": "À répartir les congés de l'équipe",
+          "correcte": false
+        },
+        {
+          "texte": "À choisir les couleurs de l'interface",
+          "correcte": false
+        },
+        {
+          "texte": "À planifier les mises à jour de bureautique",
+          "correcte": false
+        },
+        {
+          "texte": "À définir les étapes à suivre : détection, confinement, éradication, restauration, retour d'expérience",
+          "correcte": true
+        }
+      ],
+      "explication": "Préparer la réponse à l'avance évite d'improviser en situation de crise.",
+      "etiquette_liee": "comp_normes_iso_itil",
+      "reservee_bluff": false
+    },
+    {
+      "id": "cyber_042",
+      "categorie": "technique",
+      "difficulte": 3,
+      "temps_secondes": 20,
+      "question": "Quelle différence y a-t-il entre une attaque XSS stockée et une XSS réfléchie ?",
+      "reponses": [
+        {
+          "texte": "La stockée n'existe que sur mobile",
+          "correcte": false
+        },
+        {
+          "texte": "La réfléchie vole directement le disque dur",
+          "correcte": false
+        },
+        {
+          "texte": "Il n'y a aucune différence",
+          "correcte": false
+        },
+        {
+          "texte": "La stockée ne s'exécute jamais",
+          "correcte": false
+        },
+        {
+          "texte": "La stockée est enregistrée côté serveur et touche tous les visiteurs, la réfléchie dépend d'un lien piégé",
+          "correcte": true
+        },
+        {
+          "texte": "La réfléchie est toujours inoffensive",
+          "correcte": false
+        }
+      ],
+      "explication": "Dans la XSS stockée, le script malveillant persiste (commentaire, profil) et touche chaque visiteur.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "cyber_043",
+      "categorie": "technique",
+      "difficulte": 3,
+      "temps_secondes": 20,
+      "question": "Qu'est-ce que l'attaque « pass-the-hash » ?",
+      "reponses": [
+        {
+          "texte": "Deviner un mot de passe en testant un dictionnaire",
+          "correcte": false
+        },
+        {
+          "texte": "Réutiliser le hash d'un mot de passe volé pour s'authentifier sans connaître le mot de passe",
+          "correcte": true
+        },
+        {
+          "texte": "Envoyer un faux e-mail pour obtenir un mot de passe",
+          "correcte": false
+        },
+        {
+          "texte": "Intercepter un mot de passe sur un réseau Wi-Fi ouvert",
+          "correcte": false
+        },
+        {
+          "texte": "Casser un hash avec des tables précalculées",
+          "correcte": false
+        },
+        {
+          "texte": "Installer un enregistreur de frappe",
+          "correcte": false
+        }
+      ],
+      "explication": "Elle exploite des protocoles d'authentification qui acceptent directement le hash.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "cyber_044",
+      "categorie": "technique",
+      "difficulte": 3,
+      "temps_secondes": 20,
+      "question": "Qu'est-ce qu'une attaque CSRF ?",
+      "reponses": [
+        {
+          "texte": "Injecter du SQL dans un formulaire",
+          "correcte": false
+        },
+        {
+          "texte": "Saturer un serveur de requêtes",
+          "correcte": false
+        },
+        {
+          "texte": "Voler un certificat TLS",
+          "correcte": false
+        },
+        {
+          "texte": "Forcer le navigateur d'un utilisateur connecté à envoyer une requête non voulue à un site",
+          "correcte": true
+        }
+      ],
+      "explication": "On s'en protège avec des jetons anti-CSRF et des cookies SameSite.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "cyber_045",
+      "categorie": "technique",
+      "difficulte": 3,
+      "temps_secondes": 20,
+      "question": "Dans le modèle de menace STRIDE, que signifie la lettre S ?",
+      "reponses": [
+        {
+          "texte": "Sniffing",
+          "correcte": false
+        },
+        {
+          "texte": "Scanning",
+          "correcte": false
+        },
+        {
+          "texte": "Sabotage",
+          "correcte": false
+        },
+        {
+          "texte": "Spoofing (usurpation d'identité)",
+          "correcte": true
+        }
+      ],
+      "explication": "STRIDE : Spoofing, Tampering, Repudiation, Information disclosure, Denial of service, Elevation of privilege.",
+      "etiquette_liee": null,
+      "reservee_bluff": false
+    },
+    {
+      "id": "cyber_046",
+      "categorie": "piege_bluff",
+      "difficulte": 3,
+      "temps_secondes": 20,
+      "question": "Quelle est la longueur de sortie d'un hash SHA-256 ?",
+      "reponses": [
+        {
+          "texte": "128 bits",
+          "correcte": false
+        },
+        {
+          "texte": "160 bits",
+          "correcte": false
+        },
+        {
+          "texte": "256 bits (32 octets)",
+          "correcte": true
+        },
+        {
+          "texte": "512 bits",
+          "correcte": false
+        }
+      ],
+      "explication": "SHA-256 produit une empreinte de 256 bits.",
+      "etiquette_liee": null,
+      "reservee_bluff": true
+    },
+    {
+      "id": "cyber_047",
+      "categorie": "piege_bluff",
+      "difficulte": 3,
+      "temps_secondes": 20,
+      "question": "Quel port utilise par défaut le protocole RDP (Bureau à distance Windows) ?",
+      "reponses": [
+        {
+          "texte": "22",
+          "correcte": false
+        },
+        {
+          "texte": "23",
+          "correcte": false
+        },
+        {
+          "texte": "445",
+          "correcte": false
+        },
+        {
+          "texte": "5900",
+          "correcte": false
+        },
+        {
+          "texte": "3389",
+          "correcte": true
+        },
+        {
+          "texte": "8080",
+          "correcte": false
+        }
+      ],
+      "explication": "RDP écoute sur le port TCP 3389, souvent ciblé par des attaques.",
+      "etiquette_liee": null,
+      "reservee_bluff": true
+    },
+    {
+      "id": "cyber_048",
+      "categorie": "piege_bluff",
+      "difficulte": 3,
+      "temps_secondes": 20,
+      "question": "Pouvez-vous nous expliquer l'attaque « Quantum Shadow Injection v9 » ?",
+      "reponses": [
+        {
+          "texte": "Je ne connais pas cette attaque et je ne crois pas qu'elle existe. Pensez-vous à une autre ?",
+          "correcte": true
+        },
+        {
+          "texte": "Bien sûr, je l'ai déjà utilisée en mission",
+          "correcte": false
+        },
+        {
+          "texte": "C'est une variante de l'injection SQL, très répandue",
+          "correcte": false
+        },
+        {
+          "texte": "C'est une faille connue de tous les navigateurs",
+          "correcte": false
+        }
+      ],
+      "explication": "Face à un terme inventé, mieux vaut dire honnêtement qu'on ne le connaît pas.",
+      "etiquette_liee": null,
+      "reservee_bluff": true
+    },
+    {
+      "id": "cyber_049",
+      "categorie": "piege_bluff",
+      "difficulte": 3,
+      "temps_secondes": 20,
+      "question": "Quelle est la taille de clé minimale généralement recommandée aujourd'hui pour RSA ?",
+      "reponses": [
+        {
+          "texte": "512 bits",
+          "correcte": false
+        },
+        {
+          "texte": "768 bits",
+          "correcte": false
+        },
+        {
+          "texte": "1024 bits",
+          "correcte": false
+        },
+        {
+          "texte": "2048 bits",
+          "correcte": true
+        },
+        {
+          "texte": "256 bits",
+          "correcte": false
+        },
+        {
+          "texte": "64 bits",
+          "correcte": false
+        }
+      ],
+      "explication": "RSA 1024 bits est jugé trop faible ; 2048 bits est le minimum courant.",
+      "etiquette_liee": null,
+      "reservee_bluff": true
+    },
+    {
+      "id": "cyber_050",
+      "categorie": "piege_bluff",
+      "difficulte": 3,
+      "temps_secondes": 20,
+      "question": "Que signifie CVE ?",
+      "reponses": [
+        {
+          "texte": "Critical Virus Evaluation",
+          "correcte": false
+        },
+        {
+          "texte": "Cyber Verification Engine",
+          "correcte": false
+        },
+        {
+          "texte": "Code Vulnerability Encryption",
+          "correcte": false
+        },
+        {
+          "texte": "Common Vulnerabilities and Exposures : un identifiant public de vulnérabilité",
+          "correcte": true
+        }
+      ],
+      "explication": "Un identifiant CVE (par exemple CVE-2021-44228) référence une faille connue.",
+      "etiquette_liee": null,
+      "reservee_bluff": true
+    }
+  ]
+}
