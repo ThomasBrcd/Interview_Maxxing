@@ -29,6 +29,9 @@ protected:
 	
 	bool bIsPlayerNear;
 
+	UFUNCTION(BlueprintImplementableEvent, Category = "Interaction")
+	void OnPCInteracted();
+
 	UFUNCTION()
 	void OnOverlapBegin(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
 

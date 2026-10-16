@@ -2,6 +2,7 @@
 #include "Components/StaticMeshComponent.h"
 #include "Components/BoxComponent.h"
 #include "GameFramework/Pawn.h"
+#include "GameFramework/PlayerController.h"
 #include "Components/WidgetComponent.h"
 
 // Sets default values
@@ -47,8 +48,28 @@ void AInteractablePC::InteractWithPC()
 {
     if (bIsPlayerNear)
     {
-        ShowPCInterface();
+        APlayerController* PC = GetWorld()->GetFirstPlayerController();
+        if (PC)
+        {
+            // 1. Transition fluide vers la caméra du PC (durée 0.5s)
+            PC->SetViewTargetWithBlend(this, 0.5f);
+
+            // 2. Afficher la souris et autoriser les clics
+            PC->bShowMouseCursor = true;
+            FInputModeGameAndUI InputMode;
+            InputMode.SetHideCursorDuringCapture(false);
+            PC->SetInputMode(InputMode);
+
+            // NOUVEAU : Bloquer les mouvements et la rotation de la caméra
+            PC->SetIgnoreMoveInput(true);
+            PC->SetIgnoreLookInput(true);
+        }
+
+        // Masquer les aides visuelles
         if (PromptWidget) PromptWidget->SetVisibility(false);
         if (PCMesh) PCMesh->SetRenderCustomDepth(false);
+
+        // 3. Appeler l'événement Blueprint pour charger les boutons/CV
+        OnPCInteracted();
     }
 }
