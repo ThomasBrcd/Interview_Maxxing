@@ -60,7 +60,7 @@ void AInteractableBed::GoToSleep()
     {
         PC->PlayerCameraManager->StartCameraFade(0.0f, 1.0f, 1.0f, FLinearColor::Black, false, true);
         PlayerPawn->DisableInput(PC);
-        GetWorld()->GetTimerManager().SetTimer(SleepTimerHandle, this, &AInteractableBed::WakeUp, 2.0f, false);
+        GetWorld()->GetTimerManager().SetTimer(SleepTimerHandle, this, &AInteractableBed::WakeUp, 4.0f, false);
 
         if (PromptWidget) PromptWidget->SetVisibility(false);
         if (BedMesh) BedMesh->SetRenderCustomDepth(false);
