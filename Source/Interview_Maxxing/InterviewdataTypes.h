@@ -12,7 +12,7 @@ struct FReponse
     FString texte;
 
     UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Interview")
-    bool correcte;
+    bool correcte = false;
 };
 
 USTRUCT(BlueprintType)
@@ -27,10 +27,10 @@ struct FQuestion
     FString categorie;
 
     UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Interview")
-    int32 difficulte;
+    int32 difficulte = 0;
 
     UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Interview")
-    int32 temps_secondes;
+    int32 temps_secondes = 0;
 
     UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Interview")
     FString question;
@@ -45,7 +45,7 @@ struct FQuestion
     FString etiquette_liee;
 
     UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Interview")
-    bool reservee_bluff;
+    bool reservee_bluff = false;
 };
 
 USTRUCT(BlueprintType)

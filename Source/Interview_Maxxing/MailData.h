@@ -31,7 +31,7 @@ struct FMailDataRow : public FTableRowBase
     UPROPERTY(EditAnywhere, BlueprintReadWrite) FText CritereRecherche;
     
     // GAMEPLAY - Domaine (lié à EDomaineTech créé précédemment pour charger les bonnes questions)
-    UPROPERTY(EditAnywhere, BlueprintReadWrite) EDomaineTech DomainePrincipal;
+    UPROPERTY(EditAnywhere, BlueprintReadWrite) EDomaineTech DomainePrincipal = EDomaineTech::Aucun;
     
     // GAMEPLAY - Calcul du score
     UPROPERTY(EditAnywhere, BlueprintReadWrite) FPoidsStats MultiplicateursStats;

@@ -195,11 +195,32 @@ void AInteractablePC::Tick(float DeltaTime)
 	APlayerController* PC = GetWorld()->GetFirstPlayerController();
 	if (!PC) return;
 
+	// Souris hors de la vitre (ou hors de la fenêtre) : ce n'est pas une erreur, c'est un cas normal
+	auto HandlePointerOffScreen = [this, PC]()
+	{
+		// Clic maintenu (ex : drag d'un CV) : on garde le dernier point valide pour ne pas casser le drag,
+		// et on relâche proprement dès que le bouton est lâché hors de l'écran
+		if (bIsLeftMousePressed)
+		{
+			CRTWidgetInteraction->SetCustomHitResult(LastValidCustomHit);
+
+			if (!PC->IsInputKeyDown(EKeys::LeftMouseButton))
+			{
+				bIsLeftMousePressed = false;
+				CRTWidgetInteraction->ReleasePointerKey(EKeys::LeftMouseButton);
+			}
+			return;
+		}
+
+		CRTWidgetInteraction->SetCustomHitResult(FHitResult());
+	};
+
 	// Test 2 : Vérifier la déprojection de la souris
 	FVector WorldOrigin, WorldDirection;
 	if (!PC->DeprojectMousePositionToWorld(WorldOrigin, WorldDirection))
 	{
-		if (GEngine) GEngine->AddOnScreenDebugMessage(1, 0.0f, FColor::Orange, TEXT("ERREUR CRT : Impossible de déprojeter la souris (Souris hors de la fenêtre ?)."));
+		if (bDrawDebugCRT && GEngine) GEngine->AddOnScreenDebugMessage(1, 0.0f, FColor::Orange, TEXT("CRT : Souris hors de la fenêtre."));
+		HandlePointerOffScreen();
 		return;
 	}
 
@@ -221,17 +242,20 @@ void AInteractablePC::Tick(float DeltaTime)
 
 	if (!bHit)
 	{
-		if (GEngine) GEngine->AddOnScreenDebugMessage(1, 0.0f, FColor::Yellow, TEXT("CRT TRACE : Le rayon ne touche RIEN (Vérifie la collision de PCScreen)."));
-		CRTWidgetInteraction->SetCustomHitResult(FHitResult());
+		if (bDrawDebugCRT && GEngine) GEngine->AddOnScreenDebugMessage(1, 0.0f, FColor::Yellow, TEXT("CRT TRACE : Le rayon ne touche RIEN."));
+		HandlePointerOffScreen();
 		return;
 	}
 
 	// Test 3 : Vérifier si on touche bien PCScreen ou un autre objet
 	if (MeshHit.GetComponent() != CRTScreenMesh)
 	{
-		FString HitName = MeshHit.GetComponent() ? MeshHit.GetComponent()->GetName() : TEXT("Inconnu");
-		if (GEngine) GEngine->AddOnScreenDebugMessage(1, 0.0f, FColor::Yellow, FString::Printf(TEXT("CRT TRACE : Le rayon est bloqué par '%s' au lieu de PCScreen !"), *HitName));
-		CRTWidgetInteraction->SetCustomHitResult(FHitResult());
+		if (bDrawDebugCRT && GEngine)
+		{
+			FString HitName = MeshHit.GetComponent() ? MeshHit.GetComponent()->GetName() : TEXT("Inconnu");
+			GEngine->AddOnScreenDebugMessage(1, 0.0f, FColor::Yellow, FString::Printf(TEXT("CRT TRACE : Le rayon touche '%s' au lieu de PCScreen."), *HitName));
+		}
+		HandlePointerOffScreen();
 		return;
 	}
 
@@ -248,7 +272,7 @@ void AInteractablePC::Tick(float DeltaTime)
 		if (bFlipU) UV.X = 1.0f - UV.X;
 		if (bFlipV) UV.Y = 1.0f - UV.Y;
 
-		if (GEngine) GEngine->AddOnScreenDebugMessage(1, 0.0f, FColor::Green, FString::Printf(TEXT("CRT OK ! UV = (%.2f, %.2f)"), UV.X, UV.Y));
+		if (bDrawDebugCRT && GEngine) GEngine->AddOnScreenDebugMessage(1, 0.0f, FColor::Green, FString::Printf(TEXT("CRT OK ! UV = (%.2f, %.2f)"), UV.X, UV.Y));
 
 		FVector2D DrawSize = CRTWidgetComp->GetDrawSize();
 		FVector2D Pivot = CRTWidgetComp->GetPivot();
@@ -298,19 +322,9 @@ void AInteractablePC::Tick(float DeltaTime)
 
 		return;
 	}
-	if (bIsLeftMousePressed)
-	{
-		CRTWidgetInteraction->SetCustomHitResult(LastValidCustomHit);
 
-		if (!PC->IsInputKeyDown(EKeys::LeftMouseButton))
-		{
-			bIsLeftMousePressed = false;
-			CRTWidgetInteraction->ReleasePointerKey(EKeys::LeftMouseButton);
-		}
-		return;
-	}
-
-	CRTWidgetInteraction->SetCustomHitResult(FHitResult());
+	// UV illisibles (bord de la vitre) : même traitement que si la souris sortait de l'écran
+	HandlePointerOffScreen();
 }
 
 void AInteractablePC::OnCRTLeftClickPressed()
