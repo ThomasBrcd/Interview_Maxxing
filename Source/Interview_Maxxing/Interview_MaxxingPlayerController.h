@@ -8,6 +8,7 @@
 
 class UInputMappingContext;
 class UUserWidget;
+class UMenuParametres;
 
 /**
  *  Simple first person Player Controller
@@ -45,6 +46,20 @@ protected:
 	/** If true, the player will use UMG touch controls even if not playing on mobile platforms */
 	UPROPERTY(EditAnywhere, Config, Category = "Input|Touch Controls")
 	bool bForceTouchControls = false;
+
+	/** Menu des paramètres ouvert avec Échap (ou P dans l'éditeur, où Échap arrête le PIE) */
+	UPROPERTY(EditAnywhere, Category = "UI|Parametres")
+	TSubclassOf<UMenuParametres> MenuParametresClass;
+
+	UPROPERTY()
+	TObjectPtr<UMenuParametres> MenuParametres;
+
+	/** Ouvre le menu des paramètres en jeu, ou le ferme s'il est déjà ouvert */
+	UFUNCTION(BlueprintCallable, Category = "UI|Parametres")
+	void BasculerMenuParametres();
+
+	UFUNCTION()
+	void OnMenuParametresFerme();
 
 	/** Gameplay initialization */
 	virtual void BeginPlay() override;

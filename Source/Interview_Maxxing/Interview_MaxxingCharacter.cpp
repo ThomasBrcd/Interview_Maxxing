@@ -9,6 +9,7 @@
 #include "InputActionValue.h"
 #include "GameFramework/CharacterMovementComponent.h"
 #include "Interview_Maxxing.h"
+#include "InterviewGameUserSettings.h"
 
 AInterview_MaxxingCharacter::AInterview_MaxxingCharacter()
 {
@@ -81,6 +82,12 @@ void AInterview_MaxxingCharacter::LookInput(const FInputActionValue& Value)
 {
 	// get the Vector2D look axis
 	FVector2D LookAxisVector = Value.Get<FVector2D>();
+
+	// apply the player's sensitivity from the settings menu
+	if (const UInterviewGameUserSettings* Settings = UInterviewGameUserSettings::GetInterviewGameUserSettings())
+	{
+		LookAxisVector *= Settings->GetSensibiliteSouris();
+	}
 
 	// pass the axis values to the aim input
 	DoAim(LookAxisVector.X, LookAxisVector.Y);

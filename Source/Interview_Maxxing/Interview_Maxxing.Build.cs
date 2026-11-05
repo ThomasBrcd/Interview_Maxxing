@@ -19,6 +19,7 @@ public class Interview_Maxxing : ModuleRules
 			"GameplayStateTreeModule",
 			"UMG",
 			"Slate",
+			"SlateCore",
 			"Json", 
 			"JsonUtilities"
 		});
