@@ -27,13 +27,7 @@ public class Interview_Maxxing : ModuleRules
 		PrivateDependencyModuleNames.AddRange(new string[] { });
 
 		PublicIncludePaths.AddRange(new string[] {
-			"Interview_Maxxing",
-			"Interview_Maxxing/Variant_Horror",
-			"Interview_Maxxing/Variant_Horror/UI",
-			"Interview_Maxxing/Variant_Shooter",
-			"Interview_Maxxing/Variant_Shooter/AI",
-			"Interview_Maxxing/Variant_Shooter/UI",
-			"Interview_Maxxing/Variant_Shooter/Weapons"
+			"Interview_Maxxing"
 		});
 
 		// Uncomment if you are using Slate UI
