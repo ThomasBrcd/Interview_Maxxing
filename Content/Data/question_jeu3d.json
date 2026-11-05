@@ -9,19 +9,19 @@
       "question": "Pour commencer, pourquoi souhaitez-vous rejoindre notre studio ?",
       "reponses": [
         {
-          "texte": "Parce que faire des jeux, c'est jouer toute la journée.",
+          "texte": "Parce que faire des jeux, c'est jouer toute la journée et être payé pour donner son avis.",
           "correcte": false
         },
         {
-          "texte": "Parce que j'ai envoyé ma candidature partout et que vous avez répondu.",
+          "texte": "Parce que j'ai postulé dans tous les studios du pays et que vous êtes le premier à répondre.",
           "correcte": false
         },
         {
-          "texte": "Parce que j'ai joué à vos jeux, étudié votre direction artistique, et que vos projets correspondent à ce que je veux apprendre.",
+          "texte": "Parce que je connais vos jeux et votre direction artistique, et que vos projets m'attirent vraiment.",
           "correcte": true
         },
         {
-          "texte": "Parce que les jeux vidéo, c'est cool, c'est tout.",
+          "texte": "Parce que les jeux vidéo, c'est cool, et que travailler dans un studio ferait bien sur mon CV.",
           "correcte": false
         }
       ],
@@ -37,19 +37,19 @@
       "question": "Pouvez-vous vous présenter en une minute ?",
       "reponses": [
         {
-          "texte": "Je montre ma démo de quarante minutes sans rien expliquer.",
+          "texte": "Je lance ma démo de quarante minutes et je la laisse tourner sans rien expliquer.",
           "correcte": false
         },
         {
-          "texte": "Je résume mon parcours, mes projets les plus marquants (portfolio) et ce qui me motive dans ce poste.",
+          "texte": "Je résume mon parcours, mes projets marquants (portfolio) et ma motivation pour ce poste.",
           "correcte": true
         },
         {
-          "texte": "Je dis que mon portfolio parle de lui-même et je me tais.",
+          "texte": "Je dis que mon portfolio parle de lui-même, puis je me tais en attendant vos questions.",
           "correcte": false
         },
         {
-          "texte": "Je raconte tous les jeux auxquels j'ai joué depuis 2005.",
+          "texte": "Je raconte tous les jeux auxquels j'ai joué depuis 2005, par ordre chronologique.",
           "correcte": false
         }
       ],
@@ -65,19 +65,19 @@
       "question": "Quel est votre principal défaut ?",
       "reponses": [
         {
-          "texte": "Je suis perfectionniste.",
+          "texte": "Je suis perfectionniste : je peaufine chaque détail, même quand la date de sortie approche.",
           "correcte": false
         },
         {
-          "texte": "Je n'ai aucun défaut.",
+          "texte": "Honnêtement, je n'ai aucun défaut qui pourrait gêner le travail en équipe sur un jeu.",
           "correcte": false
         },
         {
-          "texte": "Je m'attache trop à mes idées. Depuis, je prototype vite et je tiens compte des retours de l'équipe.",
+          "texte": "Je m'attache trop à mes idées, donc je prototype vite et j'écoute les retours de l'équipe.",
           "correcte": true
         },
         {
-          "texte": "Je n'écoute jamais les retours, mais mes idées sont toujours bonnes.",
+          "texte": "Je n'écoute jamais les retours des autres, mais c'est parce que mes idées sont toujours bonnes.",
           "correcte": false
         }
       ],
@@ -93,19 +93,19 @@
       "question": "Où vous voyez-vous dans cinq ans ?",
       "reponses": [
         {
-          "texte": "À la tête de mon propre studio, en vous concurrençant.",
+          "texte": "À la tête de mon propre studio, en train de vous concurrencer avec les techniques que j'aurai apprises ici.",
           "correcte": false
         },
         {
-          "texte": "Avoir livré plusieurs jeux avec vous et pris plus de responsabilités sur la conception ou la technique.",
+          "texte": "Avoir livré plusieurs jeux avec vous et pris des responsabilités en conception ou en technique.",
           "correcte": true
         },
         {
-          "texte": "Je ne sais pas, je ne me projette jamais.",
+          "texte": "Je ne sais pas, je préfère ne jamais me projeter et voir comment les choses évoluent.",
           "correcte": false
         },
         {
-          "texte": "À travailler sur mon jeu perso pendant les heures de bureau.",
+          "texte": "À travailler sur mon jeu personnel pendant les heures de bureau, avec le matériel du studio.",
           "correcte": false
         }
       ],
@@ -121,19 +121,19 @@
       "question": "Quelles sont vos prétentions salariales ?",
       "reponses": [
         {
-          "texte": "Le salaire d'un directeur de studio AAA.",
+          "texte": "Le salaire d'un directeur de studio AAA, puisque je compte assumer ce niveau de responsabilité.",
           "correcte": false
         },
         {
-          "texte": "Peu importe, je travaille par passion, même gratuitement.",
+          "texte": "Peu importe le montant, je travaille par passion et je serais prêt à le faire même gratuitement.",
           "correcte": false
         },
         {
-          "texte": "Je veux surtout un maximum de crédits dans le jeu.",
+          "texte": "Je veux surtout un maximum de crédits au générique du jeu, le salaire passe au second plan.",
           "correcte": false
         },
         {
-          "texte": "Autant que Mario, c'est-à-dire en pièces d'or.",
+          "texte": "Autant que Mario, c'est-à-dire payé en pièces d'or à chaque niveau terminé.",
           "correcte": false
         },
         {
@@ -141,7 +141,7 @@
           "correcte": true
         },
         {
-          "texte": "Ce que vous proposez, sans jamais négocier.",
+          "texte": "Ce que vous me proposerez, je l'accepterai sans négocier ni poser de question.",
           "correcte": false
         }
       ],
@@ -157,19 +157,19 @@
       "question": "Avez-vous des questions à nous poser ?",
       "reponses": [
         {
-          "texte": "Non, aucune.",
+          "texte": "Non, aucune : je pense que vous avez déjà répondu à tout pendant l'entretien.",
           "correcte": false
         },
         {
-          "texte": "Oui : comment se déroule la production d'un jeu chez vous, et quels sont les prochains projets du studio ?",
+          "texte": "Oui : comment se passe la production d'un jeu chez vous, et quels sont vos prochains projets ?",
           "correcte": true
         },
         {
-          "texte": "Est-ce qu'on peut faire des siestes dans les salles de repos ?",
+          "texte": "Est-ce qu'on a le droit de faire des siestes dans les salles de repos pendant les heures de travail ?",
           "correcte": false
         },
         {
-          "texte": "Est-ce que vous offrez des jeux gratuits ?",
+          "texte": "Est-ce que vous offrez gratuitement tous les jeux du studio, et ceux des concurrents aussi ?",
           "correcte": false
         }
       ],
@@ -185,19 +185,19 @@
       "question": "Racontez-nous comment vous avez géré une deadline très serrée (une game jam, par exemple).",
       "reponses": [
         {
-          "texte": "J'ai priorisé les fonctionnalités essentielles, coupé le superflu et communiqué sur l'avancement.",
+          "texte": "J'ai priorisé l'essentiel, coupé le superflu et tenu l'équipe informée de l'avancement.",
           "correcte": true
         },
         {
-          "texte": "J'ai ajouté plus de fonctionnalités pour impressionner le jury.",
+          "texte": "J'ai ajouté le plus de fonctionnalités possible à la dernière minute pour impressionner le jury.",
           "correcte": false
         },
         {
-          "texte": "J'ai travaillé 72 heures sans dormir et j'ai recommencé le lendemain.",
+          "texte": "J'ai travaillé 72 heures d'affilée sans dormir, puis j'ai tout recommencé le lendemain.",
           "correcte": false
         },
         {
-          "texte": "J'ai tout abandonné à trois heures de la fin.",
+          "texte": "J'ai tout abandonné à trois heures de la fin, le projet n'était de toute façon pas assez bon.",
           "correcte": false
         }
       ],
@@ -213,23 +213,23 @@
       "question": "Un game designer et vous n'êtes pas d'accord sur une mécanique de jeu. Que faites-vous ?",
       "reponses": [
         {
-          "texte": "J'impose mon avis, je connais mieux les jeux que lui.",
+          "texte": "J'impose mon avis, parce que je connais beaucoup mieux les jeux que lui.",
           "correcte": false
         },
         {
-          "texte": "Je cède sans rien dire et je garde ma rancune.",
+          "texte": "Je cède sans rien dire, mais je garde ma rancune pour le prochain désaccord.",
           "correcte": false
         },
         {
-          "texte": "Je modifie la mécanique en cachette pendant la nuit.",
+          "texte": "Je modifie la mécanique en cachette pendant la nuit, directement dans le build.",
           "correcte": false
         },
         {
-          "texte": "Je lance un vote sur un serveur Discord public.",
+          "texte": "Je lance un vote sur un serveur Discord public pour laisser les joueurs trancher.",
           "correcte": false
         },
         {
-          "texte": "Je boude pendant le reste de la production.",
+          "texte": "Je boude pendant le reste de la production et je ne participe plus aux réunions.",
           "correcte": false
         },
         {
@@ -249,27 +249,27 @@
       "question": "La veille d'une démo importante, votre build plante. Que faites-vous ?",
       "reponses": [
         {
-          "texte": "Je dis que c'est une « fonctionnalité ».",
+          "texte": "Je présente le plantage comme une « fonctionnalité » volontaire pendant la démonstration.",
           "correcte": false
         },
         {
-          "texte": "Je corrige directement sur la version de démo, sans tester.",
+          "texte": "Je corrige le bug directement sur la version de démo, cette nuit, sans passer par les tests ni le dépôt.",
           "correcte": false
         },
         {
-          "texte": "Je préviens l'équipe, je reviens à la dernière version stable du dépôt et j'analyse la cause après la démo.",
+          "texte": "Je préviens l'équipe, je reviens à la dernière version stable et j'analyse la cause après la démo.",
           "correcte": true
         },
         {
-          "texte": "Je ne préviens personne et j'espère que ça passera.",
+          "texte": "Je ne préviens personne et j'espère que le crash ne se produira pas devant le client.",
           "correcte": false
         },
         {
-          "texte": "Je supprime la scène qui plante sans le dire.",
+          "texte": "Je supprime la scène qui plante du build de démo sans en parler au reste de l'équipe.",
           "correcte": false
         },
         {
-          "texte": "Je reporte la démo sans prévenir le client.",
+          "texte": "Je reporte la démo au dernier moment sans prévenir le client ni expliquer la raison.",
           "correcte": false
         }
       ],
@@ -285,19 +285,19 @@
       "question": "On vous interroge sur une technique que vous ne maîtrisez pas (le path tracing, par exemple). Que faites-vous ?",
       "reponses": [
         {
-          "texte": "J'invente avec assurance, personne ne vérifiera.",
+          "texte": "J'invente une explication avec assurance, de toute façon personne ne vérifiera en entretien.",
           "correcte": false
         },
         {
-          "texte": "Je change de sujet vers mes jeux préférés.",
+          "texte": "Je change de sujet et je parle plutôt des techniques utilisées dans mes jeux préférés.",
           "correcte": false
         },
         {
-          "texte": "J'explique ce que je comprends, j'admets ce que j'ignore et je dis comment je l'apprendrais.",
+          "texte": "J'explique ce que je comprends, j'admets ce que j'ignore et comment je l'apprendrais.",
           "correcte": true
         },
         {
-          "texte": "Je dis que c'est un concept inutile.",
+          "texte": "J'explique que c'est un concept inutile en pratique, que personne n'utilise dans un vrai jeu.",
           "correcte": false
         }
       ],
@@ -313,19 +313,19 @@
       "question": "Un artiste vous envoie un modèle 3D de cinq millions de polygones pour un jeu mobile. Que faites-vous ?",
       "reponses": [
         {
-          "texte": "Je l'importe tel quel, le moteur se débrouillera.",
+          "texte": "Je l'importe tel quel dans le projet, le moteur gérera automatiquement les performances.",
           "correcte": false
         },
         {
-          "texte": "Je le refuse sans explication.",
+          "texte": "Je le refuse sans explication et je lui demande de recommencer entièrement le modèle.",
           "correcte": false
         },
         {
-          "texte": "Je lui explique les contraintes de performance et on cherche ensemble une version optimisée.",
+          "texte": "Je lui explique les contraintes de performance et on cherche ensemble une version allégée.",
           "correcte": true
         },
         {
-          "texte": "Je réduis les polygones moi-même en cachette sans le dire.",
+          "texte": "Je réduis moi-même les polygones en cachette avec un outil, sans lui en parler.",
           "correcte": false
         }
       ],
@@ -341,15 +341,15 @@
       "question": "Que mesure le nombre de FPS d'un jeu ?",
       "reponses": [
         {
-          "texte": "Le nombre de joueurs connectés",
+          "texte": "Le nombre de joueurs connectés en même temps",
           "correcte": false
         },
         {
-          "texte": "La puissance du processeur en watts",
+          "texte": "La puissance consommée par le processeur en watts",
           "correcte": false
         },
         {
-          "texte": "La taille du monde en mètres",
+          "texte": "La taille du monde ouvert en mètres carrés",
           "correcte": false
         },
         {
@@ -369,19 +369,19 @@
       "question": "Quel est le rôle d'un moteur de jeu comme Unreal Engine ou Unity ?",
       "reponses": [
         {
-          "texte": "Fabriquer les manettes de jeu",
+          "texte": "Concevoir et fabriquer les manettes et périphériques compatibles avec le jeu",
           "correcte": false
         },
         {
-          "texte": "Fournir les outils pour créer, afficher et faire tourner un jeu (rendu, physique, audio, scripts)",
+          "texte": "Fournir les outils pour créer et faire tourner un jeu (rendu, physique, audio, scripts)",
           "correcte": true
         },
         {
-          "texte": "Héberger uniquement les serveurs des joueurs",
+          "texte": "Héberger uniquement les serveurs multijoueurs sur lesquels se connectent les joueurs en ligne",
           "correcte": false
         },
         {
-          "texte": "Remplacer l'artiste 3D",
+          "texte": "Remplacer l'artiste 3D en générant automatiquement les modèles et les textures",
           "correcte": false
         }
       ],
@@ -397,7 +397,7 @@
       "question": "De quoi est généralement composée la surface d'un modèle 3D ?",
       "reponses": [
         {
-          "texte": "De pixels carrés",
+          "texte": "De pixels carrés disposés sur une grille",
           "correcte": false
         },
         {
@@ -405,11 +405,11 @@
           "correcte": true
         },
         {
-          "texte": "De vecteurs sonores",
+          "texte": "De vecteurs sonores qui définissent le volume",
           "correcte": false
         },
         {
-          "texte": "De textures uniquement",
+          "texte": "De textures uniquement, sans aucune géométrie",
           "correcte": false
         }
       ],
@@ -425,19 +425,19 @@
       "question": "À quoi sert une texture appliquée sur un modèle 3D ?",
       "reponses": [
         {
-          "texte": "À augmenter son nombre de polygones",
+          "texte": "À augmenter automatiquement son nombre de polygones pour lisser ses contours",
           "correcte": false
         },
         {
-          "texte": "À le faire bouger",
+          "texte": "À le faire bouger en définissant les animations de ses os",
           "correcte": false
         },
         {
-          "texte": "À lui donner un aspect de surface (couleur, détails) grâce à une image",
+          "texte": "À lui donner un aspect de surface (couleur, détails) via une image",
           "correcte": true
         },
         {
-          "texte": "À le rendre invisible",
+          "texte": "À le rendre invisible ou transparent selon l'angle de la caméra",
           "correcte": false
         }
       ],
@@ -545,19 +545,19 @@
       "question": "Qu'est-ce qu'un « sprite » dans un jeu 2D ?",
       "reponses": [
         {
-          "texte": "Un type de serveur de jeu",
+          "texte": "Un type de serveur de jeu qui gère les parties en ligne",
           "correcte": false
         },
         {
-          "texte": "Un langage de script",
+          "texte": "Un langage de script léger utilisé pour programmer la logique des niveaux 2D",
           "correcte": false
         },
         {
-          "texte": "Une image ou une animation 2D affichée à l'écran (personnage, objet)",
+          "texte": "Une image ou animation 2D affichée à l'écran (personnage, objet)",
           "correcte": true
         },
         {
-          "texte": "Un effet sonore",
+          "texte": "Un effet sonore court joué lors d'une action du joueur",
           "correcte": false
         }
       ],
@@ -609,7 +609,7 @@
       "question": "Dans le jeu vidéo, que désigne le terme « crunch » ?",
       "reponses": [
         {
-          "texte": "Un niveau de difficulté très élevé",
+          "texte": "Un niveau de difficulté très élevé, pour joueurs experts",
           "correcte": false
         },
         {
@@ -617,11 +617,11 @@
           "correcte": true
         },
         {
-          "texte": "Un bruit de mastication dans les jeux de cuisine",
+          "texte": "Le bruit de mastication ajouté dans les jeux de cuisine",
           "correcte": false
         },
         {
-          "texte": "Un type de monture dans les jeux de rôle",
+          "texte": "Un type de monture blindée dans les jeux de rôle en ligne",
           "correcte": false
         }
       ],
@@ -637,19 +637,19 @@
       "question": "Quelle est la différence entre un vertex shader et un fragment (pixel) shader ?",
       "reponses": [
         {
-          "texte": "Le vertex shader gère le son, le fragment shader la physique",
+          "texte": "Le vertex shader gère le son spatialisé, le fragment shader calcule la physique des objets",
           "correcte": false
         },
         {
-          "texte": "Les deux font exactement la même chose",
+          "texte": "Les deux font exactement la même chose, seul l'ordre d'exécution sur le GPU change",
           "correcte": false
         },
         {
-          "texte": "Le vertex shader traite les sommets (positions), le fragment shader calcule la couleur de chaque pixel",
+          "texte": "Le vertex shader traite les sommets, le fragment shader calcule la couleur de chaque pixel",
           "correcte": true
         },
         {
-          "texte": "Le fragment shader ne sert qu'à charger les textures",
+          "texte": "Le fragment shader ne sert qu'à charger les textures, le vertex shader fait tout le reste",
           "correcte": false
         }
       ],
@@ -665,19 +665,19 @@
       "question": "Que fait le z-buffer (tampon de profondeur) ?",
       "reponses": [
         {
-          "texte": "Il compresse les textures",
+          "texte": "Il compresse les textures en mémoire vidéo pour accélérer le rendu",
           "correcte": false
         },
         {
-          "texte": "Il synchronise l'audio avec l'image",
+          "texte": "Il synchronise l'audio avec l'image pour éviter les décalages",
           "correcte": false
         },
         {
-          "texte": "Il détermine quels objets sont devant ou derrière pour n'afficher que les surfaces visibles",
+          "texte": "Il détermine, pour chaque pixel, quelle surface est la plus proche et donc visible",
           "correcte": true
         },
         {
-          "texte": "Il stocke les sauvegardes du joueur",
+          "texte": "Il stocke les sauvegardes du joueur dans un tampon temporaire",
           "correcte": false
         }
       ],
@@ -693,19 +693,19 @@
       "question": "Qu'est-ce qu'un collider dans un moteur de jeu ?",
       "reponses": [
         {
-          "texte": "Une forme simplifiée utilisée pour détecter les contacts entre objets",
+          "texte": "Une forme simple servant à détecter les contacts entre objets",
           "correcte": true
         },
         {
-          "texte": "Un type de texture",
+          "texte": "Un type de texture qui définit la rugosité d'une surface",
           "correcte": false
         },
         {
-          "texte": "Un effet de lumière",
+          "texte": "Un effet de lumière qui fait briller les objets au contact",
           "correcte": false
         },
         {
-          "texte": "Un fichier de sauvegarde",
+          "texte": "Un fichier de sauvegarde qui mémorise la position des objets",
           "correcte": false
         }
       ],
@@ -721,19 +721,19 @@
       "question": "Pourquoi utilise-t-on le « delta time » dans une boucle de jeu ?",
       "reponses": [
         {
-          "texte": "Pour que les mouvements soient indépendants du nombre d'images par seconde",
+          "texte": "Pour que la vitesse des mouvements ne dépende pas du framerate",
           "correcte": true
         },
         {
-          "texte": "Pour mesurer la latence réseau",
+          "texte": "Pour mesurer la latence réseau entre le client et le serveur",
           "correcte": false
         },
         {
-          "texte": "Pour compresser les textures",
+          "texte": "Pour compresser les textures en fonction du temps de chargement",
           "correcte": false
         },
         {
-          "texte": "Pour sauvegarder automatiquement la partie",
+          "texte": "Pour sauvegarder automatiquement la partie à intervalle régulier",
           "correcte": false
         }
       ],
@@ -749,7 +749,7 @@
       "question": "Quelle technique réduit le nombre de polygones affichés selon la distance de la caméra ?",
       "reponses": [
         {
-          "texte": "L'anti-aliasing",
+          "texte": "L'anti-aliasing (MSAA)",
           "correcte": false
         },
         {
@@ -761,7 +761,7 @@
           "correcte": false
         },
         {
-          "texte": "Le tone mapping",
+          "texte": "Le tone mapping (HDR)",
           "correcte": false
         },
         {
@@ -769,7 +769,7 @@
           "correcte": true
         },
         {
-          "texte": "La profondeur de champ",
+          "texte": "La profondeur de champ (DOF)",
           "correcte": false
         }
       ],
@@ -785,19 +785,19 @@
       "question": "Qu'est-ce qu'un « draw call » ?",
       "reponses": [
         {
-          "texte": "Un appel téléphonique entre développeurs",
+          "texte": "Un appel vocal entre développeurs pour valider un rendu en direct",
           "correcte": false
         },
         {
-          "texte": "Une commande envoyée au GPU pour dessiner des objets ; trop nombreux, ils ralentissent le rendu",
+          "texte": "Une commande au GPU pour dessiner des objets, coûteuse si trop nombreuse",
           "correcte": true
         },
         {
-          "texte": "Un tirage au sort de loot",
+          "texte": "Un tirage au sort qui détermine le butin obtenu par le joueur",
           "correcte": false
         },
         {
-          "texte": "Une sauvegarde automatique",
+          "texte": "Une sauvegarde automatique déclenchée à chaque changement de zone",
           "correcte": false
         }
       ],
@@ -813,19 +813,19 @@
       "question": "Que fait le mipmapping ?",
       "reponses": [
         {
-          "texte": "Il augmente la résolution de toutes les textures",
+          "texte": "Il augmente la résolution de toutes les textures pour les rendre plus nettes de près",
           "correcte": false
         },
         {
-          "texte": "Il utilise des versions réduites d'une texture selon la distance pour limiter le scintillement et gagner en performance",
+          "texte": "Il utilise des versions réduites de la texture au loin, ce qui limite le scintillement",
           "correcte": true
         },
         {
-          "texte": "Il supprime les textures inutilisées",
+          "texte": "Il supprime automatiquement de la mémoire vidéo les textures qui ne sont plus utilisées par la scène",
           "correcte": false
         },
         {
-          "texte": "Il convertit les textures en sons",
+          "texte": "Il convertit les textures en cartes de hauteur pour ajouter du relief au modèle",
           "correcte": false
         }
       ],
@@ -841,19 +841,19 @@
       "question": "Quelle différence y a-t-il entre un rendu temps réel et un rendu pré-calculé (offline) ?",
       "reponses": [
         {
-          "texte": "Le temps réel calcule chaque image en une fraction de seconde (jeux), le pré-calculé peut prendre des minutes ou des heures par image (films)",
+          "texte": "Le temps réel calcule une image en quelques millisecondes (jeux), le pré-calculé peut prendre des heures (films)",
           "correcte": true
         },
         {
-          "texte": "Le temps réel est toujours plus beau",
+          "texte": "Le temps réel est toujours plus beau, car il profite à chaque image des dernières cartes graphiques et du ray tracing",
           "correcte": false
         },
         {
-          "texte": "Le pré-calculé ne fonctionne que sur mobile",
+          "texte": "Le pré-calculé ne fonctionne que sur mobile, où les images sont préparées à l'avance",
           "correcte": false
         },
         {
-          "texte": "Il n'y a aucune différence",
+          "texte": "Aucune différence de calcul, seul le format du fichier vidéo exporté change",
           "correcte": false
         }
       ],
@@ -869,19 +869,19 @@
       "question": "Que signifie PBR dans la création de matériaux 3D ?",
       "reponses": [
         {
-          "texte": "Physically Based Rendering : un rendu basé sur des modèles physiques de la lumière",
+          "texte": "Physically Based Rendering : un rendu fondé sur la physique de la lumière",
           "correcte": true
         },
         {
-          "texte": "Pixel Buffer Rotation",
+          "texte": "Pixel Buffer Rotation : une rotation des pixels du tampon d'affichage",
           "correcte": false
         },
         {
-          "texte": "Polygon Binary Render",
+          "texte": "Polygon Binary Render : un rendu binaire des polygones par profondeur",
           "correcte": false
         },
         {
-          "texte": "Procedural Bump Rendering",
+          "texte": "Procedural Bump Rendering : un relief généré à l'affichage",
           "correcte": false
         }
       ],
@@ -897,11 +897,11 @@
       "question": "À quoi sert une normal map ?",
       "reponses": [
         {
-          "texte": "À stocker la couleur de base",
+          "texte": "À stocker la couleur de base du matériau, sans l'éclairage",
           "correcte": false
         },
         {
-          "texte": "À gérer les collisions",
+          "texte": "À gérer les collisions précises au pixel près entre le modèle et le décor",
           "correcte": false
         },
         {
@@ -909,7 +909,7 @@
           "correcte": true
         },
         {
-          "texte": "À compresser le modèle",
+          "texte": "À compresser le modèle en réduisant le nombre de sommets",
           "correcte": false
         }
       ],
@@ -1021,15 +1021,15 @@
           "correcte": true
         },
         {
-          "texte": "Une méthode de compression audio",
+          "texte": "Une méthode de compression qui réduit le poids des textures à l'export",
           "correcte": false
         },
         {
-          "texte": "Une technique de sauvegarde",
+          "texte": "Une technique de sauvegarde qui évite les doublons de fichiers de partie",
           "correcte": false
         },
         {
-          "texte": "Un type de caméra",
+          "texte": "Un type de caméra qui suit le joueur sans à-coups",
           "correcte": false
         }
       ],
@@ -1045,19 +1045,19 @@
       "question": "Qu'est-ce qu'un game loop ?",
       "reponses": [
         {
-          "texte": "Un niveau qui se répète à l'infini",
+          "texte": "Un niveau qui se répète à l'infini tant que la sortie n'est pas trouvée",
           "correcte": false
         },
         {
-          "texte": "Un bug de répétition de son",
+          "texte": "Un bug qui fait rejouer le même son en boucle lors d'un chargement",
           "correcte": false
         },
         {
-          "texte": "La boucle qui répète en continu : lecture des entrées, mise à jour du jeu, affichage",
+          "texte": "La boucle continue : lecture des entrées, mise à jour du jeu, puis affichage",
           "correcte": true
         },
         {
-          "texte": "Un type de menu",
+          "texte": "Un type de menu circulaire qui revient au début après la dernière option",
           "correcte": false
         }
       ],
@@ -1073,19 +1073,19 @@
       "question": "Quelle est la différence entre un skeletal mesh et un static mesh ?",
       "reponses": [
         {
-          "texte": "Le static mesh est toujours plus détaillé",
+          "texte": "Le static mesh est toujours plus détaillé, car il n'a pas besoin de squelette d'animation",
           "correcte": false
         },
         {
-          "texte": "Le skeletal mesh ne peut pas avoir de texture",
+          "texte": "Le skeletal mesh ne peut pas avoir de texture, seulement des couleurs par sommet",
           "correcte": false
         },
         {
-          "texte": "Le skeletal mesh peut être animé grâce à un squelette d'os, le static mesh est rigide",
+          "texte": "Le skeletal mesh est animé grâce à un squelette d'os, le static mesh reste rigide",
           "correcte": true
         },
         {
-          "texte": "Il n'y en a aucune",
+          "texte": "Aucune, ce sont deux noms pour le même format de modèle importé",
           "correcte": false
         }
       ],
@@ -1137,19 +1137,19 @@
       "question": "Que signifie « low poly » ?",
       "reponses": [
         {
-          "texte": "Un modèle sans texture",
+          "texte": "Un modèle sans texture, uniquement coloré par matériau",
           "correcte": false
         },
         {
-          "texte": "Un jeu uniquement en 2D",
+          "texte": "Un jeu uniquement en 2D, sans aucune géométrie 3D",
           "correcte": false
         },
         {
-          "texte": "Un style (ou une optimisation) qui utilise peu de polygones",
+          "texte": "Un style ou une optimisation à peu de polygones",
           "correcte": true
         },
         {
-          "texte": "Un personnage sans animation",
+          "texte": "Un personnage sans animation, figé dans une seule pose",
           "correcte": false
         }
       ],
@@ -1165,27 +1165,27 @@
       "question": "Que se passe-t-il quand on désactive le filtrage de texture (nearest neighbor) sur une texture basse résolution ?",
       "reponses": [
         {
-          "texte": "L'image devient floue et lisse",
+          "texte": "L'image devient floue et lisse, comme une photo agrandie",
           "correcte": false
         },
         {
-          "texte": "La texture disparaît",
+          "texte": "La texture disparaît et laisse place à la couleur par défaut",
           "correcte": false
         },
         {
-          "texte": "L'image passe en noir et blanc",
+          "texte": "L'image passe en noir et blanc, faute d'interpolation des couleurs",
           "correcte": false
         },
         {
-          "texte": "La texture s'anime automatiquement",
+          "texte": "La texture s'anime automatiquement en faisant défiler ses pixels",
           "correcte": false
         },
         {
-          "texte": "La texture est compressée en MP3",
+          "texte": "La texture est compressée dans un format plus léger pour la mémoire",
           "correcte": false
         },
         {
-          "texte": "Les pixels restent nets et carrés, avec un aspect pixelisé rétro",
+          "texte": "Les pixels restent nets et carrés, d'où un aspect rétro",
           "correcte": true
         }
       ],
@@ -1229,27 +1229,27 @@
       "question": "Qu'est-ce que le frustum culling ?",
       "reponses": [
         {
-          "texte": "Supprimer les textures inutilisées de la mémoire",
+          "texte": "Supprimer de la mémoire les textures qui ne sont plus utilisées",
           "correcte": false
         },
         {
-          "texte": "Compresser le monde visible en une seule texture",
+          "texte": "Compresser tout le monde visible en une seule texture panoramique",
           "correcte": false
         },
         {
-          "texte": "Désactiver la physique des objets lointains",
+          "texte": "Désactiver la physique des objets trop éloignés de la caméra",
           "correcte": false
         },
         {
-          "texte": "Fusionner tous les objets en un seul modèle",
+          "texte": "Fusionner tous les objets statiques en un seul modèle à l'export",
           "correcte": false
         },
         {
-          "texte": "Ajouter du flou autour des objets proches",
+          "texte": "Ajouter du flou autour des objets proches pour simuler la profondeur",
           "correcte": false
         },
         {
-          "texte": "Ne pas dessiner les objets situés hors du champ de vision de la caméra",
+          "texte": "Ne pas dessiner les objets hors du champ de vision de la caméra",
           "correcte": true
         }
       ],
@@ -1265,27 +1265,27 @@
       "question": "Quelle différence y a-t-il entre le forward rendering et le deferred rendering ?",
       "reponses": [
         {
-          "texte": "Le deferred stocke d'abord les informations géométriques dans des buffers puis calcule l'éclairage, ce qui gère mieux de nombreuses lumières",
+          "texte": "Le deferred stocke la géométrie dans des buffers avant l'éclairage, idéal pour de nombreuses lumières",
           "correcte": true
         },
         {
-          "texte": "Le forward est toujours plus lent, quelle que soit la scène",
+          "texte": "Le forward est toujours plus lent, quelle que soit la scène, car il recalcule toute la géométrie à chaque image",
           "correcte": false
         },
         {
-          "texte": "Le deferred ne fonctionne qu'en 2D",
+          "texte": "Le deferred ne fonctionne qu'en 2D, car il a besoin d'un seul plan de profondeur",
           "correcte": false
         },
         {
-          "texte": "Il n'y a aucune différence, seul le nom change",
+          "texte": "Aucune différence de résultat, seul le nom change selon le moteur utilisé",
           "correcte": false
         },
         {
-          "texte": "Le forward est réservé aux jeux en réseau",
+          "texte": "Le forward est réservé aux jeux en réseau, où l'éclairage est calculé côté serveur",
           "correcte": false
         },
         {
-          "texte": "Le deferred supprime les ombres",
+          "texte": "Le deferred supprime les ombres pour pouvoir afficher davantage de lumières",
           "correcte": false
         }
       ],
@@ -1301,19 +1301,19 @@
       "question": "Pourquoi utilise-t-on un pas de temps fixe (fixed timestep) dans un moteur physique ?",
       "reponses": [
         {
-          "texte": "Pour économiser la batterie",
+          "texte": "Pour économiser la batterie en limitant les calculs sur mobile",
           "correcte": false
         },
         {
-          "texte": "Pour synchroniser le son",
+          "texte": "Pour synchroniser le son des collisions avec les images affichées",
           "correcte": false
         },
         {
-          "texte": "Pour accélérer le chargement des textures",
+          "texte": "Pour accélérer le chargement des textures pendant la physique",
           "correcte": false
         },
         {
-          "texte": "Pour obtenir une simulation stable et reproductible, indépendante du framerate",
+          "texte": "Pour une simulation stable et reproductible, indépendante du framerate",
           "correcte": true
         }
       ],
@@ -1329,19 +1329,19 @@
       "question": "À quoi sert une navmesh ?",
       "reponses": [
         {
-          "texte": "À compresser les modèles 3D",
+          "texte": "À compresser les modèles 3D en fusionnant leurs maillages proches",
           "correcte": false
         },
         {
-          "texte": "À stocker les dialogues",
+          "texte": "À stocker l'arbre des dialogues et les choix de réponse des personnages non joueurs",
           "correcte": false
         },
         {
-          "texte": "À définir les zones praticables pour que les personnages contrôlés par l'IA trouvent leur chemin",
+          "texte": "À définir les zones praticables pour que les personnages IA trouvent leur chemin",
           "correcte": true
         },
         {
-          "texte": "À gérer uniquement les collisions des projectiles",
+          "texte": "À gérer uniquement les collisions des projectiles avec le décor du niveau",
           "correcte": false
         }
       ],
@@ -1421,19 +1421,19 @@
       "question": "Pouvez-vous nous expliquer la technique du « Quantum Voxel Tessellation Pass » ?",
       "reponses": [
         {
-          "texte": "Bien sûr, je l'utilise tous les jours dans mes projets",
+          "texte": "Bien sûr, je l'utilise tous les jours dans mes projets, c'est indispensable pour le rendu voxel.",
           "correcte": false
         },
         {
-          "texte": "C'est le nom interne d'Unreal pour son système de particules",
+          "texte": "C'est le nom interne utilisé par Unreal pour son système de particules GPU Niagara.",
           "correcte": false
         },
         {
-          "texte": "Je ne connais pas cette technique et je ne crois pas qu'elle existe. Peut-être pensez-vous à une autre ?",
+          "texte": "Je ne connais pas cette technique et je doute qu'elle existe : pensez-vous à une autre ?",
           "correcte": true
         },
         {
-          "texte": "C'est une version améliorée du z-buffer",
+          "texte": "C'est une version améliorée du z-buffer qui tessèle les voxels selon la profondeur.",
           "correcte": false
         }
       ],
@@ -1465,7 +1465,7 @@
           "correcte": false
         },
         {
-          "texte": "Objet → monde → vue (caméra) → projection → écran",
+          "texte": "Objet → monde → vue → projection → écran",
           "correcte": true
         },
         {
@@ -1485,19 +1485,19 @@
       "question": "Quelle est la précision d'un nombre flottant 32 bits (float) ?",
       "reponses": [
         {
-          "texte": "Environ 3 chiffres",
+          "texte": "Environ 3 chiffres significatifs",
           "correcte": false
         },
         {
-          "texte": "Environ 7 chiffres décimaux significatifs",
+          "texte": "Environ 7 chiffres significatifs",
           "correcte": true
         },
         {
-          "texte": "Environ 15 chiffres",
+          "texte": "Environ 15 chiffres significatifs",
           "correcte": false
         },
         {
-          "texte": "Environ 30 chiffres",
+          "texte": "Environ 30 chiffres significatifs",
           "correcte": false
         }
       ],

@@ -9,19 +9,19 @@
       "question": "Pour commencer, pourquoi souhaitez-vous rejoindre notre équipe cloud et infrastructure ?",
       "reponses": [
         {
-          "texte": "Parce que le cloud, c'est l'ordinateur de quelqu'un d'autre et que ça m'amuse.",
+          "texte": "Parce que le cloud est la technologie à la mode et que je veux l'avoir sur mon CV le plus vite possible.",
           "correcte": false
         },
         {
-          "texte": "Parce que les certifications cloud rapportent beaucoup.",
+          "texte": "Parce que les certifications cloud rapportent beaucoup et que j'ai entendu dire que vous les financiez toutes à vos équipes.",
           "correcte": false
         },
         {
-          "texte": "Parce que je ne veux plus jamais toucher à un serveur physique.",
+          "texte": "Parce que je ne veux plus jamais toucher à un serveur physique et que chez vous tout est déjà dans le cloud.",
           "correcte": false
         },
         {
-          "texte": "Parce que j'ai étudié votre plateforme et vos clients, et que automatiser et fiabiliser des infrastructures correspond à ce que je veux approfondir.",
+          "texte": "Parce que j'ai étudié votre plateforme, et automatiser et fiabiliser des infrastructures est ce que je veux approfondir.",
           "correcte": true
         }
       ],
@@ -37,19 +37,19 @@
       "question": "Pouvez-vous vous présenter en une minute ?",
       "reponses": [
         {
-          "texte": "Je résume mon parcours, mes projets d'infrastructure ou d'automatisation et les outils que je maîtrise.",
+          "texte": "Je résume mon parcours, mes projets d'infrastructure et les outils que je maîtrise.",
           "correcte": true
         },
         {
-          "texte": "Je liste tous les services cloud dont je connais le nom.",
+          "texte": "Je liste tous les services cloud dont je connais le nom, du plus ancien au plus récent, pour montrer ma culture.",
           "correcte": false
         },
         {
-          "texte": "Je dis que j'ai déjà tout déployé dans le cloud, sans détails.",
+          "texte": "Je dis que j'ai déjà tout déployé dans le cloud, sans entrer dans les détails pour garder du mystère.",
           "correcte": false
         },
         {
-          "texte": "Je montre ma facture cloud personnelle.",
+          "texte": "Je montre ma facture cloud personnelle, preuve que je pratique beaucoup.",
           "correcte": false
         }
       ],
@@ -65,19 +65,19 @@
       "question": "Quel est votre principal défaut ?",
       "reponses": [
         {
-          "texte": "Je suis perfectionniste.",
+          "texte": "Je suis perfectionniste : je relis tellement mes scripts que je ne les livre jamais à temps.",
           "correcte": false
         },
         {
-          "texte": "Je n'ai aucun défaut.",
+          "texte": "Je n'ai aucun défaut, mes collègues disent d'ailleurs que je suis l'ingénieur idéal.",
           "correcte": false
         },
         {
-          "texte": "J'automatise parfois trop vite sans documenter. Je prends maintenant le temps de décrire chaque pipeline.",
+          "texte": "J'automatise parfois trop vite sans documenter ; je décris maintenant chaque pipeline.",
           "correcte": true
         },
         {
-          "texte": "Je modifie la production directement, c'est plus rapide.",
+          "texte": "Je modifie parfois la production directement, mais c'est plus rapide que d'attendre une revue.",
           "correcte": false
         }
       ],
@@ -93,19 +93,19 @@
       "question": "Où vous voyez-vous dans cinq ans ?",
       "reponses": [
         {
-          "texte": "Pdg d'un fournisseur cloud concurrent.",
+          "texte": "PDG d'un fournisseur cloud concurrent, après avoir appris tous vos secrets ici.",
           "correcte": false
         },
         {
-          "texte": "Je ne sais pas.",
+          "texte": "Je ne sais pas, je préfère ne pas faire de plans et voir ce que l'avenir me réserve.",
           "correcte": false
         },
         {
-          "texte": "Remplacé par un script d'automatisation.",
+          "texte": "Remplacé par un script d'automatisation, mais c'est moi qui l'aurai écrit, ce qui est déjà une réussite.",
           "correcte": false
         },
         {
-          "texte": "Avoir conçu et fiabilisé des plateformes plus complexes, et aidé les développeurs à livrer plus sereinement.",
+          "texte": "Avoir conçu des plateformes plus complexes et aidé les développeurs à livrer plus sereinement.",
           "correcte": true
         }
       ],
@@ -121,7 +121,7 @@
       "question": "Quelles sont vos prétentions salariales ?",
       "reponses": [
         {
-          "texte": "Le salaire d'un architecte cloud principal.",
+          "texte": "Le salaire d'un architecte cloud principal, puisque je finirai par le devenir de toute façon.",
           "correcte": false
         },
         {
@@ -129,15 +129,15 @@
           "correcte": false
         },
         {
-          "texte": "Je préfère que vous donniez un chiffre, et je dirai non.",
+          "texte": "Je préfère que vous donniez un chiffre en premier, et je dirai non par principe.",
           "correcte": false
         },
         {
-          "texte": "Une fourchette basée sur le marché et mon niveau d'expérience, que je suis prêt à discuter.",
+          "texte": "Une fourchette basée sur le marché et mon expérience, que je suis prêt à discuter.",
           "correcte": true
         },
         {
-          "texte": "Autant que la facture mensuelle du cloud de l'entreprise.",
+          "texte": "Autant que la facture mensuelle du cloud de l'entreprise, ce qui me semble raisonnable.",
           "correcte": false
         },
         {
@@ -157,19 +157,19 @@
       "question": "Avez-vous des questions à nous poser ?",
       "reponses": [
         {
-          "texte": "Non, aucune.",
+          "texte": "Non, aucune, votre offre d'emploi répondait déjà à tout.",
           "correcte": false
         },
         {
-          "texte": "Oui : comment gérez-vous les déploiements et les astreintes, et quelles sont vos priorités en matière de fiabilité ?",
+          "texte": "Oui : comment gérez-vous les déploiements et les astreintes, et quelles sont vos priorités ?",
           "correcte": true
         },
         {
-          "texte": "Est-ce que je peux avoir un accès administrateur dès le premier jour ?",
+          "texte": "Est-ce que je peux avoir un accès administrateur à toute la production dès mon premier jour ici ?",
           "correcte": false
         },
         {
-          "texte": "Est-ce qu'on peut déployer le vendredi soir ?",
+          "texte": "Est-ce qu'on peut déployer le vendredi soir, ou est-ce que vous êtes encore de la vieille école ?",
           "correcte": false
         }
       ],
@@ -185,19 +185,19 @@
       "question": "Un déploiement doit partir ce soir mais les tests échouent. Que faites-vous ?",
       "reponses": [
         {
-          "texte": "Je préviens l'équipe, j'analyse l'échec et je ne déploie que si c'est corrigé ou si le risque est explicitement accepté.",
+          "texte": "Je préviens l'équipe, j'analyse l'échec et je ne déploie que si c'est corrigé ou le risque accepté.",
           "correcte": true
         },
         {
-          "texte": "Je désactive les tests et je déploie.",
+          "texte": "Je désactive les tests pour ce soir et je déploie, on les réactivera tranquillement lundi matin.",
           "correcte": false
         },
         {
-          "texte": "Je déploie en cachette.",
+          "texte": "Je déploie en cachette cette nuit et je corrige à chaud en production si quelqu'un remarque un problème.",
           "correcte": false
         },
         {
-          "texte": "Je supprime les tests qui échouent.",
+          "texte": "Je supprime les tests qui échouent : s'ils cassent à chaque fois, c'est qu'ils sont mal écrits.",
           "correcte": false
         }
       ],
@@ -217,7 +217,7 @@
           "correcte": true
         },
         {
-          "texte": "Je lui donne tous les droits, ça ira plus vite.",
+          "texte": "Je lui donne tous les droits sur la production, ça ira plus vite et il saura s'en servir.",
           "correcte": false
         },
         {
@@ -225,7 +225,7 @@
           "correcte": false
         },
         {
-          "texte": "Je partage mon compte administrateur.",
+          "texte": "Je partage mon compte administrateur, au moins je saurai ce qu'il fait.",
           "correcte": false
         },
         {
@@ -249,11 +249,11 @@
       "question": "Votre facture cloud explose à cause d'une ressource oubliée. Que faites-vous ?",
       "reponses": [
         {
-          "texte": "J'identifie et j'arrête la ressource, j'alerte mon responsable et j'ajoute des budgets et des alertes de coûts.",
+          "texte": "J'arrête la ressource, j'alerte mon responsable et j'ajoute des budgets et alertes de coûts.",
           "correcte": true
         },
         {
-          "texte": "Je supprime toutes les ressources du compte.",
+          "texte": "Je supprime toutes les ressources du compte pour être sûr que la facture arrête d'augmenter.",
           "correcte": false
         },
         {
@@ -261,11 +261,11 @@
           "correcte": false
         },
         {
-          "texte": "Je change de fournisseur sans prévenir.",
+          "texte": "Je migre tout vers un autre fournisseur moins cher, sans prévenir pour ne pas inquiéter l'équipe.",
           "correcte": false
         },
         {
-          "texte": "Je dis que c'est la faute du fournisseur.",
+          "texte": "Je dis que c'est la faute du fournisseur et je demande un remboursement au support.",
           "correcte": false
         },
         {
@@ -285,19 +285,19 @@
       "question": "On vous interroge sur un service cloud que vous n'avez jamais utilisé. Que faites-vous ?",
       "reponses": [
         {
-          "texte": "Je dis que je l'utilise tous les jours.",
+          "texte": "Je dis que je l'utilise tous les jours et j'improvise une réponse avec des termes techniques.",
           "correcte": false
         },
         {
-          "texte": "Je dis que c'est inutile.",
+          "texte": "Je dis que ce service est inutile et que les vrais ingénieurs n'en ont pas besoin de toute façon.",
           "correcte": false
         },
         {
-          "texte": "Je change de sujet.",
+          "texte": "Je change de sujet vers un service que je maîtrise, en espérant qu'on ne le remarque pas.",
           "correcte": false
         },
         {
-          "texte": "J'admets ne pas le connaître, je le rapproche de ce que je connais et j'explique comment je l'apprendrais.",
+          "texte": "J'admets ne pas le connaître, je le compare à ce que je connais et j'explique comment l'apprendre.",
           "correcte": true
         }
       ],
@@ -313,11 +313,11 @@
       "question": "Vous trouvez une clé d'accès cloud dans un dépôt de code public. Que faites-vous ?",
       "reponses": [
         {
-          "texte": "Je supprime le fichier et je continue.",
+          "texte": "Je supprime le fichier du dépôt avec un nouveau commit et je continue mon travail normalement.",
           "correcte": false
         },
         {
-          "texte": "Je révoque et régénère la clé immédiatement, j'alerte l'équipe et je vérifie les accès suspects.",
+          "texte": "Je révoque la clé immédiatement, j'alerte l'équipe et je vérifie les accès suspects.",
           "correcte": true
         },
         {
@@ -325,7 +325,7 @@
           "correcte": false
         },
         {
-          "texte": "Je laisse la clé : elle servira peut-être encore.",
+          "texte": "Je laisse la clé : elle servira peut-être encore et la changer casserait les applications.",
           "correcte": false
         }
       ],
@@ -373,11 +373,11 @@
           "correcte": true
         },
         {
-          "texte": "Il supprime tout risque de panne",
+          "texte": "Il supprime tout risque de panne grâce à la redondance",
           "correcte": false
         },
         {
-          "texte": "Il est toujours gratuit",
+          "texte": "Il est toujours moins cher qu'un hébergement sur site",
           "correcte": false
         },
         {
@@ -397,7 +397,7 @@
       "question": "Qu'est-ce qu'un conteneur Docker ?",
       "reponses": [
         {
-          "texte": "Une machine virtuelle complète avec son propre noyau",
+          "texte": "Une machine virtuelle complète avec son propre noyau et son système d'exploitation invité",
           "correcte": false
         },
         {
@@ -405,7 +405,7 @@
           "correcte": true
         },
         {
-          "texte": "Un fichier de sauvegarde",
+          "texte": "Un fichier de sauvegarde compressé de l'état d'un serveur",
           "correcte": false
         },
         {
@@ -461,7 +461,7 @@
       "question": "Que fait la commande Linux « ls » ?",
       "reponses": [
         {
-          "texte": "Elle supprime un fichier",
+          "texte": "Elle supprime un fichier du répertoire courant",
           "correcte": false
         },
         {
@@ -473,7 +473,7 @@
           "correcte": true
         },
         {
-          "texte": "Elle affiche l'adresse IP",
+          "texte": "Elle affiche l'adresse IP de la machine",
           "correcte": false
         }
       ],
@@ -489,15 +489,15 @@
       "question": "Qu'est-ce qu'une machine virtuelle ?",
       "reponses": [
         {
-          "texte": "Un ordinateur sans écran",
+          "texte": "Un ordinateur sans écran ni clavier, piloté uniquement à distance",
           "correcte": false
         },
         {
-          "texte": "Un logiciel de bureautique",
+          "texte": "Un logiciel de bureautique accessible depuis un navigateur web",
           "correcte": false
         },
         {
-          "texte": "Un câble réseau virtuel",
+          "texte": "Un câble réseau virtuel reliant deux serveurs d'un même datacenter",
           "correcte": false
         },
         {
@@ -517,7 +517,7 @@
       "question": "Lequel de ces fournisseurs propose des services cloud publics ?",
       "reponses": [
         {
-          "texte": "Adobe Photoshop",
+          "texte": "Adobe Photoshop Express",
           "correcte": false
         },
         {
@@ -529,7 +529,7 @@
           "correcte": false
         },
         {
-          "texte": "Amazon Web Services (AWS)",
+          "texte": "Amazon Web Services",
           "correcte": true
         },
         {
@@ -553,11 +553,11 @@
       "question": "Que signifie CI/CD ?",
       "reponses": [
         {
-          "texte": "Contrôle Interne et Documentation",
+          "texte": "Contrôle interne et documentation des changements",
           "correcte": false
         },
         {
-          "texte": "Cloud Infrastructure et Données",
+          "texte": "Configuration d'infrastructure et déploiement cloud",
           "correcte": false
         },
         {
@@ -565,7 +565,7 @@
           "correcte": false
         },
         {
-          "texte": "Intégration continue et livraison (ou déploiement) continue",
+          "texte": "Intégration continue et livraison continue",
           "correcte": true
         }
       ],
@@ -585,7 +585,7 @@
           "correcte": true
         },
         {
-          "texte": "Elle change l'heure du système",
+          "texte": "Elle change l'heure et le fuseau horaire du système",
           "correcte": false
         },
         {
@@ -609,7 +609,7 @@
       "question": "Que signifie la blague « Le cloud, c'est juste l'ordinateur de quelqu'un d'autre » ?",
       "reponses": [
         {
-          "texte": "Le cloud n'existe pas vraiment",
+          "texte": "Le cloud n'existe pas vraiment : c'est un réseau virtuel sans matériel derrière",
           "correcte": false
         },
         {
@@ -617,11 +617,11 @@
           "correcte": false
         },
         {
-          "texte": "Le cloud est gratuit pour tout le monde",
+          "texte": "Le cloud est gratuit, car on utilise la puissance inutilisée des ordinateurs des autres",
           "correcte": false
         },
         {
-          "texte": "Les données du cloud sont hébergées sur des serveurs physiques gérés par un fournisseur",
+          "texte": "Les données sont hébergées sur des serveurs physiques gérés par un fournisseur",
           "correcte": true
         }
       ],
@@ -637,19 +637,19 @@
       "question": "Quelle différence y a-t-il entre IaaS, PaaS et SaaS ?",
       "reponses": [
         {
-          "texte": "Ce sont trois noms du même service",
+          "texte": "Ce sont trois noms commerciaux du même service, selon le fournisseur qui le vend",
           "correcte": false
         },
         {
-          "texte": "Le SaaS est réservé aux serveurs, l'IaaS aux logiciels",
+          "texte": "Le SaaS fournit les serveurs, l'IaaS les applications prêtes à l'emploi et le PaaS uniquement le stockage",
           "correcte": false
         },
         {
-          "texte": "L'IaaS fournit l'infrastructure, le PaaS une plateforme pour déployer ses applications, le SaaS une application prête à l'emploi",
+          "texte": "IaaS : l'infrastructure ; PaaS : une plateforme de déploiement ; SaaS : une application prête à l'emploi",
           "correcte": true
         },
         {
-          "texte": "Le PaaS ne concerne que le stockage",
+          "texte": "Le PaaS ne concerne que le stockage, l'IaaS le réseau et le SaaS la puissance de calcul brute",
           "correcte": false
         }
       ],
@@ -673,11 +673,11 @@
           "correcte": true
         },
         {
-          "texte": "À sauvegarder des bases de données uniquement",
+          "texte": "À sauvegarder des bases de données uniquement, avec réplication automatique",
           "correcte": false
         },
         {
-          "texte": "À créer des images de machines virtuelles",
+          "texte": "À créer et convertir des images de machines virtuelles entre différents hyperviseurs",
           "correcte": false
         }
       ],
@@ -693,7 +693,7 @@
       "question": "Qu'est-ce qu'un Dockerfile ?",
       "reponses": [
         {
-          "texte": "Un journal des erreurs de Docker",
+          "texte": "Un journal des erreurs générées par le démon Docker",
           "correcte": false
         },
         {
@@ -701,7 +701,7 @@
           "correcte": true
         },
         {
-          "texte": "Un fichier de sauvegarde de conteneur",
+          "texte": "Un fichier de sauvegarde contenant l'état d'un conteneur arrêté",
           "correcte": false
         },
         {
@@ -757,7 +757,7 @@
       "question": "Qu'est-ce que l'« Infrastructure as Code » ?",
       "reponses": [
         {
-          "texte": "Écrire du code dans un datacenter",
+          "texte": "Écrire et compiler du code directement dans un datacenter",
           "correcte": false
         },
         {
@@ -769,7 +769,7 @@
           "correcte": false
         },
         {
-          "texte": "Une sauvegarde automatique du code",
+          "texte": "Une sauvegarde automatique du code source sur l'infrastructure cloud",
           "correcte": false
         }
       ],
@@ -789,7 +789,7 @@
           "correcte": true
         },
         {
-          "texte": "Verticale : ajouter des machines ; horizontale : augmenter la puissance",
+          "texte": "Verticale : ajouter des machines au cluster ; horizontale : augmenter la puissance d'une machine",
           "correcte": false
         },
         {
@@ -797,7 +797,7 @@
           "correcte": false
         },
         {
-          "texte": "Verticale : réduire les coûts ; horizontale : réduire la latence",
+          "texte": "Verticale : réduire les coûts d'hébergement ; horizontale : réduire la latence réseau",
           "correcte": false
         }
       ],
@@ -821,11 +821,11 @@
           "correcte": false
         },
         {
-          "texte": "Un outil de supervision des coûts",
+          "texte": "Un outil de supervision des coûts qui équilibre la facture entre projets",
           "correcte": false
         },
         {
-          "texte": "Un type de pare-feu applicatif uniquement",
+          "texte": "Un type de pare-feu applicatif qui bloque uniquement les requêtes malveillantes",
           "correcte": false
         }
       ],
@@ -877,7 +877,7 @@
       "question": "Qu'est-ce que le « serverless » ?",
       "reponses": [
         {
-          "texte": "Une application qui fonctionne sans Internet",
+          "texte": "Une application qui fonctionne sans connexion Internet grâce à un cache local complet",
           "correcte": false
         },
         {
@@ -885,7 +885,7 @@
           "correcte": true
         },
         {
-          "texte": "Un serveur sans système d'exploitation",
+          "texte": "Un serveur sans système d'exploitation, qui exécute le code directement sur le matériel",
           "correcte": false
         },
         {
@@ -905,7 +905,7 @@
       "question": "À quoi sert IAM dans le cloud ?",
       "reponses": [
         {
-          "texte": "À mesurer la performance du réseau",
+          "texte": "À mesurer la performance du réseau entre les régions du cloud",
           "correcte": false
         },
         {
@@ -917,7 +917,7 @@
           "correcte": false
         },
         {
-          "texte": "À répartir la charge entre serveurs",
+          "texte": "À répartir la charge entre serveurs selon le nombre de requêtes",
           "correcte": false
         }
       ],
@@ -937,7 +937,7 @@
           "correcte": true
         },
         {
-          "texte": "Seulement l'envoi de mails à l'équipe",
+          "texte": "Seulement l'envoi de mails à l'équipe à chaque nouveau commit",
           "correcte": false
         },
         {
@@ -945,7 +945,7 @@
           "correcte": false
         },
         {
-          "texte": "La rédaction du cahier des charges",
+          "texte": "La rédaction du cahier des charges, puis la validation par le client",
           "correcte": false
         }
       ],
@@ -1025,7 +1025,7 @@
       "question": "Dans un plan de reprise d'activité, que mesure le RPO ?",
       "reponses": [
         {
-          "texte": "Le temps de remise en service",
+          "texte": "Le temps maximal de remise en service après un sinistre",
           "correcte": false
         },
         {
@@ -1037,7 +1037,7 @@
           "correcte": false
         },
         {
-          "texte": "Le nombre de serveurs de secours",
+          "texte": "Le nombre de serveurs de secours nécessaires à la reprise",
           "correcte": false
         }
       ],
@@ -1053,7 +1053,7 @@
       "question": "Quelle est la règle de sauvegarde « 3-2-1 » ?",
       "reponses": [
         {
-          "texte": "Trois sauvegardes par jour, deux par semaine, une par mois",
+          "texte": "Trois sauvegardes par jour, deux par semaine et une complète par mois",
           "correcte": false
         },
         {
@@ -1061,7 +1061,7 @@
           "correcte": true
         },
         {
-          "texte": "Trois disques, deux serveurs, un onduleur",
+          "texte": "Trois disques en RAID, deux serveurs redondants, un onduleur",
           "correcte": false
         },
         {
@@ -1081,15 +1081,15 @@
       "question": "Qu'est-ce qu'un « health check » ?",
       "reponses": [
         {
-          "texte": "Un test automatique vérifiant qu'un service fonctionne, utilisé par les répartiteurs et orchestrateurs",
+          "texte": "Un test automatique qui vérifie régulièrement qu'un service fonctionne correctement",
           "correcte": true
         },
         {
-          "texte": "Un bilan de santé des développeurs",
+          "texte": "Un bilan de santé annuel des développeurs, obligatoire dans les équipes d'astreinte",
           "correcte": false
         },
         {
-          "texte": "Une sauvegarde nocturne",
+          "texte": "Une sauvegarde nocturne qui vérifie l'intégrité des bases de données",
           "correcte": false
         },
         {
@@ -1097,7 +1097,7 @@
           "correcte": false
         },
         {
-          "texte": "Un test de résistance du climatiseur",
+          "texte": "Un test de résistance du climatiseur de la salle serveurs pendant les fortes chaleurs",
           "correcte": false
         },
         {
@@ -1121,11 +1121,11 @@
           "correcte": false
         },
         {
-          "texte": "L'image tourne, le conteneur est un fichier",
+          "texte": "L'image est le processus qui tourne, le conteneur est le fichier stocké sur disque",
           "correcte": false
         },
         {
-          "texte": "Le conteneur est toujours plus petit que l'image",
+          "texte": "Le conteneur est toujours plus petit que l'image, car il est compressé au démarrage",
           "correcte": false
         },
         {
@@ -1145,11 +1145,11 @@
       "question": "Que fait la commande « kubectl get pods » ?",
       "reponses": [
         {
-          "texte": "Elle supprime tous les pods",
+          "texte": "Elle supprime tous les pods arrêtés du cluster",
           "correcte": false
         },
         {
-          "texte": "Elle crée un nouveau cluster",
+          "texte": "Elle crée un nouveau cluster avec ses pods",
           "correcte": false
         },
         {
@@ -1173,11 +1173,11 @@
       "question": "Qu'est-ce que le déploiement « blue/green » ?",
       "reponses": [
         {
-          "texte": "Déployer uniquement la nuit",
+          "texte": "Déployer uniquement la nuit, quand le trafic est au plus bas",
           "correcte": false
         },
         {
-          "texte": "Déployer sur deux fournisseurs différents",
+          "texte": "Déployer la même version sur deux fournisseurs cloud différents",
           "correcte": false
         },
         {
@@ -1185,7 +1185,7 @@
           "correcte": false
         },
         {
-          "texte": "Faire tourner deux environnements et basculer le trafic de l'ancien vers le nouveau pour limiter les risques",
+          "texte": "Faire tourner deux environnements et basculer le trafic de l'ancien vers le nouveau",
           "correcte": true
         }
       ],
@@ -1201,7 +1201,7 @@
       "question": "Pourquoi appose-t-on des étiquettes (tags) sur les ressources cloud ?",
       "reponses": [
         {
-          "texte": "Pour accélérer leur exécution",
+          "texte": "Pour accélérer leur exécution sur des serveurs prioritaires",
           "correcte": false
         },
         {
@@ -1209,7 +1209,7 @@
           "correcte": true
         },
         {
-          "texte": "Pour les chiffrer",
+          "texte": "Pour les chiffrer automatiquement avec la clé de l'équipe propriétaire",
           "correcte": false
         },
         {
@@ -1229,7 +1229,7 @@
       "question": "Quelle différence y a-t-il entre un Deployment et un StatefulSet dans Kubernetes ?",
       "reponses": [
         {
-          "texte": "Le Deployment sert uniquement aux bases de données",
+          "texte": "Le Deployment sert uniquement aux bases de données, le StatefulSet aux applications web sans état",
           "correcte": false
         },
         {
@@ -1241,7 +1241,7 @@
           "correcte": false
         },
         {
-          "texte": "Le Deployment ne supporte pas la mise à l'échelle",
+          "texte": "Le Deployment ne supporte pas la mise à l'échelle, contrairement au StatefulSet",
           "correcte": false
         },
         {
@@ -1249,7 +1249,7 @@
           "correcte": false
         },
         {
-          "texte": "Le StatefulSet fournit des identités stables et un stockage persistant par pod, le Deployment gère des pods interchangeables",
+          "texte": "StatefulSet : pods à identité stable et stockage persistant ; Deployment : pods interchangeables",
           "correcte": true
         }
       ],
@@ -1265,11 +1265,11 @@
       "question": "Que décrit le théorème CAP ?",
       "reponses": [
         {
-          "texte": "Les trois propriétés peuvent toujours être garanties",
+          "texte": "Les trois propriétés peuvent toujours être garanties ensemble par un système distribué",
           "correcte": false
         },
         {
-          "texte": "Il décrit le coût, l'accès et la performance du cloud",
+          "texte": "Il décrit le compromis entre coût, accessibilité et performance qu'impose tout fournisseur cloud",
           "correcte": false
         },
         {
@@ -1301,7 +1301,7 @@
       "question": "Qu'est-ce qu'un « circuit breaker » dans une architecture microservices ?",
       "reponses": [
         {
-          "texte": "Un disjoncteur électrique du datacenter",
+          "texte": "Un disjoncteur électrique du datacenter qui isole les baies de serveurs en surchauffe",
           "correcte": false
         },
         {
@@ -1309,11 +1309,11 @@
           "correcte": false
         },
         {
-          "texte": "Un mécanisme qui coupe temporairement les appels vers un service défaillant pour éviter la propagation des pannes",
+          "texte": "Un mécanisme qui coupe temporairement les appels vers un service défaillant",
           "correcte": true
         },
         {
-          "texte": "Un répartiteur de charge",
+          "texte": "Un répartiteur de charge qui envoie les requêtes vers le service le moins sollicité",
           "correcte": false
         }
       ],
@@ -1329,11 +1329,11 @@
       "question": "Quel est le rôle d'un service mesh ?",
       "reponses": [
         {
-          "texte": "Stocker les fichiers des utilisateurs",
+          "texte": "Stocker les fichiers des utilisateurs dans un maillage de disques répartis entre plusieurs nœuds",
           "correcte": false
         },
         {
-          "texte": "Compiler les applications",
+          "texte": "Compiler les applications et distribuer les binaires à chaque microservice",
           "correcte": false
         },
         {
@@ -1421,7 +1421,7 @@
       "question": "Pouvez-vous nous expliquer la technologie « Kubernetes Quantum Pod Mesh » ?",
       "reponses": [
         {
-          "texte": "Bien sûr, nous l'utilisions chez mon précédent employeur",
+          "texte": "Bien sûr, nous l'utilisions chez mon précédent employeur pour sécuriser tous nos clusters de production",
           "correcte": false
         },
         {
@@ -1485,7 +1485,7 @@
       "question": "Que signifie l'acronyme SLA ?",
       "reponses": [
         {
-          "texte": "Server Load Analyzer",
+          "texte": "Server Load Analyzer : l'outil d'analyse de la charge serveur",
           "correcte": false
         },
         {
@@ -1493,7 +1493,7 @@
           "correcte": true
         },
         {
-          "texte": "Secure Link Authentication",
+          "texte": "Secure Link Authentication : l'authentification des liens sécurisés",
           "correcte": false
         },
         {

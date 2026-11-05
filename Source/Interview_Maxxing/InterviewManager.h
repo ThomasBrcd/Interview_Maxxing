@@ -51,6 +51,9 @@ public:
 	// File d'attente pré-calculée
 	TArray<FQuestion> FileAttenteQuestions;
 
+	// Générateur aléatoire réinitialisé à chaque entretien (tirage des questions et ordre des réponses)
+	FRandomStream Aleatoire;
+
 	UFUNCTION(BlueprintCallable, Category = "Interview")
 	void InitialiserEntretien(bool bJoueurABluffe);
 

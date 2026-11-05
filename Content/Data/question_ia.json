@@ -9,19 +9,19 @@
       "question": "Pour commencer, pourquoi souhaitez-vous rejoindre notre équipe data / IA ?",
       "reponses": [
         {
-          "texte": "Parce que j'ai étudié vos produits et vos données, et que vos problèmes correspondent à ce que je veux approfondir.",
+          "texte": "Parce que j'ai étudié vos produits et vos données, et que vos problématiques sont celles que je veux approfondir.",
           "correcte": true
         },
         {
-          "texte": "Parce que l'IA va remplacer tout le monde et que je veux être du bon côté.",
+          "texte": "Parce que l'IA va bientôt remplacer la plupart des métiers et que je préfère être du côté de ceux qui la construisent.",
           "correcte": false
         },
         {
-          "texte": "Parce qu'un chatbot me l'a recommandé.",
+          "texte": "Parce qu'un assistant conversationnel m'a conseillé votre entreprise quand je lui ai demandé où postuler cette année.",
           "correcte": false
         },
         {
-          "texte": "Parce que « data scientist » sonne bien sur LinkedIn.",
+          "texte": "Parce que « data scientist » est le titre le plus valorisé sur LinkedIn et que je veux l'afficher sur mon profil.",
           "correcte": false
         }
       ],
@@ -37,19 +37,19 @@
       "question": "Pouvez-vous vous présenter en une minute ?",
       "reponses": [
         {
-          "texte": "Je résume mon parcours, mes projets data (modèles, analyses) et ma méthode de travail.",
+          "texte": "Je résume mon parcours, mes projets data et ma façon de travailler.",
           "correcte": true
         },
         {
-          "texte": "Je liste toutes les bibliothèques que j'ai déjà installées.",
+          "texte": "Je liste toutes les bibliothèques et tous les frameworks que j'ai déjà installés, version par version.",
           "correcte": false
         },
         {
-          "texte": "Je dis que mon modèle est meilleur que tous les autres.",
+          "texte": "J'explique pourquoi mon dernier modèle est meilleur que tous ceux publiés dans le domaine.",
           "correcte": false
         },
         {
-          "texte": "Je montre mon score sur un classement en ligne sans contexte.",
+          "texte": "Je montre mon classement sur une compétition en ligne, sans préciser le contexte ni mon rôle.",
           "correcte": false
         }
       ],
@@ -65,19 +65,19 @@
       "question": "Quel est votre principal défaut ?",
       "reponses": [
         {
-          "texte": "Je suis perfectionniste.",
+          "texte": "Je suis perfectionniste : je retravaille mes analyses jusqu'à la perfection.",
           "correcte": false
         },
         {
-          "texte": "Je n'ai aucun défaut.",
+          "texte": "Honnêtement, je n'ai pas vraiment de défaut qui gênerait mon travail en équipe data.",
           "correcte": false
         },
         {
-          "texte": "J'ai tendance à complexifier mes modèles. Je commence désormais par une solution simple de référence (baseline).",
+          "texte": "J'ai tendance à complexifier mes modèles, alors je pars toujours d'une baseline simple.",
           "correcte": true
         },
         {
-          "texte": "Je fais confiance au modèle sans vérifier ses résultats.",
+          "texte": "Je fais souvent confiance au modèle sans prendre le temps de vérifier ses résultats.",
           "correcte": false
         }
       ],
@@ -93,19 +93,19 @@
       "question": "Où vous voyez-vous dans cinq ans ?",
       "reponses": [
         {
-          "texte": "Avoir mis en production plusieurs modèles utiles et encadré de nouveaux collègues.",
+          "texte": "Avoir mis plusieurs modèles utiles en production et encadré des juniors.",
           "correcte": true
         },
         {
-          "texte": "Remplacé par un modèle de langage.",
+          "texte": "Probablement remplacé par un modèle de langage, donc je n'y pense pas vraiment.",
           "correcte": false
         },
         {
-          "texte": "Je ne sais pas.",
+          "texte": "Je ne sais pas encore, je verrai selon les opportunités qui se présenteront.",
           "correcte": false
         },
         {
-          "texte": "À la tête d'une intelligence artificielle mondiale.",
+          "texte": "À la tête d'une intelligence artificielle mondiale que j'aurais conçue moi-même.",
           "correcte": false
         }
       ],
@@ -121,27 +121,27 @@
       "question": "Quelles sont vos prétentions salariales ?",
       "reponses": [
         {
-          "texte": "Le salaire d'un chercheur d'un grand laboratoire.",
+          "texte": "Le salaire d'un chercheur senior dans un grand laboratoire d'IA, sans négociation.",
           "correcte": false
         },
         {
-          "texte": "Peu importe, je suis payé en jetons de calcul.",
+          "texte": "Peu importe le montant, tant que j'ai accès à des jetons de calcul illimités.",
           "correcte": false
         },
         {
-          "texte": "Je préfère que vous donniez un chiffre, et je dirai non.",
+          "texte": "Je préfère que vous donniez un chiffre en premier, et je le refuserai.",
           "correcte": false
         },
         {
-          "texte": "Autant qu'un GPU haut de gamme.",
+          "texte": "Autant qu'un GPU haut de gamme par mois, c'est le juste prix de mon travail.",
           "correcte": false
         },
         {
-          "texte": "Je n'ai rien préparé, mais plus que ma dernière paie.",
+          "texte": "Je n'ai rien préparé, mais en tout cas plus que ma dernière fiche de paie.",
           "correcte": false
         },
         {
-          "texte": "Une fourchette basée sur le marché et mon niveau d'expérience, que je suis prêt à discuter.",
+          "texte": "Une fourchette fondée sur le marché et mon expérience, que je suis prêt à discuter.",
           "correcte": true
         }
       ],
@@ -157,19 +157,19 @@
       "question": "Avez-vous des questions à nous poser ?",
       "reponses": [
         {
-          "texte": "Non, aucune.",
+          "texte": "Non, aucune : je pense que vous avez déjà tout expliqué clairement pendant l'entretien.",
           "correcte": false
         },
         {
-          "texte": "Est-ce que vous avez des GPU pour mes jeux vidéo ?",
+          "texte": "Est-ce que je pourrai utiliser les GPU de l'équipe le soir pour faire tourner mes jeux vidéo ?",
           "correcte": false
         },
         {
-          "texte": "Est-ce que l'IA va me remplacer ici ?",
+          "texte": "Est-ce que l'IA que vous développez va finir par remplacer mon poste d'ici quelques années ?",
           "correcte": false
         },
         {
-          "texte": "Oui : quelles données utilisez-vous, comment mesurez-vous la performance des modèles et comment les mettez-vous en production ?",
+          "texte": "Oui : quelles données utilisez-vous et comment évaluez-vous puis déployez-vous vos modèles ?",
           "correcte": true
         }
       ],
@@ -185,19 +185,19 @@
       "question": "Votre modèle doit être livré demain mais ses résultats sont décevants. Que faites-vous ?",
       "reponses": [
         {
-          "texte": "J'explique l'état réel au client, je livre la meilleure version fiable avec ses limites et je planifie les améliorations.",
+          "texte": "Je dis la vérité au client, livre une version fiable avec ses limites et planifie la suite.",
           "correcte": true
         },
         {
-          "texte": "Je choisis les exemples où ça marche pour la démonstration.",
+          "texte": "Je prépare la démonstration en ne montrant que les exemples où le modèle donne de bons résultats.",
           "correcte": false
         },
         {
-          "texte": "Je modifie le jeu de test pour améliorer le score.",
+          "texte": "Je retire du jeu de test les cas difficiles pour faire remonter le score avant la livraison.",
           "correcte": false
         },
         {
-          "texte": "Je reporte la livraison sans prévenir.",
+          "texte": "Je décale la livraison de quelques jours sans prévenir, le temps d'améliorer les résultats.",
           "correcte": false
         }
       ],
@@ -213,27 +213,27 @@
       "question": "Un expert métier conteste les résultats de votre modèle. Que faites-vous ?",
       "reponses": [
         {
-          "texte": "Je lui dis que le modèle a raison, puisque c'est mathématique.",
+          "texte": "Je lui explique que le modèle a forcément raison, puisque ses résultats sont mathématiques.",
           "correcte": false
         },
         {
-          "texte": "J'ignore son avis, il ne comprend pas l'IA.",
+          "texte": "J'ignore son avis : il ne comprend pas l'IA et son intuition n'est pas une mesure fiable.",
           "correcte": false
         },
         {
-          "texte": "Je supprime les cas qui posent problème.",
+          "texte": "Je retire discrètement du jeu d'évaluation les cas qui posent problème.",
           "correcte": false
         },
         {
-          "texte": "Je modifie le score pour qu'il soit d'accord.",
+          "texte": "J'ajuste le seuil de décision jusqu'à ce que le score lui donne raison sur ses exemples.",
           "correcte": false
         },
         {
-          "texte": "Je lui explique la formule en quarante diapositives.",
+          "texte": "Je lui présente la formule complète du modèle en quarante diapositives pour le convaincre.",
           "correcte": false
         },
         {
-          "texte": "J'écoute son retour, j'examine les cas contestés et on ajuste les données ou le modèle si nécessaire.",
+          "texte": "J'écoute son retour, j'analyse les cas contestés et j'ajuste données ou modèle si besoin.",
           "correcte": true
         }
       ],
@@ -249,27 +249,27 @@
       "question": "Vous découvrez que votre modèle en production donne des résultats faux depuis plusieurs jours. Que faites-vous ?",
       "reponses": [
         {
-          "texte": "Je préviens l'équipe, je reviens à la version précédente, j'identifie la cause (dérive des données ?) et je documente.",
+          "texte": "Je préviens l'équipe, je reviens à la version précédente, puis j'analyse la cause et documente.",
           "correcte": true
         },
         {
-          "texte": "Je corrige silencieusement sans rien dire.",
+          "texte": "Je corrige le problème discrètement sans en parler, pour ne pas inquiéter l'équipe.",
           "correcte": false
         },
         {
-          "texte": "Je laisse tourner en espérant que ça s'arrange.",
+          "texte": "Je laisse tourner en surveillant les chiffres, en espérant que ça se stabilise tout seul.",
           "correcte": false
         },
         {
-          "texte": "Je supprime l'historique des prédictions.",
+          "texte": "Je supprime l'historique des prédictions erronées pour repartir sur une base propre.",
           "correcte": false
         },
         {
-          "texte": "Je dis que c'est l'utilisateur qui se trompe.",
+          "texte": "J'explique que ce sont les utilisateurs qui interprètent mal les résultats du modèle.",
           "correcte": false
         },
         {
-          "texte": "Je réentraîne le modèle au hasard jusqu'à ce que ça passe.",
+          "texte": "Je réentraîne le modèle en changeant les hyperparamètres au hasard jusqu'à ce que les résultats passent.",
           "correcte": false
         }
       ],
@@ -285,11 +285,11 @@
       "question": "On vous interroge sur un algorithme que vous ne connaissez pas. Que faites-vous ?",
       "reponses": [
         {
-          "texte": "Je dis que je l'utilise depuis des années.",
+          "texte": "Je dis que je l'utilise depuis des années et j'enchaîne sur un projet où il a bien marché.",
           "correcte": false
         },
         {
-          "texte": "Je dis que c'est dépassé.",
+          "texte": "J'explique qu'il est dépassé et que plus personne ne s'en sert sérieusement aujourd'hui.",
           "correcte": false
         },
         {
@@ -297,7 +297,7 @@
           "correcte": true
         },
         {
-          "texte": "Je change de sujet.",
+          "texte": "Je change de sujet vers un algorithme que je maîtrise pour montrer mes compétences.",
           "correcte": false
         }
       ],
@@ -313,19 +313,19 @@
       "question": "Votre jeu de données contient des informations personnelles sensibles. Que faites-vous ?",
       "reponses": [
         {
-          "texte": "Je les utilise telles quelles, c'est plus précis.",
+          "texte": "Je les utilise telles quelles : le modèle sera plus précis avec toutes les informations.",
           "correcte": false
         },
         {
-          "texte": "Je les partage sur un forum pour demander de l'aide.",
+          "texte": "Je partage un extrait sur un forum spécialisé pour demander de l'aide à la communauté.",
           "correcte": false
         },
         {
-          "texte": "Je les copie sur mon ordinateur personnel.",
+          "texte": "Je les copie sur mon ordinateur personnel pour travailler dessus plus tranquillement.",
           "correcte": false
         },
         {
-          "texte": "Je vérifie le cadre légal (RGPD), je minimise et j'anonymise les données, et j'informe le responsable.",
+          "texte": "Je vérifie le cadre RGPD, je minimise et anonymise les données, et j'informe le responsable.",
           "correcte": true
         }
       ],
@@ -341,19 +341,19 @@
       "question": "Que signifie « machine learning » ?",
       "reponses": [
         {
-          "texte": "Une machine qui répare d'autres machines",
+          "texte": "Une machine industrielle capable de diagnostiquer et réparer d'autres machines",
           "correcte": false
         },
         {
-          "texte": "Un langage de programmation pour robots",
+          "texte": "Un langage de programmation conçu pour contrôler les robots autonomes",
           "correcte": false
         },
         {
-          "texte": "Des méthodes où un programme apprend à partir de données plutôt que d'être entièrement programmé à la main",
+          "texte": "Un programme qui apprend à partir de données au lieu d'être codé à la main",
           "correcte": true
         },
         {
-          "texte": "Un type de base de données",
+          "texte": "Un type de base de données qui s'optimise automatiquement selon les requêtes",
           "correcte": false
         }
       ],
@@ -397,15 +397,15 @@
       "question": "Qu'est-ce qu'un jeu de données d'entraînement ?",
       "reponses": [
         {
-          "texte": "Les résultats finaux du modèle",
+          "texte": "Les prédictions finales produites par le modèle",
           "correcte": false
         },
         {
-          "texte": "Le code source du modèle",
+          "texte": "Le code source et les poids initiaux du modèle",
           "correcte": false
         },
         {
-          "texte": "La documentation du projet",
+          "texte": "La documentation qui décrit le projet et ses objectifs",
           "correcte": false
         },
         {
@@ -445,7 +445,7 @@
           "correcte": false
         },
         {
-          "texte": "Matplotlib",
+          "texte": "Matplotlib.pyplot",
           "correcte": false
         }
       ],
@@ -469,11 +469,11 @@
           "correcte": false
         },
         {
-          "texte": "Dessiner des graphiques",
+          "texte": "Générer automatiquement des graphiques de suivi",
           "correcte": false
         },
         {
-          "texte": "Compiler du code",
+          "texte": "Compiler le code Python des scripts d'analyse de données",
           "correcte": false
         }
       ],
@@ -493,15 +493,15 @@
           "correcte": true
         },
         {
-          "texte": "Le nom du fichier de données",
+          "texte": "Le nom du fichier qui contient les données",
           "correcte": false
         },
         {
-          "texte": "Le titre du projet",
+          "texte": "Le titre donné à chaque colonne du jeu de données",
           "correcte": false
         },
         {
-          "texte": "Le nom du modèle",
+          "texte": "Le nom de version attribué au modèle entraîné",
           "correcte": false
         }
       ],
@@ -517,19 +517,19 @@
       "question": "Qu'est-ce qu'un « prompt » pour un modèle de langage ?",
       "reponses": [
         {
-          "texte": "Le code du modèle",
+          "texte": "Le code source qui définit l'architecture du modèle",
           "correcte": false
         },
         {
-          "texte": "Un type de processeur",
+          "texte": "Un type de processeur spécialisé pour l'IA",
           "correcte": false
         },
         {
-          "texte": "Le texte d'instruction ou la question envoyé au modèle",
+          "texte": "Le texte ou la question envoyé au modèle",
           "correcte": true
         },
         {
-          "texte": "La taille du jeu de données",
+          "texte": "La taille maximale du jeu de données d'entraînement",
           "correcte": false
         }
       ],
@@ -545,7 +545,7 @@
       "question": "Quel type de graphique convient le mieux pour montrer l'évolution d'une valeur dans le temps ?",
       "reponses": [
         {
-          "texte": "Un camembert",
+          "texte": "Un camembert (diagramme circulaire)",
           "correcte": false
         },
         {
@@ -561,7 +561,7 @@
           "correcte": false
         },
         {
-          "texte": "Une carte du monde",
+          "texte": "Une carte du monde colorée",
           "correcte": false
         },
         {
@@ -581,19 +581,19 @@
       "question": "Qu'est-ce qu'un réseau de neurones artificiel ?",
       "reponses": [
         {
-          "texte": "Un câble qui relie des ordinateurs",
+          "texte": "Un réseau de câbles qui relie les ordinateurs d'un centre de calcul",
           "correcte": false
         },
         {
-          "texte": "Un cerveau humain simulé à l'identique",
+          "texte": "Une copie numérique exacte d'un cerveau humain, simulé neurone par neurone et synapse par synapse",
           "correcte": false
         },
         {
-          "texte": "Un type de base de données",
+          "texte": "Un type de base de données qui relie les informations comme un graphe",
           "correcte": false
         },
         {
-          "texte": "Un modèle composé de couches d'unités qui transforment progressivement les données",
+          "texte": "Un modèle en couches d'unités qui transforment progressivement les données",
           "correcte": true
         }
       ],
@@ -609,11 +609,11 @@
       "question": "Qu'appelle-t-on une « hallucination » pour un modèle de langage ?",
       "reponses": [
         {
-          "texte": "Une image générée par erreur",
+          "texte": "Une image générée par erreur à la place d'une réponse texte",
           "correcte": false
         },
         {
-          "texte": "Une panne de la carte graphique",
+          "texte": "Une panne de la carte graphique pendant la génération",
           "correcte": false
         },
         {
@@ -621,7 +621,7 @@
           "correcte": true
         },
         {
-          "texte": "Un mode de rêve du modèle",
+          "texte": "Un mode de rêve où le modèle s'entraîne seul",
           "correcte": false
         }
       ],
@@ -637,19 +637,19 @@
       "question": "Quelle est la différence entre apprentissage supervisé et non supervisé ?",
       "reponses": [
         {
-          "texte": "Le supervisé utilise des exemples étiquetés, le non supervisé cherche des structures dans des données sans étiquettes",
+          "texte": "Le supervisé utilise des données étiquetées, le non supervisé des données sans étiquettes",
           "correcte": true
         },
         {
-          "texte": "Le supervisé nécessite un humain en permanence, pas le non supervisé",
+          "texte": "Le supervisé nécessite qu'un humain valide chaque prédiction, le non supervisé fonctionne seul",
           "correcte": false
         },
         {
-          "texte": "Le non supervisé est toujours plus précis",
+          "texte": "Le non supervisé est toujours plus précis car il n'est pas limité par des étiquettes humaines",
           "correcte": false
         },
         {
-          "texte": "Il n'y a aucune différence",
+          "texte": "Aucune différence réelle, seul le nom de l'algorithme d'optimisation change",
           "correcte": false
         }
       ],
@@ -665,19 +665,19 @@
       "question": "Qu'est-ce que le surapprentissage (overfitting) ?",
       "reponses": [
         {
-          "texte": "Quand le modèle apprend trop vite",
+          "texte": "Quand le modèle apprend trop vite car le taux d'apprentissage est trop élevé",
           "correcte": false
         },
         {
-          "texte": "Quand le modèle mémorise les données d'entraînement et généralise mal à de nouvelles données",
+          "texte": "Quand le modèle mémorise l'entraînement et généralise mal à de nouvelles données",
           "correcte": true
         },
         {
-          "texte": "Quand le modèle refuse d'apprendre",
+          "texte": "Quand le modèle refuse d'apprendre car ses gradients restent bloqués à zéro",
           "correcte": false
         },
         {
-          "texte": "Quand le jeu de données est trop petit pour être stocké",
+          "texte": "Quand le jeu de données est trop volumineux pour tenir en mémoire",
           "correcte": false
         }
       ],
@@ -693,11 +693,11 @@
       "question": "Pourquoi sépare-t-on les données en jeux d'entraînement et de test ?",
       "reponses": [
         {
-          "texte": "Pour gagner de la place sur le disque",
+          "texte": "Pour réduire l'espace disque occupé pendant l'entraînement",
           "correcte": false
         },
         {
-          "texte": "Pour entraîner deux modèles différents",
+          "texte": "Pour entraîner deux modèles en parallèle et garder le meilleur des deux",
           "correcte": false
         },
         {
@@ -705,7 +705,7 @@
           "correcte": true
         },
         {
-          "texte": "Pour supprimer les doublons",
+          "texte": "Pour repérer et supprimer les doublons entre les exemples",
           "correcte": false
         }
       ],
@@ -721,11 +721,11 @@
       "question": "Quelle métrique est la plus adaptée pour évaluer un modèle de régression ?",
       "reponses": [
         {
-          "texte": "La précision (accuracy)",
+          "texte": "La précision globale (accuracy)",
           "correcte": false
         },
         {
-          "texte": "Le rappel (recall)",
+          "texte": "Le rappel (recall) moyen sur les classes",
           "correcte": false
         },
         {
@@ -733,7 +733,7 @@
           "correcte": false
         },
         {
-          "texte": "La matrice de confusion",
+          "texte": "La matrice de confusion normalisée",
           "correcte": false
         },
         {
@@ -761,15 +761,15 @@
           "correcte": true
         },
         {
-          "texte": "La part des positifs réels retrouvés par le modèle",
+          "texte": "La part des positifs réels que le modèle retrouve bien",
           "correcte": false
         },
         {
-          "texte": "La vitesse d'exécution du modèle",
+          "texte": "La vitesse d'exécution du modèle sur un lot de prédictions",
           "correcte": false
         },
         {
-          "texte": "Le nombre de classes prédites",
+          "texte": "Le nombre de classes distinctes que le modèle peut prédire",
           "correcte": false
         }
       ],
@@ -813,19 +813,19 @@
       "question": "Qu'est-ce qu'un embedding ?",
       "reponses": [
         {
-          "texte": "Un fichier de sauvegarde du modèle",
+          "texte": "Un fichier de sauvegarde qui contient les poids du modèle entraîné",
           "correcte": false
         },
         {
-          "texte": "Une couche de compression d'image",
+          "texte": "Une couche de compression qui réduit la résolution des images avant leur passage dans le réseau",
           "correcte": false
         },
         {
-          "texte": "Une représentation numérique (vecteur) d'un mot, d'une image ou d'un document, qui capture son sens",
+          "texte": "Un vecteur de nombres qui représente le sens d'un mot, d'une image ou d'un texte",
           "correcte": true
         },
         {
-          "texte": "Un format de base de données",
+          "texte": "Un format de base de données optimisé pour stocker du texte brut",
           "correcte": false
         }
       ],
@@ -881,15 +881,15 @@
           "correcte": true
         },
         {
-          "texte": "Une méthode pour trier des données",
+          "texte": "Une méthode de tri qui classe les données de la plus grande à la plus petite",
           "correcte": false
         },
         {
-          "texte": "Un type de réseau de neurones",
+          "texte": "Un type de réseau de neurones dont les couches rétrécissent progressivement",
           "correcte": false
         },
         {
-          "texte": "Une technique de compression",
+          "texte": "Une technique de compression qui réduit la précision des poids",
           "correcte": false
         }
       ],
@@ -905,15 +905,15 @@
       "question": "Que signifie LLM ?",
       "reponses": [
         {
-          "texte": "Linear Learning Machine",
+          "texte": "Linear Learning Machine (machine d'apprentissage linéaire)",
           "correcte": false
         },
         {
-          "texte": "Local Logic Module",
+          "texte": "Local Logic Module (module de logique local)",
           "correcte": false
         },
         {
-          "texte": "Layered Learning Matrix",
+          "texte": "Layered Learning Matrix (matrice d'apprentissage en couches)",
           "correcte": false
         },
         {
@@ -933,11 +933,11 @@
       "question": "Qu'est-ce qu'un token pour un modèle de langage ?",
       "reponses": [
         {
-          "texte": "Un jeton d'authentification",
+          "texte": "Un jeton d'authentification qui donne accès à l'API du modèle",
           "correcte": false
         },
         {
-          "texte": "Une unité monétaire de l'entreprise",
+          "texte": "Une unité de facturation interne, fixée à un euro pour chaque requête envoyée au modèle",
           "correcte": false
         },
         {
@@ -945,7 +945,7 @@
           "correcte": true
         },
         {
-          "texte": "Une couche du réseau",
+          "texte": "Une couche du réseau qui stocke le contexte de la conversation en cours",
           "correcte": false
         }
       ],
@@ -965,23 +965,23 @@
           "correcte": true
         },
         {
-          "texte": "Le surapprentissage",
+          "texte": "Le surapprentissage volontaire sur une base documentaire",
           "correcte": false
         },
         {
-          "texte": "La compression JPEG",
+          "texte": "La compression JPEG des documents",
           "correcte": false
         },
         {
-          "texte": "Le dropout",
+          "texte": "Le dropout des couches d'attention",
           "correcte": false
         },
         {
-          "texte": "La régularisation L2",
+          "texte": "La régularisation L2 des poids du modèle",
           "correcte": false
         },
         {
-          "texte": "Le pooling",
+          "texte": "Le max-pooling des couches convolutives",
           "correcte": false
         }
       ],
@@ -997,11 +997,11 @@
       "question": "Qu'est-ce que la normalisation des données ?",
       "reponses": [
         {
-          "texte": "Supprimer les valeurs extrêmes",
+          "texte": "Supprimer les valeurs extrêmes qui faussent les statistiques",
           "correcte": false
         },
         {
-          "texte": "Convertir les données en texte",
+          "texte": "Convertir toutes les données dans un format texte commun",
           "correcte": false
         },
         {
@@ -1009,7 +1009,7 @@
           "correcte": true
         },
         {
-          "texte": "Chiffrer les données",
+          "texte": "Chiffrer les données sensibles avant l'entraînement",
           "correcte": false
         }
       ],
@@ -1025,19 +1025,19 @@
       "question": "Que fait la clause SQL GROUP BY ?",
       "reponses": [
         {
-          "texte": "Regrouper des lignes partageant une valeur pour calculer des agrégats (somme, moyenne...)",
+          "texte": "Regrouper les lignes de même valeur pour calculer des agrégats (SUM, AVG...)",
           "correcte": true
         },
         {
-          "texte": "Trier les résultats par ordre alphabétique",
+          "texte": "Trier les résultats par ordre alphabétique sur une ou plusieurs colonnes",
           "correcte": false
         },
         {
-          "texte": "Supprimer les doublons d'une table",
+          "texte": "Supprimer les lignes en double d'une table en ne gardant que la première occurrence",
           "correcte": false
         },
         {
-          "texte": "Créer un index",
+          "texte": "Créer un index sur une colonne pour accélérer les requêtes suivantes",
           "correcte": false
         }
       ],
@@ -1053,19 +1053,19 @@
       "question": "Qu'est-ce qu'une valeur manquante et comment la traite-t-on souvent ?",
       "reponses": [
         {
-          "texte": "Une donnée trop grande, qu'on réduit",
+          "texte": "Une donnée trop grande pour son type, qu'on tronque à la valeur maximale",
           "correcte": false
         },
         {
-          "texte": "Une donnée chiffrée qu'on déchiffre",
+          "texte": "Une donnée chiffrée par la source, qu'on déchiffre avant l'analyse",
           "correcte": false
         },
         {
-          "texte": "Une donnée absente, que l'on peut supprimer, remplacer (moyenne, médiane) ou modéliser",
+          "texte": "Une donnée absente, qu'on supprime, remplace (moyenne, médiane) ou modélise",
           "correcte": true
         },
         {
-          "texte": "Une valeur toujours égale à zéro",
+          "texte": "Une valeur toujours égale à zéro, qu'on remplace par la moyenne",
           "correcte": false
         }
       ],
@@ -1081,19 +1081,19 @@
       "question": "Qu'est-ce qu'un biais dans un jeu de données ?",
       "reponses": [
         {
-          "texte": "Une erreur de syntaxe dans le fichier",
+          "texte": "Une erreur de syntaxe dans le fichier qui décale les colonnes",
           "correcte": false
         },
         {
-          "texte": "Un type de normalisation",
+          "texte": "Un type de normalisation qui centre toutes les valeurs autour de zéro",
           "correcte": false
         },
         {
-          "texte": "Une distorsion qui rend les données non représentatives et peut conduire à des résultats injustes",
+          "texte": "Des données non représentatives, pouvant mener à des résultats injustes",
           "correcte": true
         },
         {
-          "texte": "Une colonne vide",
+          "texte": "Une colonne vide ou presque, qu'il faut retirer avant l'entraînement",
           "correcte": false
         }
       ],
@@ -1109,27 +1109,27 @@
       "question": "Quel est l'intérêt de la validation croisée (cross-validation) ?",
       "reponses": [
         {
-          "texte": "Accélérer l'entraînement par dix",
+          "texte": "Accélérer l'entraînement en répartissant les calculs sur plusieurs machines",
           "correcte": false
         },
         {
-          "texte": "Chiffrer les données",
+          "texte": "Chiffrer les données en les découpant en plusieurs blocs indépendants",
           "correcte": false
         },
         {
-          "texte": "Supprimer les doublons",
+          "texte": "Supprimer les doublons en comparant les exemples entre plusieurs sous-ensembles",
           "correcte": false
         },
         {
-          "texte": "Augmenter le nombre de classes",
+          "texte": "Augmenter artificiellement le nombre de classes pour mieux équilibrer le jeu",
           "correcte": false
         },
         {
-          "texte": "Estimer plus fiablement la performance du modèle en l'évaluant sur plusieurs découpages des données",
+          "texte": "Estimer la performance de façon fiable sur plusieurs découpages des données",
           "correcte": true
         },
         {
-          "texte": "Sauvegarder le modèle",
+          "texte": "Sauvegarder plusieurs versions du modèle pour pouvoir revenir en arrière",
           "correcte": false
         }
       ],
@@ -1145,7 +1145,7 @@
       "question": "À quoi sert le paramètre « temperature » dans la génération de texte ?",
       "reponses": [
         {
-          "texte": "À mesurer la température du processeur",
+          "texte": "À surveiller la température du GPU pendant la génération",
           "correcte": false
         },
         {
@@ -1153,11 +1153,11 @@
           "correcte": true
         },
         {
-          "texte": "À limiter la longueur de la réponse",
+          "texte": "À limiter la longueur de la réponse en nombre maximal de tokens",
           "correcte": false
         },
         {
-          "texte": "À choisir la langue de sortie",
+          "texte": "À choisir la langue de sortie en fonction de la question posée",
           "correcte": false
         }
       ],
@@ -1173,19 +1173,19 @@
       "question": "Quelle différence y a-t-il entre classification et régression ?",
       "reponses": [
         {
-          "texte": "La classification prédit une catégorie, la régression prédit une valeur numérique",
+          "texte": "La classification prédit une catégorie, la régression une valeur numérique",
           "correcte": true
         },
         {
-          "texte": "La classification utilise des images, la régression du texte",
+          "texte": "La classification travaille sur des images, la régression sur du texte",
           "correcte": false
         },
         {
-          "texte": "La régression est toujours non supervisée",
+          "texte": "La régression est toujours non supervisée, la classification supervisée",
           "correcte": false
         },
         {
-          "texte": "Il n'y en a aucune",
+          "texte": "Aucune, ce sont deux noms pour le même type de problème",
           "correcte": false
         }
       ],
@@ -1201,19 +1201,19 @@
       "question": "Qu'est-ce que le fine-tuning ?",
       "reponses": [
         {
-          "texte": "Réduire la taille d'un modèle",
+          "texte": "Réduire la taille d'un modèle en supprimant ses poids les moins utiles",
           "correcte": false
         },
         {
-          "texte": "Ré-entraîner un modèle déjà préentraîné sur des données spécifiques à une tâche",
+          "texte": "Ré-entraîner un modèle préentraîné sur des données propres à une tâche",
           "correcte": true
         },
         {
-          "texte": "Écrire un prompt plus long",
+          "texte": "Écrire un prompt plus long et plus précis pour guider le modèle",
           "correcte": false
         },
         {
-          "texte": "Convertir un modèle en SQL",
+          "texte": "Convertir un modèle en requêtes SQL pour l'exécuter en base de données",
           "correcte": false
         }
       ],
@@ -1229,11 +1229,11 @@
       "question": "Dans le mécanisme d'attention d'un Transformer, à quoi servent les matrices Q, K et V ?",
       "reponses": [
         {
-          "texte": "Elles compressent les images",
+          "texte": "Elles compressent les images d'entrée avant l'encodage",
           "correcte": false
         },
         {
-          "texte": "Elles servent de couches de sortie pour classer",
+          "texte": "Elles servent de couches de sortie pour classer les tokens",
           "correcte": false
         },
         {
@@ -1241,15 +1241,15 @@
           "correcte": true
         },
         {
-          "texte": "Q est la sortie, K l'entrée, V la perte",
+          "texte": "Q est la sortie, K l'entrée et V la fonction de perte du modèle",
           "correcte": false
         },
         {
-          "texte": "Elles stockent l'historique de conversation",
+          "texte": "Elles stockent l'historique de conversation entre deux requêtes",
           "correcte": false
         },
         {
-          "texte": "Elles servent à chiffrer les poids du modèle",
+          "texte": "Elles chiffrent les poids du modèle pendant l'inférence",
           "correcte": false
         }
       ],
@@ -1265,27 +1265,27 @@
       "question": "Qu'est-ce que le « vanishing gradient » ?",
       "reponses": [
         {
-          "texte": "Des gradients qui deviennent presque nuls dans les couches profondes, ralentissant ou bloquant l'apprentissage",
+          "texte": "Des gradients presque nuls dans les premières couches, qui bloquent l'apprentissage",
           "correcte": true
         },
         {
-          "texte": "Des gradients qui deviennent infinis",
+          "texte": "Des gradients qui deviennent infinis au fil des couches et font diverger les poids du réseau",
           "correcte": false
         },
         {
-          "texte": "Un bug d'affichage des courbes",
+          "texte": "Un bug d'affichage qui fait disparaître les courbes d'apprentissage",
           "correcte": false
         },
         {
-          "texte": "Une perte de données lors du chargement",
+          "texte": "Une perte de données lors du chargement des lots d'entraînement",
           "correcte": false
         },
         {
-          "texte": "Un manque de mémoire GPU",
+          "texte": "Un manque de mémoire GPU qui interrompt la rétropropagation",
           "correcte": false
         },
         {
-          "texte": "Une erreur de normalisation des images",
+          "texte": "Une erreur de normalisation qui écrase toutes les images vers zéro",
           "correcte": false
         }
       ],
@@ -1301,19 +1301,19 @@
       "question": "Que mesure l'AUC-ROC ?",
       "reponses": [
         {
-          "texte": "Le temps d'entraînement",
+          "texte": "Le temps d'entraînement nécessaire pour que la courbe de perte atteigne la convergence",
           "correcte": false
         },
         {
-          "texte": "La capacité d'un classifieur à distinguer les classes pour tous les seuils de décision",
+          "texte": "La capacité d'un classifieur à séparer les classes, tous seuils confondus",
           "correcte": true
         },
         {
-          "texte": "Le nombre de paramètres",
+          "texte": "Le nombre de paramètres effectivement utilisés par le modèle",
           "correcte": false
         },
         {
-          "texte": "La quantité de mémoire utilisée",
+          "texte": "La quantité de mémoire consommée pendant l'évaluation du modèle",
           "correcte": false
         }
       ],
@@ -1329,19 +1329,19 @@
       "question": "Quelle différence y a-t-il entre bagging et boosting ?",
       "reponses": [
         {
-          "texte": "Le bagging est réservé aux images",
+          "texte": "Le bagging est réservé aux images, le boosting aux données tabulaires ; les deux moyennent des modèles indépendants",
           "correcte": false
         },
         {
-          "texte": "Le boosting n'utilise qu'un seul modèle",
+          "texte": "Le boosting n'entraîne qu'un seul modèle de plus en plus profond, le bagging en combine plusieurs en parallèle",
           "correcte": false
         },
         {
-          "texte": "Le bagging entraîne des modèles indépendants puis les moyenne, le boosting entraîne des modèles successifs qui corrigent les erreurs précédentes",
+          "texte": "Bagging : modèles indépendants moyennés ; boosting : modèles successifs corrigeant les erreurs des précédents",
           "correcte": true
         },
         {
-          "texte": "Il n'y a aucune différence",
+          "texte": "Aucune : ce sont deux noms pour la même méthode d'ensemble, selon la bibliothèque",
           "correcte": false
         }
       ],
@@ -1365,7 +1365,7 @@
           "correcte": false
         },
         {
-          "texte": "Une valeur proche de 1",
+          "texte": "Proche de 1",
           "correcte": true
         },
         {
@@ -1421,19 +1421,19 @@
       "question": "Pouvez-vous nous expliquer l'algorithme « Quantum Gradient Fusion Descent » ?",
       "reponses": [
         {
-          "texte": "Bien sûr, c'est ce que j'utilise pour tous mes modèles",
+          "texte": "Bien sûr, c'est l'algorithme que j'utilise pour tous mes modèles, il converge bien plus vite.",
           "correcte": false
         },
         {
-          "texte": "C'est une version du boosting développée en 2023",
+          "texte": "C'est une variante du boosting publiée en 2023, qui combine plusieurs descentes de gradient.",
           "correcte": false
         },
         {
-          "texte": "Je ne connais pas cet algorithme et je ne crois pas qu'il existe. Pensez-vous à une autre variante ?",
+          "texte": "Je ne connais pas cet algorithme et je doute qu'il existe : pensez-vous à une autre méthode ?",
           "correcte": true
         },
         {
-          "texte": "C'est le nom interne de PyTorch pour l'optimiseur Adam",
+          "texte": "C'est le nom interne utilisé par PyTorch pour son implémentation de l'optimiseur Adam.",
           "correcte": false
         }
       ],
@@ -1449,27 +1449,27 @@
       "question": "Un modèle prédit toujours « pas de fraude » sur un jeu où 1 % des cas sont frauduleux. Quelle est son accuracy ?",
       "reponses": [
         {
-          "texte": "99 %, mais il est inutile pour détecter la fraude",
+          "texte": "99 %, mais il ne détecte aucune fraude",
           "correcte": true
         },
         {
-          "texte": "1 %",
+          "texte": "1 %, car il rate tous les cas de fraude",
           "correcte": false
         },
         {
-          "texte": "50 %",
+          "texte": "50 %, comme un tirage à pile ou face",
           "correcte": false
         },
         {
-          "texte": "0 %",
+          "texte": "0 %, puisqu'il ne détecte aucune fraude",
           "correcte": false
         },
         {
-          "texte": "100 %",
+          "texte": "100 %, il ne se trompe sur aucun cas",
           "correcte": false
         },
         {
-          "texte": "Impossible à calculer",
+          "texte": "Impossible à calculer sans le rappel",
           "correcte": false
         }
       ],

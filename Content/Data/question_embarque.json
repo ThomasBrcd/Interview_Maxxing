@@ -9,19 +9,19 @@
       "question": "Pour commencer, pourquoi souhaitez-vous rejoindre notre équipe d'ingénierie embarquée ?",
       "reponses": [
         {
-          "texte": "Parce que j'ai étudié vos produits et que faire dialoguer logiciel et matériel correspond à ce que je veux approfondir.",
+          "texte": "Parce que j'ai étudié vos produits : faire dialoguer logiciel et matériel, c'est ce que je veux approfondir.",
           "correcte": true
         },
         {
-          "texte": "Parce que j'aime souder, même sans savoir pourquoi.",
+          "texte": "Parce que j'adore souder des cartes, même si je ne sais pas toujours à quoi elles servent une fois montées.",
           "correcte": false
         },
         {
-          "texte": "Parce que les systèmes embarqués ne tombent jamais en panne.",
+          "texte": "Parce que l'embarqué est un domaine stable où les systèmes, une fois livrés, ne tombent jamais en panne.",
           "correcte": false
         },
         {
-          "texte": "Parce que c'est le seul poste où personne ne regarde mon code.",
+          "texte": "Parce que dans l'embarqué personne ne relit vraiment mon code, du moment que la carte finit par démarrer.",
           "correcte": false
         }
       ],
@@ -37,11 +37,11 @@
       "question": "Pouvez-vous vous présenter en une minute ?",
       "reponses": [
         {
-          "texte": "Je liste toutes les cartes électroniques que j'ai déjà grillées.",
+          "texte": "Je liste une par une toutes les cartes électroniques que j'ai grillées, en détaillant chaque erreur.",
           "correcte": false
         },
         {
-          "texte": "Je décris mon bureau rempli de composants pendant dix minutes.",
+          "texte": "Je décris en détail mon bureau rempli de composants, de câbles et d'oscilloscopes pendant dix minutes.",
           "correcte": false
         },
         {
@@ -49,7 +49,7 @@
           "correcte": true
         },
         {
-          "texte": "Je dis que j'ai tout fait en assembleur, sans détails.",
+          "texte": "J'affirme avoir tout programmé en assembleur depuis toujours, sans donner d'exemple concret.",
           "correcte": false
         }
       ],
@@ -65,19 +65,19 @@
       "question": "Quel est votre principal défaut ?",
       "reponses": [
         {
-          "texte": "Je suis perfectionniste.",
+          "texte": "Je suis trop perfectionniste : je relis chaque ligne de code dix fois avant de la valider.",
           "correcte": false
         },
         {
-          "texte": "Je n'ai aucun défaut.",
+          "texte": "Honnêtement, je n'ai aucun défaut particulier, mes anciens responsables pourraient le confirmer.",
           "correcte": false
         },
         {
-          "texte": "Je modifie le matériel sans prévenir l'équipe.",
+          "texte": "Je modifie parfois le matériel sans prévenir l'équipe, mais c'est uniquement pour gagner du temps sur les tests.",
           "correcte": false
         },
         {
-          "texte": "Je teste souvent sur banc avant de documenter. Je note maintenant les résultats au fur et à mesure.",
+          "texte": "Je teste sur banc avant de documenter. Désormais, je note les résultats au fur et à mesure.",
           "correcte": true
         }
       ],
@@ -93,19 +93,19 @@
       "question": "Où vous voyez-vous dans cinq ans ?",
       "reponses": [
         {
-          "texte": "À la tête d'une usine de composants.",
+          "texte": "À la tête de ma propre usine de composants, en concurrence directe avec votre entreprise.",
           "correcte": false
         },
         {
-          "texte": "Je ne sais pas.",
+          "texte": "Je ne sais pas vraiment, je préfère voir au jour le jour selon les projets qu'on me confiera.",
           "correcte": false
         },
         {
-          "texte": "Dans un métier sans fer à souder.",
+          "texte": "Dans un métier sans fer à souder ni oscilloscope : l'embarqué n'est qu'une étape pour moi.",
           "correcte": false
         },
         {
-          "texte": "Avoir conçu des systèmes plus complexes et pris en charge la fiabilité d'un produit de bout en bout.",
+          "texte": "Avoir conçu des systèmes plus complexes et porté la fiabilité d'un produit de bout en bout.",
           "correcte": true
         }
       ],
@@ -121,27 +121,27 @@
       "question": "Quelles sont vos prétentions salariales ?",
       "reponses": [
         {
-          "texte": "Le salaire d'un directeur de l'ingénierie.",
+          "texte": "Le salaire d'un directeur de l'ingénierie, puisque je compte le devenir très rapidement.",
           "correcte": false
         },
         {
-          "texte": "Peu importe, je suis payé en composants.",
+          "texte": "Peu importe le montant, tant que je peux être payé en partie en composants électroniques.",
           "correcte": false
         },
         {
-          "texte": "Je préfère que vous donniez un chiffre, et je dirai non.",
+          "texte": "Je préfère que vous donniez un chiffre en premier, et je dirai non par principe.",
           "correcte": false
         },
         {
-          "texte": "Autant que le prix d'un oscilloscope.",
+          "texte": "Autant que le prix d'un bon oscilloscope, ça me semble être une référence raisonnable.",
           "correcte": false
         },
         {
-          "texte": "Je n'ai rien préparé, mais plus que ma dernière paie.",
+          "texte": "Je n'ai rien préparé, mais je veux nettement plus que ma dernière paie, c'est certain.",
           "correcte": false
         },
         {
-          "texte": "Une fourchette basée sur le marché et mon niveau d'expérience, que je suis prêt à discuter.",
+          "texte": "Une fourchette basée sur le marché et mon expérience, que je suis prêt à discuter.",
           "correcte": true
         }
       ],
@@ -157,19 +157,19 @@
       "question": "Avez-vous des questions à nous poser ?",
       "reponses": [
         {
-          "texte": "Non, aucune.",
+          "texte": "Non, aucune, vous avez déjà tout expliqué et je préfère ne pas vous faire perdre de temps.",
           "correcte": false
         },
         {
-          "texte": "Est-ce que je peux emporter des composants chez moi ?",
+          "texte": "Est-ce que je peux emporter des composants et des cartes chez moi pour mes projets personnels ?",
           "correcte": false
         },
         {
-          "texte": "Est-ce qu'il y a une imprimante 3D en libre-service ?",
+          "texte": "Est-ce qu'il y a une imprimante 3D en libre-service que je pourrais utiliser le week-end ?",
           "correcte": false
         },
         {
-          "texte": "Oui : comment validez-vous le matériel et le logiciel avant la livraison, et quels outils de test utilisez-vous ?",
+          "texte": "Oui : comment validez-vous matériel et logiciel avant livraison, et avec quels outils de test ?",
           "correcte": true
         }
       ],
@@ -185,19 +185,19 @@
       "question": "Une carte prototype grille la veille d'une démonstration. Que faites-vous ?",
       "reponses": [
         {
-          "texte": "Je mens sur ce qui s'est passé.",
+          "texte": "Je raconte que la carte a été endommagée pendant le transport pour éviter d'avoir des reproches.",
           "correcte": false
         },
         {
-          "texte": "Je préviens l'équipe, je cherche la cause et je prépare une alternative (autre carte, simulation) pour la démonstration.",
+          "texte": "Je préviens l'équipe, je cherche la cause et je prépare une alternative (autre carte, simulation).",
           "correcte": true
         },
         {
-          "texte": "Je rafistole avec du ruban adhésif et je dis que c'est normal.",
+          "texte": "Je rafistole la carte avec du ruban adhésif et je présente le défaut comme un comportement normal.",
           "correcte": false
         },
         {
-          "texte": "J'annule sans rien dire.",
+          "texte": "J'annule la démonstration sans rien dire à personne et je reprendrai le sujet plus tard.",
           "correcte": false
         }
       ],
@@ -213,19 +213,19 @@
       "question": "Un électronicien et vous n'êtes pas d'accord sur l'origine d'un bug. Que faites-vous ?",
       "reponses": [
         {
-          "texte": "Je réécris son code sans le dire.",
+          "texte": "Je réécris discrètement son code de mon côté, sans lui en parler, pour prouver que j'ai raison.",
           "correcte": false
         },
         {
-          "texte": "Je fais comme si je n'avais rien vu.",
+          "texte": "Je fais comme si je n'avais rien vu et je laisse le bug en l'état jusqu'à la prochaine version.",
           "correcte": false
         },
         {
-          "texte": "Je change le schéma électrique moi-même.",
+          "texte": "Je modifie moi-même le schéma électrique pour contourner le problème, sans le consulter.",
           "correcte": false
         },
         {
-          "texte": "Je désactive les alertes.",
+          "texte": "Je désactive les alertes concernées pour que le bug ne remonte plus dans les tests.",
           "correcte": false
         },
         {
@@ -233,7 +233,7 @@
           "correcte": true
         },
         {
-          "texte": "Je le laisse trouver seul.",
+          "texte": "Je le laisse chercher seul : c'est à lui de prouver que le bug ne vient pas du matériel.",
           "correcte": false
         }
       ],
@@ -249,7 +249,7 @@
       "question": "Un firmware que vous avez livré fait redémarrer des appareils chez un client. Que faites-vous ?",
       "reponses": [
         {
-          "texte": "Je ne dis rien en espérant que ça passe.",
+          "texte": "Je ne dis rien au client en espérant que le problème disparaisse avec la prochaine mise à jour.",
           "correcte": false
         },
         {
@@ -257,19 +257,19 @@
           "correcte": true
         },
         {
-          "texte": "Je dis que c'est le matériel du client.",
+          "texte": "J'explique au client que le problème vient forcément de son matériel ou de son alimentation.",
           "correcte": false
         },
         {
-          "texte": "Je publie un correctif non testé dans l'heure.",
+          "texte": "Je publie dans l'heure un correctif non testé, directement sur l'ensemble des appareils du parc client.",
           "correcte": false
         },
         {
-          "texte": "Je supprime les journaux.",
+          "texte": "Je supprime les journaux qui montrent les redémarrages, puis j'attends de voir si ça continue.",
           "correcte": false
         },
         {
-          "texte": "Je désactive le redémarrage automatique.",
+          "texte": "Je désactive le redémarrage automatique du watchdog pour que les appareils restent allumés.",
           "correcte": false
         }
       ],
@@ -285,15 +285,15 @@
       "question": "On vous interroge sur un composant ou un protocole que vous ne connaissez pas. Que faites-vous ?",
       "reponses": [
         {
-          "texte": "Je dis que je l'utilise depuis des années.",
+          "texte": "Je dis que je l'utilise depuis des années et j'improvise une explication détaillée à partir de son nom.",
           "correcte": false
         },
         {
-          "texte": "Je dis qu'il est obsolète.",
+          "texte": "Je réponds qu'il est obsolète et qu'aucune équipe sérieuse ne l'utilise encore en production.",
           "correcte": false
         },
         {
-          "texte": "Je change de sujet.",
+          "texte": "Je change de sujet et je parle d'un protocole que je connais bien pour masquer mon ignorance.",
           "correcte": false
         },
         {
@@ -313,15 +313,15 @@
       "question": "On vous demande de désactiver un mécanisme de sécurité (watchdog) pour livrer plus vite. Que faites-vous ?",
       "reponses": [
         {
-          "texte": "Je le désactive discrètement.",
+          "texte": "Je le désactive discrètement pour tenir le délai, et je le réactiverai dans une prochaine version.",
           "correcte": false
         },
         {
-          "texte": "Je refuse en silence puis je pars.",
+          "texte": "Je refuse sans rien expliquer à personne, puis je quitte le projet à la première occasion venue.",
           "correcte": false
         },
         {
-          "texte": "Je le désactive et je ne le note pas.",
+          "texte": "Je le désactive comme demandé, sans en garder la moindre trace dans le code ni dans la documentation.",
           "correcte": false
         },
         {
@@ -341,19 +341,19 @@
       "question": "Qu'est-ce qu'un microcontrôleur ?",
       "reponses": [
         {
-          "texte": "Un très grand serveur",
+          "texte": "Un très grand serveur dédié au calcul intensif en centre de données",
           "correcte": false
         },
         {
-          "texte": "Un logiciel de simulation",
+          "texte": "Un logiciel de simulation qui reproduit le comportement d'un circuit",
           "correcte": false
         },
         {
-          "texte": "Un type de câble",
+          "texte": "Un type de câble blindé reliant une carte mère à ses périphériques",
           "correcte": false
         },
         {
-          "texte": "Un petit circuit intégré combinant processeur, mémoire et entrées/sorties",
+          "texte": "Un circuit intégré réunissant processeur, mémoire et entrées/sorties",
           "correcte": true
         }
       ],
@@ -369,19 +369,19 @@
       "question": "Que signifie GPIO ?",
       "reponses": [
         {
-          "texte": "General Purpose Input/Output : des broches programmables en entrée ou en sortie",
+          "texte": "General Purpose Input/Output : broches configurables en entrée ou sortie",
           "correcte": true
         },
         {
-          "texte": "Global Power Input Operator",
+          "texte": "Global Power Input Operator : un régulateur qui gère l'alimentation des broches",
           "correcte": false
         },
         {
-          "texte": "General Protocol for Internet Objects",
+          "texte": "General Protocol for Internet Objects : un protocole réseau pour objets connectés",
           "correcte": false
         },
         {
-          "texte": "Graphic Processing Input Output",
+          "texte": "Graphic Processing Input Output : une interface dédiée à l'affichage graphique",
           "correcte": false
         }
       ],
@@ -461,19 +461,19 @@
       "question": "Qu'est-ce que le firmware ?",
       "reponses": [
         {
-          "texte": "Le logiciel embarqué dans un appareil, stocké en mémoire non volatile",
+          "texte": "Le logiciel bas niveau stocké en mémoire non volatile d'un appareil",
           "correcte": true
         },
         {
-          "texte": "Un pare-feu matériel",
+          "texte": "Un pare-feu matériel qui filtre le trafic réseau entrant d'un appareil",
           "correcte": false
         },
         {
-          "texte": "Le boîtier de l'appareil",
+          "texte": "Le boîtier de protection de l'appareil et sa connectique externe",
           "correcte": false
         },
         {
-          "texte": "Un type de batterie",
+          "texte": "Un type de batterie rechargeable intégrée aux appareils portables",
           "correcte": false
         }
       ],
@@ -525,19 +525,19 @@
       "question": "Que signifie UART ?",
       "reponses": [
         {
-          "texte": "Unified Audio Routing Technology",
+          "texte": "Unified Audio Routing Technology : un bus de transport audio numérique",
           "correcte": false
         },
         {
-          "texte": "Universal Access Remote Terminal",
+          "texte": "Universal Access Remote Terminal : un protocole de console à distance",
           "correcte": false
         },
         {
-          "texte": "Universal Asynchronous Receiver/Transmitter : une interface de communication série",
+          "texte": "Universal Asynchronous Receiver/Transmitter : une liaison série",
           "correcte": true
         },
         {
-          "texte": "Ultra Accurate Radio Transmission",
+          "texte": "Ultra Accurate Radio Transmission : une norme radio courte portée",
           "correcte": false
         }
       ],
@@ -581,11 +581,11 @@
       "question": "Que signifie « temps réel » en informatique embarquée ?",
       "reponses": [
         {
-          "texte": "Il affiche l'heure exacte",
+          "texte": "Il affiche et synchronise l'heure exacte en continu",
           "correcte": false
         },
         {
-          "texte": "Il fonctionne uniquement sur batterie",
+          "texte": "Il fonctionne uniquement sur batterie, sans secteur",
           "correcte": false
         },
         {
@@ -593,7 +593,7 @@
           "correcte": true
         },
         {
-          "texte": "Il est très rapide en moyenne",
+          "texte": "Il est très rapide en moyenne, quelle que soit la charge",
           "correcte": false
         }
       ],
@@ -609,7 +609,7 @@
       "question": "Quel est traditionnellement le premier programme que l'on écrit sur une carte électronique ?",
       "reponses": [
         {
-          "texte": "Afficher la météo",
+          "texte": "Afficher la météo sur un écran",
           "correcte": false
         },
         {
@@ -617,11 +617,11 @@
           "correcte": true
         },
         {
-          "texte": "Lancer un jeu vidéo",
+          "texte": "Lancer un petit jeu vidéo",
           "correcte": false
         },
         {
-          "texte": "Envoyer un e-mail",
+          "texte": "Envoyer un e-mail de test",
           "correcte": false
         }
       ],
@@ -637,19 +637,19 @@
       "question": "Quelle différence y a-t-il entre un microcontrôleur et un microprocesseur ?",
       "reponses": [
         {
-          "texte": "Le microcontrôleur intègre mémoire et périphériques sur une même puce, le microprocesseur nécessite des composants externes",
+          "texte": "Le microcontrôleur intègre mémoire et périphériques sur sa puce, le microprocesseur les a en externe",
           "correcte": true
         },
         {
-          "texte": "Le microprocesseur est toujours moins puissant",
+          "texte": "Le microprocesseur est toujours moins puissant, car il ne dispose d'aucune mémoire cache interne",
           "correcte": false
         },
         {
-          "texte": "Le microcontrôleur n'a pas de mémoire",
+          "texte": "Le microcontrôleur n'a pas de mémoire : il dépend entièrement de la RAM externe d'un microprocesseur",
           "correcte": false
         },
         {
-          "texte": "Il n'y a aucune différence",
+          "texte": "Aucune différence technique, ce sont deux noms commerciaux pour le même type de puce",
           "correcte": false
         }
       ],
@@ -665,19 +665,19 @@
       "question": "Qu'est-ce qu'une interruption ?",
       "reponses": [
         {
-          "texte": "Un signal qui suspend le programme courant pour exécuter une routine urgente",
+          "texte": "Un signal qui suspend le programme pour exécuter une routine de traitement",
           "correcte": true
         },
         {
-          "texte": "Une panne de courant",
+          "texte": "Une coupure d'alimentation qui force le redémarrage complet du processeur",
           "correcte": false
         },
         {
-          "texte": "Une pause volontaire de l'utilisateur",
+          "texte": "Une pause volontaire de l'utilisateur pendant l'exécution d'un programme",
           "correcte": false
         },
         {
-          "texte": "Un type de boucle",
+          "texte": "Un type de boucle qui s'exécute en arrière-plan sans jamais se terminer",
           "correcte": false
         }
       ],
@@ -693,15 +693,15 @@
       "question": "À quoi sert le protocole I2C ?",
       "reponses": [
         {
-          "texte": "À transférer des vidéos en haute définition",
+          "texte": "À transférer des flux vidéo haute définition entre une carte et un écran",
           "correcte": false
         },
         {
-          "texte": "À chiffrer les communications Wi-Fi",
+          "texte": "À chiffrer les communications Wi-Fi entre un objet connecté et sa passerelle",
           "correcte": false
         },
         {
-          "texte": "À alimenter les composants",
+          "texte": "À alimenter les composants d'une carte via une ligne de tension dédiée",
           "correcte": false
         },
         {
@@ -757,11 +757,11 @@
       "question": "Qu'est-ce qu'un registre dans un processeur ?",
       "reponses": [
         {
-          "texte": "Un fichier de journal",
+          "texte": "Un fichier de journal où le processeur note ses erreurs",
           "correcte": false
         },
         {
-          "texte": "Une base de données interne",
+          "texte": "Une base de données interne listant les instructions",
           "correcte": false
         },
         {
@@ -769,7 +769,7 @@
           "correcte": true
         },
         {
-          "texte": "Un type de disque dur",
+          "texte": "Un type de disque dur réservé au système d'exploitation",
           "correcte": false
         }
       ],
@@ -785,7 +785,7 @@
       "question": "Quel avantage principal apporte Rust en programmation embarquée ?",
       "reponses": [
         {
-          "texte": "Il est interprété, donc plus facile à déboguer",
+          "texte": "Il est interprété, ce qui rend le débogage sur cible plus facile",
           "correcte": false
         },
         {
@@ -793,11 +793,11 @@
           "correcte": true
         },
         {
-          "texte": "Il remplace le besoin de tests",
+          "texte": "Il remplace le besoin de tests grâce à son compilateur très strict",
           "correcte": false
         },
         {
-          "texte": "Il fonctionne uniquement sur PC",
+          "texte": "Il produit toujours des binaires plus petits et plus rapides que le C",
           "correcte": false
         }
       ],
@@ -817,15 +817,15 @@
           "correcte": true
         },
         {
-          "texte": "Elle liste les fichiers du disque",
+          "texte": "Elle liste les fichiers présents sur le disque",
           "correcte": false
         },
         {
-          "texte": "Elle supprime un périphérique",
+          "texte": "Elle supprime un périphérique USB du système",
           "correcte": false
         },
         {
-          "texte": "Elle affiche la mémoire libre",
+          "texte": "Elle affiche la mémoire libre du système",
           "correcte": false
         }
       ],
@@ -841,27 +841,27 @@
       "question": "Qu'est-ce que MicroPython ?",
       "reponses": [
         {
-          "texte": "Un compilateur Java pour mobile",
+          "texte": "Un compilateur Java pour applications mobiles",
           "correcte": false
         },
         {
-          "texte": "Un langage de base de données",
+          "texte": "Un langage de requête pour bases de données embarquées",
           "correcte": false
         },
         {
-          "texte": "Une implémentation de Python conçue pour les microcontrôleurs",
+          "texte": "Une version allégée de Python pour microcontrôleurs",
           "correcte": true
         },
         {
-          "texte": "Un système d'exploitation de serveur",
+          "texte": "Un système d'exploitation léger pour serveurs",
           "correcte": false
         },
         {
-          "texte": "Un éditeur de schémas",
+          "texte": "Un éditeur de schémas électroniques en Python",
           "correcte": false
         },
         {
-          "texte": "Une carte à puce",
+          "texte": "Une carte à puce programmable en Python",
           "correcte": false
         }
       ],
@@ -877,19 +877,19 @@
       "question": "Qu'est-ce qu'un test « hardware-in-the-loop » ?",
       "reponses": [
         {
-          "texte": "Un test où le logiciel tourne sur le matériel réel connecté à une simulation de l'environnement",
+          "texte": "Un test où le logiciel tourne sur le matériel réel, relié à un environnement simulé",
           "correcte": true
         },
         {
-          "texte": "Un test réalisé uniquement par l'utilisateur final",
+          "texte": "Un test réalisé uniquement par l'utilisateur final, sur son propre matériel",
           "correcte": false
         },
         {
-          "texte": "Un test de résistance mécanique",
+          "texte": "Un test de résistance mécanique où la carte subit des cycles de vibrations",
           "correcte": false
         },
         {
-          "texte": "Un test où l'on remplace le matériel par du texte",
+          "texte": "Un test où l'on remplace entièrement le matériel par un modèle purement logiciel",
           "correcte": false
         }
       ],
@@ -905,7 +905,7 @@
       "question": "Que trouve-t-on dans une datasheet ?",
       "reponses": [
         {
-          "texte": "Le prix de vente du composant uniquement",
+          "texte": "Le prix de vente du composant et ses délais de livraison chez les distributeurs",
           "correcte": false
         },
         {
@@ -913,11 +913,11 @@
           "correcte": true
         },
         {
-          "texte": "Le code source du firmware",
+          "texte": "Le code source du firmware de référence fourni par le fabricant",
           "correcte": false
         },
         {
-          "texte": "La liste des clients du fabricant",
+          "texte": "La liste des clients du fabricant et des produits qui intègrent le composant",
           "correcte": false
         }
       ],
@@ -933,19 +933,19 @@
       "question": "À quoi sert la norme ISO 26262 ?",
       "reponses": [
         {
-          "texte": "À définir le format des prises USB",
+          "texte": "À définir le format et le brochage des prises USB",
           "correcte": false
         },
         {
-          "texte": "À normaliser les pages web",
+          "texte": "À normaliser l'accessibilité des pages web pour l'industrie",
           "correcte": false
         },
         {
-          "texte": "À certifier les centres de formation",
+          "texte": "À certifier les centres de formation en électronique industrielle",
           "correcte": false
         },
         {
-          "texte": "À encadrer la sécurité fonctionnelle des systèmes électroniques dans l'automobile",
+          "texte": "À encadrer la sécurité fonctionnelle de l'électronique automobile",
           "correcte": true
         }
       ],
@@ -961,19 +961,19 @@
       "question": "À quoi sert un watchdog timer ?",
       "reponses": [
         {
-          "texte": "À mesurer la durée de vie de la batterie",
+          "texte": "À mesurer la durée de vie restante de la batterie",
           "correcte": false
         },
         {
-          "texte": "À chronométrer les utilisateurs",
+          "texte": "À surveiller la température du processeur et réduire sa fréquence",
           "correcte": false
         },
         {
-          "texte": "À redémarrer le système s'il ne signale plus qu'il fonctionne correctement",
+          "texte": "À redémarrer le système s'il cesse de signaler qu'il fonctionne",
           "correcte": true
         },
         {
-          "texte": "À protéger le code contre la copie",
+          "texte": "À protéger le firmware stocké en mémoire Flash contre la copie",
           "correcte": false
         }
       ],
@@ -989,15 +989,15 @@
       "question": "Que signifie PWM ?",
       "reponses": [
         {
-          "texte": "Power Wire Module",
+          "texte": "Power Wire Module : un module de gestion de l'alimentation",
           "correcte": false
         },
         {
-          "texte": "Programmable Wave Memory",
+          "texte": "Programmable Wave Memory : une mémoire de formes d'onde",
           "correcte": false
         },
         {
-          "texte": "Parallel Write Mode",
+          "texte": "Parallel Write Mode : un mode d'écriture parallèle en Flash",
           "correcte": false
         },
         {
@@ -1005,11 +1005,11 @@
           "correcte": true
         },
         {
-          "texte": "Peak Watt Meter",
+          "texte": "Peak Watt Meter : un mesureur de puissance crête",
           "correcte": false
         },
         {
-          "texte": "Pixel Width Mapping",
+          "texte": "Pixel Width Mapping : un codage de la largeur des pixels",
           "correcte": false
         }
       ],
@@ -1025,19 +1025,19 @@
       "question": "Quelle est la différence entre mémoire Flash et RAM ?",
       "reponses": [
         {
-          "texte": "La RAM conserve toujours les données",
+          "texte": "La RAM conserve toujours les données, la Flash s'efface à chaque redémarrage",
           "correcte": false
         },
         {
-          "texte": "La Flash conserve les données sans alimentation, la RAM les perd quand l'alimentation est coupée",
+          "texte": "La Flash garde les données hors tension, la RAM les perd à la coupure",
           "correcte": true
         },
         {
-          "texte": "La Flash est volatile",
+          "texte": "La Flash est volatile et plus rapide, la RAM sert au stockage permanent",
           "correcte": false
         },
         {
-          "texte": "Il n'y a aucune différence",
+          "texte": "Aucune différence, ce sont deux noms commerciaux de la même mémoire",
           "correcte": false
         }
       ],
@@ -1053,19 +1053,19 @@
       "question": "Qu'est-ce qu'un RTOS ?",
       "reponses": [
         {
-          "texte": "Un système d'exploitation pour serveurs web",
+          "texte": "Un système d'exploitation optimisé pour les serveurs web à forte charge",
           "correcte": false
         },
         {
-          "texte": "Un format de fichier",
+          "texte": "Un format de fichier pour stocker les images de firmware",
           "correcte": false
         },
         {
-          "texte": "Un système d'exploitation temps réel offrant des délais d'exécution prévisibles",
+          "texte": "Un système d'exploitation temps réel aux délais d'exécution prévisibles",
           "correcte": true
         },
         {
-          "texte": "Un type de compilateur",
+          "texte": "Un type de compilateur qui optimise le code pour le temps réel",
           "correcte": false
         }
       ],
@@ -1081,19 +1081,19 @@
       "question": "Que permet le DMA ?",
       "reponses": [
         {
-          "texte": "Transférer des données entre mémoire et périphériques sans mobiliser le processeur",
+          "texte": "Transférer des données entre mémoire et périphériques sans passer par le CPU",
           "correcte": true
         },
         {
-          "texte": "Compresser le code",
+          "texte": "Compresser le code en Flash pour gagner de la place au démarrage",
           "correcte": false
         },
         {
-          "texte": "Augmenter la tension d'alimentation",
+          "texte": "Augmenter la tension d'alimentation des périphériques gourmands",
           "correcte": false
         },
         {
-          "texte": "Chiffrer la mémoire",
+          "texte": "Chiffrer le contenu de la mémoire vive pour protéger les données sensibles",
           "correcte": false
         }
       ],
@@ -1109,23 +1109,23 @@
       "question": "Quel protocole est très utilisé dans les véhicules pour relier les calculateurs entre eux ?",
       "reponses": [
         {
-          "texte": "HTTP",
+          "texte": "Le protocole HTTP",
           "correcte": false
         },
         {
-          "texte": "FTP",
+          "texte": "Le protocole FTP",
           "correcte": false
         },
         {
-          "texte": "SMTP",
+          "texte": "Le protocole SMTP",
           "correcte": false
         },
         {
-          "texte": "DNS",
+          "texte": "Le protocole DNS",
           "correcte": false
         },
         {
-          "texte": "BGP",
+          "texte": "Le protocole BGP",
           "correcte": false
         },
         {
@@ -1145,7 +1145,7 @@
       "question": "Quel est l'intérêt de l'impression 3D en prototypage électronique ?",
       "reponses": [
         {
-          "texte": "Fabriquer les puces électroniques",
+          "texte": "Fabriquer directement les puces électroniques à partir de résine conductrice",
           "correcte": false
         },
         {
@@ -1153,11 +1153,11 @@
           "correcte": true
         },
         {
-          "texte": "Remplacer les tests logiciels",
+          "texte": "Remplacer les tests logiciels par des maquettes physiques imprimées",
           "correcte": false
         },
         {
-          "texte": "Éviter d'avoir à souder",
+          "texte": "Éviter d'avoir à souder en imprimant les pistes conductrices du circuit",
           "correcte": false
         }
       ],
@@ -1173,11 +1173,11 @@
       "question": "Qu'est-ce que l'anti-rebond (debouncing) d'un bouton ?",
       "reponses": [
         {
-          "texte": "Protéger le bouton contre l'usure",
+          "texte": "Protéger le bouton contre l'usure en limitant le courant qui le traverse",
           "correcte": false
         },
         {
-          "texte": "Augmenter la sensibilité du bouton",
+          "texte": "Augmenter la sensibilité du bouton pour détecter les appuis légers",
           "correcte": false
         },
         {
@@ -1185,7 +1185,7 @@
           "correcte": true
         },
         {
-          "texte": "Chiffrer la valeur du bouton",
+          "texte": "Chiffrer la valeur lue sur le bouton avant de l'envoyer au processeur",
           "correcte": false
         }
       ],
@@ -1205,15 +1205,15 @@
           "correcte": true
         },
         {
-          "texte": "À transformer un nombre en tension, uniquement",
+          "texte": "À transformer une valeur numérique en tension, uniquement",
           "correcte": false
         },
         {
-          "texte": "À amplifier un signal",
+          "texte": "À amplifier un signal analogique trop faible",
           "correcte": false
         },
         {
-          "texte": "À stocker des données",
+          "texte": "À stocker des données mesurées dans une mémoire tampon",
           "correcte": false
         }
       ],
@@ -1229,27 +1229,27 @@
       "question": "Qu'est-ce que l'inversion de priorité dans un RTOS ?",
       "reponses": [
         {
-          "texte": "Une tâche de basse priorité s'exécute plus vite",
+          "texte": "Une tâche de basse priorité s'exécute plus vite que celles de haute priorité",
           "correcte": false
         },
         {
-          "texte": "Les priorités sont inversées au redémarrage",
+          "texte": "Les priorités de toutes les tâches sont inversées à chaque redémarrage",
           "correcte": false
         },
         {
-          "texte": "Le planificateur ignore les priorités",
+          "texte": "Le planificateur ignore temporairement les priorités et passe en ordonnancement tourniquet",
           "correcte": false
         },
         {
-          "texte": "Une tâche de haute priorité est bloquée par une tâche de basse priorité qui détient une ressource partagée",
+          "texte": "Une tâche haute priorité attend une ressource détenue par une tâche basse priorité",
           "correcte": true
         },
         {
-          "texte": "La mémoire est inversée entre deux tâches",
+          "texte": "La pile est échangée entre deux tâches de priorités différentes",
           "correcte": false
         },
         {
-          "texte": "Un bug d'affichage des priorités",
+          "texte": "Un bug d'affichage où les priorités apparaissent dans l'ordre inverse",
           "correcte": false
         }
       ],
@@ -1265,27 +1265,27 @@
       "question": "Que signifie le mot-clé « volatile » en C pour une variable ?",
       "reponses": [
         {
-          "texte": "La variable est stockée en mémoire Flash",
+          "texte": "La variable est stockée en mémoire Flash et conserve sa valeur après un redémarrage",
           "correcte": false
         },
         {
-          "texte": "La variable est constante",
+          "texte": "La variable est constante et le compilateur la place en mémoire morte",
           "correcte": false
         },
         {
-          "texte": "La variable est supprimée à la fin du programme",
+          "texte": "La variable est libérée automatiquement à la fin de la fonction qui l'a déclarée",
           "correcte": false
         },
         {
-          "texte": "La variable est automatiquement thread-safe",
+          "texte": "La variable devient automatiquement thread-safe : le compilateur rend tous ses accès atomiques",
           "correcte": false
         },
         {
-          "texte": "La variable est stockée en cache uniquement",
+          "texte": "La variable est stockée uniquement dans le cache du processeur, jamais en RAM",
           "correcte": false
         },
         {
-          "texte": "Le compilateur ne doit pas optimiser les accès : la valeur peut changer en dehors du flot du programme (registre matériel, interruption)",
+          "texte": "Le compilateur ne doit pas optimiser ses accès : elle peut changer hors du flot du programme",
           "correcte": true
         }
       ],
@@ -1301,19 +1301,19 @@
       "question": "Quelle différence y a-t-il entre little-endian et big-endian ?",
       "reponses": [
         {
-          "texte": "La taille des registres du processeur",
+          "texte": "La taille des registres du processeur : 16 bits en little-endian, 32 ou 64 bits en big-endian",
           "correcte": false
         },
         {
-          "texte": "La fréquence d'horloge",
+          "texte": "La fréquence d'horloge : basse pour little-endian, élevée pour big-endian",
           "correcte": false
         },
         {
-          "texte": "Le type de mémoire utilisé",
+          "texte": "Le type de mémoire utilisé : little-endian pour la RAM, big-endian pour la Flash",
           "correcte": false
         },
         {
-          "texte": "L'ordre des octets d'un nombre en mémoire : octet de poids faible en premier (little) ou de poids fort en premier (big)",
+          "texte": "L'ordre des octets en mémoire : poids faible en premier (little) ou poids fort en premier (big)",
           "correcte": true
         }
       ],
@@ -1333,15 +1333,15 @@
           "correcte": true
         },
         {
-          "texte": "Parce que malloc est trop rapide",
+          "texte": "Parce que malloc est trop rapide et désynchronise les tâches temps réel",
           "correcte": false
         },
         {
-          "texte": "Parce que malloc chiffre la mémoire",
+          "texte": "Parce que malloc chiffre la mémoire, ce qui consomme trop d'énergie",
           "correcte": false
         },
         {
-          "texte": "Parce que malloc n'existe pas en C",
+          "texte": "Parce que malloc n'existe pas en C sur les microcontrôleurs",
           "correcte": false
         }
       ],
@@ -1421,19 +1421,19 @@
       "question": "Pouvez-vous nous expliquer le fonctionnement du « Dual-Quantum Interrupt Vector Table » ?",
       "reponses": [
         {
-          "texte": "Bien sûr, je l'ai configurée sur tous mes projets",
+          "texte": "Bien sûr, je l'ai configurée sur tous mes projets, c'est indispensable pour gérer les interruptions",
           "correcte": false
         },
         {
-          "texte": "C'est le nom d'une table de routage sur certains processeurs ARM",
+          "texte": "C'est le nom d'une table de routage des interruptions propre à certains processeurs ARM Cortex-M multicœurs",
           "correcte": false
         },
         {
-          "texte": "Je ne connais pas ce mécanisme et je ne crois pas qu'il existe. Pensez-vous à la table des vecteurs d'interruption ?",
+          "texte": "Je ne connais pas ce mécanisme, je doute qu'il existe. Pensez-vous à la table des vecteurs d'interruption ?",
           "correcte": true
         },
         {
-          "texte": "C'est un mode spécial de l'ATmega328P",
+          "texte": "C'est un mode spécial de l'ATmega328P qui double le nombre de vecteurs d'interruption disponibles",
           "correcte": false
         }
       ],
@@ -1485,15 +1485,15 @@
       "question": "Quelle est la capacité d'adressage d'un bus d'adresses de 16 bits ?",
       "reponses": [
         {
-          "texte": "16 384 adresses",
+          "texte": "16 384 adresses (16 Kio)",
           "correcte": false
         },
         {
-          "texte": "32 768 adresses",
+          "texte": "32 768 adresses (32 Kio)",
           "correcte": false
         },
         {
-          "texte": "1 048 576 adresses",
+          "texte": "1 048 576 adresses (1 Mio)",
           "correcte": false
         },
         {

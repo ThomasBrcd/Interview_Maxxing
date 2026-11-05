@@ -9,7 +9,7 @@
       "question": "Pour commencer, pourquoi souhaitez-vous travailler dans notre entreprise ?",
       "reponses": [
         {
-          "texte": "Parce que vous recrutez et que j'ai besoin d'un salaire.",
+          "texte": "Parce que vous recrutez en ce moment et que j'ai surtout besoin d'un salaire stable, rapidement.",
           "correcte": false
         },
         {
@@ -17,11 +17,11 @@
           "correcte": true
         },
         {
-          "texte": "Honnêtement, c'est ma cinquième candidature cette semaine, je ne sais plus trop.",
+          "texte": "Honnêtement, c'est ma cinquième candidature cette semaine, j'avoue que je ne sais plus trop laquelle c'est.",
           "correcte": false
         },
         {
-          "texte": "Parce que mon voisin y travaille.",
+          "texte": "Parce que mon voisin y travaille depuis des années et qu'il m'a dit que l'ambiance était plutôt sympa.",
           "correcte": false
         }
       ],
@@ -37,11 +37,11 @@
       "question": "Pouvez-vous vous présenter en une minute ?",
       "reponses": [
         {
-          "texte": "Je lis mon CV mot à mot, ça prendra une dizaine de minutes.",
+          "texte": "Je lis mon CV mot à mot, du bac jusqu'à mes loisirs : ça prendra une dizaine de minutes.",
           "correcte": false
         },
         {
-          "texte": "Je préfère ne pas me présenter, tout est dans mon CV.",
+          "texte": "Je préfère ne pas me présenter : tout est déjà détaillé dans mon CV, vous l'avez sous les yeux.",
           "correcte": false
         },
         {
@@ -49,7 +49,7 @@
           "correcte": true
         },
         {
-          "texte": "Je commence par mon enfance, pour bien situer le contexte.",
+          "texte": "Je commence par mon enfance et mes premiers jeux vidéo, pour bien situer le contexte de mon parcours.",
           "correcte": false
         }
       ],
@@ -65,19 +65,19 @@
       "question": "Quel est votre principal défaut ?",
       "reponses": [
         {
-          "texte": "Je suis trop perfectionniste.",
+          "texte": "Je suis trop perfectionniste : je m'investis toujours beaucoup trop dans mes projets.",
           "correcte": false
         },
         {
-          "texte": "Je n'en ai pas.",
+          "texte": "Je n'en ai pas vraiment. Mes anciens responsables n'ont jamais trouvé de reproche à me faire.",
           "correcte": false
         },
         {
-          "texte": "Je ne documentais pas assez mon travail. Depuis, j'ai pris l'habitude de tout noter au fur et à mesure.",
+          "texte": "Je documentais trop peu mon travail. Depuis, je note tout au fur et à mesure.",
           "correcte": true
         },
         {
-          "texte": "Je n'aime pas travailler en équipe.",
+          "texte": "Je n'aime pas travailler en équipe, je suis bien plus efficace quand on me laisse seul dans mon coin.",
           "correcte": false
         }
       ],
@@ -93,19 +93,19 @@
       "question": "Où vous voyez-vous dans cinq ans ?",
       "reponses": [
         {
-          "texte": "À votre place, bien entendu.",
+          "texte": "À votre place, bien entendu. Je compte gravir les échelons très vite et diriger le service.",
           "correcte": false
         },
         {
-          "texte": "Je ne sais pas, je ne me projette jamais.",
+          "texte": "Je ne sais pas trop, je ne me projette jamais au-delà de quelques mois, on verra bien.",
           "correcte": false
         },
         {
-          "texte": "Dans une autre entreprise, probablement.",
+          "texte": "Dans une autre entreprise, probablement : je compte rester ici juste le temps de me faire la main.",
           "correcte": false
         },
         {
-          "texte": "Ayant monté en compétences sur vos infrastructures, avec plus de responsabilités au sein de l'équipe.",
+          "texte": "Ayant monté en compétences sur vos infrastructures, avec plus de responsabilités dans l'équipe.",
           "correcte": true
         }
       ],
@@ -121,7 +121,7 @@
       "question": "Quelles sont vos prétentions salariales ?",
       "reponses": [
         {
-          "texte": "Le plus possible.",
+          "texte": "Le plus possible, je verrai bien jusqu'où vous êtes prêts à monter pendant la négociation.",
           "correcte": false
         },
         {
@@ -133,7 +133,7 @@
           "correcte": true
         },
         {
-          "texte": "Je préfère que vous me disiez d'abord ce que vous proposez, et je dirai non à tout.",
+          "texte": "Je préfère que vous me disiez d'abord ce que vous proposez, et je dirai non à tout par principe.",
           "correcte": false
         },
         {
@@ -157,19 +157,19 @@
       "question": "Avez-vous des questions à nous poser ?",
       "reponses": [
         {
-          "texte": "Non, aucune.",
+          "texte": "Non, aucune, je pense que vous avez déjà tout expliqué et je ne veux pas vous retenir.",
           "correcte": false
         },
         {
-          "texte": "Oui : à quoi ressemble une journée type dans l'équipe, et quelles sont les prochaines évolutions du projet ?",
+          "texte": "Oui : à quoi ressemble une journée type ici, et comment va évoluer le projet ?",
           "correcte": true
         },
         {
-          "texte": "Est-ce qu'on peut finir à 15 h ?",
+          "texte": "Oui : est-ce qu'on peut finir à 15 h tous les jours si le travail est fait ?",
           "correcte": false
         },
         {
-          "texte": "Quand est-ce que j'aurai ma première prime ?",
+          "texte": "Oui : quand est-ce que j'aurai ma première prime, et à combien elle peut monter ?",
           "correcte": false
         }
       ],
@@ -185,7 +185,7 @@
       "question": "Racontez-nous une situation où vous avez dû résoudre un problème sous pression.",
       "reponses": [
         {
-          "texte": "Je redémarre tout et j'espère que ça passe.",
+          "texte": "J'ai redémarré tous les équipements concernés en espérant que ça passe avant que le client rappelle.",
           "correcte": false
         },
         {
@@ -193,11 +193,11 @@
           "correcte": true
         },
         {
-          "texte": "J'attends que quelqu'un d'autre s'en occupe.",
+          "texte": "J'ai attendu que quelqu'un de plus expérimenté s'en occupe, pour ne pas risquer d'aggraver les choses.",
           "correcte": false
         },
         {
-          "texte": "La pression ne m'affecte pas : je ne résous jamais de problème.",
+          "texte": "Je ne suis jamais sous pression : je refuse simplement les tâches urgentes qu'on me confie.",
           "correcte": false
         }
       ],
@@ -213,27 +213,27 @@
       "question": "Vous êtes en désaccord avec un collègue sur la solution à adopter. Que faites-vous ?",
       "reponses": [
         {
-          "texte": "J'impose ma solution : j'ai forcément raison.",
+          "texte": "J'impose ma solution : j'ai plus d'expérience sur ce sujet, donc j'ai forcément raison.",
           "correcte": false
         },
         {
-          "texte": "Je ne dis rien et je fais comme il veut.",
+          "texte": "Je ne dis rien et je fais comme il veut, pour éviter tout conflit dans l'équipe.",
           "correcte": false
         },
         {
-          "texte": "J'en parle à son manager dans son dos.",
+          "texte": "J'en parle directement à son manager, sans lui en parler avant, pour qu'il tranche.",
           "correcte": false
         },
         {
-          "texte": "J'écoute ses arguments, je présente les miens, et on teste ou on tranche avec des critères objectifs.",
+          "texte": "J'écoute ses arguments, je présente les miens, puis on tranche sur des critères objectifs.",
           "correcte": true
         },
         {
-          "texte": "Je refais son travail la nuit, sans le prévenir.",
+          "texte": "Je refais son travail la nuit à ma façon, sans le prévenir, et je pousse ma version.",
           "correcte": false
         },
         {
-          "texte": "Je change d'équipe.",
+          "texte": "Je demande à changer d'équipe, ça m'évitera ce genre de discussion à l'avenir.",
           "correcte": false
         }
       ],
@@ -253,23 +253,23 @@
           "correcte": true
         },
         {
-          "texte": "Je ne dis rien, personne ne s'en rendra compte.",
+          "texte": "Je ne dis rien : c'est la nuit, personne ne s'en rendra compte avant demain matin.",
           "correcte": false
         },
         {
-          "texte": "Je coupe mon téléphone et je vais me coucher.",
+          "texte": "Je coupe mon téléphone et je vais me coucher, je verrai ça au calme demain matin.",
           "correcte": false
         },
         {
-          "texte": "Je dis que c'est le stagiaire.",
+          "texte": "Je dis que c'est le stagiaire qui a fait la manipulation, après tout il a accès aux mêmes équipements.",
           "correcte": false
         },
         {
-          "texte": "J'essaie dix autres modifications au hasard jusqu'à ce que ça remarche.",
+          "texte": "J'essaie dix autres modifications au hasard jusqu'à ce que le réseau finisse par remarcher.",
           "correcte": false
         },
         {
-          "texte": "Je redémarre tous les équipements du client.",
+          "texte": "Je redémarre à distance tous les équipements du client en espérant que tout revienne seul.",
           "correcte": false
         }
       ],
@@ -285,11 +285,11 @@
       "question": "On vous pose une question technique dont vous ignorez la réponse. Que faites-vous ?",
       "reponses": [
         {
-          "texte": "J'invente une réponse avec assurance.",
+          "texte": "J'invente une réponse avec assurance, l'important est de ne jamais montrer qu'on hésite.",
           "correcte": false
         },
         {
-          "texte": "Je change de sujet.",
+          "texte": "Je change habilement de sujet pour revenir sur un point que je maîtrise mieux.",
           "correcte": false
         },
         {
@@ -297,7 +297,7 @@
           "correcte": true
         },
         {
-          "texte": "Je dis que la question est mal posée.",
+          "texte": "Je réponds que la question est mal posée et je demande à passer à la suivante.",
           "correcte": false
         }
       ],
@@ -313,19 +313,19 @@
       "question": "Un collègue vous demande le mot de passe administrateur par e-mail pour dépanner rapidement. Que faites-vous ?",
       "reponses": [
         {
-          "texte": "Je lui envoie, il a l'air pressé.",
+          "texte": "Je lui envoie par e-mail, il a l'air pressé et c'est un collègue de confiance.",
           "correcte": false
         },
         {
-          "texte": "Je refuse et je lui propose la procédure sécurisée (ticket, gestionnaire de mots de passe, accès nominatif).",
+          "texte": "Je refuse et je lui propose la procédure sécurisée (ticket, accès nominatif).",
           "correcte": true
         },
         {
-          "texte": "Je lui donne la moitié du mot de passe.",
+          "texte": "Je lui donne la moitié du mot de passe par e-mail et l'autre moitié par SMS.",
           "correcte": false
         },
         {
-          "texte": "Je le publie sur le chat de l'équipe pour que tout le monde l'ait.",
+          "texte": "Je le publie sur le chat de l'équipe pour que tout le monde l'ait la prochaine fois.",
           "correcte": false
         }
       ],
@@ -617,7 +617,7 @@
       "question": "En informatique, à quoi renvoie avec humour la « couche 8 » du modèle OSI ?",
       "reponses": [
         {
-          "texte": "Au câble",
+          "texte": "Au câble physique",
           "correcte": false
         },
         {
@@ -685,15 +685,15 @@
           "correcte": true
         },
         {
-          "texte": "TCP est plus rapide car il ne vérifie rien.",
+          "texte": "TCP est plus rapide car il ne vérifie rien, UDP contrôle chaque paquet avec des accusés.",
           "correcte": false
         },
         {
-          "texte": "UDP garantit l'ordre des paquets, TCP non.",
+          "texte": "UDP garantit l'ordre et la livraison des paquets, TCP se contente de les envoyer au plus vite.",
           "correcte": false
         },
         {
-          "texte": "Il n'y a aucune différence, ce sont deux noms du même protocole.",
+          "texte": "Il n'y a aucune différence réelle, ce sont deux noms historiques du même protocole.",
           "correcte": false
         }
       ],
@@ -781,7 +781,7 @@
       "question": "À quoi sert un VLAN ?",
       "reponses": [
         {
-          "texte": "À accélérer la connexion Internet.",
+          "texte": "À accélérer la connexion Internet en réservant de la bande passante à chaque poste.",
           "correcte": false
         },
         {
@@ -789,11 +789,11 @@
           "correcte": true
         },
         {
-          "texte": "À remplacer le pare-feu.",
+          "texte": "À remplacer le pare-feu en bloquant automatiquement le trafic venant d'Internet.",
           "correcte": false
         },
         {
-          "texte": "À chiffrer toutes les communications.",
+          "texte": "À chiffrer toutes les communications entre les switchs d'un même bâtiment.",
           "correcte": false
         }
       ],
@@ -837,19 +837,19 @@
       "question": "À quoi sert le NAT ?",
       "reponses": [
         {
-          "texte": "À traduire des adresses IP privées en adresse(s) publique(s) pour accéder à Internet.",
+          "texte": "À traduire des adresses IP privées en adresse publique pour sortir sur Internet.",
           "correcte": true
         },
         {
-          "texte": "À chiffrer les e-mails.",
+          "texte": "À chiffrer les e-mails et les flux sortants entre le réseau local et Internet.",
           "correcte": false
         },
         {
-          "texte": "À attribuer des noms aux machines.",
+          "texte": "À attribuer automatiquement des noms aux machines du réseau local.",
           "correcte": false
         },
         {
-          "texte": "À mesurer le débit d'une connexion.",
+          "texte": "À mesurer et limiter le débit de chaque machine qui accède à Internet.",
           "correcte": false
         }
       ],
@@ -921,19 +921,19 @@
       "question": "Quelle est la différence entre un hub et un switch ?",
       "reponses": [
         {
-          "texte": "Aucune, c'est le même équipement.",
+          "texte": "Aucune, c'est le même équipement : « switch » est juste le nom commercial récent du hub.",
           "correcte": false
         },
         {
-          "texte": "Le hub renvoie les trames vers tous les ports, le switch les envoie seulement vers le port concerné.",
+          "texte": "Le hub répète les trames sur tous les ports, le switch les envoie seulement au port concerné.",
           "correcte": true
         },
         {
-          "texte": "Le switch fonctionne uniquement en Wi-Fi.",
+          "texte": "Le switch fonctionne uniquement en Wi-Fi, alors que le hub se branche avec des câbles RJ45.",
           "correcte": false
         },
         {
-          "texte": "Le hub est toujours plus performant.",
+          "texte": "Le hub est toujours plus performant car il diffuse les trames sur tous les ports à la fois.",
           "correcte": false
         }
       ],
@@ -977,7 +977,7 @@
       "question": "À quoi sert une ACL (Access Control List) ?",
       "reponses": [
         {
-          "texte": "À stocker des fichiers de configuration.",
+          "texte": "À stocker les fichiers de configuration des équipements réseau.",
           "correcte": false
         },
         {
@@ -985,11 +985,11 @@
           "correcte": true
         },
         {
-          "texte": "À mesurer la température des équipements.",
+          "texte": "À répartir automatiquement la charge entre plusieurs liens réseau.",
           "correcte": false
         },
         {
-          "texte": "À sauvegarder le réseau.",
+          "texte": "À attribuer les adresses IP aux postes selon leur service (compta, RH...).",
           "correcte": false
         }
       ],
@@ -1081,7 +1081,7 @@
           "correcte": false
         },
         {
-          "texte": "show running-config",
+          "texte": "copy startup-config running-config",
           "correcte": false
         }
       ],
@@ -1125,19 +1125,19 @@
       "question": "Quelle est la principale différence entre chiffrement symétrique et asymétrique ?",
       "reponses": [
         {
-          "texte": "Le symétrique utilise une même clé pour chiffrer et déchiffrer, l'asymétrique utilise une paire clé publique / clé privée.",
+          "texte": "Le symétrique utilise une seule clé partagée, l'asymétrique une paire clé publique / clé privée.",
           "correcte": true
         },
         {
-          "texte": "Le symétrique est toujours moins sécurisé que l'asymétrique.",
+          "texte": "Le symétrique est toujours moins sécurisé que l'asymétrique, quelle que soit la taille de clé.",
           "correcte": false
         },
         {
-          "texte": "L'asymétrique n'utilise aucune clé.",
+          "texte": "L'asymétrique n'utilise aucune clé : il repose uniquement sur une fonction de hachage.",
           "correcte": false
         },
         {
-          "texte": "Il n'y en a aucune.",
+          "texte": "Le symétrique chiffre seulement les fichiers, l'asymétrique seulement les flux réseau.",
           "correcte": false
         }
       ],
@@ -1185,15 +1185,15 @@
           "correcte": true
         },
         {
-          "texte": "Un type de processeur graphique.",
+          "texte": "Un type de processeur virtuel dédié au calcul graphique dans le cloud.",
           "correcte": false
         },
         {
-          "texte": "Un antivirus pour serveurs.",
+          "texte": "Un antivirus managé qui protège les machines virtuelles du fournisseur.",
           "correcte": false
         },
         {
-          "texte": "Un format de sauvegarde.",
+          "texte": "Un format de sauvegarde compressé utilisé pour migrer des serveurs.",
           "correcte": false
         }
       ],
@@ -1209,7 +1209,7 @@
       "question": "Dans la démarche ITIL, qu'est-ce qu'un « incident » ?",
       "reponses": [
         {
-          "texte": "Une demande d'amélioration à long terme.",
+          "texte": "Une demande d'amélioration à long terme émise par un utilisateur du service.",
           "correcte": false
         },
         {
@@ -1217,11 +1217,11 @@
           "correcte": true
         },
         {
-          "texte": "Une réunion de planification.",
+          "texte": "Une réunion de planification des évolutions prévues sur l'infrastructure.",
           "correcte": false
         },
         {
-          "texte": "Un changement approuvé.",
+          "texte": "Un changement approuvé par le comité, en attente de mise en production.",
           "correcte": false
         }
       ],
@@ -1301,7 +1301,7 @@
       "question": "Que se passe-t-il quand le TTL d'un paquet IP atteint 0 ?",
       "reponses": [
         {
-          "texte": "Le paquet est éternellement conservé.",
+          "texte": "Le paquet est conservé en mémoire par le routeur jusqu'à ce que la route se libère.",
           "correcte": false
         },
         {
@@ -1309,11 +1309,11 @@
           "correcte": true
         },
         {
-          "texte": "Le paquet est dupliqué.",
+          "texte": "Le paquet est dupliqué puis renvoyé sur toutes les interfaces du routeur.",
           "correcte": false
         },
         {
-          "texte": "Le paquet est automatiquement chiffré.",
+          "texte": "Le paquet est remis directement au destinataire final, sans passer par d'autres routeurs.",
           "correcte": false
         }
       ],
@@ -1393,7 +1393,7 @@
       "question": "En OSPF multi-aires, quel est le rôle de l'aire 0 ?",
       "reponses": [
         {
-          "texte": "Elle est facultative et sert uniquement aux tests.",
+          "texte": "Elle est facultative et sert uniquement à isoler les tests avant la mise en production.",
           "correcte": false
         },
         {
@@ -1429,7 +1429,7 @@
       "question": "Deux switchs sont reliés entre eux par deux câbles et le STP est désactivé. Que risque-t-il de se produire ?",
       "reponses": [
         {
-          "texte": "Le débit double automatiquement.",
+          "texte": "Le débit double automatiquement grâce à l'agrégation.",
           "correcte": false
         },
         {
@@ -1437,11 +1437,11 @@
           "correcte": true
         },
         {
-          "texte": "Rien, les switchs gèrent ça seuls.",
+          "texte": "Rien, les switchs désactivent seuls le second lien.",
           "correcte": false
         },
         {
-          "texte": "Les câbles fusionnent.",
+          "texte": "Un conflit d'adresses IP entre les deux switchs.",
           "correcte": false
         }
       ],
@@ -1465,7 +1465,7 @@
           "correcte": false
         },
         {
-          "texte": "96",
+          "texte": "256",
           "correcte": false
         },
         {
@@ -1485,19 +1485,19 @@
       "question": "Pouvez-vous nous expliquer le fonctionnement du protocole « Gigabit Handshake Layer 9 » ?",
       "reponses": [
         {
-          "texte": "Bien sûr, c'est une évolution de TCP, je l'utilisais tous les jours.",
+          "texte": "Bien sûr, c'est une évolution de TCP pour les liens gigabit, je l'utilisais tous les jours.",
           "correcte": false
         },
         {
-          "texte": "Je ne connais pas ce protocole, et il ne me semble pas exister. Peut-être parlez-vous d'un autre ?",
+          "texte": "Je ne connais pas ce protocole et il ne me semble pas exister. Parlez-vous d'un autre ?",
           "correcte": true
         },
         {
-          "texte": "C'est un protocole de la couche 9, qui gère les utilisateurs.",
+          "texte": "C'est un protocole de la couche 9 du modèle OSI, qui gère l'authentification des utilisateurs.",
           "correcte": false
         },
         {
-          "texte": "C'est le même que le VLAN, mais plus rapide.",
+          "texte": "C'est le même principe que le VLAN, mais avec un handshake plus rapide sur fibre.",
           "correcte": false
         }
       ],
