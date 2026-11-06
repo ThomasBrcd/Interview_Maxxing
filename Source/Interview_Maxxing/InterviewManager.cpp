@@ -6,6 +6,7 @@
 UInterviewManager::UInterviewManager()
 {
 	PrimaryComponentTick.bCanEverTick = false;
+	Aleatoire.Initialize(static_cast<int32>(FDateTime::Now().GetTicks() ^ FPlatformTime::Cycles64()));
 }
 
 bool UInterviewManager::ChargerQuestionsDepuisJSON(FString SousDossierEtNomFichier)
@@ -42,7 +43,7 @@ FQuestion UInterviewManager::ObtenirProchaineQuestion(bool bJoueurABluffe)
 
 	if (IndexPossibles.Num() > 0)
 	{
-		int32 IndexAleatoire = FMath::RandRange(0, IndexPossibles.Num() - 1);
+		int32 IndexAleatoire = Aleatoire.RandRange(0, IndexPossibles.Num() - 1);
 		int32 IndexReel = IndexPossibles[IndexAleatoire];
 		
 		FQuestion QuestionChoisie = ThemeActuel.questions[IndexReel];
@@ -70,7 +71,10 @@ void UInterviewManager::InitialiserEntretien(bool bJoueurABluffe)
 	ScoreMaxPossible = 0;
 	TotalQuestions = bJoueurABluffe ? 15 : 10;
 	FileAttenteQuestions.Empty();
-	
+
+	// Nouvelle graine à chaque entretien pour ne jamais retomber sur le même tirage
+	Aleatoire.Initialize(static_cast<int32>(FDateTime::Now().GetTicks() ^ FPlatformTime::Cycles64()));
+
 	TArray<FQuestion> QuestionsValides;
 	
 	// 1. Filtrer les questions de bluff
@@ -83,7 +87,7 @@ void UInterviewManager::InitialiserEntretien(bool bJoueurABluffe)
 	// 2. Mélanger la liste entière (Fisher-Yates)
 	for (int32 i = QuestionsValides.Num() - 1; i > 0; i--)
 	{
-		int32 j = FMath::RandRange(0, i);
+		int32 j = Aleatoire.RandRange(0, i);
 		QuestionsValides.Swap(i, j);
 	}
 	
@@ -98,7 +102,8 @@ void UInterviewManager::InitialiserEntretien(bool bJoueurABluffe)
 	}
 	
 	// 4. Trier cette sélection par difficulté pour l'évolution graduelle
-	QuestionsValides.Sort([](const FQuestion& A, const FQuestion& B) {
+	// (tri stable : à difficulté égale, l'ordre reste celui du mélange)
+	QuestionsValides.StableSort([](const FQuestion& A, const FQuestion& B) {
 		return A.difficulte < B.difficulte;
 	});
 	
@@ -125,6 +130,12 @@ void UInterviewManager::DemarrerQuestion()
 	// On prend la première question de la file et on l'enlève
 	QuestionEnCours = FileAttenteQuestions[0];
 	FileAttenteQuestions.RemoveAt(0);
+
+	// Mélange l'ordre des réponses : la bonne n'est jamais à une place fixe
+	for (int32 i = QuestionEnCours.reponses.Num() - 1; i > 0; i--)
+	{
+		QuestionEnCours.reponses.Swap(i, Aleatoire.RandRange(0, i));
+	}
 	
 	QuestionsPosees++;
 

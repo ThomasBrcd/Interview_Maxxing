@@ -9,19 +9,19 @@
       "question": "Pour commencer, pourquoi souhaitez-vous rejoindre notre équipe de sécurité ?",
       "reponses": [
         {
-          "texte": "Parce que j'ai toujours voulu hacker des gens.",
+          "texte": "Parce que j'ai toujours voulu hacker des gens, et qu'ici ce sera enfin légal et bien payé.",
           "correcte": false
         },
         {
-          "texte": "Parce que j'ai étudié vos missions et que protéger des systèmes réels correspond à ce que je veux apprendre.",
+          "texte": "Parce que j'ai étudié vos missions et que protéger des systèmes réels est ce que je veux apprendre.",
           "correcte": true
         },
         {
-          "texte": "Parce que j'ai vu un film de hackers.",
+          "texte": "Parce que j'ai vu un film de hackers et que je me suis reconnu dans le personnage principal.",
           "correcte": false
         },
         {
-          "texte": "Parce que les salaires en cybersécurité sont énormes.",
+          "texte": "Parce que les salaires en cybersécurité sont énormes et que le marché manque cruellement de profils.",
           "correcte": false
         }
       ],
@@ -41,15 +41,15 @@
           "correcte": true
         },
         {
-          "texte": "Je préfère rester anonyme, par habitude.",
+          "texte": "Je préfère rester anonyme, par habitude : dans la sécurité, moins on en dit, mieux on se porte.",
           "correcte": false
         },
         {
-          "texte": "Je dis que mon pseudo est connu sur les forums.",
+          "texte": "Je dis que mon pseudo est connu sur les forums et que ça suffit à prouver mon niveau.",
           "correcte": false
         },
         {
-          "texte": "Je liste tous les outils que j'ai déjà installés.",
+          "texte": "Je liste tous les outils que j'ai déjà installés, avec leur version et mon avis sur chacun.",
           "correcte": false
         }
       ],
@@ -65,19 +65,19 @@
       "question": "Quel est votre principal défaut ?",
       "reponses": [
         {
-          "texte": "Je suis perfectionniste.",
+          "texte": "Je suis perfectionniste : je refais chaque rapport d'audit jusqu'à ce qu'il soit parfait.",
           "correcte": false
         },
         {
-          "texte": "Je creuse trop longtemps une piste. Je me fixe maintenant des points d'étape pour en parler à l'équipe.",
+          "texte": "Je creuse trop longtemps une piste ; je me fixe maintenant des points d'étape avec l'équipe.",
           "correcte": true
         },
         {
-          "texte": "Je n'ai aucun défaut.",
+          "texte": "Je n'ai aucun défaut, du moins aucun que mes collègues aient remarqué.",
           "correcte": false
         },
         {
-          "texte": "Je fais mes tests sur n'importe quel réseau, même sans autorisation.",
+          "texte": "Je fais parfois mes tests sur n'importe quel réseau, même sans autorisation, par curiosité.",
           "correcte": false
         }
       ],
@@ -93,7 +93,7 @@
       "question": "Où vous voyez-vous dans cinq ans ?",
       "reponses": [
         {
-          "texte": "À la tête d'un groupe de hackers anonymes.",
+          "texte": "À la tête d'un groupe de hackers anonymes, mais du bon côté de la loi, en principe.",
           "correcte": false
         },
         {
@@ -105,7 +105,7 @@
           "correcte": true
         },
         {
-          "texte": "Sur une île sans réseau.",
+          "texte": "Sur une île sans réseau, loin des écrans, après avoir fait fortune grâce aux bug bounties.",
           "correcte": false
         }
       ],
@@ -121,7 +121,7 @@
       "question": "Quelles sont vos prétentions salariales ?",
       "reponses": [
         {
-          "texte": "Le salaire d'un directeur de la sécurité.",
+          "texte": "Le salaire d'un directeur de la sécurité, puisque j'en aurai bientôt les responsabilités.",
           "correcte": false
         },
         {
@@ -137,7 +137,7 @@
           "correcte": false
         },
         {
-          "texte": "Une fourchette basée sur le marché et mon niveau d'expérience, que je suis prêt à discuter.",
+          "texte": "Une fourchette basée sur le marché et mon expérience, que je suis prêt à discuter.",
           "correcte": true
         },
         {
@@ -157,7 +157,7 @@
       "question": "Avez-vous des questions à nous poser ?",
       "reponses": [
         {
-          "texte": "Oui : comment sont encadrées les missions, quels outils utilisez-vous et comment se passe la montée en compétences ?",
+          "texte": "Oui : comment sont encadrées les missions et comment se passe la montée en compétences ?",
           "correcte": true
         },
         {
@@ -165,11 +165,11 @@
           "correcte": false
         },
         {
-          "texte": "Est-ce que je peux garder mon ordinateur personnel pour les missions ?",
+          "texte": "Est-ce que je peux garder mon ordinateur personnel et mes propres outils pour les missions ?",
           "correcte": false
         },
         {
-          "texte": "Est-ce que je peux tester vos systèmes dès ce soir ?",
+          "texte": "Est-ce que je peux tester vos systèmes dès ce soir, histoire de vous montrer mon niveau ?",
           "correcte": false
         }
       ],
@@ -185,11 +185,11 @@
       "question": "Une alerte critique tombe un vendredi à 18 h. Que faites-vous ?",
       "reponses": [
         {
-          "texte": "Je l'ignore, ça attendra lundi.",
+          "texte": "Je l'ignore, ça attendra lundi : la plupart des alertes sont des faux positifs.",
           "correcte": false
         },
         {
-          "texte": "Je coupe tout le réseau de l'entreprise par précaution.",
+          "texte": "Je coupe tout le réseau de l'entreprise par précaution, en attendant d'en savoir plus lundi.",
           "correcte": false
         },
         {
@@ -213,11 +213,11 @@
       "question": "Un développeur refuse de corriger une vulnérabilité que vous avez trouvée. Que faites-vous ?",
       "reponses": [
         {
-          "texte": "Je publie la faille sur Internet.",
+          "texte": "Je publie la faille sur Internet pour qu'il soit obligé de la corriger rapidement.",
           "correcte": false
         },
         {
-          "texte": "Je corrige son code moi-même sans le dire.",
+          "texte": "Je corrige son code moi-même sans le lui dire, puis je pousse directement le correctif en production.",
           "correcte": false
         },
         {
@@ -229,7 +229,7 @@
           "correcte": false
         },
         {
-          "texte": "J'explique l'impact avec un exemple concret, je propose un correctif simple et j'escalade si le risque reste élevé.",
+          "texte": "J'explique l'impact avec un exemple concret, propose un correctif simple et j'escalade si besoin.",
           "correcte": true
         },
         {
@@ -253,11 +253,11 @@
           "correcte": false
         },
         {
-          "texte": "Je continue le test pour finir à temps.",
+          "texte": "Je continue le test pour finir à temps, et je signalerai l'incident dans le rapport final.",
           "correcte": false
         },
         {
-          "texte": "Je supprime les traces dans les journaux.",
+          "texte": "Je supprime les traces dans les journaux pour éviter de paniquer inutilement le client.",
           "correcte": false
         },
         {
@@ -265,7 +265,7 @@
           "correcte": false
         },
         {
-          "texte": "Je préviens immédiatement le client et mon responsable, je documente et j'aide au rétablissement.",
+          "texte": "Je préviens tout de suite le client et mon responsable, puis j'aide au rétablissement.",
           "correcte": true
         },
         {
@@ -285,11 +285,11 @@
       "question": "On vous interroge sur une vulnérabilité que vous ne connaissez pas. Que faites-vous ?",
       "reponses": [
         {
-          "texte": "Je dis que je l'ai déjà exploitée plusieurs fois.",
+          "texte": "Je dis que je l'ai déjà exploitée plusieurs fois en mission, sans donner de détails.",
           "correcte": false
         },
         {
-          "texte": "Je dis que ce n'est pas une vraie faille.",
+          "texte": "Je dis que ce n'est pas une vraie faille, juste un problème de configuration.",
           "correcte": false
         },
         {
@@ -297,7 +297,7 @@
           "correcte": false
         },
         {
-          "texte": "J'admets ne pas la connaître, j'explique ma démarche pour me renseigner et ce que je ferais ensuite.",
+          "texte": "J'admets ne pas la connaître et j'explique comment je me renseignerais.",
           "correcte": true
         }
       ],
@@ -321,11 +321,11 @@
           "correcte": true
         },
         {
-          "texte": "J'accepte mais de nuit, pour ne pas être vu.",
+          "texte": "J'accepte mais de nuit, pour ne pas être vu par leurs équipes de sécurité.",
           "correcte": false
         },
         {
-          "texte": "Je teste en secret et je lui envoie un rapport.",
+          "texte": "Je teste en secret et je lui envoie un rapport détaillé pour qu'il le transmette.",
           "correcte": false
         }
       ],
@@ -369,15 +369,15 @@
       "question": "Qu'est-ce que le phishing (hameçonnage) ?",
       "reponses": [
         {
-          "texte": "Une méthode de sauvegarde",
+          "texte": "Une méthode de sauvegarde qui copie les données vers un serveur distant à intervalles réguliers",
           "correcte": false
         },
         {
-          "texte": "Une attaque qui pousse la victime à donner des informations via un faux message ou un faux site",
+          "texte": "Une attaque qui pousse la victime à livrer des informations via un faux message ou site",
           "correcte": true
         },
         {
-          "texte": "Un type de pare-feu",
+          "texte": "Un type de pare-feu qui filtre les e-mails",
           "correcte": false
         },
         {
@@ -405,7 +405,7 @@
           "correcte": true
         },
         {
-          "texte": "Un câble réseau blindé",
+          "texte": "Un câble réseau blindé qui protège les données des interférences",
           "correcte": false
         },
         {
@@ -461,11 +461,11 @@
       "question": "Que signifie 2FA ?",
       "reponses": [
         {
-          "texte": "Deuxième pare-feu automatique",
+          "texte": "Deuxième pare-feu activé automatiquement",
           "correcte": false
         },
         {
-          "texte": "Double chiffrement de fichiers",
+          "texte": "Double chiffrement des fichiers sensibles",
           "correcte": false
         },
         {
@@ -489,7 +489,7 @@
       "question": "Qu'est-ce qu'un malware ?",
       "reponses": [
         {
-          "texte": "Un logiciel de bureautique",
+          "texte": "Un logiciel de bureautique distribué sans licence officielle",
           "correcte": false
         },
         {
@@ -517,11 +517,11 @@
       "question": "Que signifie CTF dans le milieu de la sécurité ?",
       "reponses": [
         {
-          "texte": "Cyber Threat Firewall",
+          "texte": "Cyber Threat Firewall : un pare-feu dédié aux menaces avancées",
           "correcte": false
         },
         {
-          "texte": "Code Test Framework",
+          "texte": "Code Test Framework : un outil de tests de code sécurisé",
           "correcte": false
         },
         {
@@ -529,7 +529,7 @@
           "correcte": false
         },
         {
-          "texte": "Capture The Flag : une compétition où l'on résout des défis de sécurité",
+          "texte": "Capture The Flag : une compétition de défis de sécurité",
           "correcte": true
         }
       ],
@@ -581,7 +581,7 @@
       "question": "Qu'est-ce que le chiffrement ?",
       "reponses": [
         {
-          "texte": "Supprimer définitivement des données",
+          "texte": "Supprimer définitivement des données en écrasant le disque",
           "correcte": false
         },
         {
@@ -589,7 +589,7 @@
           "correcte": false
         },
         {
-          "texte": "Copier des données sur un autre disque",
+          "texte": "Copier des données sur un autre disque pour les protéger",
           "correcte": false
         },
         {
@@ -613,11 +613,11 @@
           "correcte": true
         },
         {
-          "texte": "Un pirate qui vole des données",
+          "texte": "Un pirate qui vole des données puis les revend au plus offrant",
           "correcte": false
         },
         {
-          "texte": "Un hacker qui travaille uniquement de jour",
+          "texte": "Un hacker qui travaille uniquement de jour, pour des entreprises officiellement déclarées",
           "correcte": false
         },
         {
@@ -641,7 +641,7 @@
           "correcte": true
         },
         {
-          "texte": "Contrôle, Identité, Authentification",
+          "texte": "Contrôle d'accès, Identité, Authentification",
           "correcte": false
         },
         {
@@ -665,11 +665,11 @@
       "question": "Quelle différence y a-t-il entre un virus et un ver (worm) ?",
       "reponses": [
         {
-          "texte": "Un ver est toujours inoffensif",
+          "texte": "Un ver est toujours inoffensif, il se contente d'afficher des messages",
           "correcte": false
         },
         {
-          "texte": "Un virus ne touche que les smartphones",
+          "texte": "Un virus ne touche que les smartphones, un ver ne s'attaque qu'aux serveurs Windows",
           "correcte": false
         },
         {
@@ -693,7 +693,7 @@
       "question": "Qu'est-ce qu'un hash ?",
       "reponses": [
         {
-          "texte": "Une clé de chiffrement publique",
+          "texte": "Une clé de chiffrement publique dérivée de la clé privée",
           "correcte": false
         },
         {
@@ -705,7 +705,7 @@
           "correcte": false
         },
         {
-          "texte": "Une copie compressée du fichier",
+          "texte": "Une copie compressée du fichier, décompressable pour le retrouver",
           "correcte": false
         }
       ],
@@ -757,15 +757,15 @@
       "question": "Pourquoi ajoute-t-on un sel (salt) avant de hacher un mot de passe ?",
       "reponses": [
         {
-          "texte": "Pour que deux mots de passe identiques n'aient pas le même hash et contrer les tables précalculées",
+          "texte": "Pour que deux mots de passe identiques aient des hashs différents",
           "correcte": true
         },
         {
-          "texte": "Pour accélérer le calcul du hash",
+          "texte": "Pour accélérer le calcul du hash grâce à une valeur déjà connue du serveur",
           "correcte": false
         },
         {
-          "texte": "Pour chiffrer le hash",
+          "texte": "Pour chiffrer le hash afin qu'il ne soit plus réversible",
           "correcte": false
         },
         {
@@ -793,11 +793,11 @@
           "correcte": true
         },
         {
-          "texte": "Exploiter une faille inconnue",
+          "texte": "Exploiter une faille inconnue de l'éditeur avant qu'un correctif ne soit publié",
           "correcte": false
         },
         {
-          "texte": "Inonder un serveur de requêtes",
+          "texte": "Inonder un serveur de requêtes pour le rendre indisponible",
           "correcte": false
         }
       ],
@@ -817,7 +817,7 @@
           "correcte": false
         },
         {
-          "texte": "Chiffrer des fichiers contre rançon",
+          "texte": "Chiffrer les fichiers d'un réseau entier puis exiger une rançon pour les rendre",
           "correcte": false
         },
         {
@@ -841,7 +841,7 @@
       "question": "Que désigne l'OWASP Top 10 ?",
       "reponses": [
         {
-          "texte": "Un classement des dix meilleurs antivirus",
+          "texte": "Un classement annuel des dix meilleurs antivirus pour les postes de travail",
           "correcte": false
         },
         {
@@ -853,7 +853,7 @@
           "correcte": false
         },
         {
-          "texte": "Les dix outils de pentest les plus rapides",
+          "texte": "Les dix outils de pentest web les plus rapides, classés chaque année par l'OWASP",
           "correcte": false
         },
         {
@@ -861,7 +861,7 @@
           "correcte": false
         },
         {
-          "texte": "La liste des dix risques de sécurité les plus critiques pour les applications web",
+          "texte": "La liste des dix risques de sécurité les plus critiques des applications web",
           "correcte": true
         }
       ],
@@ -881,7 +881,7 @@
           "correcte": true
         },
         {
-          "texte": "Une faille corrigée le jour même",
+          "texte": "Une faille corrigée le jour même de sa découverte",
           "correcte": false
         },
         {
@@ -909,11 +909,11 @@
           "correcte": true
         },
         {
-          "texte": "Un réseau social professionnel",
+          "texte": "Un réseau social professionnel réservé aux experts en sécurité",
           "correcte": false
         },
         {
-          "texte": "Une méthode de programmation",
+          "texte": "Une méthode de programmation collaborative inspirée des sciences sociales",
           "correcte": false
         },
         {
@@ -941,7 +941,7 @@
           "correcte": true
         },
         {
-          "texte": "Supprimer tous les comptes inutilisés chaque jour",
+          "texte": "Supprimer chaque jour tous les comptes inutilisés, y compris les comptes de service",
           "correcte": false
         },
         {
@@ -1025,15 +1025,15 @@
       "question": "Qu'est-ce qu'un SIEM ?",
       "reponses": [
         {
-          "texte": "Un antivirus pour mobiles",
+          "texte": "Un antivirus pour mobiles qui analyse les applications installées",
           "correcte": false
         },
         {
-          "texte": "Un type de pare-feu matériel",
+          "texte": "Un type de pare-feu matériel placé entre le réseau interne et Internet",
           "correcte": false
         },
         {
-          "texte": "Un système qui centralise et corrèle les journaux de sécurité pour détecter des incidents",
+          "texte": "Un système qui centralise et corrèle les journaux pour détecter des incidents",
           "correcte": true
         },
         {
@@ -1053,7 +1053,7 @@
       "question": "Qu'est-ce qu'un honeypot ?",
       "reponses": [
         {
-          "texte": "Un coffre-fort de mots de passe",
+          "texte": "Un coffre-fort de mots de passe partagé entre les membres d'une équipe",
           "correcte": false
         },
         {
@@ -1109,7 +1109,7 @@
       "question": "À quoi sert un WAF ?",
       "reponses": [
         {
-          "texte": "À accélérer la base de données",
+          "texte": "À accélérer la base de données en mettant en cache les requêtes les plus fréquentes",
           "correcte": false
         },
         {
@@ -1117,7 +1117,7 @@
           "correcte": false
         },
         {
-          "texte": "À filtrer le trafic HTTP pour protéger une application web contre des attaques courantes",
+          "texte": "À filtrer le trafic HTTP pour protéger une application web des attaques courantes",
           "correcte": true
         },
         {
@@ -1149,7 +1149,7 @@
           "correcte": false
         },
         {
-          "texte": "Pour sauvegarder des fichiers",
+          "texte": "Pour sauvegarder des fichiers de façon chiffrée sur un serveur",
           "correcte": false
         },
         {
@@ -1181,7 +1181,7 @@
           "correcte": false
         },
         {
-          "texte": "Chiffrés avec une clé stockée dans le code source",
+          "texte": "Chiffrés avec une clé AES stockée dans le code source de l'application",
           "correcte": false
         },
         {
@@ -1201,7 +1201,7 @@
       "question": "À quoi sert un plan de réponse aux incidents ?",
       "reponses": [
         {
-          "texte": "À répartir les congés de l'équipe",
+          "texte": "À répartir les congés de l'équipe pour garantir une présence pendant les incidents",
           "correcte": false
         },
         {
@@ -1209,11 +1209,11 @@
           "correcte": false
         },
         {
-          "texte": "À planifier les mises à jour de bureautique",
+          "texte": "À planifier les mises à jour de bureautique et les redémarrages des postes de travail",
           "correcte": false
         },
         {
-          "texte": "À définir les étapes à suivre : détection, confinement, éradication, restauration, retour d'expérience",
+          "texte": "À définir les étapes à suivre : détection, confinement, éradication, restauration",
           "correcte": true
         }
       ],
@@ -1233,7 +1233,7 @@
           "correcte": false
         },
         {
-          "texte": "La réfléchie vole directement le disque dur",
+          "texte": "La réfléchie vole directement le disque dur, la stockée se limite aux cookies",
           "correcte": false
         },
         {
@@ -1245,11 +1245,11 @@
           "correcte": false
         },
         {
-          "texte": "La stockée est enregistrée côté serveur et touche tous les visiteurs, la réfléchie dépend d'un lien piégé",
+          "texte": "La stockée est enregistrée côté serveur, la réfléchie dépend d'un lien piégé",
           "correcte": true
         },
         {
-          "texte": "La réfléchie est toujours inoffensive",
+          "texte": "La réfléchie est toujours inoffensive car le navigateur la bloque automatiquement",
           "correcte": false
         }
       ],
@@ -1269,7 +1269,7 @@
           "correcte": false
         },
         {
-          "texte": "Réutiliser le hash d'un mot de passe volé pour s'authentifier sans connaître le mot de passe",
+          "texte": "Réutiliser le hash d'un mot de passe volé pour s'authentifier sans le mot de passe",
           "correcte": true
         },
         {
@@ -1277,7 +1277,7 @@
           "correcte": false
         },
         {
-          "texte": "Intercepter un mot de passe sur un réseau Wi-Fi ouvert",
+          "texte": "Intercepter un mot de passe en clair sur un réseau Wi-Fi ouvert puis le rejouer plus tard",
           "correcte": false
         },
         {
@@ -1301,7 +1301,7 @@
       "question": "Qu'est-ce qu'une attaque CSRF ?",
       "reponses": [
         {
-          "texte": "Injecter du SQL dans un formulaire",
+          "texte": "Injecter du SQL dans un formulaire pour contourner l'authentification du site",
           "correcte": false
         },
         {
@@ -1309,11 +1309,11 @@
           "correcte": false
         },
         {
-          "texte": "Voler un certificat TLS",
+          "texte": "Voler un certificat TLS pour usurper l'identité d'un site légitime",
           "correcte": false
         },
         {
-          "texte": "Forcer le navigateur d'un utilisateur connecté à envoyer une requête non voulue à un site",
+          "texte": "Forcer le navigateur d'un utilisateur connecté à envoyer une requête non voulue",
           "correcte": true
         }
       ],
@@ -1329,15 +1329,15 @@
       "question": "Dans le modèle de menace STRIDE, que signifie la lettre S ?",
       "reponses": [
         {
-          "texte": "Sniffing",
+          "texte": "Sniffing (écoute du trafic)",
           "correcte": false
         },
         {
-          "texte": "Scanning",
+          "texte": "Scanning (balayage de ports)",
           "correcte": false
         },
         {
-          "texte": "Sabotage",
+          "texte": "Sabotage (destruction de données)",
           "correcte": false
         },
         {
@@ -1365,7 +1365,7 @@
           "correcte": false
         },
         {
-          "texte": "256 bits (32 octets)",
+          "texte": "256 bits",
           "correcte": true
         },
         {
@@ -1425,7 +1425,7 @@
           "correcte": true
         },
         {
-          "texte": "Bien sûr, je l'ai déjà utilisée en mission",
+          "texte": "Bien sûr, je l'ai déjà utilisée en mission lors d'un test d'intrusion chez un grand client bancaire",
           "correcte": false
         },
         {
@@ -1493,7 +1493,7 @@
           "correcte": false
         },
         {
-          "texte": "Code Vulnerability Encryption",
+          "texte": "Code Vulnerability Encryption : un format chiffré d'échange de failles entre éditeurs",
           "correcte": false
         },
         {

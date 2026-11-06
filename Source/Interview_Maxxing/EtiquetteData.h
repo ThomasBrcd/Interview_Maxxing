@@ -30,8 +30,8 @@ struct FEtiquetteRow : public FTableRowBase
 { 
     GENERATED_BODY()
     UPROPERTY(EditAnywhere, BlueprintReadWrite) FText Texte;
-    UPROPERTY(EditAnywhere, BlueprintReadWrite) ECategorieEtiquette Categorie;
-    UPROPERTY(EditAnywhere, BlueprintReadWrite) EDomaineTech Domaine;
+    UPROPERTY(EditAnywhere, BlueprintReadWrite) ECategorieEtiquette Categorie = ECategorieEtiquette::Domaine;
+    UPROPERTY(EditAnywhere, BlueprintReadWrite) EDomaineTech Domaine = EDomaineTech::Aucun;
     UPROPERTY(EditAnywhere, BlueprintReadWrite) FStatsCV Stats;
     UPROPERTY(EditAnywhere, BlueprintReadWrite) int32 Prestige = 0;
     UPROPERTY(EditAnywhere, BlueprintReadWrite) bool bDepart = false;

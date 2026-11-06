@@ -9,19 +9,19 @@
       "question": "Pour commencer, pourquoi souhaitez-vous rejoindre notre entreprise ?",
       "reponses": [
         {
-          "texte": "Parce que votre offre était la première de la liste.",
+          "texte": "Parce que votre offre était la première de la liste, et que je postule un peu partout en ce moment.",
           "correcte": false
         },
         {
-          "texte": "Parce que je n'ai pas vraiment lu l'annonce.",
+          "texte": "Parce que je n'ai pas vraiment lu l'annonce, mais le nom de l'entreprise m'a semblé sérieux.",
           "correcte": false
         },
         {
-          "texte": "Parce que j'ai besoin de rembourser mon ordinateur.",
+          "texte": "Parce que j'ai besoin d'un salaire rapidement pour rembourser mon nouvel ordinateur portable.",
           "correcte": false
         },
         {
-          "texte": "Parce que j'ai étudié votre activité et vos projets, et qu'ils correspondent à mes compétences et à ce que je veux apprendre.",
+          "texte": "Parce que vos projets, que j'ai étudiés, correspondent à mes compétences et à ce que je veux apprendre.",
           "correcte": true
         }
       ],
@@ -41,15 +41,15 @@
           "correcte": true
         },
         {
-          "texte": "Je lis mon CV mot à mot.",
+          "texte": "Je lis mon CV mot à mot, dans l'ordre, pour être sûr de ne rien oublier d'important.",
           "correcte": false
         },
         {
-          "texte": "Je dis que je suis curieux et motivé, et je m'arrête là.",
+          "texte": "Je dis que je suis curieux et motivé, et je m'arrête là pour laisser place aux questions.",
           "correcte": false
         },
         {
-          "texte": "Je raconte tous mes projets scolaires depuis la 6e.",
+          "texte": "Je raconte en détail tous mes projets scolaires depuis la 6e, sans faire de tri.",
           "correcte": false
         }
       ],
@@ -65,7 +65,7 @@
       "question": "Quel est votre principal défaut ?",
       "reponses": [
         {
-          "texte": "Je suis perfectionniste.",
+          "texte": "Je suis perfectionniste : je passe parfois trop de temps à peaufiner chaque détail de mon code.",
           "correcte": false
         },
         {
@@ -73,11 +73,11 @@
           "correcte": true
         },
         {
-          "texte": "Je n'ai aucun défaut.",
+          "texte": "Je n'ai aucun défaut qui pourrait gêner mon travail, mes anciens collègues peuvent le confirmer.",
           "correcte": false
         },
         {
-          "texte": "Je remets tout à la dernière minute, mais ça marche.",
+          "texte": "Je remets tout à la dernière minute, mais ça marche : je travaille mieux sous la pression.",
           "correcte": false
         }
       ],
@@ -93,7 +93,7 @@
       "question": "Où vous voyez-vous dans cinq ans ?",
       "reponses": [
         {
-          "texte": "À votre place, bien entendu.",
+          "texte": "À votre place, bien entendu, à la tête de l'équipe que vous dirigez aujourd'hui.",
           "correcte": false
         },
         {
@@ -101,11 +101,11 @@
           "correcte": true
         },
         {
-          "texte": "Je ne sais pas.",
+          "texte": "Je ne sais pas encore, je préfère ne pas faire de plans et voir comment ça évolue.",
           "correcte": false
         },
         {
-          "texte": "Dans une autre entreprise, probablement.",
+          "texte": "Dans une autre entreprise, probablement, une fois que j'aurai acquis assez d'expérience.",
           "correcte": false
         }
       ],
@@ -121,27 +121,27 @@
       "question": "Quelles sont vos prétentions salariales ?",
       "reponses": [
         {
-          "texte": "Le salaire d'un directeur général.",
+          "texte": "Le salaire d'un directeur général, puisque je compte occuper ce poste très rapidement.",
           "correcte": false
         },
         {
-          "texte": "Peu importe, je travaille par passion.",
+          "texte": "Peu importe le montant, je travaille uniquement par passion et pas pour l'argent.",
           "correcte": false
         },
         {
-          "texte": "Je préfère que vous donniez un chiffre, et je dirai non.",
+          "texte": "Je préfère que vous donniez un chiffre en premier, et je dirai non par principe.",
           "correcte": false
         },
         {
-          "texte": "Autant que mon voisin, sans savoir combien.",
+          "texte": "Autant que mon voisin, même si je ne sais pas exactement combien il gagne.",
           "correcte": false
         },
         {
-          "texte": "Une fourchette basée sur le marché et mon niveau d'expérience, que je suis prêt à discuter.",
+          "texte": "Une fourchette basée sur le marché et mon expérience, que je suis prêt à discuter.",
           "correcte": true
         },
         {
-          "texte": "Je n'ai rien préparé, mais plus que ma dernière paie.",
+          "texte": "Je n'ai rien préparé, mais je veux nettement plus que ma dernière paie, c'est certain.",
           "correcte": false
         }
       ],
@@ -157,19 +157,19 @@
       "question": "Avez-vous des questions à nous poser ?",
       "reponses": [
         {
-          "texte": "Oui : comment est organisée l'équipe, quels sont les prochains projets et comment se passe l'intégration ?",
+          "texte": "Oui : comment l'équipe est-elle organisée, et comment se passe l'intégration des nouveaux ?",
           "correcte": true
         },
         {
-          "texte": "Non, aucune.",
+          "texte": "Non, aucune, vous avez déjà tout expliqué et je ne veux pas vous faire perdre de temps.",
           "correcte": false
         },
         {
-          "texte": "Est-ce qu'on peut télétravailler tous les jours dès demain ?",
+          "texte": "Est-ce qu'on peut télétravailler tous les jours dès demain, même pendant la période d'essai ?",
           "correcte": false
         },
         {
-          "texte": "Est-ce qu'il y a des tickets-restaurant ? C'est ma seule question.",
+          "texte": "Est-ce qu'il y a des tickets-restaurant ? C'est vraiment la seule chose qui m'intéresse ici.",
           "correcte": false
         }
       ],
@@ -185,19 +185,19 @@
       "question": "Vous devez livrer une fonctionnalité en deux jours, mais l'estimation était de cinq. Que faites-vous ?",
       "reponses": [
         {
-          "texte": "Je travaille la nuit sans prévenir personne.",
+          "texte": "Je travaille toutes les nuits sans prévenir personne, pour livrer à temps coûte que coûte.",
           "correcte": false
         },
         {
-          "texte": "Je livre sans tester pour tenir le délai.",
+          "texte": "Je livre sans écrire ni lancer de tests, pour être certain de tenir le délai annoncé au client.",
           "correcte": false
         },
         {
-          "texte": "Je dis que c'est presque fini jusqu'à la date limite.",
+          "texte": "Je dis que c'est presque fini à chaque réunion, jusqu'au jour de la date limite.",
           "correcte": false
         },
         {
-          "texte": "J'en informe immédiatement l'équipe, je propose de réduire le périmètre ou de décaler et j'explique les risques.",
+          "texte": "J'alerte l'équipe tout de suite et je propose de réduire le périmètre ou de décaler la date.",
           "correcte": true
         }
       ],
@@ -213,27 +213,27 @@
       "question": "Un collègue critique durement votre code en relecture. Que faites-vous ?",
       "reponses": [
         {
-          "texte": "Je réponds sur le même ton devant toute l'équipe.",
+          "texte": "Je réponds sur le même ton, devant toute l'équipe, pour montrer que je ne me laisse pas faire.",
           "correcte": false
         },
         {
-          "texte": "J'ignore ses remarques.",
+          "texte": "J'ignore ses remarques : mon code fonctionne, c'est tout ce qui compte au final.",
           "correcte": false
         },
         {
-          "texte": "Je refais le code sans lui répondre.",
+          "texte": "Je refais tout le code de zéro sans lui répondre, pour éviter toute discussion.",
           "correcte": false
         },
         {
-          "texte": "Je lui demande de ne plus relire mon travail.",
+          "texte": "Je lui demande de ne plus jamais relire mon travail et de choisir quelqu'un d'autre.",
           "correcte": false
         },
         {
-          "texte": "Je me plains à la direction.",
+          "texte": "Je me plains directement à la direction de son comportement en revue de code.",
           "correcte": false
         },
         {
-          "texte": "J'écoute, je demande des exemples précis, et je corrige ce qui est justifié en discutant du reste.",
+          "texte": "J'écoute, je demande des exemples précis et je corrige ce qui est justifié.",
           "correcte": true
         }
       ],
@@ -249,27 +249,27 @@
       "question": "Vous découvrez un bug majeur juste après une livraison. Que faites-vous ?",
       "reponses": [
         {
-          "texte": "Je corrige en silence en espérant que personne ne l'a vu.",
+          "texte": "Je corrige discrètement en espérant que personne ne l'ait remarqué entre-temps.",
           "correcte": false
         },
         {
-          "texte": "Je dis que c'est un comportement attendu.",
+          "texte": "J'explique aux utilisateurs que c'est un comportement attendu de la nouvelle version.",
           "correcte": false
         },
         {
-          "texte": "Je supprime la fonctionnalité sans prévenir.",
+          "texte": "Je supprime la fonctionnalité concernée sans prévenir, pour faire disparaître le bug.",
           "correcte": false
         },
         {
-          "texte": "Je rejette la faute sur le dernier développeur.",
+          "texte": "Je rejette la faute sur le dernier développeur qui a modifié ce code avant moi.",
           "correcte": false
         },
         {
-          "texte": "Je préviens l'équipe, je limite l'impact (retour arrière si possible), je corrige avec un test et j'analyse la cause.",
+          "texte": "Je préviens l'équipe, je limite l'impact, puis je corrige avec un test et j'analyse la cause.",
           "correcte": true
         },
         {
-          "texte": "Je attends le prochain sprint pour en parler.",
+          "texte": "J'attends le prochain sprint pour en parler, la livraison est déjà faite de toute façon.",
           "correcte": false
         }
       ],
@@ -289,15 +289,15 @@
           "correcte": true
         },
         {
-          "texte": "Je dis que je suis expert.",
+          "texte": "Je dis que je suis expert dessus et j'improvise une réponse avec les quelques termes que je connais.",
           "correcte": false
         },
         {
-          "texte": "Je dis qu'elle est dépassée.",
+          "texte": "Je dis qu'elle est dépassée et que plus personne ne l'utilise sérieusement aujourd'hui.",
           "correcte": false
         },
         {
-          "texte": "Je change de sujet.",
+          "texte": "Je change de sujet pour parler d'une technologie que je maîtrise beaucoup mieux.",
           "correcte": false
         }
       ],
@@ -317,15 +317,15 @@
           "correcte": true
         },
         {
-          "texte": "Je ne dis rien, c'est son problème.",
+          "texte": "Je ne dis rien : c'est son code et sa responsabilité, pas la mienne, s'il y a un souci.",
           "correcte": false
         },
         {
-          "texte": "Je le dénonce publiquement à toute l'équipe.",
+          "texte": "Je le dénonce publiquement à toute l'équipe lors de la prochaine réunion, pour faire un exemple.",
           "correcte": false
         },
         {
-          "texte": "Je copie aussi, ça va plus vite.",
+          "texte": "Je copie aussi du code en ligne sans vérifier, ça va plus vite et tout le monde le fait.",
           "correcte": false
         }
       ],
@@ -345,15 +345,15 @@
           "correcte": true
         },
         {
-          "texte": "Un type de langage de programmation",
+          "texte": "Un type de langage de programmation spécialisé dans le calcul",
           "correcte": false
         },
         {
-          "texte": "Un composant électronique",
+          "texte": "Un composant électronique qui effectue les calculs",
           "correcte": false
         },
         {
-          "texte": "Un protocole réseau",
+          "texte": "Un protocole réseau qui définit l'échange de données",
           "correcte": false
         }
       ],
@@ -369,7 +369,7 @@
       "question": "Qu'est-ce qu'une variable en programmation ?",
       "reponses": [
         {
-          "texte": "Un type de boucle",
+          "texte": "Un type de boucle dont le nombre de tours varie",
           "correcte": false
         },
         {
@@ -377,11 +377,11 @@
           "correcte": true
         },
         {
-          "texte": "Un fichier de configuration",
+          "texte": "Un fichier de configuration du programme",
           "correcte": false
         },
         {
-          "texte": "Un message d'erreur",
+          "texte": "Un message d'erreur affiché à l'exécution",
           "correcte": false
         }
       ],
@@ -433,7 +433,7 @@
       "question": "Quelle structure de données fonctionne selon le principe « dernier entré, premier sorti » (LIFO) ?",
       "reponses": [
         {
-          "texte": "La file",
+          "texte": "La file (queue)",
           "correcte": false
         },
         {
@@ -445,7 +445,7 @@
           "correcte": true
         },
         {
-          "texte": "Le graphe",
+          "texte": "Le graphe orienté",
           "correcte": false
         }
       ],
@@ -461,11 +461,11 @@
       "question": "À quoi sert un système de gestion de versions comme Git ?",
       "reponses": [
         {
-          "texte": "À compiler le code plus vite",
+          "texte": "À compiler le code plus vite grâce à un cache partagé",
           "correcte": false
         },
         {
-          "texte": "À stocker uniquement des images",
+          "texte": "À stocker uniquement les fichiers binaires et les images d'un projet",
           "correcte": false
         },
         {
@@ -473,7 +473,7 @@
           "correcte": true
         },
         {
-          "texte": "À chiffrer les sources",
+          "texte": "À chiffrer les sources pour les protéger contre la copie",
           "correcte": false
         }
       ],
@@ -529,15 +529,15 @@
           "correcte": true
         },
         {
-          "texte": "Une mise à jour automatique",
+          "texte": "Une mise à jour automatique installée en arrière-plan par le système",
           "correcte": false
         },
         {
-          "texte": "Un type de virus uniquement",
+          "texte": "Un type de virus qui se propage uniquement par le réseau",
           "correcte": false
         },
         {
-          "texte": "Un composant matériel",
+          "texte": "Un composant matériel défectueux à remplacer sur la carte mère",
           "correcte": false
         }
       ],
@@ -553,15 +553,15 @@
       "question": "Qu'est-ce qu'une base de données relationnelle ?",
       "reponses": [
         {
-          "texte": "Un fichier texte unique",
+          "texte": "Un fichier texte unique où chaque ligne contient un enregistrement",
           "correcte": false
         },
         {
-          "texte": "Un tableau de bord graphique",
+          "texte": "Un tableau de bord graphique qui affiche des indicateurs reliés",
           "correcte": false
         },
         {
-          "texte": "Un logiciel de messagerie",
+          "texte": "Un logiciel de messagerie qui relie les utilisateurs entre eux",
           "correcte": false
         },
         {
@@ -609,19 +609,19 @@
       "question": "Que désigne la pratique du « rubber duck debugging » ?",
       "reponses": [
         {
-          "texte": "Expliquer son problème à voix haute à un canard en plastique pour trouver la solution",
+          "texte": "Expliquer son code à voix haute à un canard en plastique pour trouver le bug",
           "correcte": true
         },
         {
-          "texte": "Déboguer uniquement avec un jouet",
+          "texte": "Déboguer en ajoutant des messages d'affichage à chaque ligne du programme",
           "correcte": false
         },
         {
-          "texte": "Utiliser un logiciel nommé Duck",
+          "texte": "Utiliser un logiciel de débogage nommé Duck qui analyse le code en direct",
           "correcte": false
         },
         {
-          "texte": "Faire relire son code par un canard certifié",
+          "texte": "Faire relire son code par un canard certifié lors d'une revue d'équipe",
           "correcte": false
         }
       ],
@@ -673,7 +673,7 @@
           "correcte": true
         },
         {
-          "texte": "O(1)",
+          "texte": "O(n log n)",
           "correcte": false
         },
         {
@@ -693,15 +693,15 @@
       "question": "Qu'est-ce que la récursivité ?",
       "reponses": [
         {
-          "texte": "Une boucle qui ne s'arrête jamais",
+          "texte": "Une boucle qui ne s'arrête jamais, faute de condition de sortie",
           "correcte": false
         },
         {
-          "texte": "Une fonction sans paramètres",
+          "texte": "Une fonction sans paramètres qui renvoie toujours la même valeur",
           "correcte": false
         },
         {
-          "texte": "Une variable globale",
+          "texte": "Une variable globale partagée entre toutes les fonctions",
           "correcte": false
         },
         {
@@ -757,19 +757,19 @@
       "question": "Qu'est-ce qu'un arbre binaire de recherche ?",
       "reponses": [
         {
-          "texte": "Un arbre dont toutes les feuilles ont la même valeur",
+          "texte": "Un arbre dont toutes les feuilles ont la même valeur, ce qui accélère la recherche",
           "correcte": false
         },
         {
-          "texte": "Un arbre où chaque nœud a au plus deux fils, avec les valeurs plus petites à gauche et plus grandes à droite",
+          "texte": "Un arbre où chaque nœud a au plus deux fils, les plus petits à gauche et les plus grands à droite",
           "correcte": true
         },
         {
-          "texte": "Un tableau trié par ordre alphabétique",
+          "texte": "Un tableau trié par ordre alphabétique, parcouru de gauche à droite jusqu'à trouver la valeur cherchée",
           "correcte": false
         },
         {
-          "texte": "Un arbre sans racine",
+          "texte": "Un arbre sans racine où chaque nœud peut avoir autant de fils que nécessaire",
           "correcte": false
         }
       ],
@@ -785,7 +785,7 @@
       "question": "Qu'est-ce qu'un test unitaire ?",
       "reponses": [
         {
-          "texte": "Un test réalisé par l'utilisateur final",
+          "texte": "Un test réalisé manuellement par l'utilisateur final sur la version livrée",
           "correcte": false
         },
         {
@@ -793,11 +793,11 @@
           "correcte": true
         },
         {
-          "texte": "Un test de charge sur le serveur",
+          "texte": "Un test de charge qui mesure la tenue du serveur sous trafic",
           "correcte": false
         },
         {
-          "texte": "Un test de sécurité du réseau",
+          "texte": "Un test de sécurité qui vérifie les ports ouverts du réseau",
           "correcte": false
         }
       ],
@@ -813,19 +813,19 @@
       "question": "Que désigne le sigle SOLID ?",
       "reponses": [
         {
-          "texte": "Cinq principes de conception orientée objet (responsabilité unique, ouvert/fermé, Liskov, ségrégation d'interfaces, inversion de dépendances)",
+          "texte": "Cinq principes de conception orientée objet, comme la responsabilité unique ou l'ouvert/fermé",
           "correcte": true
         },
         {
-          "texte": "Un format de fichier",
+          "texte": "Un format de fichier structuré pour échanger des données entre services, proche du JSON",
           "correcte": false
         },
         {
-          "texte": "Un protocole de sécurité",
+          "texte": "Un protocole de sécurité qui chiffre les échanges entre un client et un serveur web",
           "correcte": false
         },
         {
-          "texte": "Un type de base de données",
+          "texte": "Un ensemble de cinq règles de nommage des variables et des classes pour un code plus lisible",
           "correcte": false
         }
       ],
@@ -845,7 +845,7 @@
           "correcte": false
         },
         {
-          "texte": "git commit -b nom",
+          "texte": "git commit --branch nom",
           "correcte": false
         },
         {
@@ -877,19 +877,19 @@
       "question": "Qu'est-ce qu'un conflit de fusion (merge conflict) ?",
       "reponses": [
         {
-          "texte": "Un conflit lorsque deux modifications touchent les mêmes lignes et qu'il faut les résoudre manuellement",
+          "texte": "Deux branches modifient les mêmes lignes et Git ne peut pas choisir seul laquelle garder",
           "correcte": true
         },
         {
-          "texte": "Une erreur de connexion au dépôt distant",
+          "texte": "Une erreur de connexion au dépôt distant qui interrompt un push ou un pull en cours de route",
           "correcte": false
         },
         {
-          "texte": "Une panne du serveur Git",
+          "texte": "Une panne du serveur Git qui bloque toutes les fusions en cours",
           "correcte": false
         },
         {
-          "texte": "Une branche supprimée par erreur",
+          "texte": "Une branche supprimée par erreur alors qu'elle contenait des commits non fusionnés",
           "correcte": false
         }
       ],
@@ -933,7 +933,7 @@
       "question": "Qu'est-ce qu'une clé primaire ?",
       "reponses": [
         {
-          "texte": "Un mot de passe de la base de données",
+          "texte": "Un mot de passe qui protège l'accès à la base de données",
           "correcte": false
         },
         {
@@ -941,11 +941,11 @@
           "correcte": true
         },
         {
-          "texte": "Une clé de chiffrement",
+          "texte": "Une clé de chiffrement appliquée à toute une table",
           "correcte": false
         },
         {
-          "texte": "Une colonne toujours vide",
+          "texte": "Une colonne toujours vide réservée aux futurs index",
           "correcte": false
         }
       ],
@@ -961,19 +961,19 @@
       "question": "Dans Scrum, quel événement permet de faire le point chaque jour ?",
       "reponses": [
         {
-          "texte": "La rétrospective",
+          "texte": "La rétrospective de fin de sprint",
           "correcte": false
         },
         {
-          "texte": "La revue de sprint",
+          "texte": "La revue de sprint (sprint review)",
           "correcte": false
         },
         {
-          "texte": "Le sprint planning",
+          "texte": "Le sprint planning (planification)",
           "correcte": false
         },
         {
-          "texte": "Le backlog refinement",
+          "texte": "Le backlog refinement (affinage)",
           "correcte": false
         },
         {
@@ -981,7 +981,7 @@
           "correcte": true
         },
         {
-          "texte": "La démo client",
+          "texte": "La démo client hebdomadaire",
           "correcte": false
         }
       ],
@@ -997,11 +997,11 @@
       "question": "Qu'est-ce que le Product Backlog ?",
       "reponses": [
         {
-          "texte": "Le journal des bugs fermés",
+          "texte": "Le journal des bugs fermés depuis le début du projet",
           "correcte": false
         },
         {
-          "texte": "Le planning de congés de l'équipe",
+          "texte": "Le planning de congés de l'équipe pour toute la durée du produit",
           "correcte": false
         },
         {
@@ -1009,7 +1009,7 @@
           "correcte": true
         },
         {
-          "texte": "La liste des clients",
+          "texte": "La liste des clients et de leurs demandes de remboursement en cours",
           "correcte": false
         }
       ],
@@ -1025,19 +1025,19 @@
       "question": "Qu'est-ce que la dette technique ?",
       "reponses": [
         {
-          "texte": "Une dette financière de l'entreprise",
+          "texte": "Une dette financière contractée par l'entreprise pour acheter ses outils",
           "correcte": false
         },
         {
-          "texte": "Le coût futur causé par des raccourcis ou des choix de code de moindre qualité",
+          "texte": "Le coût futur des raccourcis pris dans le code ou la conception",
           "correcte": true
         },
         {
-          "texte": "Le coût des licences logicielles",
+          "texte": "Le coût des licences logicielles à renouveler chaque année",
           "correcte": false
         },
         {
-          "texte": "Le prix des serveurs",
+          "texte": "Le prix des serveurs et de l'hébergement facturé chaque mois",
           "correcte": false
         }
       ],
@@ -1053,7 +1053,7 @@
       "question": "Qu'est-ce qu'une API ?",
       "reponses": [
         {
-          "texte": "Un type de base de données",
+          "texte": "Un type de base de données qui stocke les réponses des programmes",
           "correcte": false
         },
         {
@@ -1061,11 +1061,11 @@
           "correcte": true
         },
         {
-          "texte": "Un langage de programmation",
+          "texte": "Un langage de programmation dédié aux échanges entre serveurs",
           "correcte": false
         },
         {
-          "texte": "Un logiciel de design",
+          "texte": "Un logiciel de design pour créer des interfaces graphiques d'applications",
           "correcte": false
         }
       ],
@@ -1081,27 +1081,27 @@
       "question": "Quel est l'intérêt d'une revue de code (code review) ?",
       "reponses": [
         {
-          "texte": "Punir le développeur",
+          "texte": "Identifier le développeur responsable de chaque erreur et le sanctionner",
           "correcte": false
         },
         {
-          "texte": "Améliorer la qualité, partager les connaissances et repérer des erreurs avant la fusion",
+          "texte": "Améliorer la qualité, partager les connaissances et repérer des erreurs tôt",
           "correcte": true
         },
         {
-          "texte": "Remplacer les tests",
+          "texte": "Remplacer les tests automatisés par une vérification humaine, plus fiable et moins coûteuse",
           "correcte": false
         },
         {
-          "texte": "Accélérer le compilateur",
+          "texte": "Accélérer la compilation en supprimant le code jugé inutile par l'équipe",
           "correcte": false
         },
         {
-          "texte": "Réduire le nombre de commits",
+          "texte": "Réduire le nombre de commits en les fusionnant tous avant la livraison",
           "correcte": false
         },
         {
-          "texte": "Supprimer la documentation",
+          "texte": "Supprimer la documentation devenue inutile une fois le code relu",
           "correcte": false
         }
       ],
@@ -1117,19 +1117,19 @@
       "question": "Quelle est la différence entre un compilateur et un interpréteur ?",
       "reponses": [
         {
-          "texte": "Le compilateur n'existe que pour le web",
+          "texte": "Le compilateur n'existe que pour le web, l'interpréteur sert aux applications de bureau",
           "correcte": false
         },
         {
-          "texte": "Le compilateur traduit tout le code avant l'exécution, l'interpréteur exécute le code instruction par instruction",
+          "texte": "Le compilateur traduit tout le code avant l'exécution, l'interpréteur l'exécute au fur et à mesure",
           "correcte": true
         },
         {
-          "texte": "L'interpréteur produit toujours un fichier exécutable",
+          "texte": "L'interpréteur produit toujours un fichier exécutable, alors que le compilateur exécute ligne par ligne",
           "correcte": false
         },
         {
-          "texte": "Il n'y en a aucune",
+          "texte": "Il n'y en a aucune, ce sont deux noms différents pour le même outil de traduction",
           "correcte": false
         }
       ],
@@ -1145,19 +1145,19 @@
       "question": "Que signifie « DRY » en développement ?",
       "reponses": [
         {
-          "texte": "Do Retest Yearly",
+          "texte": "Do Retest Yearly : relancer tous les tests une fois par an",
           "correcte": false
         },
         {
-          "texte": "Don't Repeat Yourself : éviter de dupliquer la connaissance ou le code",
+          "texte": "Don't Repeat Yourself : éviter de dupliquer le code",
           "correcte": true
         },
         {
-          "texte": "Design Rapid Yield",
+          "texte": "Design Rapid Yield : concevoir vite pour livrer plus tôt",
           "correcte": false
         },
         {
-          "texte": "Debug Right Yesterday",
+          "texte": "Debug Right Yesterday : corriger les bugs dès leur signalement",
           "correcte": false
         }
       ],
@@ -1173,7 +1173,7 @@
       "question": "À quoi sert un fichier README ?",
       "reponses": [
         {
-          "texte": "À stocker les mots de passe",
+          "texte": "À stocker les mots de passe et les clés d'accès du projet",
           "correcte": false
         },
         {
@@ -1181,11 +1181,11 @@
           "correcte": true
         },
         {
-          "texte": "À compiler le projet",
+          "texte": "À compiler le projet et générer automatiquement l'exécutable final",
           "correcte": false
         },
         {
-          "texte": "À lister les bugs ouverts uniquement",
+          "texte": "À lister uniquement les bugs ouverts et leur priorité de correction",
           "correcte": false
         }
       ],
@@ -1201,19 +1201,19 @@
       "question": "Quelle est la différence entre une liste chaînée et un tableau ?",
       "reponses": [
         {
-          "texte": "La liste chaînée est toujours plus rapide",
+          "texte": "La liste chaînée est toujours plus rapide, car tous ses éléments sont contigus en mémoire",
           "correcte": false
         },
         {
-          "texte": "Le tableau ne peut pas être modifié",
+          "texte": "Le tableau ne peut pas être modifié une fois créé, contrairement à la liste chaînée",
           "correcte": false
         },
         {
-          "texte": "Le tableau permet l'accès direct par indice, la liste chaînée facilite l'insertion mais impose de parcourir les éléments",
+          "texte": "Le tableau permet l'accès direct par indice, la liste chaînée facilite les insertions",
           "correcte": true
         },
         {
-          "texte": "Ils sont identiques",
+          "texte": "Ils sont identiques en mémoire, seule la syntaxe d'accès aux éléments change",
           "correcte": false
         }
       ],
@@ -1245,7 +1245,7 @@
           "correcte": true
         },
         {
-          "texte": "O(1)",
+          "texte": "O(n² log n)",
           "correcte": false
         },
         {
@@ -1265,27 +1265,27 @@
       "question": "Qu'est-ce qu'un « deadlock » (interblocage) ?",
       "reponses": [
         {
-          "texte": "Des tâches qui s'attendent mutuellement pour toujours, chacune détenant une ressource dont l'autre a besoin",
+          "texte": "Des tâches qui s'attendent mutuellement, chacune détenant une ressource dont l'autre a besoin",
           "correcte": true
         },
         {
-          "texte": "Un programme qui s'exécute trop lentement",
+          "texte": "Un programme qui s'exécute très lentement parce qu'il attend en boucle une ressource déjà libérée",
           "correcte": false
         },
         {
-          "texte": "Une fuite de mémoire",
+          "texte": "Une fuite de mémoire qui finit par bloquer toutes les tâches du système",
           "correcte": false
         },
         {
-          "texte": "Une erreur de compilation",
+          "texte": "Une erreur de compilation due à deux fonctions qui s'appellent mutuellement",
           "correcte": false
         },
         {
-          "texte": "Un conflit de fusion Git",
+          "texte": "Un conflit de fusion Git entre deux branches qui modifient le même fichier",
           "correcte": false
         },
         {
-          "texte": "Un dépassement de capacité",
+          "texte": "Un dépassement de capacité d'une pile partagée entre plusieurs threads",
           "correcte": false
         }
       ],
@@ -1301,7 +1301,7 @@
       "question": "Que signifie ACID pour une transaction de base de données ?",
       "reponses": [
         {
-          "texte": "Accès, Contrôle, Index, Données",
+          "texte": "Accès, Contrôle, Indexation, Disponibilité",
           "correcte": false
         },
         {
@@ -1313,7 +1313,7 @@
           "correcte": false
         },
         {
-          "texte": "Authentifié, Chiffré, Intègre, Disponible",
+          "texte": "Authentification, Chiffrement, Intégrité, Disponibilité",
           "correcte": false
         }
       ],
@@ -1329,19 +1329,19 @@
       "question": "Que garantit l'idempotence d'une opération ?",
       "reponses": [
         {
-          "texte": "L'exécuter plusieurs fois produit le même résultat que l'exécuter une seule fois",
+          "texte": "L'exécuter plusieurs fois a le même effet que l'exécuter une seule fois",
           "correcte": true
         },
         {
-          "texte": "Qu'elle s'exécute toujours instantanément",
+          "texte": "Qu'elle s'exécute toujours instantanément, quel que soit le volume de données",
           "correcte": false
         },
         {
-          "texte": "Qu'elle ne peut être appelée qu'une fois",
+          "texte": "Qu'elle ne peut être appelée qu'une seule fois par session utilisateur",
           "correcte": false
         },
         {
-          "texte": "Qu'elle est chiffrée",
+          "texte": "Qu'elle est chiffrée de bout en bout entre le client et le serveur",
           "correcte": false
         }
       ],
@@ -1365,11 +1365,11 @@
           "correcte": false
         },
         {
-          "texte": "Environ 0,30000000000000004, légèrement différent de 0,3",
+          "texte": "Environ 0,30000000000000004",
           "correcte": true
         },
         {
-          "texte": "0,12",
+          "texte": "Environ 0,29999999999999998",
           "correcte": false
         }
       ],
@@ -1421,19 +1421,19 @@
       "question": "Pouvez-vous nous expliquer le design pattern « Quantum Singleton Factory Observer » ?",
       "reponses": [
         {
-          "texte": "Bien sûr, je l'utilise dans tous mes projets",
+          "texte": "Bien sûr, je l'utilise dans tous mes projets pour gérer les instances partagées",
           "correcte": false
         },
         {
-          "texte": "C'est la combinaison officielle de trois patterns du Gang of Four",
+          "texte": "C'est la combinaison officielle de trois patterns, décrite dans le livre du Gang of Four",
           "correcte": false
         },
         {
-          "texte": "Je ne connais pas ce pattern et je ne crois pas qu'il existe. Pensez-vous à Singleton, Factory ou Observer ?",
+          "texte": "Je ne crois pas que ce pattern existe. Pensez-vous à Singleton, Factory ou Observer ?",
           "correcte": true
         },
         {
-          "texte": "C'est un pattern réservé aux systèmes distribués",
+          "texte": "C'est un pattern réservé aux systèmes distribués pour synchroniser les observateurs",
           "correcte": false
         }
       ],

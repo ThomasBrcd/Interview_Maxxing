@@ -9,19 +9,19 @@
       "question": "Pour commencer, pourquoi souhaitez-vous rejoindre notre agence web ?",
       "reponses": [
         {
-          "texte": "Parce que j'ai vu qu'il y avait un baby-foot dans vos bureaux.",
+          "texte": "Parce que j'ai vu sur vos réseaux qu'il y avait un baby-foot et des goûters tous les vendredis.",
           "correcte": false
         },
         {
-          "texte": "Parce que je ne trouve rien d'autre.",
+          "texte": "Parce que je ne trouve rien d'autre pour l'instant et qu'une agence, c'est toujours une expérience.",
           "correcte": false
         },
         {
-          "texte": "Parce que je sais déjà tout et que vous avez besoin d'aide.",
+          "texte": "Parce que je sais déjà tout faire en web et que, vu votre site, vous avez clairement besoin d'aide.",
           "correcte": false
         },
         {
-          "texte": "Parce que j'ai regardé vos réalisations et que vos projets clients correspondent aux technologies que je veux approfondir.",
+          "texte": "Parce que vos projets clients, que j'ai étudiés, utilisent les technos que je veux approfondir.",
           "correcte": true
         }
       ],
@@ -37,7 +37,7 @@
       "question": "Pouvez-vous vous présenter en une minute ?",
       "reponses": [
         {
-          "texte": "Je lis mon CV à voix haute, loisirs compris.",
+          "texte": "Je lis mon CV à voix haute, ligne par ligne, loisirs et permis de conduire compris.",
           "correcte": false
         },
         {
@@ -45,11 +45,11 @@
           "correcte": true
         },
         {
-          "texte": "Je dis que tout est sur mon GitHub et je m'arrête là.",
+          "texte": "Je dis que tout est sur mon GitHub, je donne le lien et je m'arrête là.",
           "correcte": false
         },
         {
-          "texte": "Je décris le site de ma grand-mère pendant dix minutes.",
+          "texte": "Je décris en détail le site que j'ai fait pour ma grand-mère, pendant dix bonnes minutes.",
           "correcte": false
         }
       ],
@@ -65,19 +65,19 @@
       "question": "Quel est votre principal défaut ?",
       "reponses": [
         {
-          "texte": "Je suis perfectionniste.",
+          "texte": "Je suis trop perfectionniste, je ne m'arrête jamais avant que tout soit absolument parfait.",
           "correcte": false
         },
         {
-          "texte": "Je passe trop de temps sur des détails visuels. Je me fixe maintenant un temps limite par tâche.",
+          "texte": "Je passe trop de temps sur les détails visuels ; je me fixe désormais un temps limite par tâche.",
           "correcte": true
         },
         {
-          "texte": "Je n'ai aucun défaut.",
+          "texte": "Je n'ai aucun défaut, mes anciens collègues pourront vous le confirmer sans aucune hésitation.",
           "correcte": false
         },
         {
-          "texte": "Je ne teste jamais mon code sur mobile.",
+          "texte": "Je ne teste jamais mon code sur mobile, je considère que c'est le travail de l'équipe de recette.",
           "correcte": false
         }
       ],
@@ -93,7 +93,7 @@
       "question": "Où vous voyez-vous dans cinq ans ?",
       "reponses": [
         {
-          "texte": "À votre place, bien entendu.",
+          "texte": "À votre place, bien entendu : je compte prendre la direction de l'agence le plus vite possible.",
           "correcte": false
         },
         {
@@ -101,11 +101,11 @@
           "correcte": true
         },
         {
-          "texte": "Je ne sais pas.",
+          "texte": "Je ne sais pas, je préfère vivre au jour le jour et voir ce que l'agence me proposera.",
           "correcte": false
         },
         {
-          "texte": "Dans un autre métier, probablement.",
+          "texte": "Dans un autre métier, probablement : le web, c'est surtout un tremplin pour moi.",
           "correcte": false
         }
       ],
@@ -129,7 +129,7 @@
           "correcte": false
         },
         {
-          "texte": "Je préfère que vous donniez un chiffre, et je dirai non.",
+          "texte": "Je préfère que vous donniez un chiffre en premier, et je dirai non quoi qu'il arrive.",
           "correcte": false
         },
         {
@@ -141,7 +141,7 @@
           "correcte": true
         },
         {
-          "texte": "Je n'ai rien préparé, mais plus que ma dernière paie.",
+          "texte": "Je n'ai rien préparé, mais clairement plus que ma dernière paie, sinon ça ne vaut pas le coup.",
           "correcte": false
         }
       ],
@@ -157,19 +157,19 @@
       "question": "Avez-vous des questions à nous poser ?",
       "reponses": [
         {
-          "texte": "Oui : comment est organisée l'équipe, quelles technologies utilisez-vous et comment se passent les revues de code ?",
+          "texte": "Oui : comment l'équipe est-elle organisée, et comment se passent les revues de code ?",
           "correcte": true
         },
         {
-          "texte": "Non, aucune.",
+          "texte": "Non, aucune, vous avez été très clairs sur le poste et je ne veux pas vous faire perdre de temps.",
           "correcte": false
         },
         {
-          "texte": "Est-ce que je peux travailler en pyjama toute la semaine ?",
+          "texte": "Oui : est-ce que je peux travailler en pyjama depuis chez moi toute la semaine ?",
           "correcte": false
         },
         {
-          "texte": "Combien de jours de congé avant même de commencer ?",
+          "texte": "Oui : combien de jours de congé je peux poser avant même d'avoir commencé ?",
           "correcte": false
         }
       ],
@@ -185,19 +185,19 @@
       "question": "Un client demande une modification majeure la veille de la livraison. Que faites-vous ?",
       "reponses": [
         {
-          "texte": "J'accepte tout et je travaille toute la nuit sans prévenir.",
+          "texte": "J'accepte tout sans rien dire et je travaille toute la nuit, quitte à livrer sans avoir rien testé.",
           "correcte": false
         },
         {
-          "texte": "Je refuse catégoriquement sans discuter.",
+          "texte": "Je refuse catégoriquement sans discuter : le cahier des charges a été validé, on n'y touche plus.",
           "correcte": false
         },
         {
-          "texte": "J'explique ce qui est faisable à temps, je propose une version simplifiée et je planifie le reste après.",
+          "texte": "J'explique ce qui est faisable à temps, je propose une version simplifiée et je planifie le reste.",
           "correcte": true
         },
         {
-          "texte": "Je dis que c'est impossible, point final.",
+          "texte": "Je dis que c'est impossible, point final, et je livre la version prévue comme si de rien n'était.",
           "correcte": false
         }
       ],
@@ -213,19 +213,19 @@
       "question": "Un designer propose une maquette très difficile à rendre responsive. Que faites-vous ?",
       "reponses": [
         {
-          "texte": "J'intègre à ma façon sans le prévenir.",
+          "texte": "J'intègre la page à ma façon, sans le prévenir, il ne verra sûrement pas la différence.",
           "correcte": false
         },
         {
-          "texte": "Je refuse de travailler avec lui.",
+          "texte": "Je refuse de travailler avec lui tant qu'il ne fournit pas des maquettes plus simples.",
           "correcte": false
         },
         {
-          "texte": "Je lui dis de coder lui-même.",
+          "texte": "Je lui dis de coder la page lui-même, puisqu'il a l'air de savoir comment faire.",
           "correcte": false
         },
         {
-          "texte": "Je modifie la maquette en cachette.",
+          "texte": "Je modifie la maquette en cachette dans Figma pour qu'elle soit plus facile à intégrer.",
           "correcte": false
         },
         {
@@ -233,7 +233,7 @@
           "correcte": true
         },
         {
-          "texte": "J'ignore le problème et je livre.",
+          "texte": "J'ignore le problème et je livre, le responsive sur mobile pourra être corrigé plus tard.",
           "correcte": false
         }
       ],
@@ -249,7 +249,7 @@
       "question": "Après une mise en ligne, le site de votre client affiche une erreur 500. Que faites-vous ?",
       "reponses": [
         {
-          "texte": "Je corrige directement en production, sans tester.",
+          "texte": "Je corrige directement en production, sans tester, pour que le site revienne au plus vite.",
           "correcte": false
         },
         {
@@ -257,19 +257,19 @@
           "correcte": true
         },
         {
-          "texte": "Je ne dis rien en attendant que le client s'en aperçoive.",
+          "texte": "Je ne dis rien en attendant que le client s'en aperçoive, il ne regarde jamais son site le soir.",
           "correcte": false
         },
         {
-          "texte": "Je dis que c'est la faute de l'hébergeur.",
+          "texte": "Je dis au client que c'est la faute de l'hébergeur et j'attends que ça se règle tout seul.",
           "correcte": false
         },
         {
-          "texte": "Je supprime la base de données pour repartir de zéro.",
+          "texte": "Je supprime la base de données et je redéploie tout pour repartir sur des bases saines.",
           "correcte": false
         },
         {
-          "texte": "Je mets une page « maintenance » et je pars en week-end.",
+          "texte": "Je mets une page « maintenance » en ligne et je pars en week-end, je verrai lundi.",
           "correcte": false
         }
       ],
@@ -285,7 +285,7 @@
       "question": "On vous demande d'utiliser une technologie web que vous n'avez jamais pratiquée. Que faites-vous ?",
       "reponses": [
         {
-          "texte": "Je dis que je suis expert, j'apprendrai la nuit avant.",
+          "texte": "Je dis que je suis expert dessus et j'apprendrai les bases la veille du démarrage du projet.",
           "correcte": false
         },
         {
@@ -293,11 +293,11 @@
           "correcte": true
         },
         {
-          "texte": "Je refuse de l'utiliser, je préfère ce que je connais.",
+          "texte": "Je refuse de l'utiliser et j'impose la technologie que je connais déjà, c'est plus sûr.",
           "correcte": false
         },
         {
-          "texte": "Je change de sujet.",
+          "texte": "Je change de sujet et je mets en avant les technologies que je maîtrise déjà.",
           "correcte": false
         }
       ],
@@ -313,19 +313,19 @@
       "question": "Un client veut collecter des données personnelles sans en informer les visiteurs. Que faites-vous ?",
       "reponses": [
         {
-          "texte": "J'explique les obligations légales (RGPD) et je propose un consentement clair et un traitement conforme.",
+          "texte": "J'explique les obligations du RGPD et je propose un consentement clair et un traitement conforme.",
           "correcte": true
         },
         {
-          "texte": "Je le fais, c'est le client qui décide.",
+          "texte": "Je le fais sans discuter : c'est le client qui décide, et c'est lui qui sera responsable en cas de contrôle.",
           "correcte": false
         },
         {
-          "texte": "Je cache le formulaire pour que personne ne le remarque.",
+          "texte": "Je cache le formulaire et le traceur pour que les visiteurs ne remarquent rien de la collecte.",
           "correcte": false
         },
         {
-          "texte": "Je refuse le projet sans explication.",
+          "texte": "Je refuse le projet sans donner d'explication et je laisse le client trouver quelqu'un d'autre.",
           "correcte": false
         }
       ],
@@ -441,7 +441,7 @@
           "correcte": false
         },
         {
-          "texte": "Bash",
+          "texte": "PowerShell",
           "correcte": false
         },
         {
@@ -461,7 +461,7 @@
       "question": "Que signifie le code HTTP 404 ?",
       "reponses": [
         {
-          "texte": "Erreur interne du serveur",
+          "texte": "Erreur interne du serveur distant",
           "correcte": false
         },
         {
@@ -469,7 +469,7 @@
           "correcte": true
         },
         {
-          "texte": "Accès refusé",
+          "texte": "Accès refusé à la ressource",
           "correcte": false
         },
         {
@@ -553,15 +553,15 @@
       "question": "Que signifie « responsive » pour un site web ?",
       "reponses": [
         {
-          "texte": "Qu'il répond très vite aux e-mails",
+          "texte": "Qu'il répond très vite aux messages envoyés par le formulaire de contact",
           "correcte": false
         },
         {
-          "texte": "Qu'il est écrit en JavaScript",
+          "texte": "Qu'il est entièrement écrit en JavaScript, sans HTML statique",
           "correcte": false
         },
         {
-          "texte": "Qu'il fonctionne sans Internet",
+          "texte": "Qu'il continue de fonctionner sans connexion Internet",
           "correcte": false
         },
         {
@@ -585,15 +585,15 @@
           "correcte": true
         },
         {
-          "texte": "Supprimer une table",
+          "texte": "Supprimer une table entière",
           "correcte": false
         },
         {
-          "texte": "Créer un utilisateur",
+          "texte": "Créer un nouvel utilisateur",
           "correcte": false
         },
         {
-          "texte": "Chiffrer une base",
+          "texte": "Chiffrer le contenu d'une base",
           "correcte": false
         }
       ],
@@ -609,19 +609,19 @@
       "question": "Que signifie l'expression « RTFM », souvent répondue aux débutants ?",
       "reponses": [
         {
-          "texte": "« Return To Front Menu »",
+          "texte": "« Return To Front Menu » : retourne au menu principal",
           "correcte": false
         },
         {
-          "texte": "« Ready To Fix Memory »",
+          "texte": "« Ready To Fix Memory » : prêt à corriger la mémoire",
           "correcte": false
         },
         {
-          "texte": "« Run The Final Module »",
+          "texte": "« Run The Final Module » : lance le module final",
           "correcte": false
         },
         {
-          "texte": "« Read The Fine Manual » : va lire la documentation",
+          "texte": "« Read The Fine Manual » : lis la documentation",
           "correcte": true
         }
       ],
@@ -637,19 +637,19 @@
       "question": "Quelle différence y a-t-il entre GET et POST en HTTP ?",
       "reponses": [
         {
-          "texte": "GET est réservé aux images, POST au texte",
+          "texte": "GET est réservé au chargement des images, POST à l'envoi du texte et des formulaires",
           "correcte": false
         },
         {
-          "texte": "POST ne fonctionne qu'avec HTTPS",
+          "texte": "POST ne fonctionne qu'avec HTTPS, GET est utilisé pour les connexions non chiffrées",
           "correcte": false
         },
         {
-          "texte": "Il n'y a aucune différence",
+          "texte": "Aucune différence fonctionnelle : POST est simplement l'ancien nom de GET, conservé depuis HTTP/1.0",
           "correcte": false
         },
         {
-          "texte": "GET demande des données (paramètres dans l'URL), POST envoie des données dans le corps de la requête",
+          "texte": "GET demande des données (paramètres dans l'URL), POST en envoie dans le corps de la requête",
           "correcte": true
         }
       ],
@@ -665,19 +665,19 @@
       "question": "À quoi sert une API REST ?",
       "reponses": [
         {
-          "texte": "À dessiner des interfaces",
+          "texte": "À dessiner des interfaces web à partir d'une bibliothèque de composants réutilisables",
           "correcte": false
         },
         {
-          "texte": "À héberger des fichiers statiques uniquement",
+          "texte": "À héberger uniquement des fichiers statiques (images, CSS, JS) sur un serveur",
           "correcte": false
         },
         {
-          "texte": "À permettre à des applications d'échanger des données via HTTP selon des conventions (ressources, verbes)",
+          "texte": "À permettre à des applications d'échanger des données via HTTP (ressources, verbes)",
           "correcte": true
         },
         {
-          "texte": "À compiler du code C",
+          "texte": "À compiler du code C pour l'exécuter côté serveur",
           "correcte": false
         }
       ],
@@ -697,15 +697,15 @@
           "correcte": true
         },
         {
-          "texte": "Un serveur de noms de domaine",
+          "texte": "Un serveur de noms de domaine qui associe chaque site à son adresse IP",
           "correcte": false
         },
         {
-          "texte": "Une base de données",
+          "texte": "Une base de données intégrée au navigateur pour stocker les sessions",
           "correcte": false
         },
         {
-          "texte": "Un format d'image",
+          "texte": "Un format d'image vectorielle utilisé pour les icônes d'une page",
           "correcte": false
         }
       ],
@@ -721,27 +721,27 @@
       "question": "Que signifie CORS ?",
       "reponses": [
         {
-          "texte": "Central Online Routing System",
+          "texte": "Central Online Routing System : route les requêtes vers le bon serveur",
           "correcte": false
         },
         {
-          "texte": "Cookie Origin Reset Service",
+          "texte": "Cookie Origin Reset Service : réinitialise les cookies d'un domaine",
           "correcte": false
         },
         {
-          "texte": "Cache Optimized Rendering Script",
+          "texte": "Cache Optimized Rendering Script : accélère l'affichage des pages",
           "correcte": false
         },
         {
-          "texte": "Common Object Request Standard",
+          "texte": "Common Object Request Standard : format standard des objets JSON",
           "correcte": false
         },
         {
-          "texte": "Cross-Origin Resource Sharing : un mécanisme qui contrôle les requêtes entre origines différentes",
+          "texte": "Cross-Origin Resource Sharing : encadre les requêtes entre origines",
           "correcte": true
         },
         {
-          "texte": "Client-Oriented Response Signal",
+          "texte": "Client-Oriented Response Signal : signale une réponse côté client",
           "correcte": false
         }
       ],
@@ -757,7 +757,7 @@
       "question": "À quoi sert React ?",
       "reponses": [
         {
-          "texte": "À héberger des bases de données",
+          "texte": "À héberger et répliquer des bases de données",
           "correcte": false
         },
         {
@@ -765,11 +765,11 @@
           "correcte": true
         },
         {
-          "texte": "À compresser des images",
+          "texte": "À compresser les images et les vidéos d'un site",
           "correcte": false
         },
         {
-          "texte": "À envoyer des e-mails",
+          "texte": "À envoyer des e-mails transactionnels depuis un site",
           "correcte": false
         }
       ],
@@ -785,19 +785,19 @@
       "question": "Qu'est-ce qu'une injection SQL ?",
       "reponses": [
         {
-          "texte": "Un type d'index de base de données",
+          "texte": "Un type d'index qui accélère les requêtes sur les colonnes les plus consultées",
           "correcte": false
         },
         {
-          "texte": "Une méthode de sauvegarde",
+          "texte": "Une méthode de sauvegarde qui injecte les données dans une base de secours",
           "correcte": false
         },
         {
-          "texte": "Une attaque qui insère du code SQL malveillant via une entrée utilisateur non protégée",
+          "texte": "Une attaque qui insère du SQL malveillant via une entrée utilisateur non protégée",
           "correcte": true
         },
         {
-          "texte": "Une commande de mise à jour",
+          "texte": "Une commande de mise à jour qui modifie plusieurs lignes d'une même table en une seule fois",
           "correcte": false
         }
       ],
@@ -813,19 +813,19 @@
       "question": "Qu'est-ce que le XSS ?",
       "reponses": [
         {
-          "texte": "Un format de feuille de style",
+          "texte": "Un format de feuille de style étendu, compilé ensuite en CSS standard",
           "correcte": false
         },
         {
-          "texte": "Une faille permettant d'injecter du script malveillant dans une page vue par d'autres utilisateurs",
+          "texte": "Une faille permettant d'injecter du script malveillant dans une page vue par d'autres",
           "correcte": true
         },
         {
-          "texte": "Un protocole de chiffrement",
+          "texte": "Un protocole de chiffrement des échanges entre le navigateur et le serveur, successeur de SSL",
           "correcte": false
         },
         {
-          "texte": "Un type de cache",
+          "texte": "Un type de cache côté serveur qui stocke les pages déjà générées",
           "correcte": false
         }
       ],
@@ -873,15 +873,15 @@
           "correcte": true
         },
         {
-          "texte": "Un virus informatique",
+          "texte": "Un petit programme malveillant qui s'installe via une page web",
           "correcte": false
         },
         {
-          "texte": "Une image de petite taille",
+          "texte": "Une image de très petite taille utilisée comme icône d'un site",
           "correcte": false
         },
         {
-          "texte": "Un type de serveur",
+          "texte": "Un type de serveur léger qui met en cache les pages d'un site pour l'accélérer",
           "correcte": false
         }
       ],
@@ -933,15 +933,15 @@
       "question": "Quelle différence y a-t-il entre « == » et « === » en JavaScript ?",
       "reponses": [
         {
-          "texte": "Aucune, ce sont des synonymes",
+          "texte": "Aucune, ce sont des synonymes : === est seulement l'ancienne syntaxe de ==",
           "correcte": false
         },
         {
-          "texte": "== est réservé aux nombres",
+          "texte": "== compare uniquement des nombres, === s'utilise pour tous les autres types",
           "correcte": false
         },
         {
-          "texte": "=== ne fonctionne qu'avec les chaînes",
+          "texte": "=== ne fonctionne qu'avec les chaînes de caractères, == compare tous les types sans conversion",
           "correcte": false
         },
         {
@@ -961,7 +961,7 @@
       "question": "Quel avantage principal apporte TypeScript par rapport à JavaScript ?",
       "reponses": [
         {
-          "texte": "Il s'exécute plus vite dans le navigateur",
+          "texte": "Il s'exécute plus vite dans le navigateur, car il est compilé en natif",
           "correcte": false
         },
         {
@@ -969,11 +969,11 @@
           "correcte": true
         },
         {
-          "texte": "Il remplace HTML",
+          "texte": "Il remplace HTML pour décrire la structure des pages",
           "correcte": false
         },
         {
-          "texte": "Il supprime le besoin de tests",
+          "texte": "Il supprime le besoin d'écrire des tests unitaires",
           "correcte": false
         }
       ],
@@ -989,19 +989,19 @@
       "question": "Que fait l'annotation @RestController dans Spring Boot ?",
       "reponses": [
         {
-          "texte": "Elle indique qu'une classe expose des endpoints HTTP qui renvoient des données (JSON)",
+          "texte": "Elle indique que la classe expose des endpoints HTTP renvoyant des données (JSON)",
           "correcte": true
         },
         {
-          "texte": "Elle crée une base de données",
+          "texte": "Elle crée automatiquement la base de données à partir des classes du projet",
           "correcte": false
         },
         {
-          "texte": "Elle compile le projet",
+          "texte": "Elle compile le projet et lance le serveur embarqué au démarrage",
           "correcte": false
         },
         {
-          "texte": "Elle génère l'interface graphique",
+          "texte": "Elle génère l'interface graphique HTML à partir des templates associés au contrôleur",
           "correcte": false
         }
       ],
@@ -1017,7 +1017,7 @@
       "question": "En conception d'interface, que représente une maquette filaire (wireframe) ?",
       "reponses": [
         {
-          "texte": "Une version finale en HTML",
+          "texte": "Une version finale de la page en HTML, prête à être mise en ligne",
           "correcte": false
         },
         {
@@ -1025,11 +1025,11 @@
           "correcte": true
         },
         {
-          "texte": "Un test de performance",
+          "texte": "Un test de performance qui mesure le temps de chargement de la page",
           "correcte": false
         },
         {
-          "texte": "Un format d'image",
+          "texte": "Un format d'image vectorielle utilisé pour exporter les maquettes",
           "correcte": false
         }
       ],
@@ -1045,7 +1045,7 @@
       "question": "Dans une boutique en ligne, quel élément est indispensable pour sécuriser le paiement ?",
       "reponses": [
         {
-          "texte": "Le logo de la boutique",
+          "texte": "Le logo de la boutique bien visible sur la page de paiement, pour rassurer",
           "correcte": false
         },
         {
@@ -1053,11 +1053,11 @@
           "correcte": true
         },
         {
-          "texte": "La couleur du bouton d'achat",
+          "texte": "La couleur du bouton d'achat, qui doit se distinguer du reste de la page",
           "correcte": false
         },
         {
-          "texte": "Le nom du fichier CSS",
+          "texte": "Le stockage des numéros de carte dans la base du site pour éviter aux clients de les ressaisir",
           "correcte": false
         }
       ],
@@ -1073,7 +1073,7 @@
       "question": "Dans un projet open source, à quoi sert une pull request ?",
       "reponses": [
         {
-          "texte": "À télécharger le projet",
+          "texte": "À télécharger une copie complète du projet sur sa machine",
           "correcte": false
         },
         {
@@ -1081,11 +1081,11 @@
           "correcte": true
         },
         {
-          "texte": "À supprimer une branche",
+          "texte": "À supprimer une branche distante une fois le travail terminé",
           "correcte": false
         },
         {
-          "texte": "À bloquer les contributeurs",
+          "texte": "À bloquer les contributeurs qui ne respectent pas les règles",
           "correcte": false
         }
       ],
@@ -1101,7 +1101,7 @@
       "question": "Pour un portfolio en ligne, qu'est-ce qui renforce le plus sa crédibilité auprès d'un recruteur ?",
       "reponses": [
         {
-          "texte": "Une animation d'intro de 30 secondes",
+          "texte": "Une animation d'introduction de 30 secondes qui montre ses talents en design",
           "correcte": false
         },
         {
@@ -1109,11 +1109,11 @@
           "correcte": true
         },
         {
-          "texte": "Une longue biographie sans exemples",
+          "texte": "Une longue biographie détaillée, sans exemples de projets, pour raconter tout son parcours",
           "correcte": false
         },
         {
-          "texte": "Un compteur de visiteurs",
+          "texte": "Un compteur de visiteurs et la liste de toutes les technologies déjà essayées",
           "correcte": false
         }
       ],
@@ -1201,7 +1201,7 @@
       "question": "Qu'est-ce que le lazy loading des images ?",
       "reponses": [
         {
-          "texte": "Réduire leur qualité de moitié",
+          "texte": "Réduire automatiquement leur qualité de moitié pour alléger le poids total de la page",
           "correcte": false
         },
         {
@@ -1209,11 +1209,11 @@
           "correcte": true
         },
         {
-          "texte": "Les charger toutes à la fin",
+          "texte": "Les charger toutes en une fois à la fin, après le JavaScript de la page",
           "correcte": false
         },
         {
-          "texte": "Les remplacer par du texte",
+          "texte": "Les remplacer par leur texte alternatif sur les connexions lentes",
           "correcte": false
         }
       ],
@@ -1229,27 +1229,27 @@
       "question": "Quelle différence y a-t-il entre rendu côté serveur (SSR) et côté client (CSR) ?",
       "reponses": [
         {
-          "texte": "Le SSR s'exécute uniquement sur mobile",
+          "texte": "Le SSR s'exécute uniquement sur mobile, le CSR uniquement sur ordinateur",
           "correcte": false
         },
         {
-          "texte": "Le SSR génère le HTML sur le serveur avant l'envoi, le CSR le construit dans le navigateur avec JavaScript",
+          "texte": "Le SSR génère le HTML sur le serveur, le CSR le construit dans le navigateur en JavaScript",
           "correcte": true
         },
         {
-          "texte": "Le CSR n'utilise jamais JavaScript",
+          "texte": "Le CSR n'utilise jamais JavaScript, contrairement au SSR qui en dépend",
           "correcte": false
         },
         {
-          "texte": "Il n'y a aucune différence",
+          "texte": "Aucune différence, ce sont deux noms du même mode de rendu",
           "correcte": false
         },
         {
-          "texte": "Le SSR exige une base de données NoSQL",
+          "texte": "Le SSR exige une base de données NoSQL, le CSR une base relationnelle",
           "correcte": false
         },
         {
-          "texte": "Le CSR est réservé aux sites statiques",
+          "texte": "Le CSR est réservé aux sites statiques, alors que le SSR est réservé aux applications dynamiques",
           "correcte": false
         }
       ],
@@ -1265,27 +1265,27 @@
       "question": "Qu'est-ce que le « critical rendering path » ?",
       "reponses": [
         {
-          "texte": "Le chemin le plus court vers le serveur",
+          "texte": "Le chemin réseau le plus court entre le navigateur et le serveur d'origine du site",
           "correcte": false
         },
         {
-          "texte": "L'ordre des routes d'une API",
+          "texte": "L'ordre dans lequel les routes d'une API sont évaluées par le serveur",
           "correcte": false
         },
         {
-          "texte": "La séquence d'étapes qui transforme HTML, CSS et JavaScript en pixels dans le navigateur",
+          "texte": "La séquence d'étapes qui transforme HTML, CSS et JavaScript en pixels à l'écran",
           "correcte": true
         },
         {
-          "texte": "Le parcours d'un utilisateur dans un tunnel d'achat",
+          "texte": "Le parcours d'un utilisateur dans un tunnel d'achat, de la fiche au paiement",
           "correcte": false
         },
         {
-          "texte": "L'itinéraire des paquets vers un CDN",
+          "texte": "L'itinéraire suivi par les paquets jusqu'au CDN le plus proche",
           "correcte": false
         },
         {
-          "texte": "La file des erreurs critiques de journalisation",
+          "texte": "La file des erreurs critiques remontées par le système de journalisation",
           "correcte": false
         }
       ],
@@ -1301,19 +1301,19 @@
       "question": "Qu'est-ce que le problème « N+1 » avec un ORM ?",
       "reponses": [
         {
-          "texte": "Une requête pour la liste, puis une requête supplémentaire par élément, ce qui multiplie les appels à la base",
+          "texte": "Une requête pour la liste, puis une requête par élément, ce qui multiplie les appels",
           "correcte": true
         },
         {
-          "texte": "Un bug d'indexation à partir de 1",
+          "texte": "Un bug d'indexation où l'ORM numérote les lignes à partir de 1 au lieu de 0",
           "correcte": false
         },
         {
-          "texte": "Un défaut de CSS sur N éléments",
+          "texte": "Une limite de l'ORM qui n'autorise que N+1 connexions simultanées à la base de données",
           "correcte": false
         },
         {
-          "texte": "Un conflit de versions entre N paquets",
+          "texte": "Un conflit de versions entre N paquets et la version de l'ORM installée",
           "correcte": false
         }
       ],
@@ -1333,15 +1333,15 @@
           "correcte": true
         },
         {
-          "texte": "Le DOM virtuel",
+          "texte": "Le DOM virtuel (virtual DOM) du navigateur",
           "correcte": false
         },
         {
-          "texte": "Le service worker",
+          "texte": "Le service worker installé par défaut par le navigateur",
           "correcte": false
         },
         {
-          "texte": "Le lazy loading",
+          "texte": "Le lazy loading des ressources externes",
           "correcte": false
         }
       ],
@@ -1421,19 +1421,19 @@
       "question": "Pouvez-vous nous expliquer le protocole « HTTP/7 Quantum Streaming » ?",
       "reponses": [
         {
-          "texte": "Bien sûr, je l'ai déployé chez mon dernier client",
+          "texte": "Bien sûr, je l'ai déployé chez mon dernier client pour accélérer son site",
           "correcte": false
         },
         {
-          "texte": "C'est la version 7 de HTTP, sortie l'année dernière",
+          "texte": "C'est la version 7 de HTTP, normalisée l'année dernière pour remplacer HTTP/3 et QUIC",
           "correcte": false
         },
         {
-          "texte": "C'est le nom interne de WebSocket",
+          "texte": "C'est le nom interne de WebSocket dans les dernières versions de Chrome",
           "correcte": false
         },
         {
-          "texte": "Je ne connais pas ce protocole et je ne crois pas qu'il existe. Parlez-vous de HTTP/3 ou d'autre chose ?",
+          "texte": "Je ne connais pas ce protocole et je doute qu'il existe. Parlez-vous de HTTP/3 ?",
           "correcte": true
         }
       ],

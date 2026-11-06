@@ -8,12 +8,15 @@
 #include "Interview_MaxxingCameraManager.h"
 #include "Blueprint/UserWidget.h"
 #include "Interview_Maxxing.h"
+#include "MenuParametres.h"
 #include "Widgets/Input/SVirtualJoystick.h"
 
 AInterview_MaxxingPlayerController::AInterview_MaxxingPlayerController()
 {
 	// set the player camera manager class
 	PlayerCameraManagerClass = AInterview_MaxxingCameraManager::StaticClass();
+
+	MenuParametresClass = UMenuParametres::StaticClass();
 }
 
 void AInterview_MaxxingPlayerController::BeginPlay()
@@ -65,8 +68,57 @@ void AInterview_MaxxingPlayerController::SetupInputComponent()
 				}
 			}
 		}
+
+		// Menu des paramètres : Échap en jeu, P en plus car Échap arrête le PIE dans l'éditeur
+		for (const FKey& Touche : { EKeys::Escape, EKeys::P })
+		{
+			FInputKeyBinding& Binding = InputComponent->BindKey(Touche, IE_Pressed, this, &AInterview_MaxxingPlayerController::BasculerMenuParametres);
+			Binding.bExecuteWhenPaused = true;
+		}
 	}
-	
+
+}
+
+void AInterview_MaxxingPlayerController::BasculerMenuParametres()
+{
+	if (MenuParametres)
+	{
+		MenuParametres->Fermer();
+		return;
+	}
+
+	// Seulement en déplacement libre : les autres interfaces (PC, entretien, récap...) gèrent déjà la souris
+	if (bShowMouseCursor || !MenuParametresClass)
+	{
+		return;
+	}
+
+	MenuParametres = CreateWidget<UMenuParametres>(this, MenuParametresClass);
+	if (!MenuParametres)
+	{
+		return;
+	}
+
+	MenuParametres->OnFerme.AddDynamic(this, &AInterview_MaxxingPlayerController::OnMenuParametresFerme);
+	MenuParametres->AddToViewport(100);
+
+	FInputModeGameAndUI InputMode;
+	InputMode.SetWidgetToFocus(MenuParametres->TakeWidget());
+	InputMode.SetLockMouseToViewportBehavior(EMouseLockMode::DoNotLock);
+	InputMode.SetHideCursorDuringCapture(false);
+	SetInputMode(InputMode);
+	bShowMouseCursor = true;
+
+	SetPause(true);
+}
+
+void AInterview_MaxxingPlayerController::OnMenuParametresFerme()
+{
+	MenuParametres = nullptr;
+
+	SetPause(false);
+	SetInputMode(FInputModeGameOnly());
+	bShowMouseCursor = false;
 }
 
 bool AInterview_MaxxingPlayerController::ShouldUseTouchControls() const
