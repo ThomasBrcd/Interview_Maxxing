@@ -21,13 +21,13 @@
 
 namespace
 {
-	const TCHAR* CheminOffres = TEXT("/Game/Data/DT_Offres_Mails.DT_Offres_Mails");
-	const TCHAR* CheminSonReussite = TEXT("/Game/Sounds/good_result_notification_Cue.good_result_notification_Cue");
-	const TCHAR* CheminSonEchec = TEXT("/Game/Sounds/bad_result_notification_Cue.bad_result_notification_Cue");
+	const TCHAR* CheminOffresEmbauche = TEXT("/Game/Data/DT_Offres_Mails.DT_Offres_Mails");
+	const TCHAR* CheminSonEmbauche = TEXT("/Game/Sounds/good_result_notification_Cue.good_result_notification_Cue");
+	const TCHAR* CheminSonRefus = TEXT("/Game/Sounds/bad_result_notification_Cue.bad_result_notification_Cue");
 
-	const FLinearColor CouleurTexte(0.92f, 0.92f, 0.92f);
-	const FLinearColor CouleurReussite(0.15f, 0.9f, 0.25f);
-	const FLinearColor CouleurEchec(0.95f, 0.15f, 0.12f);
+	const FLinearColor CouleurTexteMessage(0.92f, 0.92f, 0.92f);
+	const FLinearColor CouleurMessageReussite(0.15f, 0.9f, 0.25f);
+	const FLinearColor CouleurMessageEchec(0.95f, 0.15f, 0.12f);
 }
 
 UMessageEmbauche* UMessageEmbauche::AfficherMessageEmbauche(UObject* WorldContextObject, bool bEmbauche, FName IdOffre)
@@ -41,7 +41,7 @@ UMessageEmbauche* UMessageEmbauche::AfficherMessageEmbauche(UObject* WorldContex
 
 	// Nom de l'entreprise à partir de l'offre à laquelle le joueur a postulé
 	FText NomEntreprise = LOCTEXT("EntrepriseInconnue", "L'entreprise");
-	if (const UDataTable* Offres = LoadObject<UDataTable>(nullptr, CheminOffres))
+	if (const UDataTable* Offres = LoadObject<UDataTable>(nullptr, CheminOffresEmbauche))
 	{
 		if (const FMailDataRow* Offre = Offres->FindRow<FMailDataRow>(IdOffre, TEXT("MessageEmbauche"), false))
 		{
@@ -61,7 +61,7 @@ UMessageEmbauche* UMessageEmbauche::AfficherMessageEmbauche(UObject* WorldContex
 	Message->Configurer(bEmbauche, NomEntreprise);
 	Message->AddToViewport(50);
 
-	if (USoundBase* Son = LoadObject<USoundBase>(nullptr, bEmbauche ? CheminSonReussite : CheminSonEchec))
+	if (USoundBase* Son = LoadObject<USoundBase>(nullptr, bEmbauche ? CheminSonEmbauche : CheminSonRefus))
 	{
 		UGameplayStatics::PlaySound2D(World, Son, 0.3f);
 	}
@@ -160,7 +160,7 @@ void UMessageEmbauche::ConstruireInterface()
 
 	TexteMessage = WidgetTree->ConstructWidget<UTextBlock>(UTextBlock::StaticClass());
 	TexteMessage->SetFont(FCoreStyle::GetDefaultFontStyle("Regular", 20));
-	TexteMessage->SetColorAndOpacity(FSlateColor(CouleurTexte));
+	TexteMessage->SetColorAndOpacity(FSlateColor(CouleurTexteMessage));
 	TexteMessage->SetJustification(ETextJustify::Center);
 	TexteMessage->SetAutoWrapText(true);
 	if (UVerticalBoxSlot* SlotMessage = Colonne->AddChildToVerticalBox(TexteMessage))
@@ -194,7 +194,7 @@ void UMessageEmbauche::Configurer(bool bEmbauche, const FText& NomEntreprise)
 	if (bEmbauche)
 	{
 		TexteTitre->SetText(LOCTEXT("TitreEmbauche", "Vous êtes embauché !"));
-		TexteTitre->SetColorAndOpacity(FSlateColor(CouleurReussite));
+		TexteTitre->SetColorAndOpacity(FSlateColor(CouleurMessageReussite));
 		TexteMessage->SetText(FText::Format(
 			LOCTEXT("MessageEmbauche", "{0} a étudié votre test technique et souhaite vous accueillir dans son équipe.\nFélicitations, le poste est à vous !"),
 			NomEntreprise));
@@ -202,7 +202,7 @@ void UMessageEmbauche::Configurer(bool bEmbauche, const FText& NomEntreprise)
 	else
 	{
 		TexteTitre->SetText(LOCTEXT("TitreRefus", "Candidature non retenue"));
-		TexteTitre->SetColorAndOpacity(FSlateColor(CouleurEchec));
+		TexteTitre->SetColorAndOpacity(FSlateColor(CouleurMessageEchec));
 		TexteMessage->SetText(FText::Format(
 			LOCTEXT("MessageRefus", "{0} vous remercie pour votre temps, mais votre test technique n'a pas été suffisant.\nRetentez votre chance avec une autre offre !"),
 			NomEntreprise));
