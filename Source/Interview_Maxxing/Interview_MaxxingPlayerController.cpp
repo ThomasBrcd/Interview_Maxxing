@@ -100,6 +100,7 @@ void AInterview_MaxxingPlayerController::BasculerMenuParametres()
 	}
 
 	MenuParametres->OnFerme.AddDynamic(this, &AInterview_MaxxingPlayerController::OnMenuParametresFerme);
+	MenuParametres->SetProposerMenuPrincipal(true);
 	MenuParametres->AddToViewport(100);
 
 	FInputModeGameAndUI InputMode;

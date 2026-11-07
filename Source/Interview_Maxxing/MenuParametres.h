@@ -32,6 +32,9 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "Parametres")
 	void Fermer();
 
+	/** Affiche le bouton « Menu principal » (menu ouvert en cours de partie) */
+	void SetProposerMenuPrincipal(bool bProposer);
+
 protected:
 	virtual void NativeOnInitialized() override;
 	virtual void NativeConstruct() override;
@@ -59,6 +62,12 @@ private:
 
 	UFUNCTION()
 	void OnRetour();
+
+	UFUNCTION()
+	void OnMenuPrincipal();
+
+	UPROPERTY()
+	TObjectPtr<UButton> BoutonMenuPrincipal;
 
 	UPROPERTY()
 	TObjectPtr<UComboBoxString> ComboMode;

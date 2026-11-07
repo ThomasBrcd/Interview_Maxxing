@@ -1,5 +1,7 @@
 #include "MessageEmbauche.h"
 #include "MailData.h"
+#include "ProgressionPartie.h"
+#include "StyleInterface.h"
 #include "Blueprint/WidgetTree.h"
 #include "Components/Border.h"
 #include "Components/Button.h"
@@ -25,9 +27,6 @@ namespace
 	const TCHAR* CheminSonEmbauche = TEXT("/Game/Sounds/good_result_notification_Cue.good_result_notification_Cue");
 	const TCHAR* CheminSonRefus = TEXT("/Game/Sounds/bad_result_notification_Cue.bad_result_notification_Cue");
 
-	const FLinearColor CouleurTexteMessage(0.92f, 0.92f, 0.92f);
-	const FLinearColor CouleurMessageReussite(0.15f, 0.9f, 0.25f);
-	const FLinearColor CouleurMessageEchec(0.95f, 0.15f, 0.12f);
 }
 
 UMessageEmbauche* UMessageEmbauche::AfficherMessageEmbauche(UObject* WorldContextObject, bool bEmbauche, FName IdOffre)
@@ -52,6 +51,18 @@ UMessageEmbauche* UMessageEmbauche::AfficherMessageEmbauche(UObject* WorldContex
 		}
 	}
 
+	// Embauché : la partie s'arrête sur l'écran de fin et son récapitulatif
+	UProgressionPartie* Progression = UProgressionPartie::Get(WorldContextObject);
+	if (bEmbauche && Progression)
+	{
+		if (USoundBase* Son = LoadObject<USoundBase>(nullptr, CheminSonEmbauche))
+		{
+			UGameplayStatics::PlaySound2D(World, Son, 0.3f);
+		}
+		Progression->EnregistrerDecisionFinale(true, NomEntreprise);
+		return nullptr;
+	}
+
 	UMessageEmbauche* Message = CreateWidget<UMessageEmbauche>(PC, UMessageEmbauche::StaticClass());
 	if (!Message)
 	{
@@ -60,6 +71,10 @@ UMessageEmbauche* UMessageEmbauche::AfficherMessageEmbauche(UObject* WorldContex
 
 	Message->Configurer(bEmbauche, NomEntreprise);
 	Message->AddToViewport(50);
+	if (Progression)
+	{
+		Progression->EnregistrerDecisionFinale(bEmbauche, NomEntreprise);
+	}
 
 	if (USoundBase* Son = LoadObject<USoundBase>(nullptr, bEmbauche ? CheminSonEmbauche : CheminSonRefus))
 	{
@@ -134,6 +149,7 @@ void UMessageEmbauche::ConstruireInterface()
 	UBorder* Panneau = WidgetTree->ConstructWidget<UBorder>(UBorder::StaticClass());
 	Panneau->SetBrush(BrushPanneau);
 	Panneau->SetPadding(FMargin(44.f, 36.f));
+	StyleInterface::AppliquerCadre(Panneau, FMargin(30.f, 24.f, 30.f, 22.f), 0.65f);
 	TaillePanneau->AddChild(Panneau);
 
 	UVerticalBox* Colonne = WidgetTree->ConstructWidget<UVerticalBox>(UVerticalBox::StaticClass());
@@ -142,7 +158,7 @@ void UMessageEmbauche::ConstruireInterface()
 	UTextBlock* Entete = WidgetTree->ConstructWidget<UTextBlock>(UTextBlock::StaticClass());
 	Entete->SetText(LOCTEXT("Entete", "Nouveau message"));
 	Entete->SetFont(FCoreStyle::GetDefaultFontStyle("Regular", 16));
-	Entete->SetColorAndOpacity(FSlateColor(FLinearColor(0.6f, 0.6f, 0.6f)));
+	Entete->SetColorAndOpacity(FSlateColor(StyleInterface::TexteSecondaire()));
 	if (UVerticalBoxSlot* SlotEntete = Colonne->AddChildToVerticalBox(Entete))
 	{
 		SlotEntete->SetHorizontalAlignment(HAlign_Center);
@@ -160,7 +176,7 @@ void UMessageEmbauche::ConstruireInterface()
 
 	TexteMessage = WidgetTree->ConstructWidget<UTextBlock>(UTextBlock::StaticClass());
 	TexteMessage->SetFont(FCoreStyle::GetDefaultFontStyle("Regular", 20));
-	TexteMessage->SetColorAndOpacity(FSlateColor(CouleurTexteMessage));
+	TexteMessage->SetColorAndOpacity(FSlateColor(StyleInterface::Texte()));
 	TexteMessage->SetJustification(ETextJustify::Center);
 	TexteMessage->SetAutoWrapText(true);
 	if (UVerticalBoxSlot* SlotMessage = Colonne->AddChildToVerticalBox(TexteMessage))
@@ -177,6 +193,7 @@ void UMessageEmbauche::ConstruireInterface()
 	{
 		SlotTexteBouton->SetPadding(FMargin(32.f, 8.f));
 	}
+	StyleInterface::AppliquerStyleBouton(BoutonContinuer, TexteBouton);
 	BoutonContinuer->OnClicked.AddDynamic(this, &UMessageEmbauche::OnContinuer);
 	if (UVerticalBoxSlot* SlotBouton = Colonne->AddChildToVerticalBox(BoutonContinuer))
 	{
@@ -194,7 +211,7 @@ void UMessageEmbauche::Configurer(bool bEmbauche, const FText& NomEntreprise)
 	if (bEmbauche)
 	{
 		TexteTitre->SetText(LOCTEXT("TitreEmbauche", "Vous êtes embauché !"));
-		TexteTitre->SetColorAndOpacity(FSlateColor(CouleurMessageReussite));
+		TexteTitre->SetColorAndOpacity(FSlateColor(StyleInterface::Reussite()));
 		TexteMessage->SetText(FText::Format(
 			LOCTEXT("MessageEmbauche", "{0} a étudié votre test technique et souhaite vous accueillir dans son équipe.\nFélicitations, le poste est à vous !"),
 			NomEntreprise));
@@ -202,7 +219,7 @@ void UMessageEmbauche::Configurer(bool bEmbauche, const FText& NomEntreprise)
 	else
 	{
 		TexteTitre->SetText(LOCTEXT("TitreRefus", "Candidature non retenue"));
-		TexteTitre->SetColorAndOpacity(FSlateColor(CouleurMessageEchec));
+		TexteTitre->SetColorAndOpacity(FSlateColor(StyleInterface::Echec()));
 		TexteMessage->SetText(FText::Format(
 			LOCTEXT("MessageRefus", "{0} vous remercie pour votre temps, mais votre test technique n'a pas été suffisant.\nRetentez votre chance avec une autre offre !"),
 			NomEntreprise));
@@ -224,6 +241,7 @@ void UMessageEmbauche::Fermer()
 		PC->ResetIgnoreLookInput();
 	}
 	RemoveFromParent();
+
 }
 
 #undef LOCTEXT_NAMESPACE

@@ -114,6 +114,14 @@ void AInteractablePC::OnOverlapBegin(UPrimitiveComponent* OverlappedComp, AActor
 	if (OtherActor && OtherActor != this && OtherActor->IsA(APawn::StaticClass()))
 	{
 		bIsPlayerNear = true;
+		if (bPromptAutomatique)
+		{
+			if (PromptWidget) PromptWidget->SetVisibility(true);
+			if (APlayerController* PC = GetWorld()->GetFirstPlayerController())
+			{
+				EnableInput(PC);
+			}
+		}
 	}
 }
 
@@ -122,6 +130,14 @@ void AInteractablePC::OnOverlapEnd(UPrimitiveComponent* OverlappedComp, AActor* 
 	if (OtherActor && OtherActor != this && OtherActor->IsA(APawn::StaticClass()))
 	{
 		bIsPlayerNear = false;
+		if (bPromptAutomatique)
+		{
+			if (PromptWidget) PromptWidget->SetVisibility(false);
+			if (APlayerController* PC = GetWorld()->GetFirstPlayerController())
+			{
+				DisableInput(PC);
+			}
+		}
 	}
 }
 
@@ -188,7 +204,8 @@ void AInteractablePC::Tick(float DeltaTime)
         if (!CRTWidgetComp) Missing += TEXT("[PCUI introuvable] ");
         if (!CRTWidgetInteraction) Missing += TEXT("[WidgetInteraction manquant] ");
 
-        if (GEngine) GEngine->AddOnScreenDebugMessage(1, 0.0f, FColor::Red, FString::Printf(TEXT("ERREUR CRT : %s"), *Missing));
+        // PC sans écran CRT interactif (ex : test technique de l'Office, affiché en plein écran) : normal hors debug
+        if (bDrawDebugCRT && GEngine) GEngine->AddOnScreenDebugMessage(1, 0.0f, FColor::Red, FString::Printf(TEXT("ERREUR CRT : %s"), *Missing));
         return;
     }
 

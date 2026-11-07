@@ -1,4 +1,6 @@
 #include "MenuParametres.h"
+#include "ProgressionPartie.h"
+#include "StyleInterface.h"
 #include "InterviewGameUserSettings.h"
 #include "Blueprint/WidgetTree.h"
 #include "Components/Border.h"
@@ -24,8 +26,6 @@ namespace
 	// Même ordre que les options de ComboMode
 	const EWindowMode::Type ModesAffichage[] = { EWindowMode::Fullscreen, EWindowMode::WindowedFullscreen, EWindowMode::Windowed };
 
-	const FLinearColor CouleurTexte(0.92f, 0.92f, 0.92f);
-	const FLinearColor CouleurTexteSecondaire(0.6f, 0.6f, 0.6f);
 }
 
 void UMenuParametres::NativeOnInitialized()
@@ -57,6 +57,24 @@ FReply UMenuParametres::NativeOnKeyDown(const FGeometry& InGeometry, const FKeyE
 	return Super::NativeOnKeyDown(InGeometry, InKeyEvent);
 }
 
+void UMenuParametres::SetProposerMenuPrincipal(bool bProposer)
+{
+	if (BoutonMenuPrincipal)
+	{
+		BoutonMenuPrincipal->SetVisibility(bProposer ? ESlateVisibility::Visible : ESlateVisibility::Collapsed);
+	}
+}
+
+void UMenuParametres::OnMenuPrincipal()
+{
+	UProgressionPartie* Progression = UProgressionPartie::Get(this);
+	Fermer();
+	if (Progression)
+	{
+		Progression->RetourMenuPrincipal();
+	}
+}
+
 void UMenuParametres::Fermer()
 {
 	OnFerme.Broadcast();
@@ -72,7 +90,7 @@ UTextBlock* UMenuParametres::CreerTexte(const FText& Texte, int32 Taille, bool b
 	UTextBlock* Bloc = WidgetTree->ConstructWidget<UTextBlock>(UTextBlock::StaticClass());
 	Bloc->SetText(Texte);
 	Bloc->SetFont(FCoreStyle::GetDefaultFontStyle(bGras ? "Bold" : "Regular", Taille));
-	Bloc->SetColorAndOpacity(FSlateColor(CouleurTexte));
+	Bloc->SetColorAndOpacity(FSlateColor(StyleInterface::Texte()));
 	return Bloc;
 }
 
@@ -85,6 +103,7 @@ UButton* UMenuParametres::CreerBouton(const FText& Libelle)
 	{
 		SlotBouton->SetPadding(FMargin(28.f, 8.f));
 	}
+	StyleInterface::AppliquerStyleBouton(Bouton, Texte);
 	return Bouton;
 }
 
@@ -144,6 +163,7 @@ void UMenuParametres::ConstruireInterface()
 	UBorder* Panneau = WidgetTree->ConstructWidget<UBorder>(UBorder::StaticClass());
 	Panneau->SetBrush(BrushPanneau);
 	Panneau->SetPadding(FMargin(40.f, 32.f));
+	StyleInterface::AppliquerCadre(Panneau, FMargin(28.f, 24.f, 28.f, 20.f), 0.65f);
 	TaillePanneau->AddChild(Panneau);
 
 	UVerticalBox* Colonne = WidgetTree->ConstructWidget<UVerticalBox>(UVerticalBox::StaticClass());
@@ -190,7 +210,7 @@ void UMenuParametres::ConstruireInterface()
 
 	// Aide
 	TexteAide = CreerTexte(FText::GetEmpty(), 14);
-	TexteAide->SetColorAndOpacity(FSlateColor(CouleurTexteSecondaire));
+	TexteAide->SetColorAndOpacity(FSlateColor(StyleInterface::TexteSecondaire()));
 	TexteAide->SetAutoWrapText(true);
 	if (UVerticalBoxSlot* SlotAide = Colonne->AddChildToVerticalBox(TexteAide))
 	{
@@ -199,6 +219,20 @@ void UMenuParametres::ConstruireInterface()
 
 	// Boutons
 	UHorizontalBox* LigneBoutons = WidgetTree->ConstructWidget<UHorizontalBox>(UHorizontalBox::StaticClass());
+
+	// Retour à l'écran titre, seulement en cours de partie
+	BoutonMenuPrincipal = CreerBouton(LOCTEXT("MenuPrincipal", "Menu principal"));
+	if (!StyleInterface::BoutonsPersonnalises())
+	{
+		BoutonMenuPrincipal->SetBackgroundColor(FLinearColor(0.75f, 0.3f, 0.25f, 1.f));
+	}
+	BoutonMenuPrincipal->OnClicked.AddDynamic(this, &UMenuParametres::OnMenuPrincipal);
+	BoutonMenuPrincipal->SetVisibility(ESlateVisibility::Collapsed);
+	if (UHorizontalBoxSlot* SlotMenu = LigneBoutons->AddChildToHorizontalBox(BoutonMenuPrincipal))
+	{
+		SlotMenu->SetPadding(FMargin(0.f, 0.f, 36.f, 0.f));
+	}
+
 	UButton* BoutonRetour = CreerBouton(LOCTEXT("Retour", "Retour"));
 	BoutonRetour->OnClicked.AddDynamic(this, &UMenuParametres::OnRetour);
 	UButton* BoutonAppliquer = CreerBouton(LOCTEXT("Appliquer", "Appliquer"));

@@ -49,6 +49,13 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "CRT Interaction")
 	bool bDrawDebugCRT = false;
 
+	/**
+	 * Affiche le « E » et active les touches dès que le joueur s'approche, sans condition.
+	 * À laisser décoché si le Blueprint gère lui-même l'affichage (ex : PC de la chambre, selon l'étape du jeu).
+	 */
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Interaction")
+	bool bPromptAutomatique = false;
+
 protected:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components")
 	class UStaticMeshComponent* PCMesh;
