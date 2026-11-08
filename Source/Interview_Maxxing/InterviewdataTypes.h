@@ -1,7 +1,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "InterviewDataTypes.generated.h"
+#include "InterviewdataTypes.generated.h"
 
 USTRUCT(BlueprintType)
 struct FReponse

@@ -2,7 +2,7 @@
 
 #include "CoreMinimal.h"
 #include "Components/ActorComponent.h"
-#include "InterviewDataTypes.h"
+#include "InterviewdataTypes.h"
 #include "InterviewManager.generated.h"
 
 DECLARE_DYNAMIC_MULTICAST_DELEGATE(FOnTempsEcouleSignature);
