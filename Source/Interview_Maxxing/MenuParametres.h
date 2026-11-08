@@ -81,9 +81,6 @@ private:
 	UPROPERTY()
 	TObjectPtr<UTextBlock> TexteSensibilite;
 
-	UPROPERTY()
-	TObjectPtr<UTextBlock> TexteAide;
-
 	/** Résolutions proposées, dans le même ordre que ComboResolution */
 	TArray<FIntPoint> Resolutions;
 };

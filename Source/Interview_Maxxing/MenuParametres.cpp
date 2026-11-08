@@ -13,6 +13,7 @@
 #include "Components/OverlaySlot.h"
 #include "Components/SizeBox.h"
 #include "Components/Slider.h"
+#include "Components/Spacer.h"
 #include "Components/TextBlock.h"
 #include "Components/VerticalBox.h"
 #include "Components/VerticalBoxSlot.h"
@@ -208,13 +209,10 @@ void UMenuParametres::ConstruireInterface()
 	}
 	AjouterLigne(Colonne, LOCTEXT("Sensibilite", "Sensibilité de la souris"), LigneSensibilite);
 
-	// Aide
-	TexteAide = CreerTexte(FText::GetEmpty(), 14);
-	TexteAide->SetColorAndOpacity(FSlateColor(StyleInterface::TexteSecondaire()));
-	TexteAide->SetAutoWrapText(true);
-	if (UVerticalBoxSlot* SlotAide = Colonne->AddChildToVerticalBox(TexteAide))
+	// Espace avant les boutons
+	if (UVerticalBoxSlot* SlotEspace = Colonne->AddChildToVerticalBox(WidgetTree->ConstructWidget<USpacer>(USpacer::StaticClass())))
 	{
-		SlotAide->SetPadding(FMargin(0.f, 6.f, 0.f, 20.f));
+		SlotEspace->SetPadding(FMargin(0.f, 12.f, 0.f, 0.f));
 	}
 
 	// Boutons
@@ -327,19 +325,6 @@ void UMenuParametres::OnModeChange(FString Option, ESelectInfo::Type TypeSelecti
 	// En sans bordure la fenêtre prend toujours la résolution du bureau
 	const bool bSansBordure = GetModeSelectionne() == EWindowMode::WindowedFullscreen;
 	ComboResolution->SetIsEnabled(!bSansBordure);
-
-	switch (GetModeSelectionne())
-	{
-	case EWindowMode::WindowedFullscreen:
-		TexteAide->SetText(LOCTEXT("AideSansBordure", "Le jeu occupe tout l'écran à sa résolution native, idéal pour les écrans ultra-larges."));
-		break;
-	case EWindowMode::Windowed:
-		TexteAide->SetText(LOCTEXT("AideFenetre", "La fenêtre peut ensuite être déplacée et redimensionnée librement."));
-		break;
-	default:
-		TexteAide->SetText(LOCTEXT("AidePleinEcran", "Plein écran exclusif à la résolution choisie."));
-		break;
-	}
 }
 
 void UMenuParametres::OnSensibiliteChange(float Valeur)
